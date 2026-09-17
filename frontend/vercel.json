@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://sustha-backend.onrender.com/api/:path*"
+    },
+    {
+      "source": "/health/:path*",
+      "destination": "https://sustha-backend.onrender.com/health/:path*"
+    }
+  ]
+}
