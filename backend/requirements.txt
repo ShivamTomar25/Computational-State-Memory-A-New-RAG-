@@ -52,6 +52,7 @@ pillow==11.3.0
 postgrest==2.31.0
 propcache==0.4.1
 psycopg==3.2.13
+psycopg2-binary
 pwdlib==0.2.1
 pycparser==2.23
 pydantic==2.13.4
