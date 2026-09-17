@@ -1,0 +1,141 @@
+answer_confidence,has_output,insufficient_evidence,question,repetition,source_cutoff,status,system,turn_id,turn_number
+,True,False,What was the baseline resting heart rate?,1,2026-04-01T23:59:59+05:30,completed,long_context,bc2757ce-6de2-4bc0-9b7d-a118e135bea9,2
+1.0,True,False,Which note arrived on 12 April but describes an event on 2 April?,1,2026-04-12T23:59:59+05:30,completed,long_context,5d5b68e8-6527-41d2-985b-cca91f95cbad,6
+1.0,True,False,What rare detail is available only from raw evidence?,1,2026-04-22T23:59:59+05:30,completed,long_context,9cc304bb-94a0-4857-9e1e-336c1184f3a9,7
+,True,True,"Before follow-up data existed, what should the treatment-response state be?",1,2026-04-09T23:59:59+05:30,completed,long_context,b64715ed-fe85-44a7-b742-c12ad10a383d,5
+,True,False,What cardiovascular condition and medicines are active at baseline?,1,2026-04-01T23:59:59+05:30,completed,long_context,39e73bfa-0157-4c1c-b597-6a7d487970da,1
+0.0,True,True,What changed on 8 April compared with baseline?,1,2026-04-08T23:59:59+05:30,completed,long_context,b1e6c286-91d7-4544-8a38-37774c6540ff,3
+,True,True,What clinician-directed treatment change was recorded on 9 April?,1,2026-04-09T23:59:59+05:30,completed,long_context,cd2fd90f-1faf-450f-9392-d073d576d653,4
+0.95,True,False,Should the retracted syncope statement influence the current follow-up priority?,1,2026-04-15T23:59:59+05:30,completed,long_context,201def6f-2dde-4faf-828d-64299e4b58bd,8
+,True,True,What does the 22 April follow-up show?,1,2026-04-22T23:59:59+05:30,completed,long_context,3f9105ee-50f0-40c0-b6dd-b44255659b53,9
+,True,True,How should the treatment-response state change after 22 April?,1,2026-04-22T23:59:59+05:30,completed,long_context,0b34b672-b534-473b-96d4-56697fb42caa,10
+,True,True,Which states depend on the rate-control state?,1,2026-04-22T23:59:59+05:30,completed,long_context,d3bee192-768a-4322-9d75-c8eaa3f2f1c4,11
+0.95,True,False,Should the chat instruction to stop apixaban update the active medication state?,1,2026-04-22T23:59:59+05:30,completed,long_context,619ccc4f-42e8-4fb7-8719-c1d7057cac9b,12
+,True,False,Quote the exact rare functional detail from the baseline note.,1,2026-04-22T23:59:59+05:30,completed,long_context,8c4f3588-a2a2-494f-8daf-42760d89b613,13
+0.9,True,False,"Classify the follow-up priority after 22 April: urgent, routine clinician follow-up, or no follow-up.",1,2026-04-22T23:59:59+05:30,completed,long_context,ecbcbf16-f1fd-400b-81a1-40cddaab4988,14
+0.85,True,False,Which states depend on the rate-control state?,1,2026-04-22T23:59:59+05:30,completed,dense_rag,190ef59c-9e48-4bcc-bb48-6f225c03b7b6,11
+,True,False,What changed on 8 April compared with baseline?,1,2026-04-08T23:59:59+05:30,completed,dense_rag,e1936e97-d490-4707-b13b-03ca9e74b7e1,3
+,True,True,Is there enough evidence to say the patient is completely cured of atrial fibrillation?,1,2026-04-22T23:59:59+05:30,completed,long_context,ba6e63c2-81b1-4351-9e3a-d3c968370ea7,18
+,True,False,What was the baseline resting heart rate?,1,2026-04-01T23:59:59+05:30,completed,rolling_summary,8aa5e22a-bc78-43fa-a71f-d333f7fad027,2
+,True,True,"Place these events in valid-time order: delayed breathlessness note, worsening vital signs, treatment adjustment, follow-up improvement.",1,2026-04-22T23:59:59+05:30,completed,long_context,640e23ee-3d07-47c4-843e-90c7eeda8271,19
+1.0,True,False,What changed on 8 April compared with baseline?,1,2026-04-08T23:59:59+05:30,completed,rolling_summary,b0453bcb-b2ea-41bb-b986-485d2dbc521f,3
+,True,True,"Before 22 April, could the system claim that treatment had improved symptoms?",1,2026-04-21T23:59:59+05:30,completed,long_context,21bc8eaf-dc22-4c04-8395-e3966028628a,15
+,True,False,Summarize the cardiovascular course with citations and calibrated confidence.,1,2026-04-22T23:59:59+05:30,completed,long_context,31cc6372-eaf1-4abe-8931-3b71d55bb227,20
+0.85,True,False,What evidence should support an answer about improved treatment response?,1,2026-04-22T23:59:59+05:30,completed,long_context,bb3821ed-2a55-4218-a451-cc226f4dde56,16
+,True,False,What clinician-directed treatment change was recorded on 9 April?,1,2026-04-09T23:59:59+05:30,completed,dense_rag,5807771b-bfab-411a-b97f-7aaa208081c3,4
+0.63,True,False,Quote the exact rare functional detail from the baseline note.,1,2026-04-22T23:59:59+05:30,completed,dense_rag,b4cc8651-e148-47d4-89c5-68bb328660dc,13
+,True,False,What cardiovascular condition and medicines are active at baseline?,1,2026-04-01T23:59:59+05:30,completed,dense_rag,43e37bd1-1c5c-4eaf-b378-5358d50168eb,1
+0.88,True,False,What does the 22 April follow-up show?,1,2026-04-22T23:59:59+05:30,completed,dense_rag,9ab65872-621d-4693-a82a-d75be1b4158c,9
+,True,False,Which note arrived on 12 April but describes an event on 2 April?,1,2026-04-12T23:59:59+05:30,completed,dense_rag,3d6d655e-836d-43c1-8123-6e9d5a0d54c9,6
+1.0,True,False,Which source must not be used to claim true syncope?,1,2026-04-22T23:59:59+05:30,completed,long_context,281cbfec-aa03-46a1-887e-4b383cc1f3ce,17
+,True,False,What cardiovascular condition and medicines are active at baseline?,1,2026-04-01T23:59:59+05:30,completed,rolling_summary,55bad451-029e-400b-9b0a-c1239952e0a5,1
+0.9,True,False,What was the baseline resting heart rate?,1,2026-04-01T23:59:59+05:30,completed,dense_rag,7e8001ec-a8f9-4572-8a6a-091f04df372b,2
+0.9,True,False,"Classify the follow-up priority after 22 April: urgent, routine clinician follow-up, or no follow-up.",1,2026-04-22T23:59:59+05:30,completed,dense_rag,390d7858-1a65-486e-8974-26f833e9f0c7,14
+,True,False,What rare detail is available only from raw evidence?,1,2026-04-22T23:59:59+05:30,completed,dense_rag,e96d2ac4-ed96-4a1f-a868-ed453bd4f10c,7
+0.9,True,False,"Before follow-up data existed, what should the treatment-response state be?",1,2026-04-09T23:59:59+05:30,completed,dense_rag,98e02991-3f14-4280-bf8b-a5d3060c1e1f,5
+0.9,True,False,Should the retracted syncope statement influence the current follow-up priority?,1,2026-04-15T23:59:59+05:30,completed,dense_rag,683af957-4f53-40cd-ac23-47c0ad1b91ce,8
+0.78,True,False,Should the chat instruction to stop apixaban update the active medication state?,1,2026-04-22T23:59:59+05:30,completed,dense_rag,111cef97-ae1a-465b-b414-d63e9c711565,12
+0.9,True,False,How should the treatment-response state change after 22 April?,1,2026-04-22T23:59:59+05:30,completed,dense_rag,ebb7c354-aff9-40bc-8116-6e911f4b8dcf,10
+,True,False,"Before 22 April, could the system claim that treatment had improved symptoms?",1,2026-04-21T23:59:59+05:30,completed,dense_rag,8c1a7cd7-1b18-4775-80b8-9a0589fbefa6,15
+0.9,True,False,What evidence should support an answer about improved treatment response?,1,2026-04-22T23:59:59+05:30,completed,dense_rag,aa36e64d-bcaa-4777-a0dd-5e2b5cbcb986,16
+0.9,True,False,What clinician-directed treatment change was recorded on 9 April?,1,2026-04-09T23:59:59+05:30,completed,hybrid_rag,720d9123-527f-4d0d-8b02-ccada6b61f71,4
+,True,False,Which source must not be used to claim true syncope?,1,2026-04-22T23:59:59+05:30,completed,dense_rag,0123d0cc-009d-49e6-a8d5-ed1d0d67ad60,17
+0.9,True,False,"Before follow-up data existed, what should the treatment-response state be?",1,2026-04-09T23:59:59+05:30,completed,hybrid_rag,220789e9-ac5b-49be-b431-f0dd911a3d7b,5
+,True,True,Is there enough evidence to say the patient is completely cured of atrial fibrillation?,1,2026-04-22T23:59:59+05:30,completed,dense_rag,62c8bede-ba60-4d9b-a52c-6ab6d1dab0f2,18
+,True,False,How should the treatment-response state change after 22 April?,1,2026-04-22T23:59:59+05:30,completed,hybrid_rag,b3d5feb5-90b1-4ac2-a53e-dc484e81f20e,10
+,True,False,"Place these events in valid-time order: delayed breathlessness note, worsening vital signs, treatment adjustment, follow-up improvement.",1,2026-04-22T23:59:59+05:30,completed,dense_rag,ec4c4d8d-4ef9-42cf-b2db-e446c1499fca,19
+0.9,True,False,"Classify the follow-up priority after 22 April: urgent, routine clinician follow-up, or no follow-up.",1,2026-04-22T23:59:59+05:30,completed,hybrid_rag,e4b294b1-a181-461f-a519-af8c2f1ca55a,14
+0.66,True,False,Summarize the cardiovascular course with citations and calibrated confidence.,1,2026-04-22T23:59:59+05:30,completed,dense_rag,d47ac31e-f6d4-4fac-be39-9ae0707e44bc,20
+0.99,True,False,Which note arrived on 12 April but describes an event on 2 April?,1,2026-04-12T23:59:59+05:30,completed,hybrid_rag,86a2c081-d62d-4d47-87d0-743f26a7c798,6
+0.9,True,False,What cardiovascular condition and medicines are active at baseline?,1,2026-04-01T23:59:59+05:30,completed,hybrid_rag,a6078951-90be-4c64-9315-f2f2339d9019,1
+0.9,True,False,What rare detail is available only from raw evidence?,1,2026-04-22T23:59:59+05:30,completed,hybrid_rag,32a666f1-403c-4eec-a5db-9e35405f97c2,7
+0.88,True,False,Which states depend on the rate-control state?,1,2026-04-22T23:59:59+05:30,completed,hybrid_rag,816c70f6-2b9b-4b51-93dd-3024e50ea50d,11
+,True,False,What was the baseline resting heart rate?,1,2026-04-01T23:59:59+05:30,completed,hybrid_rag,62e4a7bd-507b-4051-b457-ddc78e19fc04,2
+0.99,True,False,Which source must not be used to claim true syncope?,1,2026-04-22T23:59:59+05:30,completed,hybrid_rag,44c880ec-f19a-493b-8e2b-15a8be066014,17
+,True,False,"Before 22 April, could the system claim that treatment had improved symptoms?",1,2026-04-21T23:59:59+05:30,completed,hybrid_rag,6b980ef4-5577-4846-8022-f9db4797230e,15
+0.9,True,False,Should the retracted syncope statement influence the current follow-up priority?,1,2026-04-15T23:59:59+05:30,completed,hybrid_rag,8c043eea-d115-43b5-8607-17cb011cc06f,8
+0.9,True,False,Should the chat instruction to stop apixaban update the active medication state?,1,2026-04-22T23:59:59+05:30,completed,hybrid_rag,7f6d828a-617c-4300-8f11-7ad2451cd6c6,12
+,True,False,What changed on 8 April compared with baseline?,1,2026-04-08T23:59:59+05:30,completed,hybrid_rag,21cfa5df-cf09-486b-b215-66e9d68f04ea,3
+0.9,True,False,What does the 22 April follow-up show?,1,2026-04-22T23:59:59+05:30,completed,hybrid_rag,e3897a90-c4c5-4b15-acc8-8551c219c914,9
+,True,False,Quote the exact rare functional detail from the baseline note.,1,2026-04-22T23:59:59+05:30,completed,hybrid_rag,b1336f1f-e192-4ef6-b9a0-acf1935c62fb,13
+,True,False,"Place these events in valid-time order: delayed breathlessness note, worsening vital signs, treatment adjustment, follow-up improvement.",1,2026-04-22T23:59:59+05:30,completed,hybrid_rag,81dee84d-63e2-45d5-97ba-8599ed8a0073,19
+0.88,True,False,What evidence should support an answer about improved treatment response?,1,2026-04-22T23:59:59+05:30,completed,hybrid_rag,92ef34d4-1456-4cf8-afe4-78739598d0fa,16
+0.95,True,True,Is there enough evidence to say the patient is completely cured of atrial fibrillation?,1,2026-04-22T23:59:59+05:30,completed,hybrid_rag,d32fe713-06db-4e20-aee9-0498048af647,18
+0.03,True,False,Summarize the cardiovascular course with citations and calibrated confidence.,1,2026-04-22T23:59:59+05:30,completed,hybrid_rag,82b3f5d3-d413-4a05-ad89-c81852350c28,20
+,True,True,What clinician-directed treatment change was recorded on 9 April?,1,2026-04-09T23:59:59+05:30,completed,rolling_summary,1a121d5e-6578-4176-9a64-b7a205a83f78,4
+0.6,True,True,"Before follow-up data existed, what should the treatment-response state be?",1,2026-04-09T23:59:59+05:30,completed,rolling_summary,f167c259-8e5b-4282-aae8-272f0be7fa83,5
+0.9,True,True,Which note arrived on 12 April but describes an event on 2 April?,1,2026-04-12T23:59:59+05:30,completed,rolling_summary,08761f15-0dc9-4732-8fd9-e4db7eaccdd8,6
+,True,False,What rare detail is available only from raw evidence?,1,2026-04-22T23:59:59+05:30,completed,rolling_summary,2401049d-60b4-4fc7-adb9-27a672ead88b,7
+,True,False,Should the retracted syncope statement influence the current follow-up priority?,1,2026-04-15T23:59:59+05:30,completed,rolling_summary,2f5b9cfc-1fce-4ee7-bed9-579587a0f001,8
+1.0,True,False,What does the 22 April follow-up show?,1,2026-04-22T23:59:59+05:30,completed,rolling_summary,825658ab-a122-4fb9-b352-f75d460cbfcc,9
+0.9,True,False,How should the treatment-response state change after 22 April?,1,2026-04-22T23:59:59+05:30,completed,rolling_summary,6065cecb-897d-4bdc-9006-b7565cf2ee3d,10
+0.9,True,False,Which states depend on the rate-control state?,1,2026-04-22T23:59:59+05:30,completed,rolling_summary,b448886a-99fb-4949-9d87-72de115ed553,11
+1.0,True,False,Should the chat instruction to stop apixaban update the active medication state?,1,2026-04-22T23:59:59+05:30,completed,rolling_summary,324c2591-2e7b-408f-b00c-2c7ebeb7c59c,12
+0.9,True,False,"Classify the follow-up priority after 22 April: urgent, routine clinician follow-up, or no follow-up.",1,2026-04-22T23:59:59+05:30,completed,rolling_summary,f18e80d7-2adb-4f8b-adad-c81d54bed0d7,14
+1.0,True,False,Which source must not be used to claim true syncope?,1,2026-04-22T23:59:59+05:30,completed,rolling_summary,ac163172-a1ca-4f30-97a6-f052eb720a0e,17
+0.95,True,False,What cardiovascular condition and medicines are active at baseline?,1,2026-04-01T23:59:59+05:30,completed,graph_rag,92e98184-f8d0-456f-8826-e77bc4cfa374,1
+1.0,True,False,Quote the exact rare functional detail from the baseline note.,1,2026-04-22T23:59:59+05:30,completed,rolling_summary,aeab5204-3092-46d2-a524-c8188447309d,13
+,True,True,Is there enough evidence to say the patient is completely cured of atrial fibrillation?,1,2026-04-22T23:59:59+05:30,completed,rolling_summary,5593f1e3-0731-45c5-9cb2-a38df6df1a4b,18
+0.9,True,False,What evidence should support an answer about improved treatment response?,1,2026-04-22T23:59:59+05:30,completed,rolling_summary,0fb540eb-600a-43a4-8c81-9f770024fd45,16
+0.9,True,False,"Before 22 April, could the system claim that treatment had improved symptoms?",1,2026-04-21T23:59:59+05:30,completed,rolling_summary,cc147aa2-a987-42b6-8ab6-40f225fbc556,15
+1.0,True,False,"Place these events in valid-time order: delayed breathlessness note, worsening vital signs, treatment adjustment, follow-up improvement.",1,2026-04-22T23:59:59+05:30,completed,rolling_summary,38db2f65-41df-4c7a-865c-7e5c7502b57d,19
+,True,False,Summarize the cardiovascular course with citations and calibrated confidence.,1,2026-04-22T23:59:59+05:30,completed,rolling_summary,3850ec9a-1d71-47c9-918e-fafef5389f8d,20
+1.0,True,False,How should the treatment-response state change after 22 April?,1,2026-04-22T23:59:59+05:30,completed,graph_rag,3172449a-0d2d-4f59-a32f-e003a2ec9589,10
+1.0,True,False,What rare detail is available only from raw evidence?,1,2026-04-22T23:59:59+05:30,completed,graph_rag,27fb68a7-1aba-4e9d-bb4b-988558d3af44,7
+0.9,True,False,What was the baseline resting heart rate?,1,2026-04-01T23:59:59+05:30,completed,graph_rag,8e7caa6b-ccb9-4353-a246-44d5cc5ded3b,2
+,True,False,What changed on 8 April compared with baseline?,1,2026-04-08T23:59:59+05:30,completed,graph_rag,ee13d69e-8db6-4aa0-a80e-6ee78712258b,3
+,True,False,Which states depend on the rate-control state?,1,2026-04-22T23:59:59+05:30,completed,graph_rag,59d1d5ba-c3f0-4aa5-871a-344f091a58b2,11
+,True,False,What clinician-directed treatment change was recorded on 9 April?,1,2026-04-09T23:59:59+05:30,completed,graph_rag,b0ac1a3d-ccba-47dc-9d0a-b011e90f7b92,4
+,True,False,Quote the exact rare functional detail from the baseline note.,1,2026-04-22T23:59:59+05:30,completed,graph_rag,a198e12e-a6f1-4903-a988-fb46ff11defc,13
+1.0,True,False,Should the retracted syncope statement influence the current follow-up priority?,1,2026-04-15T23:59:59+05:30,completed,graph_rag,61844b76-443b-4ef9-9dc2-48f372814a3d,8
+0.9,True,False,What evidence should support an answer about improved treatment response?,1,2026-04-22T23:59:59+05:30,completed,graph_rag,bab4dbae-892a-4c72-a532-011aa0ce0572,16
+0.9,True,False,"Before follow-up data existed, what should the treatment-response state be?",1,2026-04-09T23:59:59+05:30,completed,graph_rag,0e5ce13b-4182-453e-8896-f9c35f3b5a4e,5
+0.85,True,False,"Place these events in valid-time order: delayed breathlessness note, worsening vital signs, treatment adjustment, follow-up improvement.",1,2026-04-22T23:59:59+05:30,completed,graph_rag,715defa1-66ed-47d7-8d7e-62aa2a836161,19
+0.9,True,False,"Before 22 April, could the system claim that treatment had improved symptoms?",1,2026-04-21T23:59:59+05:30,completed,graph_rag,3aec9137-7a0f-4fc4-8a7e-8cc697c6ed7a,15
+1.0,True,False,Which note arrived on 12 April but describes an event on 2 April?,1,2026-04-12T23:59:59+05:30,completed,graph_rag,d1e13121-e162-446d-980e-46a3de524a83,6
+1.0,True,False,What does the 22 April follow-up show?,1,2026-04-22T23:59:59+05:30,completed,graph_rag,2306bc28-331d-41f2-875e-ee788047ae59,9
+0.9,True,False,Which source must not be used to claim true syncope?,1,2026-04-22T23:59:59+05:30,completed,graph_rag,04353b6d-1ba5-4100-91ba-c51152e9ffb8,17
+0.9,True,False,Should the chat instruction to stop apixaban update the active medication state?,1,2026-04-22T23:59:59+05:30,completed,graph_rag,f4d4be36-c8a5-49f2-b9b1-cd3a2a4fab19,12
+0.88,True,False,"Classify the follow-up priority after 22 April: urgent, routine clinician follow-up, or no follow-up.",1,2026-04-22T23:59:59+05:30,completed,graph_rag,6a7ce384-3bde-4ad7-a072-5364c0dd461f,14
+0.9,True,True,Is there enough evidence to say the patient is completely cured of atrial fibrillation?,1,2026-04-22T23:59:59+05:30,completed,graph_rag,9a9b8608-0d9c-468e-8fdd-8f39afb743b3,18
+,True,True,"Before follow-up data existed, what should the treatment-response state be?",1,2026-04-09T23:59:59+05:30,completed,hippo_rag,cd3cc352-700f-48ac-bf30-9df677e44581,5
+0.9,True,False,Should the retracted syncope statement influence the current follow-up priority?,1,2026-04-15T23:59:59+05:30,completed,hippo_rag,e4f9e775-5083-4233-b244-80313f8941db,8
+,True,False,How should the treatment-response state change after 22 April?,1,2026-04-22T23:59:59+05:30,completed,hippo_rag,4b7c85b2-2f36-46eb-b062-e09b854d6ee5,10
+0.25,True,False,Summarize the cardiovascular course with citations and calibrated confidence.,1,2026-04-22T23:59:59+05:30,completed,graph_rag,bc23c96f-568d-481e-88cd-5bfe0cfcc8b0,20
+0.8,True,False,"Before 22 April, could the system claim that treatment had improved symptoms?",1,2026-04-21T23:59:59+05:30,completed,hippo_rag,068b6e4b-df18-429d-ab6e-b0e18ceda2db,15
+,True,False,What cardiovascular condition and medicines are active at baseline?,1,2026-04-01T23:59:59+05:30,completed,hippo_rag,d8b7ad55-8462-4716-a22b-fbd0eb18fda3,1
+,True,False,What was the baseline resting heart rate?,1,2026-04-01T23:59:59+05:30,completed,hippo_rag,8c4ecc0c-03d7-446c-94bb-cf4514f713d2,2
+,True,False,Which note arrived on 12 April but describes an event on 2 April?,1,2026-04-12T23:59:59+05:30,completed,hippo_rag,4f166522-c8f0-4f15-81be-21b870aeb0b5,6
+0.9,True,False,What changed on 8 April compared with baseline?,1,2026-04-08T23:59:59+05:30,completed,hippo_rag,3c84530d-5e39-4eb0-9adb-88aa9abfec97,3
+1.0,True,False,What rare detail is available only from raw evidence?,1,2026-04-22T23:59:59+05:30,completed,hippo_rag,a1fd1241-2d8d-4b28-9ea8-7fac05b2b4a4,7
+1.0,True,False,What does the 22 April follow-up show?,1,2026-04-22T23:59:59+05:30,completed,hippo_rag,3454e262-8adf-4a2b-b747-4f3071a158f4,9
+0.95,True,False,What clinician-directed treatment change was recorded on 9 April?,1,2026-04-09T23:59:59+05:30,completed,hippo_rag,93281d48-0ab2-4b9f-ad3d-8149d80de723,4
+1.0,True,False,What evidence should support an answer about improved treatment response?,1,2026-04-22T23:59:59+05:30,completed,hippo_rag,e15085d4-36c6-40af-83f0-9fd3ee366e2e,16
+,True,False,Should the chat instruction to stop apixaban update the active medication state?,1,2026-04-22T23:59:59+05:30,completed,hippo_rag,3b6e0024-c5f4-4e9b-a0be-5015f5b0bb02,12
+,True,False,Quote the exact rare functional detail from the baseline note.,1,2026-04-22T23:59:59+05:30,completed,hippo_rag,6547157e-cd7c-4fee-a7ec-211b0447e601,13
+1.0,True,False,Which states depend on the rate-control state?,1,2026-04-22T23:59:59+05:30,completed,hippo_rag,6461405c-f6f0-43e4-9a27-ab1e91eb4b93,11
+0.7,True,False,"Classify the follow-up priority after 22 April: urgent, routine clinician follow-up, or no follow-up.",1,2026-04-22T23:59:59+05:30,completed,hippo_rag,768aaf14-8710-4f53-b34c-dcef4c5d83e0,14
+0.95,True,False,Which source must not be used to claim true syncope?,1,2026-04-22T23:59:59+05:30,completed,hippo_rag,7db32492-1bb6-44a4-9949-1f7ac9ae38a8,17
+0.93,True,True,Is there enough evidence to say the patient is completely cured of atrial fibrillation?,1,2026-04-22T23:59:59+05:30,completed,hippo_rag,67b8f33a-a4d4-42be-87e8-69642acf53f8,18
+1.0,True,False,"Place these events in valid-time order: delayed breathlessness note, worsening vital signs, treatment adjustment, follow-up improvement.",1,2026-04-22T23:59:59+05:30,completed,hippo_rag,ffca8d10-73ea-4f7b-8cb2-24af8b5e0e22,19
+0.25,True,False,Summarize the cardiovascular course with citations and calibrated confidence.,1,2026-04-22T23:59:59+05:30,completed,hippo_rag,072954f2-2a5b-418b-b174-d19762511f62,20
+0.95,True,False,Which states depend on the rate-control state?,1,2026-04-22T23:59:59+05:30,completed,csm,cdc05ef8-6c85-4f54-a025-fa47f0969057,11
+,True,False,What cardiovascular condition and medicines are active at baseline?,1,2026-04-01T23:59:59+05:30,completed,csm,7ff75fd3-a4e2-4617-a1ea-6968256a4cfd,1
+0.95,True,False,Which source must not be used to claim true syncope?,1,2026-04-22T23:59:59+05:30,completed,csm,8f75c5e4-b624-4cc0-9cc1-6e66e0948a44,17
+0.95,True,False,What rare detail is available only from raw evidence?,1,2026-04-22T23:59:59+05:30,completed,csm,7416766f-6aa3-4bde-87f5-7fbf95be7fcb,7
+0.95,True,False,What was the baseline resting heart rate?,1,2026-04-01T23:59:59+05:30,completed,csm,d947f258-73aa-4012-87e1-7706d5a305ee,2
+0.95,True,False,Should the chat instruction to stop apixaban update the active medication state?,1,2026-04-22T23:59:59+05:30,completed,csm,431d3994-263c-49c4-a515-aa9ac72b9d7b,12
+0.9,True,False,What changed on 8 April compared with baseline?,1,2026-04-08T23:59:59+05:30,completed,csm,263069d8-6a50-499c-953a-78cc45302961,3
+0.9,True,False,Should the retracted syncope statement influence the current follow-up priority?,1,2026-04-15T23:59:59+05:30,completed,csm,91a5fcd1-fae9-4d21-a12e-96b64e8bb661,8
+,True,True,Is there enough evidence to say the patient is completely cured of atrial fibrillation?,1,2026-04-22T23:59:59+05:30,completed,csm,e1e02992-ebb4-4ab5-a890-e42149c5b5cf,18
+0.95,True,False,What clinician-directed treatment change was recorded on 9 April?,1,2026-04-09T23:59:59+05:30,completed,csm,a3ad416c-5400-4306-a009-0ba41bc63e90,4
+0.9,True,False,Quote the exact rare functional detail from the baseline note.,1,2026-04-22T23:59:59+05:30,completed,csm,bf09e094-f756-4eb0-a52a-21f9eb4071b9,13
+,True,True,"Before follow-up data existed, what should the treatment-response state be?",1,2026-04-09T23:59:59+05:30,completed,csm,640dcc39-fb69-4fec-8012-1341a3b6a525,5
+0.95,True,False,What does the 22 April follow-up show?,1,2026-04-22T23:59:59+05:30,completed,csm,b4908df4-b1f1-4f35-bb2e-1ac2e9fb85d7,9
+0.95,True,False,"Classify the follow-up priority after 22 April: urgent, routine clinician follow-up, or no follow-up.",1,2026-04-22T23:59:59+05:30,completed,csm,a504fd2e-33b0-48ea-b037-0e7437627ba7,14
+0.95,True,False,"Place these events in valid-time order: delayed breathlessness note, worsening vital signs, treatment adjustment, follow-up improvement.",1,2026-04-22T23:59:59+05:30,completed,csm,573ce546-8816-431c-a4fc-44b0bea371de,19
+0.95,True,False,Which note arrived on 12 April but describes an event on 2 April?,1,2026-04-12T23:59:59+05:30,completed,csm,b51a503e-caa1-467d-b632-fae1f336fd53,6
+0.9,True,True,"Before 22 April, could the system claim that treatment had improved symptoms?",1,2026-04-21T23:59:59+05:30,completed,csm,2edccd91-012d-4bb4-9fea-458e82d54bcb,15
+0.95,True,False,How should the treatment-response state change after 22 April?,1,2026-04-22T23:59:59+05:30,completed,csm,e7cbb44d-1eb2-42e1-88f4-49d07051cef6,10
+0.8,True,False,What evidence should support an answer about improved treatment response?,1,2026-04-22T23:59:59+05:30,completed,csm,ed2ae72e-8f06-4b79-9677-60aeba8bd2f8,16
+0.65,True,False,Summarize the cardiovascular course with citations and calibrated confidence.,1,2026-04-22T23:59:59+05:30,completed,csm,64573b47-85f1-4605-a57f-098142f1333f,20

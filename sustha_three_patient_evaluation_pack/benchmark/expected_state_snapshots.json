@@ -1,0 +1,589 @@
+[
+  {
+    "snapshot_id": "P1-SNAP-001",
+    "cutoff": "2026-01-10T23:59:59+05:30",
+    "states": [
+      {
+        "state_id": "P1-STATE-RENAL",
+        "version": 1,
+        "state_type": "renal_function_trend",
+        "display_value": "Stable baseline renal function",
+        "category": "Laboratory",
+        "lifecycle_status": "Active",
+        "valid_period": [
+          "2026-01-10",
+          null
+        ],
+        "supporting_evidence_ids": [
+          "EV-P1-002"
+        ],
+        "contradicting_evidence_ids": [],
+        "qualifying_evidence_ids": [],
+        "parent_states": [],
+        "child_states": [
+          "P1-STATE-MED-RISK"
+        ],
+        "requires_review": false,
+        "uncertainty": "low",
+        "explanation": "Single consistent baseline measurement."
+      },
+      {
+        "state_id": "P1-STATE-MED-RISK",
+        "version": 1,
+        "state_type": "renal_medication_review",
+        "display_value": "Routine monitoring",
+        "category": "Medication Safety",
+        "lifecycle_status": "Active",
+        "valid_period": [
+          "2026-01-10",
+          null
+        ],
+        "supporting_evidence_ids": [
+          "EV-P1-002",
+          "EV-P1-005"
+        ],
+        "contradicting_evidence_ids": [],
+        "qualifying_evidence_ids": [],
+        "parent_states": [
+          "P1-STATE-RENAL"
+        ],
+        "child_states": [],
+        "requires_review": false,
+        "uncertainty": "low",
+        "explanation": "No current renal trigger."
+      }
+    ],
+    "patient_code": "SYN-CSM-001"
+  },
+  {
+    "snapshot_id": "P1-SNAP-002",
+    "cutoff": "2026-03-08T23:59:59+05:30",
+    "states": [
+      {
+        "state_id": "P1-STATE-RENAL",
+        "version": 2,
+        "state_type": "renal_function_trend",
+        "display_value": "Possible worsening renal function",
+        "category": "Laboratory",
+        "lifecycle_status": "Active",
+        "valid_period": [
+          "2026-03-05",
+          null
+        ],
+        "supporting_evidence_ids": [
+          "EV-P1-003",
+          "EV-P1-004"
+        ],
+        "contradicting_evidence_ids": [],
+        "qualifying_evidence_ids": [],
+        "parent_states": [],
+        "child_states": [
+          "P1-STATE-MED-RISK"
+        ],
+        "requires_review": true,
+        "uncertainty": "medium",
+        "explanation": "Initial abnormal report compared with baseline."
+      },
+      {
+        "state_id": "P1-STATE-MED-RISK",
+        "version": 2,
+        "state_type": "renal_medication_review",
+        "display_value": "Renal medication review indicated",
+        "category": "Medication Safety",
+        "lifecycle_status": "Candidate",
+        "valid_period": [
+          "2026-03-05",
+          null
+        ],
+        "supporting_evidence_ids": [
+          "EV-P1-003",
+          "EV-P1-004",
+          "EV-P1-005"
+        ],
+        "contradicting_evidence_ids": [],
+        "qualifying_evidence_ids": [],
+        "parent_states": [
+          "P1-STATE-RENAL"
+        ],
+        "child_states": [],
+        "requires_review": true,
+        "uncertainty": "medium",
+        "explanation": "Derived from abnormal renal state and active medicines."
+      }
+    ],
+    "patient_code": "SYN-CSM-001"
+  },
+  {
+    "snapshot_id": "P1-SNAP-003",
+    "cutoff": "2026-03-12T23:59:59+05:30",
+    "states": [
+      {
+        "state_id": "P1-STATE-RENAL",
+        "version": 4,
+        "state_type": "renal_function_trend",
+        "display_value": "Transient or qualified decline; corrected values remain abnormal",
+        "category": "Laboratory",
+        "lifecycle_status": "Contested",
+        "valid_period": [
+          "2026-03-04",
+          null
+        ],
+        "supporting_evidence_ids": [
+          "EV-P1-007",
+          "EV-P1-008"
+        ],
+        "contradicting_evidence_ids": [
+          "EV-P1-003",
+          "EV-P1-004"
+        ],
+        "qualifying_evidence_ids": [
+          "EV-P1-006"
+        ],
+        "parent_states": [],
+        "child_states": [
+          "P1-STATE-MED-RISK"
+        ],
+        "requires_review": true,
+        "uncertainty": "medium-high",
+        "explanation": "Correction and dehydration qualification revise the earlier interpretation."
+      },
+      {
+        "state_id": "P1-STATE-MED-RISK",
+        "version": 3,
+        "state_type": "renal_medication_review",
+        "display_value": "Review remains appropriate pending follow-up",
+        "category": "Medication Safety",
+        "lifecycle_status": "Contested",
+        "valid_period": [
+          "2026-03-05",
+          null
+        ],
+        "supporting_evidence_ids": [
+          "EV-P1-005",
+          "EV-P1-007",
+          "EV-P1-008"
+        ],
+        "contradicting_evidence_ids": [],
+        "qualifying_evidence_ids": [
+          "EV-P1-006"
+        ],
+        "parent_states": [
+          "P1-STATE-RENAL"
+        ],
+        "child_states": [],
+        "requires_review": true,
+        "uncertainty": "medium",
+        "explanation": "Risk state recomputed from corrected renal evidence."
+      }
+    ],
+    "patient_code": "SYN-CSM-001"
+  },
+  {
+    "snapshot_id": "P1-SNAP-004",
+    "cutoff": "2026-03-20T23:59:59+05:30",
+    "states": [
+      {
+        "state_id": "P1-STATE-RENAL",
+        "version": 5,
+        "state_type": "renal_function_trend",
+        "display_value": "Improved toward baseline after transient decline",
+        "category": "Laboratory",
+        "lifecycle_status": "Resolved",
+        "valid_period": [
+          "2026-03-20",
+          null
+        ],
+        "supporting_evidence_ids": [
+          "EV-P1-009",
+          "EV-P1-010",
+          "EV-P1-007",
+          "EV-P1-008"
+        ],
+        "contradicting_evidence_ids": [
+          "EV-P1-003",
+          "EV-P1-004"
+        ],
+        "qualifying_evidence_ids": [
+          "EV-P1-006"
+        ],
+        "parent_states": [],
+        "child_states": [
+          "P1-STATE-MED-RISK"
+        ],
+        "requires_review": false,
+        "uncertainty": "low-medium",
+        "explanation": "Follow-up results show recovery while preserving prior history."
+      },
+      {
+        "state_id": "P1-STATE-MED-RISK",
+        "version": 4,
+        "state_type": "renal_medication_review",
+        "display_value": "Routine clinician review; no autonomous change",
+        "category": "Medication Safety",
+        "lifecycle_status": "Resolved",
+        "valid_period": [
+          "2026-03-20",
+          null
+        ],
+        "supporting_evidence_ids": [
+          "EV-P1-009",
+          "EV-P1-010",
+          "EV-P1-005"
+        ],
+        "contradicting_evidence_ids": [],
+        "qualifying_evidence_ids": [],
+        "parent_states": [
+          "P1-STATE-RENAL"
+        ],
+        "child_states": [],
+        "requires_review": false,
+        "uncertainty": "low-medium",
+        "explanation": "Downstream state updated after renal recovery."
+      }
+    ],
+    "patient_code": "SYN-CSM-001"
+  },
+  {
+    "snapshot_id": "P2-SNAP-001",
+    "cutoff": "2026-02-01T23:59:59+05:30",
+    "states": [
+      {
+        "state_id": "P2-STATE-ALLERGY",
+        "version": 1,
+        "state_type": "antibiotic_allergy",
+        "display_value": "Amoxicillin-associated generalized hives",
+        "category": "Allergy",
+        "lifecycle_status": "Active",
+        "valid_period": [
+          "2019-07-14",
+          null
+        ],
+        "supporting_evidence_ids": [
+          "EV-P2-001",
+          "EV-P2-002"
+        ],
+        "contradicting_evidence_ids": [],
+        "qualifying_evidence_ids": [],
+        "parent_states": [],
+        "child_states": [
+          "P2-STATE-MED-SAFETY"
+        ],
+        "requires_review": false,
+        "uncertainty": "medium",
+        "explanation": "Patient history and doctor-entered record agree."
+      }
+    ],
+    "patient_code": "SYN-CSM-002"
+  },
+  {
+    "snapshot_id": "P2-SNAP-002",
+    "cutoff": "2026-02-11T23:59:59+05:30",
+    "states": [
+      {
+        "state_id": "P2-STATE-ALLERGY",
+        "version": 2,
+        "state_type": "antibiotic_allergy",
+        "display_value": "Amoxicillin allergy disputed by imported NKDA record",
+        "category": "Allergy",
+        "lifecycle_status": "Contested",
+        "valid_period": [
+          "2019-07-14",
+          null
+        ],
+        "supporting_evidence_ids": [
+          "EV-P2-001",
+          "EV-P2-002"
+        ],
+        "contradicting_evidence_ids": [
+          "EV-P2-004",
+          "EV-P2-005"
+        ],
+        "qualifying_evidence_ids": [],
+        "parent_states": [],
+        "child_states": [
+          "P2-STATE-MED-SAFETY"
+        ],
+        "requires_review": true,
+        "uncertainty": "high",
+        "explanation": "Contradictory imported sources; duplicate family must not be treated independently."
+      }
+    ],
+    "patient_code": "SYN-CSM-002"
+  },
+  {
+    "snapshot_id": "P2-SNAP-003",
+    "cutoff": "2026-02-20T23:59:59+05:30",
+    "states": [
+      {
+        "state_id": "P2-STATE-ALLERGY",
+        "version": 4,
+        "state_type": "antibiotic_allergy",
+        "display_value": "Amoxicillin-associated generalized hives; no proven anaphylaxis",
+        "category": "Allergy",
+        "lifecycle_status": "Resolved",
+        "valid_period": [
+          "2019-07-14",
+          null
+        ],
+        "supporting_evidence_ids": [
+          "EV-P2-001",
+          "EV-P2-002",
+          "EV-P2-006",
+          "EV-P2-007"
+        ],
+        "contradicting_evidence_ids": [
+          "EV-P2-004",
+          "EV-P2-005"
+        ],
+        "qualifying_evidence_ids": [],
+        "parent_states": [],
+        "child_states": [
+          "P2-STATE-MED-SAFETY"
+        ],
+        "requires_review": false,
+        "uncertainty": "low-medium",
+        "explanation": "External support and retraction resolve the conflict while preserving history."
+      },
+      {
+        "state_id": "P2-STATE-MED-SAFETY",
+        "version": 3,
+        "state_type": "antibiotic_medication_safety",
+        "display_value": "Avoid unreviewed penicillin-class prescribing; allergy reconciliation resolved",
+        "category": "Medication Safety",
+        "lifecycle_status": "Resolved",
+        "valid_period": [
+          "2026-02-20",
+          null
+        ],
+        "supporting_evidence_ids": [
+          "EV-P2-002",
+          "EV-P2-006",
+          "EV-P2-007"
+        ],
+        "contradicting_evidence_ids": [],
+        "qualifying_evidence_ids": [],
+        "parent_states": [
+          "P2-STATE-ALLERGY"
+        ],
+        "child_states": [],
+        "requires_review": true,
+        "uncertainty": "low-medium",
+        "explanation": "Derived safety state; clinical decision remains clinician-controlled."
+      }
+    ],
+    "patient_code": "SYN-CSM-002"
+  },
+  {
+    "snapshot_id": "P3-SNAP-001",
+    "cutoff": "2026-04-01T23:59:59+05:30",
+    "states": [
+      {
+        "state_id": "P3-STATE-RATE",
+        "version": 1,
+        "state_type": "rate_control_status",
+        "display_value": "Baseline rate-control monitoring",
+        "category": "Cardiovascular",
+        "lifecycle_status": "Active",
+        "valid_period": [
+          "2026-04-01",
+          null
+        ],
+        "supporting_evidence_ids": [
+          "EV-P3-001"
+        ],
+        "contradicting_evidence_ids": [],
+        "qualifying_evidence_ids": [],
+        "parent_states": [],
+        "child_states": [
+          "P3-STATE-RESPONSE",
+          "P3-STATE-FOLLOWUP"
+        ],
+        "requires_review": false,
+        "uncertainty": "low",
+        "explanation": "Baseline AF and resting heart rate."
+      }
+    ],
+    "patient_code": "SYN-CSM-003"
+  },
+  {
+    "snapshot_id": "P3-SNAP-002",
+    "cutoff": "2026-04-09T23:59:59+05:30",
+    "states": [
+      {
+        "state_id": "P3-STATE-RATE",
+        "version": 2,
+        "state_type": "rate_control_status",
+        "display_value": "Worsened rate control with symptoms",
+        "category": "Cardiovascular",
+        "lifecycle_status": "Active",
+        "valid_period": [
+          "2026-04-08",
+          null
+        ],
+        "supporting_evidence_ids": [
+          "EV-P3-003",
+          "EV-P3-004"
+        ],
+        "contradicting_evidence_ids": [],
+        "qualifying_evidence_ids": [],
+        "parent_states": [],
+        "child_states": [
+          "P3-STATE-RESPONSE",
+          "P3-STATE-FOLLOWUP"
+        ],
+        "requires_review": true,
+        "uncertainty": "medium",
+        "explanation": "Heart rate increased to 112 with symptoms."
+      },
+      {
+        "state_id": "P3-STATE-RESPONSE",
+        "version": 1,
+        "state_type": "treatment_response",
+        "display_value": "Treatment adjustment initiated; response not yet known",
+        "category": "Treatment",
+        "lifecycle_status": "Candidate",
+        "valid_period": [
+          "2026-04-09",
+          null
+        ],
+        "supporting_evidence_ids": [
+          "EV-P3-005"
+        ],
+        "contradicting_evidence_ids": [],
+        "qualifying_evidence_ids": [],
+        "parent_states": [
+          "P3-STATE-RATE"
+        ],
+        "child_states": [
+          "P3-STATE-FOLLOWUP"
+        ],
+        "requires_review": true,
+        "uncertainty": "high",
+        "explanation": "No post-adjustment outcome yet."
+      }
+    ],
+    "patient_code": "SYN-CSM-003"
+  },
+  {
+    "snapshot_id": "P3-SNAP-003",
+    "cutoff": "2026-04-15T23:59:59+05:30",
+    "states": [
+      {
+        "state_id": "P3-STATE-SYNCOPE",
+        "version": 2,
+        "state_type": "syncope_history",
+        "display_value": "Incorrect syncope statement retracted",
+        "category": "Symptom",
+        "lifecycle_status": "Invalidated",
+        "valid_period": [
+          "2026-04-05",
+          "2026-04-15"
+        ],
+        "supporting_evidence_ids": [
+          "EV-P3-009"
+        ],
+        "contradicting_evidence_ids": [],
+        "qualifying_evidence_ids": [],
+        "parent_states": [],
+        "child_states": [
+          "P3-STATE-FOLLOWUP"
+        ],
+        "requires_review": false,
+        "uncertainty": "low",
+        "explanation": "Retraction prevents use in current decision state."
+      }
+    ],
+    "patient_code": "SYN-CSM-003"
+  },
+  {
+    "snapshot_id": "P3-SNAP-004",
+    "cutoff": "2026-04-22T23:59:59+05:30",
+    "states": [
+      {
+        "state_id": "P3-STATE-RATE",
+        "version": 3,
+        "state_type": "rate_control_status",
+        "display_value": "Improved rate control",
+        "category": "Cardiovascular",
+        "lifecycle_status": "Resolved",
+        "valid_period": [
+          "2026-04-22",
+          null
+        ],
+        "supporting_evidence_ids": [
+          "EV-P3-007",
+          "EV-P3-008",
+          "EV-P3-005"
+        ],
+        "contradicting_evidence_ids": [
+          "EV-P3-003",
+          "EV-P3-004"
+        ],
+        "qualifying_evidence_ids": [],
+        "parent_states": [],
+        "child_states": [
+          "P3-STATE-RESPONSE",
+          "P3-STATE-FOLLOWUP"
+        ],
+        "requires_review": false,
+        "uncertainty": "low-medium",
+        "explanation": "Heart rate and symptoms improved after clinician-directed adjustment."
+      },
+      {
+        "state_id": "P3-STATE-RESPONSE",
+        "version": 2,
+        "state_type": "treatment_response",
+        "display_value": "Improving after treatment adjustment",
+        "category": "Treatment",
+        "lifecycle_status": "Resolved",
+        "valid_period": [
+          "2026-04-22",
+          null
+        ],
+        "supporting_evidence_ids": [
+          "EV-P3-005",
+          "EV-P3-007",
+          "EV-P3-008"
+        ],
+        "contradicting_evidence_ids": [],
+        "qualifying_evidence_ids": [],
+        "parent_states": [
+          "P3-STATE-RATE"
+        ],
+        "child_states": [
+          "P3-STATE-FOLLOWUP"
+        ],
+        "requires_review": false,
+        "uncertainty": "low-medium",
+        "explanation": "Derived from treatment change and follow-up evidence."
+      },
+      {
+        "state_id": "P3-STATE-FOLLOWUP",
+        "version": 3,
+        "state_type": "follow_up_priority",
+        "display_value": "Routine clinician follow-up after improvement",
+        "category": "Care Coordination",
+        "lifecycle_status": "Resolved",
+        "valid_period": [
+          "2026-04-22",
+          null
+        ],
+        "supporting_evidence_ids": [
+          "EV-P3-007",
+          "EV-P3-008"
+        ],
+        "contradicting_evidence_ids": [],
+        "qualifying_evidence_ids": [],
+        "parent_states": [
+          "P3-STATE-RATE",
+          "P3-STATE-RESPONSE"
+        ],
+        "child_states": [],
+        "requires_review": false,
+        "uncertainty": "medium",
+        "explanation": "Decision state depends on rate control, symptoms, and retraction status."
+      }
+    ],
+    "patient_code": "SYN-CSM-003"
+  }
+]

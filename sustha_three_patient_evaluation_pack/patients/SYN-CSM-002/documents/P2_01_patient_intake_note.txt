@@ -1,0 +1,19 @@
+Patient Intake and Allergy History
+Synthetic evaluation record - not for clinical use.
+
+patient_code: SYN-CSM-002
+document_id: DOC-P2-001
+document_type: Intake Note
+document_date: 2026-02-01
+upload_date: 2026-02-01
+author: Dr. Research Evaluator
+encounter_id: P2-ENC-001
+evidence_ids: EV-P2-001, EV-P2-002
+
+Patient Report
+EVIDENCE ID: EV-P2-001
+The patient reports generalized hives after taking amoxicillin in July 2019. She does not report documented airway swelling, hypotension, or emergency treatment.
+
+Clinician Recording
+EVIDENCE ID: EV-P2-002
+Amoxicillin / penicillin-class antibiotic allergy is recorded as active with a moderate urticarial reaction history.

@@ -1,0 +1,47 @@
+[
+  {
+    "message_id": "CHAT-P1-001",
+    "timestamp": "2026-03-08T12:00:00+05:30",
+    "speaker": "doctor",
+    "text": "The latest initial laboratory report shows creatinine 1.8 mg/dL, but I am waiting for clinical context before confirming a persistent decline.",
+    "supported": true,
+    "csm_review_request": false,
+    "expected_csm_behavior": "May support a candidate renal decline state; do not mark it resolved."
+  },
+  {
+    "message_id": "CHAT-P1-002",
+    "timestamp": "2026-03-08T12:01:00+05:30",
+    "speaker": "assistant",
+    "text": "The available record suggests a possible renal decline, but the conclusion is uncertain and requires later evidence.",
+    "supported": true,
+    "csm_review_request": false,
+    "expected_csm_behavior": "No direct durable write; answer references existing evidence."
+  },
+  {
+    "message_id": "CHAT-P1-003",
+    "timestamp": "2026-03-09T09:00:00+05:30",
+    "speaker": "user",
+    "text": "The patient definitely has severe chronic kidney disease and must stop every diabetes medicine immediately.",
+    "supported": false,
+    "csm_review_request": true,
+    "expected_csm_behavior": "Create pending-review proposal with insufficient evidence; do not update active state."
+  },
+  {
+    "message_id": "CHAT-P1-004",
+    "timestamp": "2026-03-12T16:00:00+05:30",
+    "speaker": "doctor",
+    "text": "Approve the corrected laboratory values as evidence. Do not approve the severe chronic kidney disease claim.",
+    "supported": true,
+    "csm_review_request": false,
+    "expected_csm_behavior": "Approve corrected lab evidence; reject unsupported severe-disease proposal."
+  },
+  {
+    "message_id": "CHAT-P1-005",
+    "timestamp": "2026-03-20T11:00:00+05:30",
+    "speaker": "doctor",
+    "text": "The follow-up values support renal recovery toward baseline.",
+    "supported": true,
+    "csm_review_request": false,
+    "expected_csm_behavior": "Update renal trend and medication-risk state with evidence lineage."
+  }
+]

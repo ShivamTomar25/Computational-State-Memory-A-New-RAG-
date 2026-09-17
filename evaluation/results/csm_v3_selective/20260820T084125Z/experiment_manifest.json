@@ -1,0 +1,45 @@
+{
+  "comparable": true,
+  "completed_at": "2026-08-20T14:54:33.012679+05:30",
+  "created_at": "2026-08-20T14:11:27.141910+05:30",
+  "dataset_id": "df6e1e82-bd4c-45c5-8428-2c3e91fe1620",
+  "document_count": 19,
+  "document_text_count": 19,
+  "experiment_id": "2327c728-69ec-4fc4-9410-771c225d61a0",
+  "export_scope": {
+    "patients": [
+      "SYN-CSM-001",
+      "SYN-CSM-002",
+      "SYN-CSM-003"
+    ],
+    "questions": "all",
+    "repetitions": "all",
+    "systems": [
+      "csm_v3"
+    ]
+  },
+  "failure_reason": null,
+  "generated_at": "2026-08-20T09:24:33.224645+00:00",
+  "import_result": null,
+  "measured_metric_rows": 48,
+  "metric_row_count": 63,
+  "pending_metric_rows": 0,
+  "progress": {
+    "completed_system_runs": 3,
+    "completed_turns": 60,
+    "expected_system_runs": 3,
+    "expected_turns": 60,
+    "experiment_id": "2327c728-69ec-4fc4-9410-771c225d61a0",
+    "failed_system_runs": 0,
+    "measured_metric_results": 63,
+    "pending_metric_results": 0,
+    "status": "completed"
+  },
+  "started_at": "2026-08-20T14:11:27.239306+05:30",
+  "status": "completed",
+  "system_run_count": 3,
+  "systems": [
+    "csm_v3"
+  ],
+  "turn_count": 60
+}

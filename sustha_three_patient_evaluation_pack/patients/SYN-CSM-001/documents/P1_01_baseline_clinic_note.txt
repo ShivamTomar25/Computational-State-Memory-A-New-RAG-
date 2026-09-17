@@ -1,0 +1,28 @@
+Baseline Metabolic Clinic Note
+Synthetic evaluation record - not for clinical use.
+
+patient_code: SYN-CSM-001
+document_id: DOC-P1-001
+document_type: Clinic Note
+document_date: 2026-01-10
+upload_date: 2026-01-10
+author: Dr. Research Evaluator
+encounter_id: P1-ENC-001
+evidence_ids: EV-P1-001, EV-P1-002
+
+Reason for Visit
+Routine follow-up for type 2 diabetes mellitus and hypertension.
+
+History and Medications
+The patient reports taking metformin 500 mg twice daily and lisinopril 10 mg once daily. No recent vomiting, diarrhea, or reduced oral intake is reported.
+
+Assessment
+EVIDENCE ID: EV-P1-001
+Type 2 diabetes mellitus and essential hypertension are active, confirmed conditions.
+
+Baseline Renal Status
+EVIDENCE ID: EV-P1-002
+Serum creatinine is 1.0 mg/dL and estimated glomerular filtration rate is 86 mL/min/1.73m2 on 10 January 2026.
+
+Plan
+Continue current medicines and routine monitoring. This statement is part of a synthetic evaluation scenario and is not clinical advice.

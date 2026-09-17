@@ -1,0 +1,5 @@
+# Experimental Setup
+
+The run imports the synthetic Sustha three-patient evaluation pack, initializes the configured memory systems, runs independent single-turn questions with controlled source cutoffs, stores retrieval traces and LLM outputs, refreshes metric rows, computes paired statistics, and writes paper-ready exports from the database.
+
+Systems: `csm_v4`.

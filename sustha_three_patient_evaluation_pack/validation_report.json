@@ -1,0 +1,21 @@
+{
+  "dataset_version": "sustha-csm-three-patient-pilot-v1.0",
+  "generated_at": "2026-07-21T14:34:49.791980Z",
+  "checks": {
+    "exactly_three_patients": true,
+    "six_documents_each": true,
+    "twenty_questions_each": true,
+    "unique_primary_ids": true,
+    "all_metrics_covered": true,
+    "all_pdfs_exist": true,
+    "ground_truth_separate": true,
+    "synthetic_disclaimer_present": true
+  },
+  "counts": {
+    "patients": 3,
+    "documents": 18,
+    "questions": 60,
+    "source_conversation_messages": 15,
+    "structured_records": 41
+  }
+}

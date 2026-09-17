@@ -1,0 +1,101 @@
+[
+  {
+    "document_id": "DOC-P3-001",
+    "filename": "P3_01_baseline_cardiology_note.pdf",
+    "title": "Baseline Cardiology Note",
+    "document_type": "Clinic Note",
+    "document_date": "2026-04-01",
+    "upload_date": "2026-04-01",
+    "author_source": "Dr. Research Evaluator",
+    "encounter_id": "P3-ENC-001",
+    "evidence_ids": [
+      "EV-P3-001",
+      "EV-P3-002"
+    ],
+    "duplicate_family_id": null,
+    "pdf_sha256": "3d412475637f6b7ef944dcbc336a2d420b4be1f831570841e82c097565115b68",
+    "text_sha256": "8769bfc916f8cdeef37078503badde0f4b97d80937d01201d9c3716bf04d7797"
+  },
+  {
+    "document_id": "DOC-P3-002",
+    "filename": "P3_02_worsening_vitals_report.pdf",
+    "title": "Worsening Symptoms and Vital Signs Report",
+    "document_type": "Clinical Measurement Report",
+    "document_date": "2026-04-08",
+    "upload_date": "2026-04-08",
+    "author_source": "Dr. Research Evaluator",
+    "encounter_id": "P3-ENC-002",
+    "evidence_ids": [
+      "EV-P3-003",
+      "EV-P3-004"
+    ],
+    "duplicate_family_id": null,
+    "pdf_sha256": "6de1913193d1b9d0f3ea92172374aa7ac40f58f3e0ee20877cebf0ff51205cd9",
+    "text_sha256": "9cf08bc93c0c3e23f2ce07b70a447c3cceb666bd66c3f786402eb02f07917d63"
+  },
+  {
+    "document_id": "DOC-P3-003",
+    "filename": "P3_03_treatment_plan.pdf",
+    "title": "Clinician-Directed Treatment Plan",
+    "document_type": "Treatment Plan",
+    "document_date": "2026-04-09",
+    "upload_date": "2026-04-09",
+    "author_source": "Dr. Research Evaluator",
+    "encounter_id": "P3-ENC-002",
+    "evidence_ids": [
+      "EV-P3-005"
+    ],
+    "duplicate_family_id": null,
+    "pdf_sha256": "e47121abce8ab78335ef57468c0bbaf6a0b522d23419855f95c81bb78a362620",
+    "text_sha256": "649b34ef0927a9940b85912bd2c19af6f2accf601a1111cb007887905f3e97f5"
+  },
+  {
+    "document_id": "DOC-P3-004",
+    "filename": "P3_04_delayed_encounter_note.pdf",
+    "title": "Delayed Functional-Status Encounter Note",
+    "document_type": "Clinical Note",
+    "document_date": "2026-04-02",
+    "upload_date": "2026-04-12",
+    "author_source": "Dr. Research Evaluator",
+    "encounter_id": "P3-ENC-002",
+    "evidence_ids": [
+      "EV-P3-006"
+    ],
+    "duplicate_family_id": null,
+    "pdf_sha256": "6d4cf1050e237867db00edd5cd10156e73dc8bc3f69a1af7c3c06824acb9ca66",
+    "text_sha256": "3ce660df7bfdf738172db72cc91044a3bfb5a5fd6b84bbbf4fe0da170f265cfd"
+  },
+  {
+    "document_id": "DOC-P3-005",
+    "filename": "P3_05_followup_response_report.pdf",
+    "title": "Treatment-Response Follow-up Report",
+    "document_type": "Follow-up Note",
+    "document_date": "2026-04-22",
+    "upload_date": "2026-04-22",
+    "author_source": "Dr. Research Evaluator",
+    "encounter_id": "P3-ENC-003",
+    "evidence_ids": [
+      "EV-P3-007",
+      "EV-P3-008"
+    ],
+    "duplicate_family_id": null,
+    "pdf_sha256": "f5c7046f6d4ac1f1b4b6d785e0e3b3f206f8ad3481d18d029cc4a8aa0c77e106",
+    "text_sha256": "1dd15d2ddffc9b77b64fef2264b142dc13d66738e73fb950a6f73f3f9e9cdd43"
+  },
+  {
+    "document_id": "DOC-P3-006",
+    "filename": "P3_06_syncope_retraction_notice.pdf",
+    "title": "Retraction of Incorrect Syncope Note",
+    "document_type": "Correction / Retraction",
+    "document_date": "2026-04-15",
+    "upload_date": "2026-04-15",
+    "author_source": "Sustha Data Quality Team",
+    "encounter_id": "P3-ENC-002",
+    "evidence_ids": [
+      "EV-P3-009"
+    ],
+    "duplicate_family_id": null,
+    "pdf_sha256": "09e30ae03f509140b3f58f2c5abfed18f815f7a238d0d6e1696d6e3424935199",
+    "text_sha256": "c24d30d169020b4c45d73718d89fce5cdc40ddbe1c40ce8ead295dc1fddcd302"
+  }
+]

@@ -1,0 +1,18 @@
+External Allergy Specialist Letter
+Synthetic evaluation record - not for clinical use.
+
+patient_code: SYN-CSM-002
+document_id: DOC-P2-005
+document_type: External Clinician Letter
+document_date: 2026-02-18
+upload_date: 2026-02-18
+author: Dr. Synthetic Allergist
+encounter_id: P2-ENC-002
+evidence_ids: EV-P2-006
+
+Reviewed History
+EVIDENCE ID: EV-P2-006
+The available history is consistent with generalized urticaria after amoxicillin in 2019. The record does not establish prior anaphylaxis.
+
+Reconciliation Statement
+The external specialist supports retaining an active amoxicillin allergy record while avoiding unsupported escalation of reaction severity.

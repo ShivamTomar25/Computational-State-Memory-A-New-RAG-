@@ -1,0 +1,146 @@
+[
+  {
+    "patient_code": "SYN-CSM-001",
+    "instructions": "Send these user messages in this exact order to each memory system.",
+    "user_turns": [
+      {
+        "turn": 1,
+        "question_id": "P1-Q01",
+        "text": "What active chronic conditions are recorded for this patient?",
+        "source_cutoff": "2026-01-10T23:59:59+05:30"
+      },
+      {
+        "turn": 2,
+        "question_id": "P1-Q03",
+        "text": "Using only evidence available by 8 March, did renal function appear to worsen?",
+        "source_cutoff": "2026-03-08T23:59:59+05:30"
+      },
+      {
+        "turn": 3,
+        "question_id": "P1-Q06",
+        "text": "What values in the original 5 March report were superseded, and by what corrected values?",
+        "source_cutoff": "2026-03-12T23:59:59+05:30"
+      },
+      {
+        "turn": 4,
+        "question_id": "P1-Q08",
+        "text": "What does the 20 March follow-up show about the renal trend?",
+        "source_cutoff": "2026-03-20T23:59:59+05:30"
+      },
+      {
+        "turn": 5,
+        "question_id": "P1-Q10",
+        "text": "Should the chat claim that the patient definitely has severe chronic kidney disease become an active state?",
+        "source_cutoff": "2026-03-20T23:59:59+05:30"
+      },
+      {
+        "turn": 6,
+        "question_id": "P1-Q12",
+        "text": "Which evidence supports the conclusion that renal function improved?",
+        "source_cutoff": "2026-03-20T23:59:59+05:30"
+      },
+      {
+        "turn": 7,
+        "question_id": "P1-Q20",
+        "text": "Summarize the renal course with citations and a confidence level.",
+        "source_cutoff": "2026-03-20T23:59:59+05:30"
+      }
+    ]
+  },
+  {
+    "patient_code": "SYN-CSM-002",
+    "instructions": "Send these user messages in this exact order to each memory system.",
+    "user_turns": [
+      {
+        "turn": 1,
+        "question_id": "P2-Q01",
+        "text": "What antibiotic allergy is currently recorded?",
+        "source_cutoff": "2026-02-01T23:59:59+05:30"
+      },
+      {
+        "turn": 2,
+        "question_id": "P2-Q03",
+        "text": "What contradiction entered the record on 10 February?",
+        "source_cutoff": "2026-02-10T23:59:59+05:30"
+      },
+      {
+        "turn": 3,
+        "question_id": "P2-Q06",
+        "text": "What does the external allergist letter support, and what does it not establish?",
+        "source_cutoff": "2026-02-18T23:59:59+05:30"
+      },
+      {
+        "turn": 4,
+        "question_id": "P2-Q08",
+        "text": "Should the unsupported chat statement about anaphylactic shock update the active allergy severity?",
+        "source_cutoff": "2026-02-20T23:59:59+05:30"
+      },
+      {
+        "turn": 5,
+        "question_id": "P2-Q10",
+        "text": "Quote the exact retraction sentence from the correction notice.",
+        "source_cutoff": "2026-02-20T23:59:59+05:30"
+      },
+      {
+        "turn": 6,
+        "question_id": "P2-Q12",
+        "text": "Which citation is invalid support for anaphylaxis: DOC-P2-005 or CHAT-P2-003?",
+        "source_cutoff": "2026-02-20T23:59:59+05:30"
+      },
+      {
+        "turn": 7,
+        "question_id": "P2-Q20",
+        "text": "Summarize the allergy reconciliation with citations and calibrated confidence.",
+        "source_cutoff": "2026-02-20T23:59:59+05:30"
+      }
+    ]
+  },
+  {
+    "patient_code": "SYN-CSM-003",
+    "instructions": "Send these user messages in this exact order to each memory system.",
+    "user_turns": [
+      {
+        "turn": 1,
+        "question_id": "P3-Q01",
+        "text": "What cardiovascular condition and medicines are active at baseline?",
+        "source_cutoff": "2026-04-01T23:59:59+05:30"
+      },
+      {
+        "turn": 2,
+        "question_id": "P3-Q03",
+        "text": "What changed on 8 April compared with baseline?",
+        "source_cutoff": "2026-04-08T23:59:59+05:30"
+      },
+      {
+        "turn": 3,
+        "question_id": "P3-Q06",
+        "text": "Which note arrived on 12 April but describes an event on 2 April?",
+        "source_cutoff": "2026-04-12T23:59:59+05:30"
+      },
+      {
+        "turn": 4,
+        "question_id": "P3-Q08",
+        "text": "Should the retracted syncope statement influence the current follow-up priority?",
+        "source_cutoff": "2026-04-15T23:59:59+05:30"
+      },
+      {
+        "turn": 5,
+        "question_id": "P3-Q10",
+        "text": "How should the treatment-response state change after 22 April?",
+        "source_cutoff": "2026-04-22T23:59:59+05:30"
+      },
+      {
+        "turn": 6,
+        "question_id": "P3-Q12",
+        "text": "Should the chat instruction to stop apixaban update the active medication state?",
+        "source_cutoff": "2026-04-22T23:59:59+05:30"
+      },
+      {
+        "turn": 7,
+        "question_id": "P3-Q20",
+        "text": "Summarize the cardiovascular course with citations and calibrated confidence.",
+        "source_cutoff": "2026-04-22T23:59:59+05:30"
+      }
+    ]
+  }
+]

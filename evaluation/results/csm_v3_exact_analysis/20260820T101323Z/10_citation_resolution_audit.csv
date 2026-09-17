@@ -1,0 +1,75 @@
+row_type,patient,citation_id,metric_generated,metric_fabricated,present_in_metric_valid_context_ids,exported_rows_for_alias,exported_canonical_source_ids_for_alias,failure_reason
+detail,SYN-CSM-001,100e6bd9-2555-45d8-975a-227392273059,True,False,True,0,[],NULL
+detail,SYN-CSM-001,2714340b-357b-40da-8320-ca5d49b38825,True,False,True,0,[],NULL
+detail,SYN-CSM-001,4c1c91bf-529c-4286-84ca-8cdfbb165ef3,True,False,True,0,[],NULL
+detail,SYN-CSM-001,4ccc7534-0c71-4918-a30a-3425d55a636c,True,False,True,0,[],NULL
+detail,SYN-CSM-001,54fd1427-29f4-4118-a5b1-2ba777c3a0c6,True,False,True,0,[],NULL
+detail,SYN-CSM-001,775bdc39-a4a1-480c-a6f2-ea6317756358,True,False,True,0,[],NULL
+detail,SYN-CSM-001,7c216ab9-482a-45e1-b674-ccae87dc3241,True,False,True,0,[],NULL
+detail,SYN-CSM-001,82436317-3f6d-48a5-98a1-fc7112135ff0,True,False,True,0,[],NULL
+detail,SYN-CSM-001,879dce5d-3179-4280-b610-7bd2d3320872,True,False,True,0,[],NULL
+detail,SYN-CSM-001,8e514baf-cccd-4501-b2ce-ed6c9aed08c6,True,False,True,0,[],NULL
+detail,SYN-CSM-001,93741d05-d8a8-40c9-b965-87774b495ce1,True,False,True,0,[],NULL
+detail,SYN-CSM-001,C1,True,True,False,12,"[""100e6bd9-2555-45d8-975a-227392273059"", ""4c1c91bf-529c-4286-84ca-8cdfbb165ef3"", ""54fd1427-29f4-4118-a5b1-2ba777c3a0c6"", ""7c216ab9-482a-45e1-b674-ccae87dc3241"", ""f4c29954-0dee-482e-a023-4b0bb58eefbe""]",alias_citation_id_not_in_valid_context_ids_even_though_exported_row_has_canonical_source_id
+detail,SYN-CSM-001,C10,True,True,False,3,"[""2714340b-357b-40da-8320-ca5d49b38825"", ""4ccc7534-0c71-4918-a30a-3425d55a636c"", ""b36fe256-a9f3-4d54-8414-ff7324791817""]",alias_citation_id_not_in_valid_context_ids_even_though_exported_row_has_canonical_source_id
+detail,SYN-CSM-001,C11,True,True,False,1,"[""4ccc7534-0c71-4918-a30a-3425d55a636c""]",alias_citation_id_not_in_valid_context_ids_even_though_exported_row_has_canonical_source_id
+detail,SYN-CSM-001,C2,True,True,False,9,"[""100e6bd9-2555-45d8-975a-227392273059"", ""7c216ab9-482a-45e1-b674-ccae87dc3241"", ""82436317-3f6d-48a5-98a1-fc7112135ff0"", ""b36fe256-a9f3-4d54-8414-ff7324791817""]",alias_citation_id_not_in_valid_context_ids_even_though_exported_row_has_canonical_source_id
+detail,SYN-CSM-001,C3,True,True,False,7,"[""2714340b-357b-40da-8320-ca5d49b38825"", ""82436317-3f6d-48a5-98a1-fc7112135ff0"", ""93741d05-d8a8-40c9-b965-87774b495ce1"", ""b36fe256-a9f3-4d54-8414-ff7324791817""]",alias_citation_id_not_in_valid_context_ids_even_though_exported_row_has_canonical_source_id
+detail,SYN-CSM-001,C4,True,True,False,8,"[""100e6bd9-2555-45d8-975a-227392273059"", ""4c1c91bf-529c-4286-84ca-8cdfbb165ef3"", ""4ccc7534-0c71-4918-a30a-3425d55a636c"", ""879dce5d-3179-4280-b610-7bd2d3320872"", ""8e514baf-cccd-4501-b2ce-ed6c9aed08c6""]",alias_citation_id_not_in_valid_context_ids_even_though_exported_row_has_canonical_source_id
+detail,SYN-CSM-001,C5,True,True,False,5,"[""2714340b-357b-40da-8320-ca5d49b38825"", ""775bdc39-a4a1-480c-a6f2-ea6317756358"", ""7c216ab9-482a-45e1-b674-ccae87dc3241"", ""f4c29954-0dee-482e-a023-4b0bb58eefbe""]",alias_citation_id_not_in_valid_context_ids_even_though_exported_row_has_canonical_source_id
+detail,SYN-CSM-001,C6,True,True,False,4,"[""100e6bd9-2555-45d8-975a-227392273059"", ""4c1c91bf-529c-4286-84ca-8cdfbb165ef3"", ""7c216ab9-482a-45e1-b674-ccae87dc3241"", ""b36fe256-a9f3-4d54-8414-ff7324791817""]",alias_citation_id_not_in_valid_context_ids_even_though_exported_row_has_canonical_source_id
+detail,SYN-CSM-001,C7,True,True,False,6,"[""4ccc7534-0c71-4918-a30a-3425d55a636c"", ""7c216ab9-482a-45e1-b674-ccae87dc3241"", ""8e514baf-cccd-4501-b2ce-ed6c9aed08c6"", ""b36fe256-a9f3-4d54-8414-ff7324791817""]",alias_citation_id_not_in_valid_context_ids_even_though_exported_row_has_canonical_source_id
+detail,SYN-CSM-001,C8,True,True,False,3,"[""54fd1427-29f4-4118-a5b1-2ba777c3a0c6"", ""775bdc39-a4a1-480c-a6f2-ea6317756358"", ""93741d05-d8a8-40c9-b965-87774b495ce1""]",alias_citation_id_not_in_valid_context_ids_even_though_exported_row_has_canonical_source_id
+detail,SYN-CSM-001,C9,True,True,False,1,"[""54fd1427-29f4-4118-a5b1-2ba777c3a0c6""]",alias_citation_id_not_in_valid_context_ids_even_though_exported_row_has_canonical_source_id
+detail,SYN-CSM-001,b36fe256-a9f3-4d54-8414-ff7324791817,True,False,True,0,[],NULL
+detail,SYN-CSM-001,f4c29954-0dee-482e-a023-4b0bb58eefbe,True,False,True,0,[],NULL
+summary,SYN-CSM-001,ALL,24,11,13,59,59,"C aliases are present in exported answer citations with canonical_source_id, but fabricated_citation_rate compares normalized citation_id aliases against valid canonical/document/section IDs without resolving alias to canonical_source_id."
+detail,SYN-CSM-002,66a24697-9176-49ad-a3c7-71d68813d9e1,True,False,True,0,[],NULL
+detail,SYN-CSM-002,66e57bbe-fb68-43c7-810c-23a150eaae26,True,False,True,0,[],NULL
+detail,SYN-CSM-002,8bb866c4-e823-4913-b09f-0eec883daa68,True,False,True,0,[],NULL
+detail,SYN-CSM-002,8dccc08a-484a-438f-ac5c-ac156ef18e9c,True,False,True,0,[],NULL
+detail,SYN-CSM-002,9fe1621d-2a1f-4690-96ba-cae5df236aec,True,False,True,0,[],NULL
+detail,SYN-CSM-002,C1,True,True,False,11,"[""66a24697-9176-49ad-a3c7-71d68813d9e1"", ""66e57bbe-fb68-43c7-810c-23a150eaae26"", ""c0565441-cb26-4c90-ac56-6ae55e7d4dac""]",alias_citation_id_not_in_valid_context_ids_even_though_exported_row_has_canonical_source_id
+detail,SYN-CSM-002,C2,True,True,False,4,"[""66a24697-9176-49ad-a3c7-71d68813d9e1"", ""8dccc08a-484a-438f-ac5c-ac156ef18e9c""]",alias_citation_id_not_in_valid_context_ids_even_though_exported_row_has_canonical_source_id
+detail,SYN-CSM-002,C3,True,True,False,3,"[""66a24697-9176-49ad-a3c7-71d68813d9e1"", ""8bb866c4-e823-4913-b09f-0eec883daa68""]",alias_citation_id_not_in_valid_context_ids_even_though_exported_row_has_canonical_source_id
+detail,SYN-CSM-002,C4,True,True,False,5,"[""66a24697-9176-49ad-a3c7-71d68813d9e1""]",alias_citation_id_not_in_valid_context_ids_even_though_exported_row_has_canonical_source_id
+detail,SYN-CSM-002,C5,True,True,False,3,"[""66a24697-9176-49ad-a3c7-71d68813d9e1"", ""c0565441-cb26-4c90-ac56-6ae55e7d4dac""]",alias_citation_id_not_in_valid_context_ids_even_though_exported_row_has_canonical_source_id
+detail,SYN-CSM-002,C6,True,True,False,4,"[""66a24697-9176-49ad-a3c7-71d68813d9e1"", ""66e57bbe-fb68-43c7-810c-23a150eaae26"", ""9fe1621d-2a1f-4690-96ba-cae5df236aec""]",alias_citation_id_not_in_valid_context_ids_even_though_exported_row_has_canonical_source_id
+detail,SYN-CSM-002,C7,True,True,False,3,"[""66e57bbe-fb68-43c7-810c-23a150eaae26"", ""8bb866c4-e823-4913-b09f-0eec883daa68"", ""bf6612ab-30cb-473d-90fc-f63f72980a9c""]",alias_citation_id_not_in_valid_context_ids_even_though_exported_row_has_canonical_source_id
+detail,SYN-CSM-002,C8,True,True,False,4,"[""66e57bbe-fb68-43c7-810c-23a150eaae26"", ""8dccc08a-484a-438f-ac5c-ac156ef18e9c"", ""df43e673-2678-44ab-86ee-2016f737e9cd""]",alias_citation_id_not_in_valid_context_ids_even_though_exported_row_has_canonical_source_id
+detail,SYN-CSM-002,bf6612ab-30cb-473d-90fc-f63f72980a9c,True,False,True,0,[],NULL
+detail,SYN-CSM-002,c0565441-cb26-4c90-ac56-6ae55e7d4dac,True,False,True,0,[],NULL
+detail,SYN-CSM-002,df43e673-2678-44ab-86ee-2016f737e9cd,True,False,True,0,[],NULL
+detail,SYN-CSM-002,ea22f61d-c434-4ab6-a7c3-2b6b6925ebd2,True,False,True,0,[],NULL
+summary,SYN-CSM-002,ALL,17,8,9,37,37,"C aliases are present in exported answer citations with canonical_source_id, but fabricated_citation_rate compares normalized citation_id aliases against valid canonical/document/section IDs without resolving alias to canonical_source_id."
+detail,SYN-CSM-003,125c4ac3-3e2a-4a60-8b87-d8ca4359bf17,True,False,True,0,[],NULL
+detail,SYN-CSM-003,145a1a47-3231-43a9-8d23-24880122e956,True,False,True,0,[],NULL
+detail,SYN-CSM-003,2eb49637-d46b-497e-9788-29ddb867d3bc,True,False,True,0,[],NULL
+detail,SYN-CSM-003,2fb589b0-57c2-4fe2-8a67-45b2971965b0,True,False,True,0,[],NULL
+detail,SYN-CSM-003,3b2423e5-90d3-4fd0-8c34-b3ce66384bfc,True,False,True,0,[],NULL
+detail,SYN-CSM-003,4e13f76b-deab-47b5-94a0-d13b01eea584,True,False,True,0,[],NULL
+detail,SYN-CSM-003,52f1e0d3-7b1e-4fdb-97d7-386d643d0c99,True,False,True,0,[],NULL
+detail,SYN-CSM-003,5a6b266b-39ea-4979-9d99-067d4a79eadc,True,False,True,0,[],NULL
+detail,SYN-CSM-003,5b4c72f3-f09c-4378-b805-423a7fb2fed7,True,False,True,0,[],NULL
+detail,SYN-CSM-003,5c05a6f5-73c3-40ce-b489-9e78826d7e30,True,False,True,0,[],NULL
+detail,SYN-CSM-003,78d14e72-cdd1-4822-8b6c-e3300c0baf2b,True,False,True,0,[],NULL
+detail,SYN-CSM-003,9ed89967-8788-465f-bd08-3dfeb36c7f7b,True,False,True,0,[],NULL
+detail,SYN-CSM-003,A1,True,True,False,0,[],direct_citation_id_not_in_valid_context_ids
+detail,SYN-CSM-003,A2,True,True,False,0,[],direct_citation_id_not_in_valid_context_ids
+detail,SYN-CSM-003,A3,True,True,False,0,[],direct_citation_id_not_in_valid_context_ids
+detail,SYN-CSM-003,A5,True,True,False,0,[],direct_citation_id_not_in_valid_context_ids
+detail,SYN-CSM-003,C1,True,True,False,14,"[""145a1a47-3231-43a9-8d23-24880122e956"", ""2eb49637-d46b-497e-9788-29ddb867d3bc"", ""2fb589b0-57c2-4fe2-8a67-45b2971965b0"", ""4e13f76b-deab-47b5-94a0-d13b01eea584"", ""5a6b266b-39ea-4979-9d99-067d4a79eadc"", ""5c05a6f5-73c3-40ce-b489-9e78826d7e30"", ""78d14e72-cdd1-4822-8b6c-e3300c0baf2b"", ""9ed89967-8788-465f-bd08-3dfeb36c7f7b"", ""a3b3e29c-c9d4-400e-ad81-3062d9c90bda"", ""b85ded5f-dc7a-4ddc-93b1-2ae4b51ccd78""]",alias_citation_id_not_in_valid_context_ids_even_though_exported_row_has_canonical_source_id
+detail,SYN-CSM-003,C10,True,True,False,3,"[""2eb49637-d46b-497e-9788-29ddb867d3bc"", ""5c05a6f5-73c3-40ce-b489-9e78826d7e30"", ""c841df57-92ee-483d-9468-72d67a2bb245""]",alias_citation_id_not_in_valid_context_ids_even_though_exported_row_has_canonical_source_id
+detail,SYN-CSM-003,C2,True,True,False,9,"[""125c4ac3-3e2a-4a60-8b87-d8ca4359bf17"", ""145a1a47-3231-43a9-8d23-24880122e956"", ""2eb49637-d46b-497e-9788-29ddb867d3bc"", ""4e13f76b-deab-47b5-94a0-d13b01eea584"", ""52f1e0d3-7b1e-4fdb-97d7-386d643d0c99"", ""5c05a6f5-73c3-40ce-b489-9e78826d7e30"", ""9ed89967-8788-465f-bd08-3dfeb36c7f7b""]",alias_citation_id_not_in_valid_context_ids_even_though_exported_row_has_canonical_source_id
+detail,SYN-CSM-003,C3,True,True,False,3,"[""5c05a6f5-73c3-40ce-b489-9e78826d7e30"", ""9ed89967-8788-465f-bd08-3dfeb36c7f7b"", ""b85ded5f-dc7a-4ddc-93b1-2ae4b51ccd78""]",alias_citation_id_not_in_valid_context_ids_even_though_exported_row_has_canonical_source_id
+detail,SYN-CSM-003,C4,True,True,False,3,"[""52f1e0d3-7b1e-4fdb-97d7-386d643d0c99"", ""5c05a6f5-73c3-40ce-b489-9e78826d7e30""]",alias_citation_id_not_in_valid_context_ids_even_though_exported_row_has_canonical_source_id
+detail,SYN-CSM-003,C5,True,True,False,6,"[""145a1a47-3231-43a9-8d23-24880122e956"", ""3b2423e5-90d3-4fd0-8c34-b3ce66384bfc"", ""52f1e0d3-7b1e-4fdb-97d7-386d643d0c99"", ""78d14e72-cdd1-4822-8b6c-e3300c0baf2b"", ""9ed89967-8788-465f-bd08-3dfeb36c7f7b"", ""b85ded5f-dc7a-4ddc-93b1-2ae4b51ccd78""]",alias_citation_id_not_in_valid_context_ids_even_though_exported_row_has_canonical_source_id
+detail,SYN-CSM-003,C6,True,True,False,2,"[""9ed89967-8788-465f-bd08-3dfeb36c7f7b""]",alias_citation_id_not_in_valid_context_ids_even_though_exported_row_has_canonical_source_id
+detail,SYN-CSM-003,C7,True,True,False,1,"[""9ed89967-8788-465f-bd08-3dfeb36c7f7b""]",alias_citation_id_not_in_valid_context_ids_even_though_exported_row_has_canonical_source_id
+detail,SYN-CSM-003,C8,True,True,False,3,"[""125c4ac3-3e2a-4a60-8b87-d8ca4359bf17"", ""2eb49637-d46b-497e-9788-29ddb867d3bc"", ""b85ded5f-dc7a-4ddc-93b1-2ae4b51ccd78""]",alias_citation_id_not_in_valid_context_ids_even_though_exported_row_has_canonical_source_id
+detail,SYN-CSM-003,C9,True,True,False,2,"[""2eb49637-d46b-497e-9788-29ddb867d3bc""]",alias_citation_id_not_in_valid_context_ids_even_though_exported_row_has_canonical_source_id
+detail,SYN-CSM-003,a3b3e29c-c9d4-400e-ad81-3062d9c90bda,True,False,True,0,[],NULL
+detail,SYN-CSM-003,b85ded5f-dc7a-4ddc-93b1-2ae4b51ccd78,True,False,True,0,[],NULL
+detail,SYN-CSM-003,c841df57-92ee-483d-9468-72d67a2bb245,True,False,True,0,[],NULL
+summary,SYN-CSM-003,ALL,29,14,15,46,46,"C aliases are present in exported answer citations with canonical_source_id, but fabricated_citation_rate compares normalized citation_id aliases against valid canonical/document/section IDs without resolving alias to canonical_source_id."
+summary,OVERALL,ALL,70,33,37,142,142,Same alias-resolution issue as patient summaries; generated citation aliases C1/C2/etc are counted separately from canonical_source_id values.

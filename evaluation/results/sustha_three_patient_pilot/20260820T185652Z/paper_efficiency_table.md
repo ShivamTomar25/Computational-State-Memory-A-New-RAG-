@@ -1,0 +1,11 @@
+| System | tokens_per_query | p95_latency | total_cost |
+| --- | --- | --- | --- |
+| long_context | N/A | N/A | N/A |
+| rolling_summary | N/A | N/A | N/A |
+| dense_rag | N/A | N/A | N/A |
+| hybrid_rag | N/A | N/A | N/A |
+| graph_rag | N/A | N/A | N/A |
+| hippo_rag | N/A | N/A | N/A |
+| csm | N/A | N/A | N/A |
+| csm_v3 | N/A | N/A | N/A |
+| csm_v4 | 3626 +/- 508.2 | 1.867e+05 +/- 3228 | 0.01447 +/- 0.001689 |

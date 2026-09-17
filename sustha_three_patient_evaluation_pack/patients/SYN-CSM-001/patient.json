@@ -1,0 +1,14 @@
+{
+  "patient_code": "SYN-CSM-001",
+  "full_name": "Synthetic Patient Alpha",
+  "date_of_birth": "1972-04-15",
+  "age_at_start": 53,
+  "sex": "Male",
+  "phone": "+91-90000-01001",
+  "email": "synthetic.alpha@example.test",
+  "address": "101 Evaluation Lane, Test District, New Delhi 110001",
+  "emergency_contact_name": "Synthetic Contact Alpha",
+  "emergency_contact_phone": "+91-90000-01901",
+  "primary_condition": "Type 2 diabetes mellitus with hypertension",
+  "case_summary": "Longitudinal renal-function case with late evidence, dehydration qualification, corrected laboratory values, recovery, and medication-risk recomputation."
+}

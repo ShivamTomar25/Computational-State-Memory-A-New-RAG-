@@ -1,0 +1,68 @@
+[
+  {
+    "event_number": 1,
+    "event_id": "P2-EVT-001",
+    "effective_date": "2019-07-14T12:00:00+05:30",
+    "added_date": "2026-02-01T10:10:00+05:30",
+    "event_type": "Allergy",
+    "source_id": "DOC-P2-001",
+    "description": "Late-recorded patient history of generalized hives after amoxicillin.",
+    "evidence_status": "Active",
+    "expected_state_effect": "allergy state active"
+  },
+  {
+    "event_number": 2,
+    "event_id": "P2-EVT-002",
+    "effective_date": "2026-01-15T12:00:00+05:30",
+    "added_date": "2026-02-10T09:00:00+05:30",
+    "event_type": "Document",
+    "source_id": "DOC-P2-003",
+    "description": "Imported record says no known drug allergies.",
+    "evidence_status": "Contested",
+    "expected_state_effect": "allergy state contested"
+  },
+  {
+    "event_number": 3,
+    "event_id": "P2-EVT-003",
+    "effective_date": "2026-01-15T12:00:00+05:30",
+    "added_date": "2026-02-11T09:00:00+05:30",
+    "event_type": "Document",
+    "source_id": "DOC-P2-004",
+    "description": "Near-duplicate imported NKDA record.",
+    "evidence_status": "Contested",
+    "expected_state_effect": "duplicate detected; no independent double-counting"
+  },
+  {
+    "event_number": 4,
+    "event_id": "P2-EVT-004",
+    "effective_date": "2026-02-18T12:00:00+05:30",
+    "added_date": "2026-02-18T12:00:00+05:30",
+    "event_type": "Clinical Information",
+    "source_id": "DOC-P2-005",
+    "description": "External specialist supports urticaria history.",
+    "evidence_status": "Active",
+    "expected_state_effect": "support increases; state remains contested until correction"
+  },
+  {
+    "event_number": 5,
+    "event_id": "P2-EVT-005",
+    "effective_date": "2026-02-20T14:00:00+05:30",
+    "added_date": "2026-02-20T14:00:00+05:30",
+    "event_type": "Retraction",
+    "source_id": "DOC-P2-006",
+    "description": "Hospital NKDA statement retracted.",
+    "evidence_status": "Active",
+    "expected_state_effect": "allergy state resolved/active"
+  },
+  {
+    "event_number": 6,
+    "event_id": "P2-EVT-006",
+    "effective_date": "2026-02-13T09:00:00+05:30",
+    "added_date": "2026-02-13T09:00:00+05:30",
+    "event_type": "Conversation",
+    "source_id": "CHAT-P2-003",
+    "description": "Unsupported anaphylactic-shock claim.",
+    "evidence_status": "Pending Review",
+    "expected_state_effect": "pending review; rejected"
+  }
+]

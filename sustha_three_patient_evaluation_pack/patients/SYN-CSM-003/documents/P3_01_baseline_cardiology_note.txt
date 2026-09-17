@@ -1,0 +1,22 @@
+Baseline Cardiology Note
+Synthetic evaluation record - not for clinical use.
+
+patient_code: SYN-CSM-003
+document_id: DOC-P3-001
+document_type: Clinic Note
+document_date: 2026-04-01
+upload_date: 2026-04-01
+author: Dr. Research Evaluator
+encounter_id: P3-ENC-001
+evidence_ids: EV-P3-001, EV-P3-002
+
+Condition and Medicines
+EVIDENCE ID: EV-P3-001
+Atrial fibrillation is active. Metoprolol succinate 25 mg once daily and apixaban 5 mg twice daily are listed as active medicines.
+
+Baseline Measurement
+Resting heart rate is 82 beats/min.
+
+Rare Functional Detail
+EVIDENCE ID: EV-P3-002
+At baseline, the patient stated that he could climb exactly 14 stairs before stopping to rest. This detail is intentionally not represented as a recurring computational state.

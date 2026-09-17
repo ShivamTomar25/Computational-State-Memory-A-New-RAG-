@@ -1,0 +1,8 @@
+applicable,details,metric_name,reason_not_applicable,repetition,system,value
+True,"{""case_id"": ""7759a683-adb7-4e2a-932e-185cdeabc93b"", ""detected_contradictions"": 0, ""repetition_number"": 1, ""status"": ""measured"", ""system_type"": ""hybrid_rag""}",contradiction_handling,,1,hybrid_rag,0.0
+True,"{""case_id"": ""7759a683-adb7-4e2a-932e-185cdeabc93b"", ""detected_contradictions"": 0, ""repetition_number"": 1, ""status"": ""measured"", ""system_type"": ""rolling_summary""}",contradiction_handling,,1,rolling_summary,0.0
+True,"{""case_id"": ""7759a683-adb7-4e2a-932e-185cdeabc93b"", ""detected_contradictions"": 0, ""repetition_number"": 1, ""status"": ""measured"", ""system_type"": ""graph_rag""}",contradiction_handling,,1,graph_rag,0.0
+True,"{""case_id"": ""7759a683-adb7-4e2a-932e-185cdeabc93b"", ""detected_contradictions"": 0, ""repetition_number"": 1, ""status"": ""measured"", ""system_type"": ""csm""}",contradiction_handling,,1,csm,0.0
+True,"{""case_id"": ""7759a683-adb7-4e2a-932e-185cdeabc93b"", ""detected_contradictions"": 0, ""repetition_number"": 1, ""status"": ""measured"", ""system_type"": ""hippo_rag""}",contradiction_handling,,1,hippo_rag,0.0
+True,"{""case_id"": ""7759a683-adb7-4e2a-932e-185cdeabc93b"", ""detected_contradictions"": 0, ""repetition_number"": 1, ""status"": ""measured"", ""system_type"": ""dense_rag""}",contradiction_handling,,1,dense_rag,0.0
+True,"{""case_id"": ""7759a683-adb7-4e2a-932e-185cdeabc93b"", ""detected_contradictions"": 0, ""repetition_number"": 1, ""status"": ""measured"", ""system_type"": ""long_context""}",contradiction_handling,,1,long_context,0.0

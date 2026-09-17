@@ -1,0 +1,209 @@
+{
+  "abandoned_or_superseded_experiment_id": "659a2a8e-5909-4044-bf39-b4cb8a3ca38d",
+  "completed_derived_experiment_id": "659a2a8e-5909-4044-bf39-b4cb8a3ca38d",
+  "completed_turns": 140,
+  "metric_observation_count": 4060,
+  "no_llm_calls_performed": true,
+  "output_dir": "/Users/shivamtomar/Desktop/Project - 1/sustha/evaluation/results/csm_v2_final_comparison_offline_v3/SYN-CSM-003/repetition_1/20260819T104216Z",
+  "output_files": [
+    {
+      "bytes": 26785,
+      "file": "answer_f1_audit.csv",
+      "sha256": "ffff8b6924c639e00bede2826cdc92ad8ffec6adc5d0974b9d8b28641f3a88a4"
+    },
+    {
+      "bytes": 45666,
+      "file": "answer_preservation_audit.json",
+      "sha256": "74c9102e2c3a83533df6972941da9e26a9ed5514cd3a656ff265e3f2d66ff124"
+    },
+    {
+      "bytes": 32682,
+      "file": "calibration_audit.csv",
+      "sha256": "9df71279d51d4a6ae2329b90eac7ff75ebc89309dc69c6f38dc54febb215f64c"
+    },
+    {
+      "bytes": 172891,
+      "file": "citation_resolution_audit.csv",
+      "sha256": "7b46c4a2820af5e3f033c783fd8832e830d3247f061b3ab620189288b39ba28d"
+    },
+    {
+      "bytes": 172891,
+      "file": "citations_audit.csv",
+      "sha256": "7b46c4a2820af5e3f033c783fd8832e830d3247f061b3ab620189288b39ba28d"
+    },
+    {
+      "bytes": 175636,
+      "file": "claim_matching_audit.csv",
+      "sha256": "6a5f32516e636036602bcb7e8e036ee961397489f0e68312e6164c5a839cff26"
+    },
+    {
+      "bytes": 79189,
+      "file": "claim_support_audit.csv",
+      "sha256": "bd5cfc93a42ed0ff235be768995f91bef8f5cecf2ddc89e45f4ad5672ce6c7c0"
+    },
+    {
+      "bytes": 79189,
+      "file": "claims_audit.csv",
+      "sha256": "bd5cfc93a42ed0ff235be768995f91bef8f5cecf2ddc89e45f4ad5672ce6c7c0"
+    },
+    {
+      "bytes": 1381,
+      "file": "comparison_provenance.json",
+      "sha256": "fdae1f4b225da6ab47bdf876d8824707872f07b1f64f7ed5c2ce55783118f984"
+    },
+    {
+      "bytes": 28024,
+      "file": "correction_recovery_audit.csv",
+      "sha256": "df35c1d455b8b4f2adbc0878530b3c55abb557490e2d195862e5b954b0598096"
+    },
+    {
+      "bytes": 100107,
+      "file": "csm_activation_audit.csv",
+      "sha256": "1c72f74bd8b8712d8f4492d65023c39ee104f399a88cec9b5767c29a2a1ae8c8"
+    },
+    {
+      "bytes": 38676,
+      "file": "csm_dependency_trace_audit.csv",
+      "sha256": "c1f36e7121f809eb523ecd51645f28fb99d43601424f73ef853865c7114a6b6e"
+    },
+    {
+      "bytes": 20321,
+      "file": "csm_lineage_resolution_audit.csv",
+      "sha256": "ddcd377e4f3310f528eea23bbb0101ffe8ae469852948c2a29e80484f11a7cf3"
+    },
+    {
+      "bytes": 22038,
+      "file": "csm_lineage_trace.json",
+      "sha256": "1e550792616bbb7942e3844c6c38da4234bac78d33cd5bf83a94fb40c3962cbd"
+    },
+    {
+      "bytes": 984811,
+      "file": "csm_state_trace.json",
+      "sha256": "f99cfa5e630214304a443480aa9bc74cea01d2a69ef27c2863f1edaea69928a7"
+    },
+    {
+      "bytes": 4939,
+      "file": "csm_v1_vs_csm_v2.csv",
+      "sha256": "93bc9a1c8476ccc0df87b1e3add949e4b6b8b914e6ff590b3db5316043a037e0"
+    },
+    {
+      "bytes": 34792,
+      "file": "decision_label_audit.csv",
+      "sha256": "a048c96f8eb620013dc5318fb78259b2c0d1ca14eebf9eaf99c008b6689dff47"
+    },
+    {
+      "bytes": 167148,
+      "file": "latency_definition_audit.csv",
+      "sha256": "e7a190a116690854b8e085098ce553a624bff16452ac4bf20460fc63ef3842c1"
+    },
+    {
+      "bytes": 877458,
+      "file": "metric_observations.csv",
+      "sha256": "755e4569a7b0d6fcbc74e7853078bb591fc16e3d1bb9d79eec83d56498a2c9d8"
+    },
+    {
+      "bytes": 8150,
+      "file": "metric_rankings.csv",
+      "sha256": "310d1996ce18cc52bf076325d2476d07fb0dc7f05813b5e7fa243918fea26c67"
+    },
+    {
+      "bytes": 24538,
+      "file": "metric_rankings.json",
+      "sha256": "b931a086849e853b39b31bc8d59d3cd1a8a496f369f17dccd949e2c26b269580"
+    },
+    {
+      "bytes": 2667,
+      "file": "paper_complete_21_metric_matrix.csv",
+      "sha256": "fe0a0ae80d578b8ac36985b92c9cfc7d3f7f016070ed4ad7a4bae1785619ff44"
+    },
+    {
+      "bytes": 2827,
+      "file": "paper_complete_21_metric_matrix.md",
+      "sha256": "3c04d1a941da371c125071bff6ccab7352ff900e4aa79ce68135472ca5b2139b"
+    },
+    {
+      "bytes": 3484,
+      "file": "paper_complete_21_metric_matrix.tex",
+      "sha256": "e3bf60d0fb1b4708c0a0ca37cb7fbc9851da6e5c5906be162dd9c5f4d26ef462"
+    },
+    {
+      "bytes": 397,
+      "file": "paper_discussion.md",
+      "sha256": "76d548ad9fc70346deba8f9952b2b1fdd275a31645b79fd226a01c76270ad16d"
+    },
+    {
+      "bytes": 399,
+      "file": "paper_limitations.md",
+      "sha256": "1b4a9243f075d3f9127127ab2ddaf6ccdf5a95329f24464a64ed196e70ca5c64"
+    },
+    {
+      "bytes": 283,
+      "file": "paper_results_summary.md",
+      "sha256": "750c93895fec8cc253b28f52ecbddd44f6a567ed7744834ec1a903e015ec6b07"
+    },
+    {
+      "bytes": 40553,
+      "file": "per_question_results.csv",
+      "sha256": "cd230d2a4bde228513b4a53d207fef3cd3e993a0710192dfe3e718734194da47"
+    },
+    {
+      "bytes": 330,
+      "file": "per_system_results.csv",
+      "sha256": "3c4c0c0cea71691d39e04fb76d27c744d08af5ed79585e21cb1cdd0584e0d6be"
+    },
+    {
+      "bytes": 681600,
+      "file": "retrieval_identifier_resolution_audit.csv",
+      "sha256": "de481b1e990874cecfec982447f133a00167408179b6a98b842beac54792fc0f"
+    },
+    {
+      "bytes": 644,
+      "file": "scope_validation.json",
+      "sha256": "e1b94324df366089b15c594297c2621b6febd116b5c89a5aa31aa49b85dd7bb2"
+    },
+    {
+      "bytes": 146071,
+      "file": "state_comparison_audit.csv",
+      "sha256": "ea6d9925183f68c5df447fcf825c14d480d1ba20aac85671528eea332bde0124"
+    },
+    {
+      "bytes": 2365,
+      "file": "state_key_mapping_audit.csv",
+      "sha256": "02e3cdb5a95c74c796b973d9ec9587b4cce3c9dad63afabedbc846cd6dd8a7e2"
+    },
+    {
+      "bytes": 24297,
+      "file": "statistical_results.csv",
+      "sha256": "5cde118c2faf2504b4423298aa9c90f29b1465f77884206d26fd06457067f87a"
+    },
+    {
+      "bytes": 71433,
+      "file": "statistical_results.json",
+      "sha256": "1342781f09120d0a6b6c14f633c98ac087daeecce19f62d4259b14f829f9e2d7"
+    },
+    {
+      "bytes": 34809,
+      "file": "system_metric_matrix.csv",
+      "sha256": "afb37ff26f39e47a28f22bb63c0e063ee84f72e867f02da55ba4429defcafd91"
+    },
+    {
+      "bytes": 109978,
+      "file": "system_metric_matrix.json",
+      "sha256": "1bcd82b6360b2ffa140fe26e7d259dc7ac0d85d1684a5a24061ef10aeaca984f"
+    },
+    {
+      "bytes": 30459,
+      "file": "temporal_assertion_audit.csv",
+      "sha256": "3bd23b353704197243a1baff8ac3fe150afd6d17315d77919be5474cadbff548"
+    }
+  ],
+  "patient": "SYN-CSM-003",
+  "provider_invocations_during_recomputation": 0,
+  "questions": 20,
+  "repetitions": 1,
+  "source_experiment_id": "659a2a8e-5909-4044-bf39-b4cb8a3ca38d",
+  "systems": 7,
+  "title": "Sustha Single-Patient Synthetic Case-Study Results",
+  "used_existing_aggregate_metric_rows": false,
+  "zero_groq_calls": true
+}

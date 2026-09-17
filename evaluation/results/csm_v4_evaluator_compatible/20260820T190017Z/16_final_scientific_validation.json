@@ -1,0 +1,259 @@
+{
+  "baseline_hashes_after": {
+    "SYN-CSM-001/metric_observations.csv": "09e63c0d3079405090447989b4f1438222a4eba144cd70c5ce752e70e73b755d",
+    "SYN-CSM-001/scope_validation.json": "520eb67d891b39b3f807a00f6c51e5fc42641eaa86ffd1107ed597366263cf79",
+    "SYN-CSM-001/system_metric_matrix.csv": "fe804ad01999580734af05cd44f0619b1f7234472a425b6ce34faa897ab4b04d",
+    "SYN-CSM-002/metric_observations.csv": "cc58b6f253dd1771e478c0a890049ec2e03a9651a6cb73117f5d2f8d9e787263",
+    "SYN-CSM-002/scope_validation.json": "12f886a125eb66551576883b8e59c76e87fbe8fba6c9e27b34f66c6cd487bee9",
+    "SYN-CSM-002/system_metric_matrix.csv": "20f56473262db4193a5bf48c00138b77ddd00b0b18feb2784e1fd889af134439",
+    "SYN-CSM-003/metric_observations.csv": "755e4569a7b0d6fcbc74e7853078bb591fc16e3d1bb9d79eec83d56498a2c9d8",
+    "SYN-CSM-003/scope_validation.json": "e1b94324df366089b15c594297c2621b6febd116b5c89a5aa31aa49b85dd7bb2",
+    "SYN-CSM-003/system_metric_matrix.csv": "afb37ff26f39e47a28f22bb63c0e063ee84f72e867f02da55ba4429defcafd91"
+  },
+  "baseline_hashes_before": {
+    "SYN-CSM-001/metric_observations.csv": "09e63c0d3079405090447989b4f1438222a4eba144cd70c5ce752e70e73b755d",
+    "SYN-CSM-001/scope_validation.json": "520eb67d891b39b3f807a00f6c51e5fc42641eaa86ffd1107ed597366263cf79",
+    "SYN-CSM-001/system_metric_matrix.csv": "fe804ad01999580734af05cd44f0619b1f7234472a425b6ce34faa897ab4b04d",
+    "SYN-CSM-002/metric_observations.csv": "cc58b6f253dd1771e478c0a890049ec2e03a9651a6cb73117f5d2f8d9e787263",
+    "SYN-CSM-002/scope_validation.json": "12f886a125eb66551576883b8e59c76e87fbe8fba6c9e27b34f66c6cd487bee9",
+    "SYN-CSM-002/system_metric_matrix.csv": "20f56473262db4193a5bf48c00138b77ddd00b0b18feb2784e1fd889af134439",
+    "SYN-CSM-003/metric_observations.csv": "755e4569a7b0d6fcbc74e7853078bb591fc16e3d1bb9d79eec83d56498a2c9d8",
+    "SYN-CSM-003/scope_validation.json": "e1b94324df366089b15c594297c2621b6febd116b5c89a5aa31aa49b85dd7bb2",
+    "SYN-CSM-003/system_metric_matrix.csv": "afb37ff26f39e47a28f22bb63c0e063ee84f72e867f02da55ba4429defcafd91"
+  },
+  "baseline_scope_validation": {
+    "SYN-CSM-001": {
+      "completed_turns": 140,
+      "counts_per_system": {
+        "csm": 20,
+        "dense_rag": 20,
+        "graph_rag": 20,
+        "hippo_rag": 20,
+        "hybrid_rag": 20,
+        "long_context": 20,
+        "rolling_summary": 20
+      },
+      "errors": [],
+      "included_turns": 140,
+      "missing_answer_turn_ids": [],
+      "patient": "SYN-CSM-001",
+      "questions": 20,
+      "questions_per_system": {
+        "csm": 20,
+        "dense_rag": 20,
+        "graph_rag": 20,
+        "hippo_rag": 20,
+        "hybrid_rag": 20,
+        "long_context": 20,
+        "rolling_summary": 20
+      },
+      "repetitions": 1,
+      "status": "passed",
+      "summary_label": "Sustha Single-Patient Synthetic Case-Study Results",
+      "systems": 7
+    },
+    "SYN-CSM-002": {
+      "completed_turns": 140,
+      "counts_per_system": {
+        "csm": 20,
+        "dense_rag": 20,
+        "graph_rag": 20,
+        "hippo_rag": 20,
+        "hybrid_rag": 20,
+        "long_context": 20,
+        "rolling_summary": 20
+      },
+      "errors": [],
+      "included_turns": 140,
+      "missing_answer_turn_ids": [],
+      "patient": "SYN-CSM-002",
+      "questions": 20,
+      "questions_per_system": {
+        "csm": 20,
+        "dense_rag": 20,
+        "graph_rag": 20,
+        "hippo_rag": 20,
+        "hybrid_rag": 20,
+        "long_context": 20,
+        "rolling_summary": 20
+      },
+      "repetitions": 1,
+      "status": "passed",
+      "summary_label": "Sustha Single-Patient Synthetic Case-Study Results",
+      "systems": 7
+    },
+    "SYN-CSM-003": {
+      "completed_turns": 140,
+      "counts_per_system": {
+        "csm": 20,
+        "dense_rag": 20,
+        "graph_rag": 20,
+        "hippo_rag": 20,
+        "hybrid_rag": 20,
+        "long_context": 20,
+        "rolling_summary": 20
+      },
+      "errors": [],
+      "included_turns": 140,
+      "missing_answer_turn_ids": [],
+      "patient": "SYN-CSM-003",
+      "questions": 20,
+      "questions_per_system": {
+        "csm": 20,
+        "dense_rag": 20,
+        "graph_rag": 20,
+        "hippo_rag": 20,
+        "hybrid_rag": 20,
+        "long_context": 20,
+        "rolling_summary": 20
+      },
+      "repetitions": 1,
+      "status": "passed",
+      "summary_label": "Sustha Single-Patient Synthetic Case-Study Results",
+      "systems": 7
+    }
+  },
+  "baseline_values_changed": false,
+  "csm_v3_completed_turns": 60,
+  "csm_v3_experiment_id": "2327c728-69ec-4fc4-9410-771c225d61a0",
+  "csm_v3_scope_validation": {
+    "SYN-CSM-001": {
+      "completed_turns": 20,
+      "counts_per_system": {
+        "csm_v3": 20
+      },
+      "errors": [],
+      "expected_systems": [
+        "csm_v3"
+      ],
+      "included_turns": 20,
+      "missing_answer_turn_ids": [],
+      "patient": "SYN-CSM-001",
+      "questions": 20,
+      "questions_per_system": {
+        "csm_v3": 20
+      },
+      "repetitions": 1,
+      "status": "passed",
+      "summary_label": "Sustha Single-Patient Synthetic Case-Study Results",
+      "systems": 1
+    },
+    "SYN-CSM-002": {
+      "completed_turns": 20,
+      "counts_per_system": {
+        "csm_v3": 20
+      },
+      "errors": [],
+      "expected_systems": [
+        "csm_v3"
+      ],
+      "included_turns": 20,
+      "missing_answer_turn_ids": [],
+      "patient": "SYN-CSM-002",
+      "questions": 20,
+      "questions_per_system": {
+        "csm_v3": 20
+      },
+      "repetitions": 1,
+      "status": "passed",
+      "summary_label": "Sustha Single-Patient Synthetic Case-Study Results",
+      "systems": 1
+    },
+    "SYN-CSM-003": {
+      "completed_turns": 20,
+      "counts_per_system": {
+        "csm_v3": 20
+      },
+      "errors": [],
+      "expected_systems": [
+        "csm_v3"
+      ],
+      "included_turns": 20,
+      "missing_answer_turn_ids": [],
+      "patient": "SYN-CSM-003",
+      "questions": 20,
+      "questions_per_system": {
+        "csm_v3": 20
+      },
+      "repetitions": 1,
+      "status": "passed",
+      "summary_label": "Sustha Single-Patient Synthetic Case-Study Results",
+      "systems": 1
+    }
+  },
+  "csm_v4_completed_turns": 60,
+  "csm_v4_scope_validation": {
+    "SYN-CSM-001": {
+      "completed_turns": 20,
+      "counts_per_system": {
+        "csm_v4": 20
+      },
+      "errors": [],
+      "expected_systems": [
+        "csm_v4"
+      ],
+      "included_turns": 20,
+      "missing_answer_turn_ids": [],
+      "patient": "SYN-CSM-001",
+      "questions": 20,
+      "questions_per_system": {
+        "csm_v4": 20
+      },
+      "repetitions": 1,
+      "status": "passed",
+      "summary_label": "Sustha Single-Patient Synthetic Case-Study Results",
+      "systems": 1
+    },
+    "SYN-CSM-002": {
+      "completed_turns": 20,
+      "counts_per_system": {
+        "csm_v4": 20
+      },
+      "errors": [],
+      "expected_systems": [
+        "csm_v4"
+      ],
+      "included_turns": 20,
+      "missing_answer_turn_ids": [],
+      "patient": "SYN-CSM-002",
+      "questions": 20,
+      "questions_per_system": {
+        "csm_v4": 20
+      },
+      "repetitions": 1,
+      "status": "passed",
+      "summary_label": "Sustha Single-Patient Synthetic Case-Study Results",
+      "systems": 1
+    },
+    "SYN-CSM-003": {
+      "completed_turns": 20,
+      "counts_per_system": {
+        "csm_v4": 20
+      },
+      "errors": [],
+      "expected_systems": [
+        "csm_v4"
+      ],
+      "included_turns": 20,
+      "missing_answer_turn_ids": [],
+      "patient": "SYN-CSM-003",
+      "questions": 20,
+      "questions_per_system": {
+        "csm_v4": 20
+      },
+      "repetitions": 1,
+      "status": "passed",
+      "summary_label": "Sustha Single-Patient Synthetic Case-Study Results",
+      "systems": 1
+    }
+  },
+  "experiment_id": "179bb8b4-2640-4619-89cb-3cd509e7c8e7",
+  "ground_truth_modified": false,
+  "metric_formulas_modified_by_exporter": false,
+  "new_llm_calls_during_export": 0,
+  "output_dir": "/Users/shivamtomar/Desktop/Project - 1/sustha/evaluation/results/csm_v4_evaluator_compatible/20260820T190017Z",
+  "patients": 3,
+  "questions": 60,
+  "stored_answers_modified": false,
+  "systems_in_final_comparison": 9
+}

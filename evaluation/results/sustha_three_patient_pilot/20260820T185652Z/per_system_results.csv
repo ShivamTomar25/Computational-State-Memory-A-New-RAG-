@@ -1,0 +1,10 @@
+mean_across_measured_metrics,measured_metric_count,not_applicable_metric_count,pending_metric_count,system
+,0,0,0,long_context
+,0,0,0,rolling_summary
+,0,0,0,dense_rag
+,0,0,0,hybrid_rag
+,0,0,0,graph_rag
+,0,0,0,hippo_rag
+,0,0,0,csm
+,0,0,0,csm_v3
+11197.907677116487,17,4,0,csm_v4

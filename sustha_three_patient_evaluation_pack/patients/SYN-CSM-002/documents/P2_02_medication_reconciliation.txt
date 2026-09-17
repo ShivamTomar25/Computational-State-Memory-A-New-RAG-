@@ -1,0 +1,18 @@
+Medication Reconciliation Report
+Synthetic evaluation record - not for clinical use.
+
+patient_code: SYN-CSM-002
+document_id: DOC-P2-002
+document_type: Medication Summary
+document_date: 2026-02-01
+upload_date: 2026-02-01
+author: Dr. Research Evaluator
+encounter_id: P2-ENC-001
+evidence_ids: EV-P2-003
+
+Current Medication
+Cetirizine 10 mg orally once daily as needed is active.
+
+Allergy Safety Flag
+EVIDENCE ID: EV-P2-003
+The active medication-safety record should display amoxicillin-associated hives and require reconciliation with any contradictory source.

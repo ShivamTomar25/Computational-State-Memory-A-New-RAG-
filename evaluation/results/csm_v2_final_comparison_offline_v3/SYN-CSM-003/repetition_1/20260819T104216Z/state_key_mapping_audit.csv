@@ -1,0 +1,14 @@
+calculation_reason,expected_state_concept,mapped_state_id,mapped_state_key,mapping_status,match_score
+expected_state_concept_to_csm_v2_state_key_mapping,status Candidate,134d489b-b925-4f87-92de-5fd6a662b719,section:a11ffead-3d4b-4245-a613-e72d5a8c43cb,N/A - expected_state_snapshot_missing,0.01
+expected_state_concept_to_csm_v2_state_key_mapping,treatment_response Treatment adjustment initiated; response not yet known,bdd0260f-dc0e-44e4-8e3c-bfcc879bc946,no known drug allergy recorded,N/A - expected_state_snapshot_missing,0.022727272727272728
+expected_state_concept_to_csm_v2_state_key_mapping,treatment_response:Treatment adjustment initiated; response not yet known,bdd0260f-dc0e-44e4-8e3c-bfcc879bc946,no known drug allergy recorded,N/A - expected_state_snapshot_missing,0.02247191011235955
+expected_state_concept_to_csm_v2_state_key_mapping,status:Candidate,,,N/A - expected_state_snapshot_missing,0.0
+expected_state_concept_to_csm_v2_state_key_mapping,status Resolved,,,N/A - expected_state_snapshot_missing,0.0
+expected_state_concept_to_csm_v2_state_key_mapping,treatment_response Improving after treatment adjustment,9eda9f9e-7c92-49ae-a77e-2366752db202,follow-up,N/A - expected_state_snapshot_missing,0.0136986301369863
+expected_state_concept_to_csm_v2_state_key_mapping,treatment_response:Improving after treatment adjustment,9eda9f9e-7c92-49ae-a77e-2366752db202,follow-up,N/A - expected_state_snapshot_missing,0.013888888888888888
+expected_state_concept_to_csm_v2_state_key_mapping,status:Resolved,,,N/A - expected_state_snapshot_missing,0.0
+expected_state_concept_to_csm_v2_state_key_mapping,parent rate_control_status,dde5ea66-7f0d-4054-a162-9f33d77bf67b,urgent_review,N/A - expected_state_snapshot_missing,0.013333333333333334
+expected_state_concept_to_csm_v2_state_key_mapping,"children ['treatment_response', 'follow_up_priority']",,,N/A - expected_state_snapshot_missing,0.0
+expected_state_concept_to_csm_v2_state_key_mapping,parent:rate_control_status,,,N/A - expected_state_snapshot_missing,0.0
+expected_state_concept_to_csm_v2_state_key_mapping,children:treatment_response,9af25fa9-7c2c-41cd-9b8c-028b5724e0ae,treatment-response follow-up report,N/A - expected_state_snapshot_missing,0.007194244604316547
+expected_state_concept_to_csm_v2_state_key_mapping,children:follow_up_priority,,,N/A - expected_state_snapshot_missing,0.0

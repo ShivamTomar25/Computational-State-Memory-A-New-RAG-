@@ -1,0 +1,23 @@
+{
+  "implementation_version": "csm_v4",
+  "independent_turns": true,
+  "llm_model": "openai/gpt-oss-120b",
+  "llm_provider": "groq",
+  "max_concurrency": 1,
+  "max_output_tokens": 2048,
+  "max_retries": 8,
+  "patients": [],
+  "pricing_version": "2026-07-21",
+  "questions": [],
+  "repeats": 1,
+  "repetition_filter": [],
+  "request_delay_seconds": 180.0,
+  "require_all_systems_ready": false,
+  "skip_sync": false,
+  "systems": [
+    "csm_v4"
+  ],
+  "temperature": 0.0,
+  "token_budget": 6000,
+  "top_k": 8
+}

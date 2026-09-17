@@ -1,0 +1,24 @@
+Corrected Renal Laboratory Addendum
+Synthetic evaluation record - not for clinical use.
+
+patient_code: SYN-CSM-001
+document_id: DOC-P1-005
+document_type: Laboratory Addendum
+document_date: 2026-03-05
+upload_date: 2026-03-12
+author: Sustha Synthetic Laboratory
+encounter_id: P1-ENC-002
+evidence_ids: EV-P1-007, EV-P1-008
+
+Correction Reason
+A result-transcription verification found that the initially released renal values were inaccurate.
+
+Corrected Results
+EVIDENCE ID: EV-P1-007
+Corrected serum creatinine for the 5 March specimen: 1.5 mg/dL.
+
+EVIDENCE ID: EV-P1-008
+Corrected estimated glomerular filtration rate: 53 mL/min/1.73m2.
+
+Supersession Statement
+The prior values of creatinine 1.8 mg/dL and eGFR 42 mL/min/1.73m2 are superseded, not deleted.

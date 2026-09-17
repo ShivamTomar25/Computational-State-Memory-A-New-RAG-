@@ -1,0 +1,55 @@
+{
+  "comparable": true,
+  "completed_at": "2026-08-19T16:11:10.428548+05:30",
+  "created_at": "2026-08-18T21:03:22.758493+05:30",
+  "dataset_id": "df6e1e82-bd4c-45c5-8428-2c3e91fe1620",
+  "document_count": 19,
+  "document_text_count": 19,
+  "experiment_id": "659a2a8e-5909-4044-bf39-b4cb8a3ca38d",
+  "export_scope": {
+    "patients": [
+      "SYN-CSM-003"
+    ],
+    "questions": "all",
+    "repetitions": "all",
+    "systems": [
+      "csm",
+      "dense_rag",
+      "graph_rag",
+      "hippo_rag",
+      "hybrid_rag",
+      "long_context",
+      "rolling_summary"
+    ]
+  },
+  "failure_reason": null,
+  "generated_at": "2026-08-19T10:41:10.919406+00:00",
+  "import_result": null,
+  "measured_metric_rows": 105,
+  "metric_row_count": 147,
+  "pending_metric_rows": 0,
+  "progress": {
+    "completed_system_runs": 7,
+    "completed_turns": 140,
+    "expected_system_runs": 7,
+    "expected_turns": 140,
+    "experiment_id": "659a2a8e-5909-4044-bf39-b4cb8a3ca38d",
+    "failed_system_runs": 0,
+    "measured_metric_results": 147,
+    "pending_metric_results": 0,
+    "status": "completed"
+  },
+  "started_at": "2026-08-18T21:03:22.776025+05:30",
+  "status": "completed",
+  "system_run_count": 7,
+  "systems": [
+    "csm",
+    "dense_rag",
+    "graph_rag",
+    "hippo_rag",
+    "hybrid_rag",
+    "long_context",
+    "rolling_summary"
+  ],
+  "turn_count": 140
+}

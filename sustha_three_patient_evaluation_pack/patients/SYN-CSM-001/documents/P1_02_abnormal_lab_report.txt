@@ -1,0 +1,24 @@
+Renal Laboratory Report
+Synthetic evaluation record - not for clinical use.
+
+patient_code: SYN-CSM-001
+document_id: DOC-P1-002
+document_type: Laboratory Report
+document_date: 2026-03-05
+upload_date: 2026-03-08
+author: Sustha Synthetic Laboratory
+encounter_id: P1-ENC-002
+evidence_ids: EV-P1-003, EV-P1-004
+
+Specimen Information
+Specimen collected on 5 March 2026 at 08:15. Report initially released on 8 March 2026.
+
+Results
+EVIDENCE ID: EV-P1-003
+Serum creatinine: 1.8 mg/dL (high).
+
+EVIDENCE ID: EV-P1-004
+Estimated glomerular filtration rate: 42 mL/min/1.73m2 (reduced).
+
+Interpretive Comment
+These values suggest worse renal filtration than the January baseline. A later addendum corrects both values; this initial report must remain auditable as superseded evidence.

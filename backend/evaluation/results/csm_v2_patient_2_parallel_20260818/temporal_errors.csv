@@ -1,0 +1,8 @@
+applicable,details,metric_name,reason_not_applicable,repetition,system,value
+False,"{""case_id"": ""7759a683-adb7-4e2a-932e-185cdeabc93b"", ""repetition_number"": 1, ""status"": ""not_applicable"", ""system_type"": ""hippo_rag""}",temporal_consistency,missing_temporal_ground_truth,1,hippo_rag,
+False,"{""case_id"": ""7759a683-adb7-4e2a-932e-185cdeabc93b"", ""repetition_number"": 1, ""status"": ""not_applicable"", ""system_type"": ""rolling_summary""}",temporal_consistency,missing_temporal_ground_truth,1,rolling_summary,
+False,"{""case_id"": ""7759a683-adb7-4e2a-932e-185cdeabc93b"", ""repetition_number"": 1, ""status"": ""not_applicable"", ""system_type"": ""graph_rag""}",temporal_consistency,missing_temporal_ground_truth,1,graph_rag,
+False,"{""case_id"": ""7759a683-adb7-4e2a-932e-185cdeabc93b"", ""repetition_number"": 1, ""status"": ""not_applicable"", ""system_type"": ""long_context""}",temporal_consistency,missing_temporal_ground_truth,1,long_context,
+False,"{""case_id"": ""7759a683-adb7-4e2a-932e-185cdeabc93b"", ""repetition_number"": 1, ""status"": ""not_applicable"", ""system_type"": ""csm""}",temporal_consistency,missing_temporal_ground_truth,1,csm,
+False,"{""case_id"": ""7759a683-adb7-4e2a-932e-185cdeabc93b"", ""repetition_number"": 1, ""status"": ""not_applicable"", ""system_type"": ""hybrid_rag""}",temporal_consistency,missing_temporal_ground_truth,1,hybrid_rag,
+False,"{""case_id"": ""7759a683-adb7-4e2a-932e-185cdeabc93b"", ""repetition_number"": 1, ""status"": ""not_applicable"", ""system_type"": ""dense_rag""}",temporal_consistency,missing_temporal_ground_truth,1,dense_rag,

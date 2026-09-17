@@ -1,0 +1,21 @@
+Post-Hydration Follow-up Laboratory Report
+Synthetic evaluation record - not for clinical use.
+
+patient_code: SYN-CSM-001
+document_id: DOC-P1-006
+document_type: Laboratory Report
+document_date: 2026-03-20
+upload_date: 2026-03-20
+author: Sustha Synthetic Laboratory
+encounter_id: P1-ENC-003
+evidence_ids: EV-P1-009, EV-P1-010
+
+Results
+EVIDENCE ID: EV-P1-009
+Serum creatinine: 1.2 mg/dL.
+
+EVIDENCE ID: EV-P1-010
+Estimated glomerular filtration rate: 70 mL/min/1.73m2.
+
+Comparison
+The renal measurements improved compared with the corrected 5 March values and are close to the January baseline.

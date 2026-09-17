@@ -1,0 +1,18 @@
+Imported Hospital Discharge Summary
+Synthetic evaluation record - not for clinical use.
+
+patient_code: SYN-CSM-002
+document_id: DOC-P2-003
+document_type: Hospital Record
+document_date: 2026-01-15
+upload_date: 2026-02-10
+author: Synthetic General Hospital
+encounter_id: P2-ENC-002
+evidence_ids: EV-P2-004
+
+Imported Allergy Field
+EVIDENCE ID: EV-P2-004
+Allergies: No known drug allergies.
+
+Provenance Warning
+This is an imported external record and conflicts with the patient and clinician allergy history.

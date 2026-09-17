@@ -1,0 +1,542 @@
+[
+  {
+    "canonical_source_id": "ea919ae5-2472-4ef6-85a9-e626199b7157",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "946f1a1a-3334-4a63-96c9-8230abc38a5a",
+    "source_type": "patient_information",
+    "state_id": "ea993dc6-f700-46aa-a44b-fefe50647fcc",
+    "state_key": "cardiology_outpatient",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "dde77447-7e75-4eed-96b6-133e1d7bcc76",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "af737b12-122f-4e15-bc4b-aef9d7fc9971",
+    "source_type": "patient_information",
+    "state_id": "dde5ea66-7f0d-4054-a162-9f33d77bf67b",
+    "state_key": "urgent_review",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "a3b3e29c-c9d4-400e-ad81-3062d9c90bda",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "f62a6889-bdd2-4ab3-85a8-9d3d7d97d7ce",
+    "source_type": "patient_information",
+    "state_id": "9eda9f9e-7c92-49ae-a77e-2366752db202",
+    "state_key": "follow-up",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "5c05a6f5-73c3-40ce-b489-9e78826d7e30",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "2d38e040-df2b-4b9c-a20b-4627489b383a",
+    "source_type": "patient_information",
+    "state_id": "6d7ba99e-5934-4804-b5e9-1110c7668391",
+    "state_key": "atrial fibrillation",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "9ed89967-8788-465f-bd08-3dfeb36c7f7b",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "be604ac2-4959-4813-a0a2-195cbb7f783e",
+    "source_type": "patient_information",
+    "state_id": "c6e5837d-e47e-4072-b917-99cafadfdb2c",
+    "state_key": "metoprolol succinate",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "2fb589b0-57c2-4fe2-8a67-45b2971965b0",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "8d8d5e43-178e-451f-8acc-d43b15b4bf45",
+    "source_type": "patient_information",
+    "state_id": "c6e5837d-e47e-4072-b917-99cafadfdb2c",
+    "state_key": "metoprolol succinate",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "52f1e0d3-7b1e-4fdb-97d7-386d643d0c99",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "862758d2-f094-4b86-b9dd-611c1658db0b",
+    "source_type": "patient_information",
+    "state_id": "a5ec3729-c455-469a-ac70-6884ac180c74",
+    "state_key": "apixaban",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "4e13f76b-deab-47b5-94a0-d13b01eea584",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "1247639c-d4b2-48d6-b116-fd29f3df1542",
+    "source_type": "patient_information",
+    "state_id": "bdd0260f-dc0e-44e4-8e3c-bfcc879bc946",
+    "state_key": "no known drug allergy recorded",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "78d14e72-cdd1-4822-8b6c-e3300c0baf2b",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "4ca6f5b9-b799-4e22-a6ba-571bdb7ae092",
+    "source_type": "patient_information",
+    "state_id": "a2a2d5dc-73a8-4261-9dd5-0959e9b2cfad",
+    "state_key": "resting heart rate",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "5a6b266b-39ea-4979-9d99-067d4a79eadc",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "f02cb59c-909e-40bb-88fc-104c79787cbf",
+    "source_type": "patient_information",
+    "state_id": "a2a2d5dc-73a8-4261-9dd5-0959e9b2cfad",
+    "state_key": "resting heart rate",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "c841df57-92ee-483d-9468-72d67a2bb245",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "f54d629f-75a0-4c71-aa04-1a83356068ee",
+    "source_type": "patient_information",
+    "state_id": "0f4133a4-2c28-453e-96e5-bde77d1f3466",
+    "state_key": "blood pressure",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "2eb49637-d46b-497e-9788-29ddb867d3bc",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "31594de4-574c-4223-bcd1-2dfdc397d491",
+    "source_type": "patient_information",
+    "state_id": "a2a2d5dc-73a8-4261-9dd5-0959e9b2cfad",
+    "state_key": "resting heart rate",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "145a1a47-3231-43a9-8d23-24880122e956",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "dcbbd0b0-d60f-4bcf-bd2b-9ea98c1f9b72",
+    "source_type": "patient_information",
+    "state_id": "afc3656a-1119-4275-9271-6c514c0a7ff3",
+    "state_key": "delayed functional-status note",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "125c4ac3-3e2a-4a60-8b87-d8ca4359bf17",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "3206bf09-5940-463d-b196-2022fd9cee09",
+    "source_type": "patient_information",
+    "state_id": "1d802695-f92a-4ffb-b200-b4cb6d9b6788",
+    "state_key": "erroneous syncope note",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "b85ded5f-dc7a-4ddc-93b1-2ae4b51ccd78",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "cccc007a-b65b-4353-9bac-b1fbc147ce9f",
+    "source_type": "patient_information",
+    "state_id": "1457949c-f72a-4a94-9eb8-0c2b0375ede9",
+    "state_key": "retraction acknowledgement",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "b0d44139-ad1c-4e92-9234-77dcd2670020",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "0a3b73c5-7853-403e-bc27-971f4cc3443d",
+    "source_type": "document",
+    "state_id": "db25c59d-d4ef-46ee-8d81-046d95651f84",
+    "state_key": "baseline cardiology note",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "2e5d3648-597e-411c-b723-855519bef763",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "b67672c9-c801-424d-b484-bda5f42533cc",
+    "source_type": "document",
+    "state_id": "90abef01-5663-45e3-875b-fc0261e3bd5c",
+    "state_key": "section:4aea8fe9-8a1a-4ebe-b7e0-b6a6e28ec65e",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "3b2423e5-90d3-4fd0-8c34-b3ce66384bfc",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "6c6614a0-923b-4d44-bce4-5b3d20f9b1dd",
+    "source_type": "document",
+    "state_id": "b72ea937-8b8d-4c3d-8670-b2366d703bb1",
+    "state_key": "worsening symptoms and vital signs report",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "6848f914-7c9f-46e8-b100-f5f03b1a3825",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "b6f60826-c453-4081-bed9-6360e7381d73",
+    "source_type": "document",
+    "state_id": "6a1a1713-8ec5-425e-9f54-4e68fe1e0af9",
+    "state_key": "section:b96d8fa2-66c3-41dc-9f29-a63e83e5c615",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "1168f26a-2c89-4a9b-b0cb-df66c398b14c",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "bcad17e7-75a1-4b1b-acee-46d47ecdf906",
+    "source_type": "document",
+    "state_id": "9797426f-0150-44dd-97d9-beccc2238aba",
+    "state_key": "clinician-directed treatment plan",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "b3f88a6b-d276-4fb3-98c2-e0720df56ade",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "6c1702ec-5bfc-49c0-920f-f4a681626b03",
+    "source_type": "document",
+    "state_id": "134d489b-b925-4f87-92de-5fd6a662b719",
+    "state_key": "section:a11ffead-3d4b-4245-a613-e72d5a8c43cb",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "794e0df8-a91c-4368-91ca-26302a4693e7",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "288141a2-6ce9-4227-8664-d93c209655b6",
+    "source_type": "document",
+    "state_id": "0a351e9b-0062-4df4-80e5-84b0daf495b2",
+    "state_key": "delayed functional-status encounter note",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "b49068f1-f11d-4e17-98fe-3fe15e5d43fe",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "753011b7-a27c-44ee-be8f-d14904b8c2ff",
+    "source_type": "document",
+    "state_id": "ff61c669-c864-4997-b442-a35e910bd94b",
+    "state_key": "section:4206aece-a930-48c5-9722-bbac4ff7e8b6",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "bd52d72e-42e5-4bc0-8fc4-f2ab9ba3d838",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "d7c50cbe-e0f5-44a4-b7db-bbc8fc478f89",
+    "source_type": "document",
+    "state_id": "e722b62a-6494-459a-ac5b-ac02d359fbf6",
+    "state_key": "retraction of incorrect syncope note",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "096b4cd5-8eab-4982-afb8-0265219546aa",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "dd5de380-d2e6-4a57-a33d-de33ef4a1e2f",
+    "source_type": "document",
+    "state_id": "39135d3f-87aa-4db0-b2d9-045f7118625f",
+    "state_key": "section:ff37d9b2-7b8b-4159-be69-861b706b8cbc",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "7150c3ef-7db1-4ff9-8b4b-2916508588db",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "5ee79fda-d743-40ea-be84-f4384df6367a",
+    "source_type": "document",
+    "state_id": "9af25fa9-7c2c-41cd-9b8c-028b5724e0ae",
+    "state_key": "treatment-response follow-up report",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "b3eb3e0e-326f-4de4-91dd-81b5f76e84f8",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "b2a69b55-0b89-4651-9f54-fd85d043e23e",
+    "source_type": "document",
+    "state_id": "4a6c72f2-f9ff-4bdf-a37a-125732f41edd",
+    "state_key": "section:64fd2cdf-2421-4253-b2a8-054e1f180d48",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "ea919ae5-2472-4ef6-85a9-e626199b7157",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "946f1a1a-3334-4a63-96c9-8230abc38a5a",
+    "source_type": "patient_information",
+    "state_id": "8e19058d-5fbb-4d83-adaf-75498c26bf02",
+    "state_key": "clinical_encounter:cardiology_outpatient",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "5c05a6f5-73c3-40ce-b489-9e78826d7e30",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "2d38e040-df2b-4b9c-a20b-4627489b383a",
+    "source_type": "patient_information",
+    "state_id": "f0775073-d7d8-4277-9df4-cac588995121",
+    "state_key": "clinical_condition:atrial fibrillation",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "9ed89967-8788-465f-bd08-3dfeb36c7f7b",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "be604ac2-4959-4813-a0a2-195cbb7f783e",
+    "source_type": "patient_information",
+    "state_id": "380be0d4-ed7f-4344-90dd-1337edd2218f",
+    "state_key": "medication:metoprolol succinate",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "52f1e0d3-7b1e-4fdb-97d7-386d643d0c99",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "862758d2-f094-4b86-b9dd-611c1658db0b",
+    "source_type": "patient_information",
+    "state_id": "12749efe-e52f-419c-b6e7-76c0419de4ce",
+    "state_key": "medication:apixaban",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "4e13f76b-deab-47b5-94a0-d13b01eea584",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "1247639c-d4b2-48d6-b116-fd29f3df1542",
+    "source_type": "patient_information",
+    "state_id": "036f1a49-6d21-4b5b-9460-e27cdc30881f",
+    "state_key": "allergy:no known drug allergy recorded",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "78d14e72-cdd1-4822-8b6c-e3300c0baf2b",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "4ca6f5b9-b799-4e22-a6ba-571bdb7ae092",
+    "source_type": "patient_information",
+    "state_id": "292d294b-5707-492d-9b51-5ac5f0691b11",
+    "state_key": "measurement:resting heart rate",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "b0d44139-ad1c-4e92-9234-77dcd2670020",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "0a3b73c5-7853-403e-bc27-971f4cc3443d",
+    "source_type": "document",
+    "state_id": "f8110918-1014-4315-80dc-a9dd1c9f4a98",
+    "state_key": "document_evidence:baseline cardiology note",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "2e5d3648-597e-411c-b723-855519bef763",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "b67672c9-c801-424d-b484-bda5f42533cc",
+    "source_type": "document",
+    "state_id": "ebf04b3a-089f-4903-b3f8-2b3b530ce553",
+    "state_key": "document_evidence:section heading: full document. page 1 baseline cardiology note patient code syn-csm-003 document id doc-p3-001 document type clinic note document date 2026-04-01 upload date 2026-",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "dde77447-7e75-4eed-96b6-133e1d7bcc76",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "af737b12-122f-4e15-bc4b-aef9d7fc9971",
+    "source_type": "patient_information",
+    "state_id": "73797a06-806d-44a6-bdf7-c50c27bde6bb",
+    "state_key": "clinical_encounter:urgent_review",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "5a6b266b-39ea-4979-9d99-067d4a79eadc",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "f02cb59c-909e-40bb-88fc-104c79787cbf",
+    "source_type": "patient_information",
+    "state_id": "292d294b-5707-492d-9b51-5ac5f0691b11",
+    "state_key": "measurement:resting heart rate",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "c841df57-92ee-483d-9468-72d67a2bb245",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "f54d629f-75a0-4c71-aa04-1a83356068ee",
+    "source_type": "patient_information",
+    "state_id": "8c7418d4-eedb-468c-a556-970defe71b39",
+    "state_key": "measurement:blood pressure",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "3b2423e5-90d3-4fd0-8c34-b3ce66384bfc",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "6c6614a0-923b-4d44-bce4-5b3d20f9b1dd",
+    "source_type": "document",
+    "state_id": "168ee598-b3af-4bd0-9c1d-24a8ea2bf7eb",
+    "state_key": "document_evidence:worsening symptoms and vital signs report",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "6848f914-7c9f-46e8-b100-f5f03b1a3825",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "b6f60826-c453-4081-bed9-6360e7381d73",
+    "source_type": "document",
+    "state_id": "f553134d-ee71-4578-9c5a-dd71cc1cba14",
+    "state_key": "document_evidence:section heading: full document. page 1 worsening symptoms and vital signs report patient code syn-csm-003 document id doc-p3-002 document type clinical measurement report document.",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "2fb589b0-57c2-4fe2-8a67-45b2971965b0",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "8d8d5e43-178e-451f-8acc-d43b15b4bf45",
+    "source_type": "patient_information",
+    "state_id": "380be0d4-ed7f-4344-90dd-1337edd2218f",
+    "state_key": "medication:metoprolol succinate",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "1168f26a-2c89-4a9b-b0cb-df66c398b14c",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "bcad17e7-75a1-4b1b-acee-46d47ecdf906",
+    "source_type": "document",
+    "state_id": "415c6f2a-fca1-4581-b3ff-88bdcb1b9b14",
+    "state_key": "document_evidence:clinician-directed treatment plan",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "b3f88a6b-d276-4fb3-98c2-e0720df56ade",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "6c1702ec-5bfc-49c0-920f-f4a681626b03",
+    "source_type": "document",
+    "state_id": "517e786c-e096-4490-9e9e-71eb40787515",
+    "state_key": "document_evidence:section heading: full document. page 1 clinician-directed treatment plan patient code syn-csm-003 document id doc-p3-003 document type treatment plan document date 2026-04-09 uploa",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "145a1a47-3231-43a9-8d23-24880122e956",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "dcbbd0b0-d60f-4bcf-bd2b-9ea98c1f9b72",
+    "source_type": "patient_information",
+    "state_id": "13c70087-8eb4-4d46-ad81-4e26217a9d43",
+    "state_key": "clinical_note:delayed functional-status note",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "125c4ac3-3e2a-4a60-8b87-d8ca4359bf17",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "3206bf09-5940-463d-b196-2022fd9cee09",
+    "source_type": "patient_information",
+    "state_id": "75a4850b-8c3f-4072-8176-1e46dceb5c12",
+    "state_key": "clinical_note:erroneous syncope note",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "794e0df8-a91c-4368-91ca-26302a4693e7",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "288141a2-6ce9-4227-8664-d93c209655b6",
+    "source_type": "document",
+    "state_id": "571ae927-6659-4215-922a-907b950a026b",
+    "state_key": "document_evidence:delayed functional-status encounter note",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "b49068f1-f11d-4e17-98fe-3fe15e5d43fe",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "753011b7-a27c-44ee-be8f-d14904b8c2ff",
+    "source_type": "document",
+    "state_id": "f173c05e-de1f-4388-877b-b88cd4b44b28",
+    "state_key": "document_evidence:section heading: full document. page 1 delayed functional-status encounter note patient code syn-csm-003 document id doc-p3-004 document type clinical note document date 2026-04-02",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "a3b3e29c-c9d4-400e-ad81-3062d9c90bda",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "f62a6889-bdd2-4ab3-85a8-9d3d7d97d7ce",
+    "source_type": "patient_information",
+    "state_id": "7f6fa200-ee45-4b4d-9f00-5b268e0dec89",
+    "state_key": "clinical_encounter:follow-up",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "2eb49637-d46b-497e-9788-29ddb867d3bc",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "31594de4-574c-4223-bcd1-2dfdc397d491",
+    "source_type": "patient_information",
+    "state_id": "292d294b-5707-492d-9b51-5ac5f0691b11",
+    "state_key": "measurement:resting heart rate",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "b85ded5f-dc7a-4ddc-93b1-2ae4b51ccd78",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "cccc007a-b65b-4353-9bac-b1fbc147ce9f",
+    "source_type": "patient_information",
+    "state_id": "e9f0fb31-532a-4e7f-946c-e63b880f48aa",
+    "state_key": "clinical_note:retraction acknowledgement",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "bd52d72e-42e5-4bc0-8fc4-f2ab9ba3d838",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "d7c50cbe-e0f5-44a4-b7db-bbc8fc478f89",
+    "source_type": "document",
+    "state_id": "27076d46-b541-4a26-b958-5c362d7c6458",
+    "state_key": "document_evidence:retraction of incorrect syncope note",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "096b4cd5-8eab-4982-afb8-0265219546aa",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "dd5de380-d2e6-4a57-a33d-de33ef4a1e2f",
+    "source_type": "document",
+    "state_id": "baf576b8-adbc-4fa2-925b-5d987c47a671",
+    "state_key": "document_evidence:section heading: full document. page 1 retraction of incorrect syncope note patient code syn-csm-003 document id doc-p3-006 document type correction / retraction document date 2026",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "7150c3ef-7db1-4ff9-8b4b-2916508588db",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "5ee79fda-d743-40ea-be84-f4384df6367a",
+    "source_type": "document",
+    "state_id": "8c87b300-6cbd-4066-8d48-46f5e81f013b",
+    "state_key": "document_evidence:treatment-response follow-up report",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "b3eb3e0e-326f-4de4-91dd-81b5f76e84f8",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "b2a69b55-0b89-4651-9f54-fd85d043e23e",
+    "source_type": "document",
+    "state_id": "70e411b4-81dc-4350-9803-2e7f138d4d1f",
+    "state_key": "document_evidence:section heading: full document. page 1 treatment-response follow-up report patient code syn-csm-003 document id doc-p3-005 document type follow-up note document date 2026-04-22 upl",
+    "verification_status": "candidate"
+  }
+]

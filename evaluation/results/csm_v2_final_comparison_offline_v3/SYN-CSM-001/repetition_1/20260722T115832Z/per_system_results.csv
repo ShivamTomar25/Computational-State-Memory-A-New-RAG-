@@ -1,0 +1,8 @@
+mean_across_measured_metrics,measured_metric_count,system,total_metric_cells
+8992.337847012268,23,long_context,29
+16654.919580626804,23,rolling_summary,29
+18349.443104528826,23,dense_rag,29
+18260.715627859125,23,hybrid_rag,29
+15062.463547256279,23,graph_rag,29
+16918.11939563313,23,hippo_rag,29
+8867.439171206208,28,csm,29

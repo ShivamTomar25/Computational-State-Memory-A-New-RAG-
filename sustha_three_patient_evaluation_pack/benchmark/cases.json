@@ -1,0 +1,53 @@
+[
+  {
+    "case_id": "SYN-CSM-001",
+    "profile": {
+      "patient_code": "SYN-CSM-001",
+      "full_name": "Synthetic Patient Alpha",
+      "date_of_birth": "1972-04-15",
+      "age_at_start": 53,
+      "sex": "Male",
+      "phone": "+91-90000-01001",
+      "email": "synthetic.alpha@example.test",
+      "address": "101 Evaluation Lane, Test District, New Delhi 110001",
+      "emergency_contact_name": "Synthetic Contact Alpha",
+      "emergency_contact_phone": "+91-90000-01901",
+      "primary_condition": "Type 2 diabetes mellitus with hypertension",
+      "case_summary": "Longitudinal renal-function case with late evidence, dehydration qualification, corrected laboratory values, recovery, and medication-risk recomputation."
+    }
+  },
+  {
+    "case_id": "SYN-CSM-002",
+    "profile": {
+      "patient_code": "SYN-CSM-002",
+      "full_name": "Synthetic Patient Beta",
+      "date_of_birth": "1985-09-22",
+      "age_at_start": 40,
+      "sex": "Female",
+      "phone": "+91-90000-01002",
+      "email": "synthetic.beta@example.test",
+      "address": "202 Benchmark Road, Test District, Mumbai 400001",
+      "emergency_contact_name": "Synthetic Contact Beta",
+      "emergency_contact_phone": "+91-90000-01902",
+      "primary_condition": "Recurrent sinus symptoms with disputed beta-lactam allergy history",
+      "case_summary": "Allergy and medication-reconciliation case with duplicate contradictory hospital records, external confirmation, retraction, and unsupported chat escalation."
+    }
+  },
+  {
+    "case_id": "SYN-CSM-003",
+    "profile": {
+      "patient_code": "SYN-CSM-003",
+      "full_name": "Synthetic Patient Gamma",
+      "date_of_birth": "1948-11-03",
+      "age_at_start": 77,
+      "sex": "Male",
+      "phone": "+91-90000-01003",
+      "email": "synthetic.gamma@example.test",
+      "address": "303 State Memory Avenue, Test District, Bengaluru 560001",
+      "emergency_contact_name": "Synthetic Contact Gamma",
+      "emergency_contact_phone": "+91-90000-01903",
+      "primary_condition": "Atrial fibrillation under rate-control monitoring",
+      "case_summary": "Cardiovascular monitoring case with worsening symptoms, treatment adjustment, delayed note, follow-up improvement, retracted false syncope note, and a rare detail available only in raw evidence."
+    }
+  }
+]

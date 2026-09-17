@@ -1,0 +1,22 @@
+Treatment-Response Follow-up Report
+Synthetic evaluation record - not for clinical use.
+
+patient_code: SYN-CSM-003
+document_id: DOC-P3-005
+document_type: Follow-up Note
+document_date: 2026-04-22
+upload_date: 2026-04-22
+author: Dr. Research Evaluator
+encounter_id: P3-ENC-003
+evidence_ids: EV-P3-007, EV-P3-008
+
+Measurements
+EVIDENCE ID: EV-P3-007
+Resting heart rate is 78 beats/min.
+
+Symptoms
+EVIDENCE ID: EV-P3-008
+Palpitations and exertional breathlessness are reported as improved compared with 8 April.
+
+Assessment
+The record supports an improving treatment-response state while preserving the earlier worsening episode.

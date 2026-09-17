@@ -1,0 +1,14 @@
+{
+  "patient_code": "SYN-CSM-002",
+  "full_name": "Synthetic Patient Beta",
+  "date_of_birth": "1985-09-22",
+  "age_at_start": 40,
+  "sex": "Female",
+  "phone": "+91-90000-01002",
+  "email": "synthetic.beta@example.test",
+  "address": "202 Benchmark Road, Test District, Mumbai 400001",
+  "emergency_contact_name": "Synthetic Contact Beta",
+  "emergency_contact_phone": "+91-90000-01902",
+  "primary_condition": "Recurrent sinus symptoms with disputed beta-lactam allergy history",
+  "case_summary": "Allergy and medication-reconciliation case with duplicate contradictory hospital records, external confirmation, retraction, and unsupported chat escalation."
+}

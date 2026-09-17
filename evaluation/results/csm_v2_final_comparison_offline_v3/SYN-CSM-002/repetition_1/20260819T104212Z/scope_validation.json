@@ -1,0 +1,30 @@
+{
+  "completed_turns": 140,
+  "counts_per_system": {
+    "csm": 20,
+    "dense_rag": 20,
+    "graph_rag": 20,
+    "hippo_rag": 20,
+    "hybrid_rag": 20,
+    "long_context": 20,
+    "rolling_summary": 20
+  },
+  "errors": [],
+  "included_turns": 140,
+  "missing_answer_turn_ids": [],
+  "patient": "SYN-CSM-002",
+  "questions": 20,
+  "questions_per_system": {
+    "csm": 20,
+    "dense_rag": 20,
+    "graph_rag": 20,
+    "hippo_rag": 20,
+    "hybrid_rag": 20,
+    "long_context": 20,
+    "rolling_summary": 20
+  },
+  "repetitions": 1,
+  "status": "passed",
+  "summary_label": "Sustha Single-Patient Synthetic Case-Study Results",
+  "systems": 7
+}

@@ -1,0 +1,99 @@
+[
+  {
+    "document_id": "DOC-P2-001",
+    "filename": "P2_01_patient_intake_note.pdf",
+    "title": "Patient Intake and Allergy History",
+    "document_type": "Intake Note",
+    "document_date": "2026-02-01",
+    "upload_date": "2026-02-01",
+    "author_source": "Dr. Research Evaluator",
+    "encounter_id": "P2-ENC-001",
+    "evidence_ids": [
+      "EV-P2-001",
+      "EV-P2-002"
+    ],
+    "duplicate_family_id": null,
+    "pdf_sha256": "eb04742951081fe3aed85254ed7a5da878d56c179de72eb6eab30f6ce4bf7943",
+    "text_sha256": "ac329ab3269e2b2fd7a011d78dbca1e9492cda8e64987c5bc416639118b9ffb4"
+  },
+  {
+    "document_id": "DOC-P2-002",
+    "filename": "P2_02_medication_reconciliation.pdf",
+    "title": "Medication Reconciliation Report",
+    "document_type": "Medication Summary",
+    "document_date": "2026-02-01",
+    "upload_date": "2026-02-01",
+    "author_source": "Dr. Research Evaluator",
+    "encounter_id": "P2-ENC-001",
+    "evidence_ids": [
+      "EV-P2-003"
+    ],
+    "duplicate_family_id": null,
+    "pdf_sha256": "cf7e563c5af2dbe9645d4a1dee60387b6027b1f85e1c04e090516bbeb971f52f",
+    "text_sha256": "65a9d3ea79465e1e37d05572d475ffe82e4d301ccf7b25592a55d3c70a7367c5"
+  },
+  {
+    "document_id": "DOC-P2-003",
+    "filename": "P2_03_imported_hospital_summary.pdf",
+    "title": "Imported Hospital Discharge Summary",
+    "document_type": "Hospital Record",
+    "document_date": "2026-01-15",
+    "upload_date": "2026-02-10",
+    "author_source": "Synthetic General Hospital",
+    "encounter_id": "P2-ENC-002",
+    "evidence_ids": [
+      "EV-P2-004"
+    ],
+    "duplicate_family_id": "DUP-P2-NKDA-001",
+    "pdf_sha256": "f8e7a1fbc6a95a0759a5a69d6d47dae4328c51bdb3ef8b9ad04d0104400f1857",
+    "text_sha256": "655f6128d71e9fd4a4d7642f37814422533a84c9274fcd8a9c627d99caa85bbc"
+  },
+  {
+    "document_id": "DOC-P2-004",
+    "filename": "P2_04_duplicate_hospital_summary.pdf",
+    "title": "Imported Hospital Summary Copy",
+    "document_type": "Hospital Record",
+    "document_date": "2026-01-15",
+    "upload_date": "2026-02-11",
+    "author_source": "Synthetic General Hospital - Export Copy",
+    "encounter_id": "P2-ENC-002",
+    "evidence_ids": [
+      "EV-P2-005"
+    ],
+    "duplicate_family_id": "DUP-P2-NKDA-001",
+    "pdf_sha256": "dd718a9a3c37c5a0c1b1d5f7de115e5436fb9df917a9814b2c8e23c264e1516a",
+    "text_sha256": "82ac2f8610322ad643ba09c155b7676b9b0767e3eda6ae546ad560007793c21e"
+  },
+  {
+    "document_id": "DOC-P2-005",
+    "filename": "P2_05_external_allergist_letter.pdf",
+    "title": "External Allergy Specialist Letter",
+    "document_type": "External Clinician Letter",
+    "document_date": "2026-02-18",
+    "upload_date": "2026-02-18",
+    "author_source": "Dr. Synthetic Allergist",
+    "encounter_id": "P2-ENC-002",
+    "evidence_ids": [
+      "EV-P2-006"
+    ],
+    "duplicate_family_id": null,
+    "pdf_sha256": "164f3e793a87a941c73a6936b88fbd223586253bbb1e4092006232a96c333f35",
+    "text_sha256": "898c21975eb9b1c4dabd0e9438c40c2052d173c50bdf2784ef1dfab1b22b0ae0"
+  },
+  {
+    "document_id": "DOC-P2-006",
+    "filename": "P2_06_allergy_correction_notice.pdf",
+    "title": "Allergy Reconciliation Correction Notice",
+    "document_type": "Correction / Retraction",
+    "document_date": "2026-02-20",
+    "upload_date": "2026-02-20",
+    "author_source": "Synthetic General Hospital Records Office",
+    "encounter_id": "P2-ENC-002",
+    "evidence_ids": [
+      "EV-P2-007"
+    ],
+    "duplicate_family_id": null,
+    "pdf_sha256": "aec0fe2f1abf593e6a6e76e0b1974c906a4e3059a26164fb31c00785cb264898",
+    "text_sha256": "c926122f69d56d4d711ec6eff248ea339db4861d46138bda054aa3e77b6275b6"
+  }
+]

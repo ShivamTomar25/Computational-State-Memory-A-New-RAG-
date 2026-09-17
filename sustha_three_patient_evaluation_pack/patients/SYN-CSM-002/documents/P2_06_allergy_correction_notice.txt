@@ -1,0 +1,18 @@
+Allergy Reconciliation Correction Notice
+Synthetic evaluation record - not for clinical use.
+
+patient_code: SYN-CSM-002
+document_id: DOC-P2-006
+document_type: Correction / Retraction
+document_date: 2026-02-20
+upload_date: 2026-02-20
+author: Synthetic General Hospital Records Office
+encounter_id: P2-ENC-002
+evidence_ids: EV-P2-007
+
+Retraction
+EVIDENCE ID: EV-P2-007
+The statement "No known drug allergies" in the 15 January hospital summary is retracted as an incomplete imported field.
+
+Corrected Record
+The corrected record acknowledges the patient-reported and clinician-recorded amoxicillin-associated hives. The retracted source remains available in audit history.

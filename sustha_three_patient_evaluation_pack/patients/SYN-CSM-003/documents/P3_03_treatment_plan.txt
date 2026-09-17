@@ -1,0 +1,18 @@
+Clinician-Directed Treatment Plan
+Synthetic evaluation record - not for clinical use.
+
+patient_code: SYN-CSM-003
+document_id: DOC-P3-003
+document_type: Treatment Plan
+document_date: 2026-04-09
+upload_date: 2026-04-09
+author: Dr. Research Evaluator
+encounter_id: P3-ENC-002
+evidence_ids: EV-P3-005
+
+Medication Adjustment
+EVIDENCE ID: EV-P3-005
+Metoprolol succinate is changed from 25 mg once daily to 50 mg once daily by the treating clinician. Apixaban remains listed as active.
+
+Governance Note
+This synthetic document records a clinician-directed action. It must not be generalized into medical advice.

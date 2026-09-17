@@ -1,0 +1,18 @@
+Delayed Functional-Status Encounter Note
+Synthetic evaluation record - not for clinical use.
+
+patient_code: SYN-CSM-003
+document_id: DOC-P3-004
+document_type: Clinical Note
+document_date: 2026-04-02
+upload_date: 2026-04-12
+author: Dr. Research Evaluator
+encounter_id: P3-ENC-002
+evidence_ids: EV-P3-006
+
+Valid-Time Statement
+EVIDENCE ID: EV-P3-006
+On 2 April 2026, the patient reported breathlessness after climbing 14 stairs. The note was entered into the system on 12 April 2026.
+
+Temporal Warning
+The event belongs to 2 April in the clinical timeline and must not be interpreted as a new symptom beginning on 12 April.

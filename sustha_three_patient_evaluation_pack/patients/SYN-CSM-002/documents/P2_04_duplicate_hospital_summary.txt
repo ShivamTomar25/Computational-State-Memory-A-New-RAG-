@@ -1,0 +1,18 @@
+Imported Hospital Summary Copy
+Synthetic evaluation record - not for clinical use.
+
+patient_code: SYN-CSM-002
+document_id: DOC-P2-004
+document_type: Hospital Record
+document_date: 2026-01-15
+upload_date: 2026-02-11
+author: Synthetic General Hospital - Export Copy
+encounter_id: P2-ENC-002
+evidence_ids: EV-P2-005
+
+Imported Allergy Field
+EVIDENCE ID: EV-P2-005
+Drug allergies: none known.
+
+Duplicate Note
+This near-duplicate export is from the same hospital episode and belongs to duplicate family DUP-P2-NKDA-001. It must not be counted as independent confirmation.

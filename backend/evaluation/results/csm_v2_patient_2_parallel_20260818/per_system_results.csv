@@ -1,0 +1,8 @@
+mean_across_measured_metrics,measured_metric_count,not_applicable_metric_count,pending_metric_count,system
+1691.4432293765676,17,4,0,long_context
+4067.346326672288,17,4,0,rolling_summary
+4872.174749081495,17,4,0,dense_rag
+7640.120772837961,17,4,0,hybrid_rag
+7687.006586991199,17,4,0,graph_rag
+7684.71418170357,17,4,0,hippo_rag
+7655.416456760672,17,4,0,csm

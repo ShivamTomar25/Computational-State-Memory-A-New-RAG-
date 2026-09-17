@@ -1,0 +1,8 @@
+applicable,details,metric_name,reason_not_applicable,repetition,system,value
+True,"{""case_id"": ""7759a683-adb7-4e2a-932e-185cdeabc93b"", ""repetition_number"": 1, ""status"": ""measured"", ""system_type"": ""csm""}",correction_recovery,,1,csm,0.0
+True,"{""case_id"": ""7759a683-adb7-4e2a-932e-185cdeabc93b"", ""repetition_number"": 1, ""status"": ""measured"", ""system_type"": ""hybrid_rag""}",correction_recovery,,1,hybrid_rag,0.0
+True,"{""case_id"": ""7759a683-adb7-4e2a-932e-185cdeabc93b"", ""repetition_number"": 1, ""status"": ""measured"", ""system_type"": ""graph_rag""}",correction_recovery,,1,graph_rag,0.0
+True,"{""case_id"": ""7759a683-adb7-4e2a-932e-185cdeabc93b"", ""repetition_number"": 1, ""status"": ""measured"", ""system_type"": ""hippo_rag""}",correction_recovery,,1,hippo_rag,0.0
+True,"{""case_id"": ""7759a683-adb7-4e2a-932e-185cdeabc93b"", ""repetition_number"": 1, ""status"": ""measured"", ""system_type"": ""rolling_summary""}",correction_recovery,,1,rolling_summary,0.0
+True,"{""case_id"": ""7759a683-adb7-4e2a-932e-185cdeabc93b"", ""repetition_number"": 1, ""status"": ""measured"", ""system_type"": ""dense_rag""}",correction_recovery,,1,dense_rag,0.0
+True,"{""case_id"": ""7759a683-adb7-4e2a-932e-185cdeabc93b"", ""repetition_number"": 1, ""status"": ""measured"", ""system_type"": ""long_context""}",correction_recovery,,1,long_context,0.0

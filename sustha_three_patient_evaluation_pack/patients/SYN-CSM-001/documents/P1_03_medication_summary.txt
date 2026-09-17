@@ -1,0 +1,18 @@
+Medication Reconciliation Summary
+Synthetic evaluation record - not for clinical use.
+
+patient_code: SYN-CSM-001
+document_id: DOC-P1-003
+document_type: Medication Summary
+document_date: 2026-03-08
+upload_date: 2026-03-08
+author: Dr. Research Evaluator
+encounter_id: P1-ENC-002
+evidence_ids: EV-P1-005
+
+Current Medicines
+EVIDENCE ID: EV-P1-005
+Metformin 500 mg orally twice daily and lisinopril 10 mg orally once daily are listed as active medicines.
+
+Renal Review Flag
+Because renal measurements have changed, medication safety should be reviewed against the latest valid renal state. The document does not direct an autonomous medication change.

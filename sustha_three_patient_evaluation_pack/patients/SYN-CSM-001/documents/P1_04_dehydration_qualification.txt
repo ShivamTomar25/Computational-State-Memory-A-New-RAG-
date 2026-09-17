@@ -1,0 +1,18 @@
+Dehydration Qualification Note
+Synthetic evaluation record - not for clinical use.
+
+patient_code: SYN-CSM-001
+document_id: DOC-P1-004
+document_type: Clinical Note
+document_date: 2026-03-04
+upload_date: 2026-03-10
+author: Dr. Research Evaluator
+encounter_id: P1-ENC-002
+evidence_ids: EV-P1-006
+
+Clinical Context
+EVIDENCE ID: EV-P1-006
+The patient reported gastroenteritis, reduced oral intake, and likely dehydration on 4 March 2026, one day before the abnormal renal specimen.
+
+Qualification
+The dehydration episode may have transiently influenced the 5 March creatinine and eGFR. This qualifies the abnormal result but does not erase it.

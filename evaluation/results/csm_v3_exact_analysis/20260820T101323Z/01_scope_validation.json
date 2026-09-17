@@ -1,0 +1,120 @@
+{
+  "baseline_v2": {
+    "SYN-CSM-001": {
+      "artifact_dir": "/Users/shivamtomar/Desktop/Project - 1/sustha/evaluation/results/csm_v2_final_comparison_offline_v3/SYN-CSM-001/repetition_1/20260722T115832Z",
+      "completed_derived_experiment_id": "b9570d90-7be3-4dbf-9063-535811b2e970",
+      "completed_turns": 140,
+      "counts_per_system": {
+        "csm": 20,
+        "dense_rag": 20,
+        "graph_rag": 20,
+        "hippo_rag": 20,
+        "hybrid_rag": 20,
+        "long_context": 20,
+        "rolling_summary": 20
+      },
+      "metric_observation_count": 4060,
+      "missing_answer_turn_ids": [],
+      "no_llm_calls_performed": true,
+      "provider_invocations_during_recomputation": 0,
+      "questions": 20,
+      "repetitions": 1,
+      "scope_status": "passed",
+      "systems": 7,
+      "validation_status": "passed"
+    },
+    "SYN-CSM-002": {
+      "artifact_dir": "/Users/shivamtomar/Desktop/Project - 1/sustha/evaluation/results/csm_v2_final_comparison_offline_v3/SYN-CSM-002/repetition_1/20260819T104212Z",
+      "completed_derived_experiment_id": "e275659a-3804-4e04-a057-73c338912aa6",
+      "completed_turns": 140,
+      "counts_per_system": {
+        "csm": 20,
+        "dense_rag": 20,
+        "graph_rag": 20,
+        "hippo_rag": 20,
+        "hybrid_rag": 20,
+        "long_context": 20,
+        "rolling_summary": 20
+      },
+      "metric_observation_count": 4060,
+      "missing_answer_turn_ids": [],
+      "no_llm_calls_performed": true,
+      "provider_invocations_during_recomputation": 0,
+      "questions": 20,
+      "repetitions": 1,
+      "scope_status": "passed",
+      "systems": 7,
+      "validation_status": "passed"
+    },
+    "SYN-CSM-003": {
+      "artifact_dir": "/Users/shivamtomar/Desktop/Project - 1/sustha/evaluation/results/csm_v2_final_comparison_offline_v3/SYN-CSM-003/repetition_1/20260819T104216Z",
+      "completed_derived_experiment_id": "659a2a8e-5909-4044-bf39-b4cb8a3ca38d",
+      "completed_turns": 140,
+      "counts_per_system": {
+        "csm": 20,
+        "dense_rag": 20,
+        "graph_rag": 20,
+        "hippo_rag": 20,
+        "hybrid_rag": 20,
+        "long_context": 20,
+        "rolling_summary": 20
+      },
+      "metric_observation_count": 4060,
+      "missing_answer_turn_ids": [],
+      "no_llm_calls_performed": true,
+      "provider_invocations_during_recomputation": 0,
+      "questions": 20,
+      "repetitions": 1,
+      "scope_status": "passed",
+      "systems": 7,
+      "validation_status": "passed"
+    }
+  },
+  "csm_v3": {
+    "completed_turns_per_patient": {
+      "SYN-CSM-001": 20,
+      "SYN-CSM-002": 20,
+      "SYN-CSM-003": 20
+    },
+    "completed_turns_total": 60,
+    "experiment_id": "2327c728-69ec-4fc4-9410-771c225d61a0",
+    "experiment_status": "completed",
+    "failed_turns_total": 0,
+    "manifest_progress": {
+      "completed_system_runs": 3,
+      "completed_turns": 60,
+      "expected_system_runs": 3,
+      "expected_turns": 60,
+      "experiment_id": "2327c728-69ec-4fc4-9410-771c225d61a0",
+      "failed_system_runs": 0,
+      "measured_metric_results": 63,
+      "pending_metric_results": 0,
+      "status": "completed"
+    },
+    "manifest_status": "completed",
+    "metric_result_rows": 63,
+    "metric_result_rows_per_patient": {
+      "SYN-CSM-001": 21,
+      "SYN-CSM-002": 21,
+      "SYN-CSM-003": 21
+    },
+    "turns_per_patient": {
+      "SYN-CSM-001": 20,
+      "SYN-CSM-002": 20,
+      "SYN-CSM-003": 20
+    },
+    "turns_total": 60,
+    "validation_status": "passed"
+  },
+  "generated_at": "2026-08-20T10:13:23.650388+00:00",
+  "legacy_patient_column_handling": {
+    "method": "baseline/v2 report labels and scope_validation.json are used as truth for P2/P3; CSM v3 uses BenchmarkCase.case_key and DB turn joins, not stale raw patient labels.",
+    "status": "handled"
+  },
+  "new_llm_calls": 0,
+  "source_artifacts": {
+    "baseline_v2_root": "/Users/shivamtomar/Desktop/Project - 1/sustha/evaluation/results/csm_v2_final_comparison_offline_v3",
+    "csm_v3_experiment_id": "2327c728-69ec-4fc4-9410-771c225d61a0",
+    "csm_v3_result_dir": "/Users/shivamtomar/Desktop/Project - 1/sustha/evaluation/results/csm_v3_selective/20260820T084125Z"
+  }
+}

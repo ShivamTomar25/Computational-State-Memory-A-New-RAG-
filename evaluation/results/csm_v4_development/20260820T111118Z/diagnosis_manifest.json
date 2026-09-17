@@ -1,0 +1,13 @@
+{
+  "baseline_dirs": {
+    "SYN-CSM-001": "/Users/shivamtomar/Desktop/Project - 1/sustha/evaluation/results/csm_v2_final_comparison_offline_v3/SYN-CSM-001/repetition_1/20260722T115832Z",
+    "SYN-CSM-002": "/Users/shivamtomar/Desktop/Project - 1/sustha/evaluation/results/csm_v2_final_comparison_offline_v3/SYN-CSM-002/repetition_1/20260819T104212Z",
+    "SYN-CSM-003": "/Users/shivamtomar/Desktop/Project - 1/sustha/evaluation/results/csm_v2_final_comparison_offline_v3/SYN-CSM-003/repetition_1/20260819T104216Z"
+  },
+  "csm_v3_experiment_id": "2327c728-69ec-4fc4-9410-771c225d61a0",
+  "new_llm_calls": 0,
+  "output_dir": "/Users/shivamtomar/Desktop/Project - 1/sustha/evaluation/results/csm_v4_development/20260820T111118Z",
+  "patients": 3,
+  "questions": 60,
+  "status": "completed"
+}

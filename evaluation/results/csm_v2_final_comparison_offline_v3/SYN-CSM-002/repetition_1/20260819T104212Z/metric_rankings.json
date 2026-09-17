@@ -1,0 +1,1157 @@
+[
+  {
+    "metric_name": "state_accuracy",
+    "observation_count": 2,
+    "rank": 1,
+    "system": "csm",
+    "value": 0.0
+  },
+  {
+    "metric_name": "temporal_consistency",
+    "observation_count": 5,
+    "rank": 1,
+    "system": "dense_rag",
+    "value": 0.4666666666666666
+  },
+  {
+    "metric_name": "temporal_consistency",
+    "observation_count": 5,
+    "rank": 2,
+    "system": "csm",
+    "value": 0.4
+  },
+  {
+    "metric_name": "temporal_consistency",
+    "observation_count": 5,
+    "rank": 3,
+    "system": "rolling_summary",
+    "value": 0.3333333333333333
+  },
+  {
+    "metric_name": "temporal_consistency",
+    "observation_count": 5,
+    "rank": 3,
+    "system": "hybrid_rag",
+    "value": 0.3333333333333333
+  },
+  {
+    "metric_name": "temporal_consistency",
+    "observation_count": 5,
+    "rank": 3,
+    "system": "graph_rag",
+    "value": 0.3333333333333333
+  },
+  {
+    "metric_name": "temporal_consistency",
+    "observation_count": 5,
+    "rank": 6,
+    "system": "long_context",
+    "value": 0.26666666666666666
+  },
+  {
+    "metric_name": "temporal_consistency",
+    "observation_count": 5,
+    "rank": 6,
+    "system": "hippo_rag",
+    "value": 0.26666666666666666
+  },
+  {
+    "metric_name": "decision_f1",
+    "observation_count": 1,
+    "rank": 1,
+    "system": "long_context",
+    "value": 0.0
+  },
+  {
+    "metric_name": "decision_f1",
+    "observation_count": 1,
+    "rank": 1,
+    "system": "rolling_summary",
+    "value": 0.0
+  },
+  {
+    "metric_name": "decision_f1",
+    "observation_count": 1,
+    "rank": 1,
+    "system": "dense_rag",
+    "value": 0.0
+  },
+  {
+    "metric_name": "decision_f1",
+    "observation_count": 1,
+    "rank": 1,
+    "system": "hybrid_rag",
+    "value": 0.0
+  },
+  {
+    "metric_name": "decision_f1",
+    "observation_count": 1,
+    "rank": 1,
+    "system": "graph_rag",
+    "value": 0.0
+  },
+  {
+    "metric_name": "decision_f1",
+    "observation_count": 1,
+    "rank": 1,
+    "system": "hippo_rag",
+    "value": 0.0
+  },
+  {
+    "metric_name": "decision_f1",
+    "observation_count": 1,
+    "rank": 1,
+    "system": "csm",
+    "value": 0.0
+  },
+  {
+    "metric_name": "answer_accuracy",
+    "observation_count": 20,
+    "rank": 1,
+    "system": "dense_rag",
+    "value": 0.17083333333333334
+  },
+  {
+    "metric_name": "answer_accuracy",
+    "observation_count": 20,
+    "rank": 2,
+    "system": "graph_rag",
+    "value": 0.12392246642246643
+  },
+  {
+    "metric_name": "answer_accuracy",
+    "observation_count": 20,
+    "rank": 3,
+    "system": "hybrid_rag",
+    "value": 0.12083333333333332
+  },
+  {
+    "metric_name": "answer_accuracy",
+    "observation_count": 20,
+    "rank": 4,
+    "system": "csm",
+    "value": 0.12
+  },
+  {
+    "metric_name": "answer_accuracy",
+    "observation_count": 20,
+    "rank": 5,
+    "system": "hippo_rag",
+    "value": 0.11444444444444443
+  },
+  {
+    "metric_name": "answer_accuracy",
+    "observation_count": 20,
+    "rank": 6,
+    "system": "rolling_summary",
+    "value": 0.10333333333333332
+  },
+  {
+    "metric_name": "answer_accuracy",
+    "observation_count": 20,
+    "rank": 7,
+    "system": "long_context",
+    "value": 0.08583333333333334
+  },
+  {
+    "metric_name": "hallucination_rate",
+    "observation_count": 20,
+    "rank": 1,
+    "system": "rolling_summary",
+    "value": 0.0
+  },
+  {
+    "metric_name": "hallucination_rate",
+    "observation_count": 20,
+    "rank": 1,
+    "system": "graph_rag",
+    "value": 0.0
+  },
+  {
+    "metric_name": "hallucination_rate",
+    "observation_count": 20,
+    "rank": 1,
+    "system": "hippo_rag",
+    "value": 0.0
+  },
+  {
+    "metric_name": "hallucination_rate",
+    "observation_count": 20,
+    "rank": 4,
+    "system": "hybrid_rag",
+    "value": 0.041666666666666664
+  },
+  {
+    "metric_name": "hallucination_rate",
+    "observation_count": 20,
+    "rank": 5,
+    "system": "csm",
+    "value": 0.075
+  },
+  {
+    "metric_name": "hallucination_rate",
+    "observation_count": 20,
+    "rank": 6,
+    "system": "dense_rag",
+    "value": 0.08333333333333333
+  },
+  {
+    "metric_name": "hallucination_rate",
+    "observation_count": 20,
+    "rank": 7,
+    "system": "long_context",
+    "value": 0.225
+  },
+  {
+    "metric_name": "evidence_support_rate",
+    "observation_count": 20,
+    "rank": 1,
+    "system": "graph_rag",
+    "value": 0.5966666666666667
+  },
+  {
+    "metric_name": "evidence_support_rate",
+    "observation_count": 20,
+    "rank": 2,
+    "system": "hippo_rag",
+    "value": 0.5895833333333333
+  },
+  {
+    "metric_name": "evidence_support_rate",
+    "observation_count": 20,
+    "rank": 3,
+    "system": "rolling_summary",
+    "value": 0.5875
+  },
+  {
+    "metric_name": "evidence_support_rate",
+    "observation_count": 20,
+    "rank": 4,
+    "system": "dense_rag",
+    "value": 0.5833333333333334
+  },
+  {
+    "metric_name": "evidence_support_rate",
+    "observation_count": 20,
+    "rank": 5,
+    "system": "hybrid_rag",
+    "value": 0.5666666666666667
+  },
+  {
+    "metric_name": "evidence_support_rate",
+    "observation_count": 20,
+    "rank": 6,
+    "system": "csm",
+    "value": 0.525
+  },
+  {
+    "metric_name": "evidence_support_rate",
+    "observation_count": 20,
+    "rank": 7,
+    "system": "long_context",
+    "value": 0.45833333333333337
+  },
+  {
+    "metric_name": "unsupported_claim_rate",
+    "observation_count": 20,
+    "rank": 1,
+    "system": "rolling_summary",
+    "value": 0.0
+  },
+  {
+    "metric_name": "unsupported_claim_rate",
+    "observation_count": 20,
+    "rank": 1,
+    "system": "graph_rag",
+    "value": 0.0
+  },
+  {
+    "metric_name": "unsupported_claim_rate",
+    "observation_count": 20,
+    "rank": 1,
+    "system": "hippo_rag",
+    "value": 0.0
+  },
+  {
+    "metric_name": "unsupported_claim_rate",
+    "observation_count": 20,
+    "rank": 4,
+    "system": "hybrid_rag",
+    "value": 0.041666666666666664
+  },
+  {
+    "metric_name": "unsupported_claim_rate",
+    "observation_count": 20,
+    "rank": 5,
+    "system": "csm",
+    "value": 0.075
+  },
+  {
+    "metric_name": "unsupported_claim_rate",
+    "observation_count": 20,
+    "rank": 6,
+    "system": "dense_rag",
+    "value": 0.08333333333333333
+  },
+  {
+    "metric_name": "unsupported_claim_rate",
+    "observation_count": 20,
+    "rank": 7,
+    "system": "long_context",
+    "value": 0.225
+  },
+  {
+    "metric_name": "fabricated_citation_rate",
+    "observation_count": 16,
+    "rank": 1,
+    "system": "long_context",
+    "value": 0.0
+  },
+  {
+    "metric_name": "fabricated_citation_rate",
+    "observation_count": 20,
+    "rank": 1,
+    "system": "rolling_summary",
+    "value": 0.0
+  },
+  {
+    "metric_name": "fabricated_citation_rate",
+    "observation_count": 20,
+    "rank": 1,
+    "system": "hybrid_rag",
+    "value": 0.0
+  },
+  {
+    "metric_name": "fabricated_citation_rate",
+    "observation_count": 20,
+    "rank": 1,
+    "system": "graph_rag",
+    "value": 0.0
+  },
+  {
+    "metric_name": "fabricated_citation_rate",
+    "observation_count": 20,
+    "rank": 1,
+    "system": "hippo_rag",
+    "value": 0.0
+  },
+  {
+    "metric_name": "fabricated_citation_rate",
+    "observation_count": 19,
+    "rank": 1,
+    "system": "csm",
+    "value": 0.0
+  },
+  {
+    "metric_name": "fabricated_citation_rate",
+    "observation_count": 20,
+    "rank": 7,
+    "system": "dense_rag",
+    "value": 0.00909090909090909
+  },
+  {
+    "metric_name": "faithfulness",
+    "observation_count": 20,
+    "rank": 1,
+    "system": "graph_rag",
+    "value": 0.5966666666666667
+  },
+  {
+    "metric_name": "faithfulness",
+    "observation_count": 20,
+    "rank": 2,
+    "system": "hippo_rag",
+    "value": 0.5895833333333333
+  },
+  {
+    "metric_name": "faithfulness",
+    "observation_count": 20,
+    "rank": 3,
+    "system": "rolling_summary",
+    "value": 0.5875
+  },
+  {
+    "metric_name": "faithfulness",
+    "observation_count": 20,
+    "rank": 4,
+    "system": "dense_rag",
+    "value": 0.5833333333333334
+  },
+  {
+    "metric_name": "faithfulness",
+    "observation_count": 20,
+    "rank": 5,
+    "system": "hybrid_rag",
+    "value": 0.5666666666666667
+  },
+  {
+    "metric_name": "faithfulness",
+    "observation_count": 20,
+    "rank": 6,
+    "system": "csm",
+    "value": 0.525
+  },
+  {
+    "metric_name": "faithfulness",
+    "observation_count": 20,
+    "rank": 7,
+    "system": "long_context",
+    "value": 0.45833333333333337
+  },
+  {
+    "metric_name": "groundedness",
+    "observation_count": 20,
+    "rank": 1,
+    "system": "graph_rag",
+    "value": 0.5966666666666667
+  },
+  {
+    "metric_name": "groundedness",
+    "observation_count": 20,
+    "rank": 2,
+    "system": "hippo_rag",
+    "value": 0.5895833333333333
+  },
+  {
+    "metric_name": "groundedness",
+    "observation_count": 20,
+    "rank": 3,
+    "system": "rolling_summary",
+    "value": 0.5875
+  },
+  {
+    "metric_name": "groundedness",
+    "observation_count": 20,
+    "rank": 4,
+    "system": "dense_rag",
+    "value": 0.5833333333333334
+  },
+  {
+    "metric_name": "groundedness",
+    "observation_count": 20,
+    "rank": 5,
+    "system": "hybrid_rag",
+    "value": 0.5666666666666667
+  },
+  {
+    "metric_name": "groundedness",
+    "observation_count": 20,
+    "rank": 6,
+    "system": "csm",
+    "value": 0.525
+  },
+  {
+    "metric_name": "groundedness",
+    "observation_count": 20,
+    "rank": 7,
+    "system": "long_context",
+    "value": 0.45833333333333337
+  },
+  {
+    "metric_name": "expected_calibration_error",
+    "observation_count": 17,
+    "rank": 1,
+    "system": "rolling_summary",
+    "value": 0.03823529411764707
+  },
+  {
+    "metric_name": "expected_calibration_error",
+    "observation_count": 18,
+    "rank": 2,
+    "system": "graph_rag",
+    "value": 0.05515873015873015
+  },
+  {
+    "metric_name": "expected_calibration_error",
+    "observation_count": 19,
+    "rank": 3,
+    "system": "hippo_rag",
+    "value": 0.06710526315789474
+  },
+  {
+    "metric_name": "expected_calibration_error",
+    "observation_count": 19,
+    "rank": 4,
+    "system": "hybrid_rag",
+    "value": 0.12960526315789475
+  },
+  {
+    "metric_name": "expected_calibration_error",
+    "observation_count": 19,
+    "rank": 5,
+    "system": "csm",
+    "value": 0.13094736842105262
+  },
+  {
+    "metric_name": "expected_calibration_error",
+    "observation_count": 14,
+    "rank": 6,
+    "system": "long_context",
+    "value": 0.14107142857142857
+  },
+  {
+    "metric_name": "expected_calibration_error",
+    "observation_count": 19,
+    "rank": 7,
+    "system": "dense_rag",
+    "value": 0.15964912280701757
+  },
+  {
+    "metric_name": "lineage_citation_f1",
+    "observation_count": 20,
+    "rank": 1,
+    "system": "graph_rag",
+    "value": 0.3777718204734334
+  },
+  {
+    "metric_name": "lineage_citation_f1",
+    "observation_count": 20,
+    "rank": 2,
+    "system": "hippo_rag",
+    "value": 0.3561190443543385
+  },
+  {
+    "metric_name": "lineage_citation_f1",
+    "observation_count": 20,
+    "rank": 3,
+    "system": "hybrid_rag",
+    "value": 0.35428560002089415
+  },
+  {
+    "metric_name": "lineage_citation_f1",
+    "observation_count": 20,
+    "rank": 4,
+    "system": "dense_rag",
+    "value": 0.2378998778998779
+  },
+  {
+    "metric_name": "lineage_citation_f1",
+    "observation_count": 20,
+    "rank": 5,
+    "system": "rolling_summary",
+    "value": 0.17406417112299463
+  },
+  {
+    "metric_name": "lineage_citation_f1",
+    "observation_count": 19,
+    "rank": 6,
+    "system": "csm",
+    "value": 0.11707152496626182
+  },
+  {
+    "metric_name": "lineage_citation_f1",
+    "observation_count": 16,
+    "rank": 7,
+    "system": "long_context",
+    "value": 0.053030303030303025
+  },
+  {
+    "metric_name": "contradiction_handling",
+    "observation_count": 1,
+    "rank": 1,
+    "system": "long_context",
+    "value": 0.0
+  },
+  {
+    "metric_name": "contradiction_handling",
+    "observation_count": 1,
+    "rank": 1,
+    "system": "rolling_summary",
+    "value": 0.0
+  },
+  {
+    "metric_name": "contradiction_handling",
+    "observation_count": 1,
+    "rank": 1,
+    "system": "dense_rag",
+    "value": 0.0
+  },
+  {
+    "metric_name": "contradiction_handling",
+    "observation_count": 1,
+    "rank": 1,
+    "system": "hybrid_rag",
+    "value": 0.0
+  },
+  {
+    "metric_name": "contradiction_handling",
+    "observation_count": 1,
+    "rank": 1,
+    "system": "graph_rag",
+    "value": 0.0
+  },
+  {
+    "metric_name": "contradiction_handling",
+    "observation_count": 1,
+    "rank": 1,
+    "system": "hippo_rag",
+    "value": 0.0
+  },
+  {
+    "metric_name": "contradiction_handling",
+    "observation_count": 1,
+    "rank": 1,
+    "system": "csm",
+    "value": 0.0
+  },
+  {
+    "metric_name": "retrieval_precision",
+    "observation_count": 20,
+    "rank": 1,
+    "system": "hippo_rag",
+    "value": 0.18181547619047617
+  },
+  {
+    "metric_name": "retrieval_precision",
+    "observation_count": 20,
+    "rank": 2,
+    "system": "dense_rag",
+    "value": 0.178302392052392
+  },
+  {
+    "metric_name": "retrieval_precision",
+    "observation_count": 20,
+    "rank": 3,
+    "system": "rolling_summary",
+    "value": 0.17727272727272728
+  },
+  {
+    "metric_name": "retrieval_precision",
+    "observation_count": 20,
+    "rank": 4,
+    "system": "hybrid_rag",
+    "value": 0.17662698412698413
+  },
+  {
+    "metric_name": "retrieval_precision",
+    "observation_count": 20,
+    "rank": 5,
+    "system": "graph_rag",
+    "value": 0.16878968253968255
+  },
+  {
+    "metric_name": "retrieval_precision",
+    "observation_count": 20,
+    "rank": 6,
+    "system": "csm",
+    "value": 0.05680555555555557
+  },
+  {
+    "metric_name": "retrieval_precision",
+    "observation_count": 20,
+    "rank": 7,
+    "system": "long_context",
+    "value": 0.01875
+  },
+  {
+    "metric_name": "retrieval_recall",
+    "observation_count": 20,
+    "rank": 1,
+    "system": "hippo_rag",
+    "value": 0.49885251322751334
+  },
+  {
+    "metric_name": "retrieval_recall",
+    "observation_count": 20,
+    "rank": 2,
+    "system": "graph_rag",
+    "value": 0.47635251322751326
+  },
+  {
+    "metric_name": "retrieval_recall",
+    "observation_count": 20,
+    "rank": 3,
+    "system": "hybrid_rag",
+    "value": 0.4518963443963444
+  },
+  {
+    "metric_name": "retrieval_recall",
+    "observation_count": 20,
+    "rank": 4,
+    "system": "dense_rag",
+    "value": 0.3568647787397787
+  },
+  {
+    "metric_name": "retrieval_recall",
+    "observation_count": 20,
+    "rank": 5,
+    "system": "rolling_summary",
+    "value": 0.2897829485329485
+  },
+  {
+    "metric_name": "retrieval_recall",
+    "observation_count": 20,
+    "rank": 6,
+    "system": "csm",
+    "value": 0.1480871212121212
+  },
+  {
+    "metric_name": "retrieval_recall",
+    "observation_count": 20,
+    "rank": 7,
+    "system": "long_context",
+    "value": 0.03125
+  },
+  {
+    "metric_name": "activation_precision",
+    "observation_count": 20,
+    "rank": 1,
+    "system": "csm",
+    "value": 0.05680555555555557
+  },
+  {
+    "metric_name": "activation_recall",
+    "observation_count": 20,
+    "rank": 1,
+    "system": "csm",
+    "value": 0.1480871212121212
+  },
+  {
+    "metric_name": "tokens_per_query",
+    "observation_count": 20,
+    "rank": 1,
+    "system": "long_context",
+    "value": 1522.1
+  },
+  {
+    "metric_name": "tokens_per_query",
+    "observation_count": 20,
+    "rank": 2,
+    "system": "dense_rag",
+    "value": 1975.7
+  },
+  {
+    "metric_name": "tokens_per_query",
+    "observation_count": 20,
+    "rank": 3,
+    "system": "hybrid_rag",
+    "value": 2103.75
+  },
+  {
+    "metric_name": "tokens_per_query",
+    "observation_count": 20,
+    "rank": 4,
+    "system": "graph_rag",
+    "value": 2180.6
+  },
+  {
+    "metric_name": "tokens_per_query",
+    "observation_count": 20,
+    "rank": 5,
+    "system": "hippo_rag",
+    "value": 2200.15
+  },
+  {
+    "metric_name": "tokens_per_query",
+    "observation_count": 20,
+    "rank": 6,
+    "system": "rolling_summary",
+    "value": 2428.5
+  },
+  {
+    "metric_name": "tokens_per_query",
+    "observation_count": 20,
+    "rank": 7,
+    "system": "csm",
+    "value": 2836.25
+  },
+  {
+    "metric_name": "p95_latency",
+    "observation_count": 20,
+    "rank": 1,
+    "system": "long_context",
+    "value": 27091.0
+  },
+  {
+    "metric_name": "p95_latency",
+    "observation_count": 20,
+    "rank": 2,
+    "system": "rolling_summary",
+    "value": 66631.0
+  },
+  {
+    "metric_name": "p95_latency",
+    "observation_count": 20,
+    "rank": 3,
+    "system": "dense_rag",
+    "value": 78456.0
+  },
+  {
+    "metric_name": "p95_latency",
+    "observation_count": 20,
+    "rank": 4,
+    "system": "csm",
+    "value": 127248.0
+  },
+  {
+    "metric_name": "p95_latency",
+    "observation_count": 20,
+    "rank": 5,
+    "system": "hybrid_rag",
+    "value": 127761.0
+  },
+  {
+    "metric_name": "p95_latency",
+    "observation_count": 20,
+    "rank": 6,
+    "system": "graph_rag",
+    "value": 128301.0
+  },
+  {
+    "metric_name": "p95_latency",
+    "observation_count": 20,
+    "rank": 7,
+    "system": "hippo_rag",
+    "value": 128425.0
+  },
+  {
+    "metric_name": "provider_generation_latency_ms",
+    "observation_count": 20,
+    "rank": 1,
+    "system": "long_context",
+    "value": 17976.55
+  },
+  {
+    "metric_name": "provider_generation_latency_ms",
+    "observation_count": 20,
+    "rank": 2,
+    "system": "rolling_summary",
+    "value": 31644.6
+  },
+  {
+    "metric_name": "provider_generation_latency_ms",
+    "observation_count": 20,
+    "rank": 3,
+    "system": "dense_rag",
+    "value": 66873.25
+  },
+  {
+    "metric_name": "provider_generation_latency_ms",
+    "observation_count": 20,
+    "rank": 4,
+    "system": "hybrid_rag",
+    "value": 99984.55
+  },
+  {
+    "metric_name": "provider_generation_latency_ms",
+    "observation_count": 20,
+    "rank": 5,
+    "system": "csm",
+    "value": 125439.85
+  },
+  {
+    "metric_name": "provider_generation_latency_ms",
+    "observation_count": 20,
+    "rank": 6,
+    "system": "graph_rag",
+    "value": 126885.2
+  },
+  {
+    "metric_name": "provider_generation_latency_ms",
+    "observation_count": 20,
+    "rank": 7,
+    "system": "hippo_rag",
+    "value": 126931.6
+  },
+  {
+    "metric_name": "retrieval_activation_latency_ms",
+    "observation_count": 20,
+    "rank": 1,
+    "system": "graph_rag",
+    "value": 6.35
+  },
+  {
+    "metric_name": "retrieval_activation_latency_ms",
+    "observation_count": 20,
+    "rank": 2,
+    "system": "long_context",
+    "value": 7.7
+  },
+  {
+    "metric_name": "retrieval_activation_latency_ms",
+    "observation_count": 20,
+    "rank": 3,
+    "system": "rolling_summary",
+    "value": 9.7
+  },
+  {
+    "metric_name": "retrieval_activation_latency_ms",
+    "observation_count": 20,
+    "rank": 4,
+    "system": "hippo_rag",
+    "value": 19.85
+  },
+  {
+    "metric_name": "retrieval_activation_latency_ms",
+    "observation_count": 20,
+    "rank": 5,
+    "system": "dense_rag",
+    "value": 30.5
+  },
+  {
+    "metric_name": "retrieval_activation_latency_ms",
+    "observation_count": 20,
+    "rank": 6,
+    "system": "hybrid_rag",
+    "value": 31.05
+  },
+  {
+    "metric_name": "retrieval_activation_latency_ms",
+    "observation_count": 20,
+    "rank": 7,
+    "system": "csm",
+    "value": 34.8
+  },
+  {
+    "metric_name": "processing_latency_ms",
+    "observation_count": 20,
+    "rank": 1,
+    "system": "long_context",
+    "value": 17976.55
+  },
+  {
+    "metric_name": "processing_latency_ms",
+    "observation_count": 20,
+    "rank": 2,
+    "system": "rolling_summary",
+    "value": 31644.6
+  },
+  {
+    "metric_name": "processing_latency_ms",
+    "observation_count": 20,
+    "rank": 3,
+    "system": "dense_rag",
+    "value": 66873.25
+  },
+  {
+    "metric_name": "processing_latency_ms",
+    "observation_count": 20,
+    "rank": 4,
+    "system": "hybrid_rag",
+    "value": 99984.55
+  },
+  {
+    "metric_name": "processing_latency_ms",
+    "observation_count": 20,
+    "rank": 5,
+    "system": "csm",
+    "value": 125439.85
+  },
+  {
+    "metric_name": "processing_latency_ms",
+    "observation_count": 20,
+    "rank": 6,
+    "system": "graph_rag",
+    "value": 126885.2
+  },
+  {
+    "metric_name": "processing_latency_ms",
+    "observation_count": 20,
+    "rank": 7,
+    "system": "hippo_rag",
+    "value": 126931.6
+  },
+  {
+    "metric_name": "operational_wall_clock_latency_ms",
+    "observation_count": 20,
+    "rank": 1,
+    "system": "long_context",
+    "value": 17984.25
+  },
+  {
+    "metric_name": "operational_wall_clock_latency_ms",
+    "observation_count": 20,
+    "rank": 2,
+    "system": "rolling_summary",
+    "value": 31654.3
+  },
+  {
+    "metric_name": "operational_wall_clock_latency_ms",
+    "observation_count": 20,
+    "rank": 3,
+    "system": "dense_rag",
+    "value": 66903.75
+  },
+  {
+    "metric_name": "operational_wall_clock_latency_ms",
+    "observation_count": 20,
+    "rank": 4,
+    "system": "hybrid_rag",
+    "value": 100015.6
+  },
+  {
+    "metric_name": "operational_wall_clock_latency_ms",
+    "observation_count": 20,
+    "rank": 5,
+    "system": "csm",
+    "value": 125474.65
+  },
+  {
+    "metric_name": "operational_wall_clock_latency_ms",
+    "observation_count": 20,
+    "rank": 6,
+    "system": "graph_rag",
+    "value": 126891.55
+  },
+  {
+    "metric_name": "operational_wall_clock_latency_ms",
+    "observation_count": 20,
+    "rank": 7,
+    "system": "hippo_rag",
+    "value": 126951.45
+  },
+  {
+    "metric_name": "online_query_cost",
+    "observation_count": 20,
+    "rank": 1,
+    "system": "long_context",
+    "value": 0.000363225
+  },
+  {
+    "metric_name": "online_query_cost",
+    "observation_count": 20,
+    "rank": 2,
+    "system": "dense_rag",
+    "value": 0.0004886175
+  },
+  {
+    "metric_name": "online_query_cost",
+    "observation_count": 20,
+    "rank": 3,
+    "system": "graph_rag",
+    "value": 0.0004987424999999999
+  },
+  {
+    "metric_name": "online_query_cost",
+    "observation_count": 20,
+    "rank": 4,
+    "system": "hybrid_rag",
+    "value": 0.000500355
+  },
+  {
+    "metric_name": "online_query_cost",
+    "observation_count": 20,
+    "rank": 5,
+    "system": "hippo_rag",
+    "value": 0.00052026
+  },
+  {
+    "metric_name": "online_query_cost",
+    "observation_count": 20,
+    "rank": 6,
+    "system": "rolling_summary",
+    "value": 0.0005432175
+  },
+  {
+    "metric_name": "online_query_cost",
+    "observation_count": 20,
+    "rank": 7,
+    "system": "csm",
+    "value": 0.000588765
+  },
+  {
+    "metric_name": "offline_csm_update_cost",
+    "observation_count": 20,
+    "rank": 1,
+    "system": "csm",
+    "value": 0.0
+  },
+  {
+    "metric_name": "total_cost",
+    "observation_count": 20,
+    "rank": 1,
+    "system": "long_context",
+    "value": 0.0072645
+  },
+  {
+    "metric_name": "total_cost",
+    "observation_count": 20,
+    "rank": 2,
+    "system": "dense_rag",
+    "value": 0.009772349999999999
+  },
+  {
+    "metric_name": "total_cost",
+    "observation_count": 20,
+    "rank": 3,
+    "system": "graph_rag",
+    "value": 0.009974849999999999
+  },
+  {
+    "metric_name": "total_cost",
+    "observation_count": 20,
+    "rank": 4,
+    "system": "hybrid_rag",
+    "value": 0.0100071
+  },
+  {
+    "metric_name": "total_cost",
+    "observation_count": 20,
+    "rank": 5,
+    "system": "hippo_rag",
+    "value": 0.0104052
+  },
+  {
+    "metric_name": "total_cost",
+    "observation_count": 20,
+    "rank": 6,
+    "system": "rolling_summary",
+    "value": 0.01086435
+  },
+  {
+    "metric_name": "total_cost",
+    "observation_count": 20,
+    "rank": 7,
+    "system": "csm",
+    "value": 0.011775299999999999
+  },
+  {
+    "metric_name": "memory_update_accuracy",
+    "observation_count": 2,
+    "rank": 1,
+    "system": "long_context",
+    "value": 0.75
+  },
+  {
+    "metric_name": "memory_update_accuracy",
+    "observation_count": 2,
+    "rank": 1,
+    "system": "rolling_summary",
+    "value": 0.75
+  },
+  {
+    "metric_name": "memory_update_accuracy",
+    "observation_count": 2,
+    "rank": 1,
+    "system": "hippo_rag",
+    "value": 0.75
+  },
+  {
+    "metric_name": "memory_update_accuracy",
+    "observation_count": 2,
+    "rank": 4,
+    "system": "csm",
+    "value": 0.5
+  },
+  {
+    "metric_name": "memory_update_accuracy",
+    "observation_count": 2,
+    "rank": 5,
+    "system": "dense_rag",
+    "value": 0.25
+  },
+  {
+    "metric_name": "memory_update_accuracy",
+    "observation_count": 2,
+    "rank": 5,
+    "system": "hybrid_rag",
+    "value": 0.25
+  },
+  {
+    "metric_name": "memory_update_accuracy",
+    "observation_count": 2,
+    "rank": 5,
+    "system": "graph_rag",
+    "value": 0.25
+  }
+]

@@ -1,0 +1,7 @@
+calculation_reason,expected_state_concept,mapped_state_id,mapped_state_key,mapping_status,match_score
+expected_state_concept_to_csm_v2_state_key_mapping,status Contested,,,N/A - expected_state_snapshot_missing,0.0
+expected_state_concept_to_csm_v2_state_key_mapping,status:Contested,,,N/A - expected_state_snapshot_missing,0.0
+expected_state_concept_to_csm_v2_state_key_mapping,status Resolved,,,N/A - expected_state_snapshot_missing,0.0
+expected_state_concept_to_csm_v2_state_key_mapping,antibiotic_allergy Amoxicillin-associated generalized hives; no proven anaphylaxis,bad08bf6-cd14-4493-a389-02f2adf83ba7,amoxicillin / penicillin-class antibiotic,N/A - expected_state_snapshot_missing,0.031578947368421054
+expected_state_concept_to_csm_v2_state_key_mapping,antibiotic_allergy:Amoxicillin-associated generalized hives; no proven anaphylaxis,46b85989-4953-4301-9879-f090e58ddfbc,patient-reported antibiotic reaction,N/A - expected_state_snapshot_missing,0.025974025974025976
+expected_state_concept_to_csm_v2_state_key_mapping,status:Resolved,,,N/A - expected_state_snapshot_missing,0.0

@@ -1,0 +1,18 @@
+Retraction of Incorrect Syncope Note
+Synthetic evaluation record - not for clinical use.
+
+patient_code: SYN-CSM-003
+document_id: DOC-P3-006
+document_type: Correction / Retraction
+document_date: 2026-04-15
+upload_date: 2026-04-15
+author: Sustha Data Quality Team
+encounter_id: P3-ENC-002
+evidence_ids: EV-P3-009
+
+Retraction
+EVIDENCE ID: EV-P3-009
+The statement that this patient had a syncopal episode on 5 April is retracted because it belonged to another synthetic patient.
+
+Usage Rule
+The retracted statement remains available for audit but must not support an active symptom, risk, or decision state.

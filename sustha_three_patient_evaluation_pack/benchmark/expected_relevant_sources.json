@@ -1,0 +1,708 @@
+{
+  "P1-Q01": {
+    "mandatory_relevant_source_ids": [
+      "DOC-P1-001",
+      "P1-COND-001",
+      "P1-COND-002"
+    ],
+    "optional_relevant_source_ids": [],
+    "irrelevant_but_similar_distractor_ids": [],
+    "duplicate_family_ids": [],
+    "forbidden_future_source_ids": [],
+    "exact_source_required_for_quotation": null
+  },
+  "P1-Q02": {
+    "mandatory_relevant_source_ids": [
+      "DOC-P1-001",
+      "P1-MEAS-001",
+      "P1-MEAS-002"
+    ],
+    "optional_relevant_source_ids": [],
+    "irrelevant_but_similar_distractor_ids": [],
+    "duplicate_family_ids": [],
+    "forbidden_future_source_ids": [],
+    "exact_source_required_for_quotation": null
+  },
+  "P1-Q03": {
+    "mandatory_relevant_source_ids": [
+      "DOC-P1-002",
+      "DOC-P1-001"
+    ],
+    "optional_relevant_source_ids": [],
+    "irrelevant_but_similar_distractor_ids": [],
+    "duplicate_family_ids": [],
+    "forbidden_future_source_ids": [
+      "DOC-P1-004",
+      "DOC-P1-005",
+      "DOC-P1-006"
+    ],
+    "exact_source_required_for_quotation": null
+  },
+  "P1-Q04": {
+    "mandatory_relevant_source_ids": [
+      "DOC-P1-004",
+      "P1-NOTE-001"
+    ],
+    "optional_relevant_source_ids": [],
+    "irrelevant_but_similar_distractor_ids": [],
+    "duplicate_family_ids": [],
+    "forbidden_future_source_ids": [],
+    "exact_source_required_for_quotation": null
+  },
+  "P1-Q05": {
+    "mandatory_relevant_source_ids": [
+      "DOC-P1-004",
+      "DOC-P1-002"
+    ],
+    "optional_relevant_source_ids": [],
+    "irrelevant_but_similar_distractor_ids": [],
+    "duplicate_family_ids": [],
+    "forbidden_future_source_ids": [],
+    "exact_source_required_for_quotation": null
+  },
+  "P1-Q06": {
+    "mandatory_relevant_source_ids": [
+      "DOC-P1-002",
+      "DOC-P1-005"
+    ],
+    "optional_relevant_source_ids": [],
+    "irrelevant_but_similar_distractor_ids": [],
+    "duplicate_family_ids": [],
+    "forbidden_future_source_ids": [],
+    "exact_source_required_for_quotation": null
+  },
+  "P1-Q07": {
+    "mandatory_relevant_source_ids": [
+      "DOC-P1-004",
+      "DOC-P1-005"
+    ],
+    "optional_relevant_source_ids": [],
+    "irrelevant_but_similar_distractor_ids": [],
+    "duplicate_family_ids": [],
+    "forbidden_future_source_ids": [],
+    "exact_source_required_for_quotation": null
+  },
+  "P1-Q08": {
+    "mandatory_relevant_source_ids": [
+      "DOC-P1-006",
+      "DOC-P1-001"
+    ],
+    "optional_relevant_source_ids": [],
+    "irrelevant_but_similar_distractor_ids": [],
+    "duplicate_family_ids": [],
+    "forbidden_future_source_ids": [],
+    "exact_source_required_for_quotation": null
+  },
+  "P1-Q09": {
+    "mandatory_relevant_source_ids": [
+      "DOC-P1-003",
+      "DOC-P1-006"
+    ],
+    "optional_relevant_source_ids": [],
+    "irrelevant_but_similar_distractor_ids": [],
+    "duplicate_family_ids": [],
+    "forbidden_future_source_ids": [],
+    "exact_source_required_for_quotation": null
+  },
+  "P1-Q10": {
+    "mandatory_relevant_source_ids": [
+      "CHAT-P1-003",
+      "CHAT-P1-004"
+    ],
+    "optional_relevant_source_ids": [],
+    "irrelevant_but_similar_distractor_ids": [],
+    "duplicate_family_ids": [],
+    "forbidden_future_source_ids": [],
+    "exact_source_required_for_quotation": null
+  },
+  "P1-Q11": {
+    "mandatory_relevant_source_ids": [
+      "DOC-P1-005"
+    ],
+    "optional_relevant_source_ids": [],
+    "irrelevant_but_similar_distractor_ids": [],
+    "duplicate_family_ids": [],
+    "forbidden_future_source_ids": [],
+    "exact_source_required_for_quotation": "DOC-P1-005"
+  },
+  "P1-Q12": {
+    "mandatory_relevant_source_ids": [
+      "DOC-P1-004",
+      "DOC-P1-005",
+      "DOC-P1-006"
+    ],
+    "optional_relevant_source_ids": [],
+    "irrelevant_but_similar_distractor_ids": [],
+    "duplicate_family_ids": [],
+    "forbidden_future_source_ids": [],
+    "exact_source_required_for_quotation": null
+  },
+  "P1-Q13": {
+    "mandatory_relevant_source_ids": [
+      "DOC-P1-002",
+      "P1-MEAS-003",
+      "P1-MEAS-004"
+    ],
+    "optional_relevant_source_ids": [],
+    "irrelevant_but_similar_distractor_ids": [],
+    "duplicate_family_ids": [],
+    "forbidden_future_source_ids": [],
+    "exact_source_required_for_quotation": null
+  },
+  "P1-Q14": {
+    "mandatory_relevant_source_ids": [
+      "DOC-P1-006",
+      "DOC-P1-003"
+    ],
+    "optional_relevant_source_ids": [],
+    "irrelevant_but_similar_distractor_ids": [],
+    "duplicate_family_ids": [],
+    "forbidden_future_source_ids": [],
+    "exact_source_required_for_quotation": null
+  },
+  "P1-Q15": {
+    "mandatory_relevant_source_ids": [
+      "DOC-P1-004",
+      "DOC-P1-005",
+      "DOC-P1-006"
+    ],
+    "optional_relevant_source_ids": [],
+    "irrelevant_but_similar_distractor_ids": [],
+    "duplicate_family_ids": [],
+    "forbidden_future_source_ids": [],
+    "exact_source_required_for_quotation": null
+  },
+  "P1-Q16": {
+    "mandatory_relevant_source_ids": [
+      "DOC-P1-005"
+    ],
+    "optional_relevant_source_ids": [],
+    "irrelevant_but_similar_distractor_ids": [
+      "DOC-P1-003"
+    ],
+    "duplicate_family_ids": [],
+    "forbidden_future_source_ids": [],
+    "exact_source_required_for_quotation": null
+  },
+  "P1-Q17": {
+    "mandatory_relevant_source_ids": [
+      "DOC-P1-001",
+      "DOC-P1-002",
+      "DOC-P1-004",
+      "DOC-P1-005",
+      "DOC-P1-006"
+    ],
+    "optional_relevant_source_ids": [],
+    "irrelevant_but_similar_distractor_ids": [],
+    "duplicate_family_ids": [],
+    "forbidden_future_source_ids": [],
+    "exact_source_required_for_quotation": null
+  },
+  "P1-Q18": {
+    "mandatory_relevant_source_ids": [
+      "DOC-P1-002",
+      "DOC-P1-004"
+    ],
+    "optional_relevant_source_ids": [],
+    "irrelevant_but_similar_distractor_ids": [],
+    "duplicate_family_ids": [],
+    "forbidden_future_source_ids": [
+      "DOC-P1-005",
+      "DOC-P1-006"
+    ],
+    "exact_source_required_for_quotation": null
+  },
+  "P1-Q19": {
+    "mandatory_relevant_source_ids": [
+      "DOC-P1-006"
+    ],
+    "optional_relevant_source_ids": [],
+    "irrelevant_but_similar_distractor_ids": [
+      "DOC-P1-002",
+      "DOC-P1-005"
+    ],
+    "duplicate_family_ids": [],
+    "forbidden_future_source_ids": [],
+    "exact_source_required_for_quotation": null
+  },
+  "P1-Q20": {
+    "mandatory_relevant_source_ids": [
+      "DOC-P1-001",
+      "DOC-P1-002",
+      "DOC-P1-004",
+      "DOC-P1-005",
+      "DOC-P1-006"
+    ],
+    "optional_relevant_source_ids": [],
+    "irrelevant_but_similar_distractor_ids": [],
+    "duplicate_family_ids": [],
+    "forbidden_future_source_ids": [],
+    "exact_source_required_for_quotation": null
+  },
+  "P2-Q01": {
+    "mandatory_relevant_source_ids": [
+      "DOC-P2-001",
+      "P2-ALL-001"
+    ],
+    "optional_relevant_source_ids": [],
+    "irrelevant_but_similar_distractor_ids": [],
+    "duplicate_family_ids": [],
+    "forbidden_future_source_ids": [],
+    "exact_source_required_for_quotation": null
+  },
+  "P2-Q02": {
+    "mandatory_relevant_source_ids": [
+      "DOC-P2-001"
+    ],
+    "optional_relevant_source_ids": [],
+    "irrelevant_but_similar_distractor_ids": [],
+    "duplicate_family_ids": [],
+    "forbidden_future_source_ids": [],
+    "exact_source_required_for_quotation": null
+  },
+  "P2-Q03": {
+    "mandatory_relevant_source_ids": [
+      "DOC-P2-003",
+      "DOC-P2-001"
+    ],
+    "optional_relevant_source_ids": [],
+    "irrelevant_but_similar_distractor_ids": [],
+    "duplicate_family_ids": [],
+    "forbidden_future_source_ids": [],
+    "exact_source_required_for_quotation": null
+  },
+  "P2-Q04": {
+    "mandatory_relevant_source_ids": [
+      "DOC-P2-003",
+      "DOC-P2-004"
+    ],
+    "optional_relevant_source_ids": [],
+    "irrelevant_but_similar_distractor_ids": [],
+    "duplicate_family_ids": [
+      "DUP-P2-NKDA-001"
+    ],
+    "forbidden_future_source_ids": [],
+    "exact_source_required_for_quotation": null
+  },
+  "P2-Q05": {
+    "mandatory_relevant_source_ids": [
+      "DOC-P2-001",
+      "DOC-P2-003",
+      "DOC-P2-004"
+    ],
+    "optional_relevant_source_ids": [],
+    "irrelevant_but_similar_distractor_ids": [],
+    "duplicate_family_ids": [],
+    "forbidden_future_source_ids": [],
+    "exact_source_required_for_quotation": null
+  },
+  "P2-Q06": {
+    "mandatory_relevant_source_ids": [
+      "DOC-P2-005"
+    ],
+    "optional_relevant_source_ids": [],
+    "irrelevant_but_similar_distractor_ids": [],
+    "duplicate_family_ids": [],
+    "forbidden_future_source_ids": [],
+    "exact_source_required_for_quotation": null
+  },
+  "P2-Q07": {
+    "mandatory_relevant_source_ids": [
+      "DOC-P2-006",
+      "DOC-P2-001",
+      "DOC-P2-005"
+    ],
+    "optional_relevant_source_ids": [],
+    "irrelevant_but_similar_distractor_ids": [],
+    "duplicate_family_ids": [],
+    "forbidden_future_source_ids": [],
+    "exact_source_required_for_quotation": null
+  },
+  "P2-Q08": {
+    "mandatory_relevant_source_ids": [
+      "CHAT-P2-003",
+      "CHAT-P2-004"
+    ],
+    "optional_relevant_source_ids": [],
+    "irrelevant_but_similar_distractor_ids": [],
+    "duplicate_family_ids": [],
+    "forbidden_future_source_ids": [],
+    "exact_source_required_for_quotation": null
+  },
+  "P2-Q09": {
+    "mandatory_relevant_source_ids": [
+      "DOC-P2-001",
+      "DOC-P2-005",
+      "DOC-P2-006"
+    ],
+    "optional_relevant_source_ids": [],
+    "irrelevant_but_similar_distractor_ids": [],
+    "duplicate_family_ids": [],
+    "forbidden_future_source_ids": [],
+    "exact_source_required_for_quotation": null
+  },
+  "P2-Q10": {
+    "mandatory_relevant_source_ids": [
+      "DOC-P2-006"
+    ],
+    "optional_relevant_source_ids": [],
+    "irrelevant_but_similar_distractor_ids": [],
+    "duplicate_family_ids": [],
+    "forbidden_future_source_ids": [],
+    "exact_source_required_for_quotation": "DOC-P2-006"
+  },
+  "P2-Q11": {
+    "mandatory_relevant_source_ids": [
+      "DOC-P2-001",
+      "P2-ALL-001",
+      "DOC-P2-005",
+      "DOC-P2-006"
+    ],
+    "optional_relevant_source_ids": [],
+    "irrelevant_but_similar_distractor_ids": [],
+    "duplicate_family_ids": [],
+    "forbidden_future_source_ids": [],
+    "exact_source_required_for_quotation": null
+  },
+  "P2-Q12": {
+    "mandatory_relevant_source_ids": [
+      "DOC-P2-005",
+      "CHAT-P2-003"
+    ],
+    "optional_relevant_source_ids": [],
+    "irrelevant_but_similar_distractor_ids": [],
+    "duplicate_family_ids": [],
+    "forbidden_future_source_ids": [],
+    "exact_source_required_for_quotation": null
+  },
+  "P2-Q13": {
+    "mandatory_relevant_source_ids": [
+      "DOC-P2-001",
+      "P2-NOTE-001"
+    ],
+    "optional_relevant_source_ids": [],
+    "irrelevant_but_similar_distractor_ids": [],
+    "duplicate_family_ids": [],
+    "forbidden_future_source_ids": [],
+    "exact_source_required_for_quotation": null
+  },
+  "P2-Q14": {
+    "mandatory_relevant_source_ids": [
+      "DOC-P2-005",
+      "DOC-P2-006"
+    ],
+    "optional_relevant_source_ids": [],
+    "irrelevant_but_similar_distractor_ids": [],
+    "duplicate_family_ids": [],
+    "forbidden_future_source_ids": [],
+    "exact_source_required_for_quotation": null
+  },
+  "P2-Q15": {
+    "mandatory_relevant_source_ids": [
+      "DOC-P2-001",
+      "DOC-P2-003",
+      "DOC-P2-004"
+    ],
+    "optional_relevant_source_ids": [],
+    "irrelevant_but_similar_distractor_ids": [],
+    "duplicate_family_ids": [],
+    "forbidden_future_source_ids": [
+      "DOC-P2-005",
+      "DOC-P2-006"
+    ],
+    "exact_source_required_for_quotation": null
+  },
+  "P2-Q16": {
+    "mandatory_relevant_source_ids": [
+      "DOC-P2-003",
+      "DOC-P2-004",
+      "DOC-P2-006"
+    ],
+    "optional_relevant_source_ids": [],
+    "irrelevant_but_similar_distractor_ids": [],
+    "duplicate_family_ids": [],
+    "forbidden_future_source_ids": [],
+    "exact_source_required_for_quotation": null
+  },
+  "P2-Q17": {
+    "mandatory_relevant_source_ids": [
+      "DOC-P2-001",
+      "DOC-P2-005"
+    ],
+    "optional_relevant_source_ids": [],
+    "irrelevant_but_similar_distractor_ids": [],
+    "duplicate_family_ids": [],
+    "forbidden_future_source_ids": [],
+    "exact_source_required_for_quotation": null
+  },
+  "P2-Q18": {
+    "mandatory_relevant_source_ids": [
+      "DOC-P2-003",
+      "DOC-P2-004",
+      "DOC-P2-005",
+      "DOC-P2-006"
+    ],
+    "optional_relevant_source_ids": [],
+    "irrelevant_but_similar_distractor_ids": [],
+    "duplicate_family_ids": [],
+    "forbidden_future_source_ids": [],
+    "exact_source_required_for_quotation": null
+  },
+  "P2-Q19": {
+    "mandatory_relevant_source_ids": [
+      "DOC-P2-003",
+      "DOC-P2-004"
+    ],
+    "optional_relevant_source_ids": [],
+    "irrelevant_but_similar_distractor_ids": [],
+    "duplicate_family_ids": [
+      "DUP-P2-NKDA-001"
+    ],
+    "forbidden_future_source_ids": [],
+    "exact_source_required_for_quotation": null
+  },
+  "P2-Q20": {
+    "mandatory_relevant_source_ids": [
+      "DOC-P2-001",
+      "DOC-P2-003",
+      "DOC-P2-004",
+      "DOC-P2-005",
+      "DOC-P2-006"
+    ],
+    "optional_relevant_source_ids": [],
+    "irrelevant_but_similar_distractor_ids": [],
+    "duplicate_family_ids": [],
+    "forbidden_future_source_ids": [],
+    "exact_source_required_for_quotation": null
+  },
+  "P3-Q01": {
+    "mandatory_relevant_source_ids": [
+      "DOC-P3-001",
+      "P3-COND-001",
+      "P3-MED-001",
+      "P3-MED-003"
+    ],
+    "optional_relevant_source_ids": [],
+    "irrelevant_but_similar_distractor_ids": [],
+    "duplicate_family_ids": [],
+    "forbidden_future_source_ids": [],
+    "exact_source_required_for_quotation": null
+  },
+  "P3-Q02": {
+    "mandatory_relevant_source_ids": [
+      "DOC-P3-001",
+      "P3-MEAS-001"
+    ],
+    "optional_relevant_source_ids": [],
+    "irrelevant_but_similar_distractor_ids": [],
+    "duplicate_family_ids": [],
+    "forbidden_future_source_ids": [],
+    "exact_source_required_for_quotation": null
+  },
+  "P3-Q03": {
+    "mandatory_relevant_source_ids": [
+      "DOC-P3-002",
+      "DOC-P3-001"
+    ],
+    "optional_relevant_source_ids": [],
+    "irrelevant_but_similar_distractor_ids": [],
+    "duplicate_family_ids": [],
+    "forbidden_future_source_ids": [],
+    "exact_source_required_for_quotation": null
+  },
+  "P3-Q04": {
+    "mandatory_relevant_source_ids": [
+      "DOC-P3-003",
+      "DOC-P3-001"
+    ],
+    "optional_relevant_source_ids": [],
+    "irrelevant_but_similar_distractor_ids": [],
+    "duplicate_family_ids": [],
+    "forbidden_future_source_ids": [],
+    "exact_source_required_for_quotation": null
+  },
+  "P3-Q05": {
+    "mandatory_relevant_source_ids": [
+      "DOC-P3-003"
+    ],
+    "optional_relevant_source_ids": [],
+    "irrelevant_but_similar_distractor_ids": [],
+    "duplicate_family_ids": [],
+    "forbidden_future_source_ids": [],
+    "exact_source_required_for_quotation": null
+  },
+  "P3-Q06": {
+    "mandatory_relevant_source_ids": [
+      "DOC-P3-004",
+      "P3-NOTE-001"
+    ],
+    "optional_relevant_source_ids": [],
+    "irrelevant_but_similar_distractor_ids": [],
+    "duplicate_family_ids": [],
+    "forbidden_future_source_ids": [],
+    "exact_source_required_for_quotation": null
+  },
+  "P3-Q07": {
+    "mandatory_relevant_source_ids": [
+      "DOC-P3-001",
+      "DOC-P3-004"
+    ],
+    "optional_relevant_source_ids": [],
+    "irrelevant_but_similar_distractor_ids": [],
+    "duplicate_family_ids": [],
+    "forbidden_future_source_ids": [],
+    "exact_source_required_for_quotation": "DOC-P3-001"
+  },
+  "P3-Q08": {
+    "mandatory_relevant_source_ids": [
+      "DOC-P3-006",
+      "P3-NOTE-002"
+    ],
+    "optional_relevant_source_ids": [],
+    "irrelevant_but_similar_distractor_ids": [],
+    "duplicate_family_ids": [],
+    "forbidden_future_source_ids": [],
+    "exact_source_required_for_quotation": null
+  },
+  "P3-Q09": {
+    "mandatory_relevant_source_ids": [
+      "DOC-P3-005"
+    ],
+    "optional_relevant_source_ids": [],
+    "irrelevant_but_similar_distractor_ids": [],
+    "duplicate_family_ids": [],
+    "forbidden_future_source_ids": [],
+    "exact_source_required_for_quotation": null
+  },
+  "P3-Q10": {
+    "mandatory_relevant_source_ids": [
+      "DOC-P3-003",
+      "DOC-P3-005"
+    ],
+    "optional_relevant_source_ids": [],
+    "irrelevant_but_similar_distractor_ids": [],
+    "duplicate_family_ids": [],
+    "forbidden_future_source_ids": [],
+    "exact_source_required_for_quotation": null
+  },
+  "P3-Q11": {
+    "mandatory_relevant_source_ids": [
+      "DOC-P3-002",
+      "DOC-P3-003",
+      "DOC-P3-005"
+    ],
+    "optional_relevant_source_ids": [],
+    "irrelevant_but_similar_distractor_ids": [],
+    "duplicate_family_ids": [],
+    "forbidden_future_source_ids": [],
+    "exact_source_required_for_quotation": null
+  },
+  "P3-Q12": {
+    "mandatory_relevant_source_ids": [
+      "CHAT-P3-003",
+      "CHAT-P3-004"
+    ],
+    "optional_relevant_source_ids": [],
+    "irrelevant_but_similar_distractor_ids": [],
+    "duplicate_family_ids": [],
+    "forbidden_future_source_ids": [],
+    "exact_source_required_for_quotation": null
+  },
+  "P3-Q13": {
+    "mandatory_relevant_source_ids": [
+      "DOC-P3-001"
+    ],
+    "optional_relevant_source_ids": [],
+    "irrelevant_but_similar_distractor_ids": [],
+    "duplicate_family_ids": [],
+    "forbidden_future_source_ids": [],
+    "exact_source_required_for_quotation": "DOC-P3-001"
+  },
+  "P3-Q14": {
+    "mandatory_relevant_source_ids": [
+      "DOC-P3-005",
+      "DOC-P3-006"
+    ],
+    "optional_relevant_source_ids": [],
+    "irrelevant_but_similar_distractor_ids": [],
+    "duplicate_family_ids": [],
+    "forbidden_future_source_ids": [],
+    "exact_source_required_for_quotation": null
+  },
+  "P3-Q15": {
+    "mandatory_relevant_source_ids": [
+      "DOC-P3-002",
+      "DOC-P3-003"
+    ],
+    "optional_relevant_source_ids": [],
+    "irrelevant_but_similar_distractor_ids": [],
+    "duplicate_family_ids": [],
+    "forbidden_future_source_ids": [
+      "DOC-P3-005"
+    ],
+    "exact_source_required_for_quotation": null
+  },
+  "P3-Q16": {
+    "mandatory_relevant_source_ids": [
+      "DOC-P3-003",
+      "DOC-P3-005"
+    ],
+    "optional_relevant_source_ids": [],
+    "irrelevant_but_similar_distractor_ids": [],
+    "duplicate_family_ids": [],
+    "forbidden_future_source_ids": [],
+    "exact_source_required_for_quotation": null
+  },
+  "P3-Q17": {
+    "mandatory_relevant_source_ids": [
+      "DOC-P3-006",
+      "P3-NOTE-002"
+    ],
+    "optional_relevant_source_ids": [],
+    "irrelevant_but_similar_distractor_ids": [
+      "P3-NOTE-002"
+    ],
+    "duplicate_family_ids": [],
+    "forbidden_future_source_ids": [],
+    "exact_source_required_for_quotation": null
+  },
+  "P3-Q18": {
+    "mandatory_relevant_source_ids": [
+      "DOC-P3-005",
+      "DOC-P3-001"
+    ],
+    "optional_relevant_source_ids": [],
+    "irrelevant_but_similar_distractor_ids": [],
+    "duplicate_family_ids": [],
+    "forbidden_future_source_ids": [],
+    "exact_source_required_for_quotation": null
+  },
+  "P3-Q19": {
+    "mandatory_relevant_source_ids": [
+      "DOC-P3-004",
+      "DOC-P3-002",
+      "DOC-P3-003",
+      "DOC-P3-005"
+    ],
+    "optional_relevant_source_ids": [],
+    "irrelevant_but_similar_distractor_ids": [],
+    "duplicate_family_ids": [],
+    "forbidden_future_source_ids": [],
+    "exact_source_required_for_quotation": null
+  },
+  "P3-Q20": {
+    "mandatory_relevant_source_ids": [
+      "DOC-P3-001",
+      "DOC-P3-002",
+      "DOC-P3-003",
+      "DOC-P3-004",
+      "DOC-P3-005",
+      "DOC-P3-006"
+    ],
+    "optional_relevant_source_ids": [],
+    "irrelevant_but_similar_distractor_ids": [],
+    "duplicate_family_ids": [],
+    "forbidden_future_source_ids": [],
+    "exact_source_required_for_quotation": null
+  }
+}

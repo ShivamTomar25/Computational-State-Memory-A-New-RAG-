@@ -1,0 +1,8 @@
+System,answer_accuracy,decision_f1,evidence_support_rate,expected_calibration_error,faithfulness,groundedness,hallucination_rate,unsupported_claim_rate
+long_context,0 +/- 0,N/A,0 +/- 0,0.9279 +/- 0,0.7949 +/- 0,0.7949 +/- 0,1 +/- 0,1 +/- 0
+rolling_summary,0 +/- 0,N/A,0 +/- 0,0.9427 +/- 0,1 +/- 0,1 +/- 0,1 +/- 0,1 +/- 0
+dense_rag,0 +/- 0,N/A,0 +/- 0,0.7911 +/- 0,1 +/- 0,1 +/- 0,1 +/- 0,1 +/- 0
+hybrid_rag,0 +/- 0,N/A,0 +/- 0,0.7406 +/- 0,1 +/- 0,1 +/- 0,1 +/- 0,1 +/- 0
+graph_rag,0 +/- 0,N/A,0 +/- 0,0.7764 +/- 0,1 +/- 0,1 +/- 0,1 +/- 0,1 +/- 0
+hippo_rag,0 +/- 0,N/A,0 +/- 0,0.8231 +/- 0,1 +/- 0,1 +/- 0,1 +/- 0,1 +/- 0
+csm,0 +/- 0,N/A,0 +/- 0,0.8739 +/- 0,0.9512 +/- 0,0.9512 +/- 0,1 +/- 0,1 +/- 0

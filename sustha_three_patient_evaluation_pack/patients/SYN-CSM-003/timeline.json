@@ -1,0 +1,90 @@
+[
+  {
+    "event_number": 1,
+    "event_id": "P3-EVT-001",
+    "effective_date": "2026-04-01T09:00:00+05:30",
+    "added_date": "2026-04-01T09:05:00+05:30",
+    "event_type": "Clinical Information",
+    "source_id": "DOC-P3-001",
+    "description": "Baseline AF, medicines, heart rate 82.",
+    "evidence_status": "Active",
+    "expected_state_effect": "baseline rate-control state active"
+  },
+  {
+    "event_number": 2,
+    "event_id": "P3-EVT-002",
+    "effective_date": "2026-04-02T18:00:00+05:30",
+    "added_date": "2026-04-12T14:00:00+05:30",
+    "event_type": "Clinical Information",
+    "source_id": "DOC-P3-004",
+    "description": "Late-arriving note: breathless after 14 stairs.",
+    "evidence_status": "Active",
+    "expected_state_effect": "historical symptom inserted at correct valid time"
+  },
+  {
+    "event_number": 3,
+    "event_id": "P3-EVT-003",
+    "effective_date": "2026-04-08T10:00:00+05:30",
+    "added_date": "2026-04-08T10:05:00+05:30",
+    "event_type": "Vital Sign",
+    "source_id": "DOC-P3-002",
+    "description": "Heart rate 112 with worsening symptoms.",
+    "evidence_status": "Active",
+    "expected_state_effect": "rate-control and symptom states worsen"
+  },
+  {
+    "event_number": 4,
+    "event_id": "P3-EVT-004",
+    "effective_date": "2026-04-09T12:00:00+05:30",
+    "added_date": "2026-04-09T12:00:00+05:30",
+    "event_type": "Treatment Plan",
+    "source_id": "DOC-P3-003",
+    "description": "Metoprolol increased to 50 mg by clinician.",
+    "evidence_status": "Active",
+    "expected_state_effect": "treatment plan and response monitoring states updated"
+  },
+  {
+    "event_number": 5,
+    "event_id": "P3-EVT-005",
+    "effective_date": "2026-04-05T12:00:00+05:30",
+    "added_date": "2026-04-10T09:00:00+05:30",
+    "event_type": "Symptom",
+    "source_id": "P3-NOTE-002",
+    "description": "Incorrect syncope note.",
+    "evidence_status": "Retracted",
+    "expected_state_effect": "temporary candidate must be invalidated"
+  },
+  {
+    "event_number": 6,
+    "event_id": "P3-EVT-006",
+    "effective_date": "2026-04-15T09:00:00+05:30",
+    "added_date": "2026-04-15T09:00:00+05:30",
+    "event_type": "Retraction",
+    "source_id": "DOC-P3-006",
+    "description": "Syncope note formally retracted.",
+    "evidence_status": "Active",
+    "expected_state_effect": "remove from active reasoning while retaining audit"
+  },
+  {
+    "event_number": 7,
+    "event_id": "P3-EVT-007",
+    "effective_date": "2026-04-22T10:00:00+05:30",
+    "added_date": "2026-04-22T10:05:00+05:30",
+    "event_type": "Vital Sign",
+    "source_id": "DOC-P3-005",
+    "description": "Heart rate 78 and symptoms improved.",
+    "evidence_status": "Active",
+    "expected_state_effect": "treatment response resolved as improving"
+  },
+  {
+    "event_number": 8,
+    "event_id": "P3-EVT-008",
+    "effective_date": "2026-04-10T16:00:00+05:30",
+    "added_date": "2026-04-10T16:00:00+05:30",
+    "event_type": "Conversation",
+    "source_id": "CHAT-P3-003",
+    "description": "Unsupported instruction to stop apixaban.",
+    "evidence_status": "Pending Review",
+    "expected_state_effect": "no active medication change"
+  }
+]

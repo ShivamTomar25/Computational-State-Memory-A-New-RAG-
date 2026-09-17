@@ -1,0 +1,61 @@
+answer_confidence,has_output,insufficient_evidence,question,repetition,source_cutoff,status,system,turn_id,turn_number
+0.95,True,False,What active chronic conditions are recorded for this patient?,1,2026-01-10T23:59:59+05:30,completed,csm_v3,5f447e19-8c8f-4d41-adc8-6bd15bee476c,1
+0.95,True,False,"What values in the original 5 March report were superseded, and by what corrected values?",1,2026-03-12T23:59:59+05:30,completed,csm_v3,ca5ab13f-a28a-46a6-a345-44f6e19f4502,6
+0.95,True,True,What was the baseline creatinine and eGFR on 10 January 2026?,1,2026-01-10T23:59:59+05:30,completed,csm_v3,f400c44c-e5e1-46c0-b9a8-01b44728969e,2
+,True,False,How should the dehydration note change interpretation of the abnormal renal result?,1,2026-03-10T23:59:59+05:30,completed,csm_v3,213b58af-8265-447e-8468-3389fa591843,5
+0.93,True,False,What does the 20 March follow-up show about the renal trend?,1,2026-03-20T23:59:59+05:30,completed,csm_v3,265defdb-d13b-40e2-98cf-6a286818b73a,8
+0.95,True,False,"Using only evidence available by 8 March, did renal function appear to worsen?",1,2026-03-08T23:59:59+05:30,completed,csm_v3,1de091b4-1ad5-430f-90ad-85722fbd205e,3
+,True,False,What is the latest valid renal assessment after the corrected report but before follow-up testing?,1,2026-03-12T23:59:59+05:30,completed,csm_v3,9aadb852-025e-478f-9710-2ee59eb1f23a,7
+0.9,True,False,Which event occurred in the patient before the 5 March renal specimen but was recorded later?,1,2026-03-10T23:59:59+05:30,completed,csm_v3,65e08603-9575-4720-92d6-7ae27541c643,4
+0.95,True,False,Did the application receive the 5 March abnormal laboratory values on the same day they were valid?,1,2026-03-20T23:59:59+05:30,completed,csm_v3,50aa4cff-d8e0-49c4-9328-5eabd4c94b74,13
+0.95,True,False,Which evidence supports the conclusion that renal function improved?,1,2026-03-20T23:59:59+05:30,completed,csm_v3,b71df394-fe0c-4f32-9a9b-74e805016cb2,12
+0.85,True,False,Should the chat claim that the patient definitely has severe chronic kidney disease become an active state?,1,2026-03-20T23:59:59+05:30,completed,csm_v3,9f3933f6-d119-4604-8759-bc440748d86e,10
+,True,True,Which state should be recomputed when the renal-function state changes?,1,2026-03-20T23:59:59+05:30,completed,csm_v3,ce72261f-39c4-4fc4-805f-cbc607fea8df,9
+0.95,True,False,Quote the exact corrected creatinine statement from the addendum.,1,2026-03-12T23:59:59+05:30,completed,csm_v3,9909cea9-cdb2-42c1-a12e-4050b6ec9953,11
+,True,True,"Classify the renal follow-up priority after 20 March as urgent escalation, clinician review, or no follow-up.",1,2026-03-20T23:59:59+05:30,completed,csm_v3,f6a81f2f-e898-4ca1-9124-ecaa5b6432ef,14
+0.9,True,False,Is there sufficient evidence that the renal abnormality was permanent?,1,2026-03-20T23:59:59+05:30,completed,csm_v3,ed0ea07a-3056-4fcd-a3bb-cf0fe41cad8d,15
+,True,False,Which citation would be fabricated for the corrected creatinine: DOC-P1-005 or DOC-P1-003?,1,2026-03-20T23:59:59+05:30,completed,csm_v3,0d2b3af0-a045-458d-b491-b6c962c71855,16
+,True,False,List the renal-state versions in order from baseline through recovery.,1,2026-03-20T23:59:59+05:30,completed,csm_v3,22b17281-6382-42cc-9a0d-1eccb78e0c1a,17
+0.92,True,False,"Classify the follow-up priority after 22 April: urgent, routine clinician follow-up, or no follow-up.",1,2026-04-22T23:59:59+05:30,completed,csm_v3,2da76a6a-0ae3-4f60-a525-5dc459714c4a,14
+0.95,True,False,What rare detail is available only from raw evidence?,1,2026-04-22T23:59:59+05:30,completed,csm_v3,87eef013-8d1d-4b49-a3a3-19a5027a3216,7
+0.9,True,True,"Before 12 March, what corrected creatinine value should the system report?",1,2026-03-11T23:59:59+05:30,completed,csm_v3,20df5962-14bc-4410-a05f-78cb152a0683,18
+0.95,True,False,What is the latest resolved allergy state?,1,2026-02-20T23:59:59+05:30,completed,csm_v3,b61c50db-e291-4d7e-a1e9-ecf4afe14dfd,9
+,True,False,Does the evidence justify describing the reaction as severe anaphylaxis?,1,2026-02-20T23:59:59+05:30,completed,csm_v3,5c42933c-6a38-456f-ad20-faecffae1c16,17
+0.95,True,False,Which source is the strongest evidence for the latest eGFR?,1,2026-03-20T23:59:59+05:30,completed,csm_v3,bc05c230-855d-4be5-a4ea-ea2354b227e6,19
+0.95,True,False,What changed on 8 April compared with baseline?,1,2026-04-08T23:59:59+05:30,completed,csm_v3,54dbaf85-a62d-4237-807f-265826901680,3
+0.9,True,True,Quote the exact retraction sentence from the correction notice.,1,2026-02-20T23:59:59+05:30,completed,csm_v3,b770cfed-9019-4f4c-a79c-60ee8c627de3,10
+0.65,True,False,Summarize the renal course with citations and a confidence level.,1,2026-03-20T23:59:59+05:30,completed,csm_v3,4d57b8e2-8364-4fd8-86b5-eac8f581a6d8,20
+0.95,True,False,What antibiotic allergy is currently recorded?,1,2026-02-01T23:59:59+05:30,completed,csm_v3,b4142752-ded8-4bf1-85f0-20e3c8f79d95,1
+,True,True,What changed in the allergy state from 11 February to 20 February?,1,2026-02-20T23:59:59+05:30,completed,csm_v3,ea8e55ae-2c23-485b-b24c-dcba5144722c,18
+0.95,True,False,Which sources directly support the allergy history?,1,2026-02-20T23:59:59+05:30,completed,csm_v3,428b8334-f082-46bb-81d6-60807515bd39,11
+0.95,True,False,Was anaphylaxis documented in the initial allergy history?,1,2026-02-01T23:59:59+05:30,completed,csm_v3,4e57e6f6-87e2-481b-8679-a252cd06b548,2
+0.92,True,False,What evidence should support an answer about improved treatment response?,1,2026-04-22T23:59:59+05:30,completed,csm_v3,38b518a1-a2a8-44a1-a5c5-3cb7cf18dd29,16
+0.95,True,False,Which states depend on the rate-control state?,1,2026-04-22T23:59:59+05:30,completed,csm_v3,df34d24d-a950-458c-a09c-551dc86d5c46,11
+,True,True,What contradiction entered the record on 10 February?,1,2026-02-10T23:59:59+05:30,completed,csm_v3,03f9faee-ee94-4e98-95dc-fb78f681aa9f,3
+0.85,True,False,Which citation is invalid support for anaphylaxis: DOC-P2-005 or CHAT-P2-003?,1,2026-02-20T23:59:59+05:30,completed,csm_v3,3b82c8a7-80fe-4c26-ad94-ed5626df595e,12
+0.55,True,False,What clinician-directed treatment change was recorded on 9 April?,1,2026-04-09T23:59:59+05:30,completed,csm_v3,642383ed-3627-47ab-a343-89deff930b76,4
+0.93,True,False,Should the two hospital summaries count as two independent confirmations of no allergy?,1,2026-02-11T23:59:59+05:30,completed,csm_v3,9598fe7f-6bf5-471c-a5a6-758b608bdf6a,4
+0.94,True,False,Which retrieved documents are redundant for the NKDA claim?,1,2026-02-20T23:59:59+05:30,completed,csm_v3,9fa3f2d7-2d94-4bd3-b26f-6a75dcd058cd,19
+0.95,True,False,"What was the effective date of the historical reaction, and when was it recorded in Sustha?",1,2026-02-20T23:59:59+05:30,completed,csm_v3,a8b2c8dc-cb34-4a80-ba7c-560bbd7f7e07,13
+0.95,True,False,What should the allergy-state status be after the duplicate hospital record is added?,1,2026-02-11T23:59:59+05:30,completed,csm_v3,a0ee0614-1f05-42c0-829c-2c4ca0fabc60,5
+,True,True,"What does the external allergist letter support, and what does it not establish?",1,2026-02-18T23:59:59+05:30,completed,csm_v3,489d407d-bb6d-4eec-9145-c30c3258c58b,6
+0.9,True,False,Should the retracted syncope statement influence the current follow-up priority?,1,2026-04-15T23:59:59+05:30,completed,csm_v3,3e3f62e8-8f49-4b9d-a12b-a18fc477e29a,8
+,True,True,"Classify the medication-safety outcome after reconciliation: resolved, contested, or unknown.",1,2026-02-20T23:59:59+05:30,completed,csm_v3,25a0d108-d8e8-4525-8c54-8ca35e9079f3,14
+,True,True,How is the contradiction resolved on 20 February?,1,2026-02-20T23:59:59+05:30,completed,csm_v3,5e163827-38e4-4937-9b70-96fc5eb9f623,7
+0.58,True,False,Summarize the allergy reconciliation with citations and calibrated confidence.,1,2026-02-20T23:59:59+05:30,completed,csm_v3,de0c6135-e6f8-42a0-aaac-c87ae7c72e53,20
+0.92,True,False,Should the unsupported chat statement about anaphylactic shock update the active allergy severity?,1,2026-02-20T23:59:59+05:30,completed,csm_v3,793e34b2-a9dc-4622-9270-cda5d49fc451,8
+,True,True,"Before 18 February, could the system use the allergist letter?",1,2026-02-17T23:59:59+05:30,completed,csm_v3,ff6ccf6f-d059-49e3-b556-b678f6409d82,15
+,True,True,"Before follow-up data existed, what should the treatment-response state be?",1,2026-04-09T23:59:59+05:30,completed,csm_v3,5d1042d8-72db-402b-b30b-845c13126fcf,5
+0.94,True,False,What cardiovascular condition and medicines are active at baseline?,1,2026-04-01T23:59:59+05:30,completed,csm_v3,082e107e-5ddc-42f8-a234-d6f91534fbfd,1
+,True,True,Which record should be treated as retracted but still retained for audit?,1,2026-02-20T23:59:59+05:30,completed,csm_v3,bd3a40f9-33c7-4170-a49a-b280d227dca9,16
+0.95,True,False,What does the 22 April follow-up show?,1,2026-04-22T23:59:59+05:30,completed,csm_v3,4335cdd1-2074-4483-8e44-2ce93fac774d,9
+0.95,True,False,Quote the exact rare functional detail from the baseline note.,1,2026-04-22T23:59:59+05:30,completed,csm_v3,14aa1aec-d9b9-4a77-9d7d-9c48d638ba59,13
+0.95,True,False,What was the baseline resting heart rate?,1,2026-04-01T23:59:59+05:30,completed,csm_v3,d979e4e1-c0cc-43d8-9412-94ac2b8b055b,2
+0.95,True,False,Which note arrived on 12 April but describes an event on 2 April?,1,2026-04-12T23:59:59+05:30,completed,csm_v3,3d031a66-7cdb-49c5-9864-a3304408ff54,6
+0.78,True,False,How should the treatment-response state change after 22 April?,1,2026-04-22T23:59:59+05:30,completed,csm_v3,ec426a4e-b486-45c1-a667-150ca6ed835b,10
+0.85,True,True,Should the chat instruction to stop apixaban update the active medication state?,1,2026-04-22T23:59:59+05:30,completed,csm_v3,7ce52579-926b-4dcf-a21c-681385344b60,12
+,True,False,Which source must not be used to claim true syncope?,1,2026-04-22T23:59:59+05:30,completed,csm_v3,8f4ed741-b6ee-4b04-87da-cbe6421f0a6e,17
+,True,True,"Before 22 April, could the system claim that treatment had improved symptoms?",1,2026-04-21T23:59:59+05:30,completed,csm_v3,0d67cf99-b327-43bd-962c-76204025d7a6,15
+0.9,True,True,Is there enough evidence to say the patient is completely cured of atrial fibrillation?,1,2026-04-22T23:59:59+05:30,completed,csm_v3,f2410869-240a-4a8d-8689-a35731069216,18
+0.9,True,False,"Place these events in valid-time order: delayed breathlessness note, worsening vital signs, treatment adjustment, follow-up improvement.",1,2026-04-22T23:59:59+05:30,completed,csm_v3,9ffdc250-f005-466b-a4f4-5b8e31651129,19
+,True,False,Summarize the cardiovascular course with citations and calibrated confidence.,1,2026-04-22T23:59:59+05:30,completed,csm_v3,65cfc1af-5d06-4336-8851-5b02fa2e6a40,20

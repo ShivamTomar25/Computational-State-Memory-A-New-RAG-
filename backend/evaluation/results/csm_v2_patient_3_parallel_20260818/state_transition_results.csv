@@ -1,0 +1,8 @@
+applicable,details,metric_name,reason_not_applicable,repetition,system,value
+False,"{""case_id"": ""8e262a8f-3296-42f8-8ce0-cd6637098f9c"", ""repetition_number"": 1, ""status"": ""not_applicable"", ""system_type"": ""hybrid_rag""}",memory_update_accuracy,missing_generated_state_transitions,1,hybrid_rag,
+False,"{""case_id"": ""8e262a8f-3296-42f8-8ce0-cd6637098f9c"", ""repetition_number"": 1, ""status"": ""not_applicable"", ""system_type"": ""dense_rag""}",memory_update_accuracy,missing_generated_state_transitions,1,dense_rag,
+False,"{""case_id"": ""8e262a8f-3296-42f8-8ce0-cd6637098f9c"", ""repetition_number"": 1, ""status"": ""not_applicable"", ""system_type"": ""long_context""}",memory_update_accuracy,missing_generated_state_transitions,1,long_context,
+False,"{""case_id"": ""8e262a8f-3296-42f8-8ce0-cd6637098f9c"", ""repetition_number"": 1, ""status"": ""not_applicable"", ""system_type"": ""rolling_summary""}",memory_update_accuracy,missing_generated_state_transitions,1,rolling_summary,
+False,"{""case_id"": ""8e262a8f-3296-42f8-8ce0-cd6637098f9c"", ""repetition_number"": 1, ""status"": ""not_applicable"", ""system_type"": ""graph_rag""}",memory_update_accuracy,missing_generated_state_transitions,1,graph_rag,
+False,"{""case_id"": ""8e262a8f-3296-42f8-8ce0-cd6637098f9c"", ""repetition_number"": 1, ""status"": ""not_applicable"", ""system_type"": ""csm""}",memory_update_accuracy,missing_generated_state_transitions,1,csm,
+False,"{""case_id"": ""8e262a8f-3296-42f8-8ce0-cd6637098f9c"", ""repetition_number"": 1, ""status"": ""not_applicable"", ""system_type"": ""hippo_rag""}",memory_update_accuracy,missing_generated_state_transitions,1,hippo_rag,

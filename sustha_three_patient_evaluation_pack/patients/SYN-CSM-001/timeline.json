@@ -1,0 +1,79 @@
+[
+  {
+    "event_number": 1,
+    "event_id": "P1-EVT-001",
+    "effective_date": "2026-01-10T08:00:00+05:30",
+    "added_date": "2026-01-10T08:30:00+05:30",
+    "event_type": "Laboratory Result",
+    "source_id": "DOC-P1-001",
+    "description": "Baseline creatinine 1.0 and eGFR 86.",
+    "evidence_status": "Active",
+    "expected_state_effect": "renal_function_status active: baseline preserved"
+  },
+  {
+    "event_number": 2,
+    "event_id": "P1-EVT-002",
+    "effective_date": "2026-01-10T09:00:00+05:30",
+    "added_date": "2026-01-10T09:15:00+05:30",
+    "event_type": "Clinical Information",
+    "source_id": "P1-COND-001",
+    "description": "Diabetes and hypertension confirmed; medicines active.",
+    "evidence_status": "Active",
+    "expected_state_effect": "active_conditions and active_medications created"
+  },
+  {
+    "event_number": 3,
+    "event_id": "P1-EVT-003",
+    "effective_date": "2026-03-05T08:15:00+05:30",
+    "added_date": "2026-03-08T09:00:00+05:30",
+    "event_type": "Laboratory Result",
+    "source_id": "DOC-P1-002",
+    "description": "Initial creatinine 1.8 and eGFR 42.",
+    "evidence_status": "Superseded",
+    "expected_state_effect": "renal trend candidate/active decline before later evidence"
+  },
+  {
+    "event_number": 4,
+    "event_id": "P1-EVT-004",
+    "effective_date": "2026-03-04T18:00:00+05:30",
+    "added_date": "2026-03-10T14:00:00+05:30",
+    "event_type": "Clinical Information",
+    "source_id": "DOC-P1-004",
+    "description": "Late-arriving dehydration qualification.",
+    "evidence_status": "Active",
+    "expected_state_effect": "renal trend becomes contested/qualified"
+  },
+  {
+    "event_number": 5,
+    "event_id": "P1-EVT-005",
+    "effective_date": "2026-03-05T08:15:00+05:30",
+    "added_date": "2026-03-12T15:00:00+05:30",
+    "event_type": "Correction",
+    "source_id": "DOC-P1-005",
+    "description": "Corrected creatinine 1.5 and eGFR 53.",
+    "evidence_status": "Active",
+    "expected_state_effect": "supersede initial lab; create new state version"
+  },
+  {
+    "event_number": 6,
+    "event_id": "P1-EVT-006",
+    "effective_date": "2026-03-20T08:10:00+05:30",
+    "added_date": "2026-03-20T08:30:00+05:30",
+    "event_type": "Laboratory Result",
+    "source_id": "DOC-P1-006",
+    "description": "Creatinine 1.2 and eGFR 70 after hydration.",
+    "evidence_status": "Active",
+    "expected_state_effect": "renal trend resolved as improving; medication review priority reduced"
+  },
+  {
+    "event_number": 7,
+    "event_id": "P1-EVT-007",
+    "effective_date": "2026-03-09T09:00:00+05:30",
+    "added_date": "2026-03-09T09:00:00+05:30",
+    "event_type": "Conversation",
+    "source_id": "CHAT-P1-003",
+    "description": "Unsupported severe kidney disease claim.",
+    "evidence_status": "Pending Review",
+    "expected_state_effect": "pending review only; no active state change"
+  }
+]

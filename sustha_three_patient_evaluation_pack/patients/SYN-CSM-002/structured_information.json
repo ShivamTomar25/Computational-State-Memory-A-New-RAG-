@@ -1,0 +1,104 @@
+{
+  "encounters": [
+    {
+      "id": "P2-ENC-001",
+      "record_type": "encounter",
+      "encounter_type": "Outpatient",
+      "title": "New-patient intake",
+      "description": "Medication and allergy reconciliation.",
+      "effective_date": "2026-02-01T10:00:00+05:30",
+      "added_date": "2026-02-01T10:05:00+05:30",
+      "status": "Completed",
+      "source": "Doctor Observation"
+    },
+    {
+      "id": "P2-ENC-002",
+      "record_type": "encounter",
+      "encounter_type": "Review",
+      "title": "Allergy conflict review",
+      "description": "Review of contradictory imported hospital record.",
+      "effective_date": "2026-02-15T11:00:00+05:30",
+      "added_date": "2026-02-15T11:05:00+05:30",
+      "status": "Completed",
+      "source": "Doctor Observation"
+    }
+  ],
+  "conditions": [
+    {
+      "id": "P2-COND-001",
+      "record_type": "condition",
+      "condition_name": "Recurrent allergic rhinitis",
+      "clinical_status": "Active",
+      "verification_status": "Confirmed",
+      "onset_date": "2022-05-01",
+      "added_date": "2026-02-01",
+      "notes": "Seasonal symptoms.",
+      "source": "Doctor Observation"
+    }
+  ],
+  "medications": [
+    {
+      "id": "P2-MED-001",
+      "record_type": "medication",
+      "medication_name": "Cetirizine",
+      "dose": "10 mg",
+      "frequency": "Once daily as needed",
+      "route": "Oral",
+      "start_date": "2025-03-01",
+      "end_date": null,
+      "status": "Active",
+      "reason": "Allergic rhinitis",
+      "source": "Doctor Observation"
+    }
+  ],
+  "allergies": [
+    {
+      "id": "P2-ALL-001",
+      "record_type": "allergy",
+      "allergen": "Amoxicillin / penicillin-class antibiotic",
+      "reaction": "Generalized hives without documented airway compromise",
+      "severity": "Moderate",
+      "verification_status": "Confirmed by clinician history; later externally supported",
+      "recorded_date": "2026-02-01",
+      "status": "Active",
+      "source": "Doctor Observation"
+    }
+  ],
+  "measurements": [
+    {
+      "id": "P2-MEAS-001",
+      "record_type": "measurement",
+      "measurement_type": "Temperature",
+      "value": 36.8,
+      "unit": "C",
+      "effective_date": "2026-02-01T10:00:00+05:30",
+      "added_date": "2026-02-01T10:05:00+05:30",
+      "reference_range": "36.1-37.2 C",
+      "interpretation": "Afebrile",
+      "status": "Final",
+      "source": "Doctor Observation"
+    }
+  ],
+  "clinical_notes": [
+    {
+      "id": "P2-NOTE-001",
+      "record_type": "clinical_note",
+      "title": "Patient-reported antibiotic reaction",
+      "full_note_text": "Patient reports generalized hives after amoxicillin in 2019. No documented airway swelling, hypotension, or emergency treatment.",
+      "effective_date": "2019-07-14T12:00:00+05:30",
+      "added_date": "2026-02-01T10:10:00+05:30",
+      "status": "Final",
+      "source": "Patient Report"
+    },
+    {
+      "id": "P2-NOTE-002",
+      "record_type": "clinical_note",
+      "title": "Allergy correction resolution",
+      "full_note_text": "The imported no-known-allergies statement is retracted after reconciliation. Amoxicillin-associated hives remain active.",
+      "effective_date": "2026-02-20T14:00:00+05:30",
+      "added_date": "2026-02-20T14:00:00+05:30",
+      "status": "Final",
+      "source": "Doctor Observation"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "message_id": "CHAT-P2-001",
+    "timestamp": "2026-02-01T10:30:00+05:30",
+    "speaker": "doctor",
+    "text": "The patient reports hives after amoxicillin, without documented anaphylaxis.",
+    "supported": true,
+    "csm_review_request": false,
+    "expected_csm_behavior": "Supports active allergy state."
+  },
+  {
+    "message_id": "CHAT-P2-002",
+    "timestamp": "2026-02-12T09:00:00+05:30",
+    "speaker": "assistant",
+    "text": "The record contains a conflict between the active allergy history and an imported no-known-allergies statement.",
+    "supported": true,
+    "csm_review_request": false,
+    "expected_csm_behavior": "State becomes contested; retain both sources."
+  },
+  {
+    "message_id": "CHAT-P2-003",
+    "timestamp": "2026-02-13T09:00:00+05:30",
+    "speaker": "user",
+    "text": "The patient had anaphylactic shock with airway closure from penicillin.",
+    "supported": false,
+    "csm_review_request": true,
+    "expected_csm_behavior": "Pending review with insufficient evidence; do not escalate active reaction severity."
+  },
+  {
+    "message_id": "CHAT-P2-004",
+    "timestamp": "2026-02-18T16:00:00+05:30",
+    "speaker": "doctor",
+    "text": "Approve the external allergist statement that supports urticaria, but reject the unsupported anaphylactic-shock claim.",
+    "supported": true,
+    "csm_review_request": false,
+    "expected_csm_behavior": "Add supporting evidence; reject unsupported proposal."
+  },
+  {
+    "message_id": "CHAT-P2-005",
+    "timestamp": "2026-02-20T15:00:00+05:30",
+    "speaker": "doctor",
+    "text": "The hospital no-known-allergies statement has been formally retracted.",
+    "supported": true,
+    "csm_review_request": false,
+    "expected_csm_behavior": "Resolve contested state while preserving retracted evidence."
+  }
+]

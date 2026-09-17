@@ -1,0 +1,14 @@
+{
+  "patient_code": "SYN-CSM-003",
+  "full_name": "Synthetic Patient Gamma",
+  "date_of_birth": "1948-11-03",
+  "age_at_start": 77,
+  "sex": "Male",
+  "phone": "+91-90000-01003",
+  "email": "synthetic.gamma@example.test",
+  "address": "303 State Memory Avenue, Test District, Bengaluru 560001",
+  "emergency_contact_name": "Synthetic Contact Gamma",
+  "emergency_contact_phone": "+91-90000-01903",
+  "primary_condition": "Atrial fibrillation under rate-control monitoring",
+  "case_summary": "Cardiovascular monitoring case with worsening symptoms, treatment adjustment, delayed note, follow-up improvement, retracted false syncope note, and a rare detail available only in raw evidence."
+}

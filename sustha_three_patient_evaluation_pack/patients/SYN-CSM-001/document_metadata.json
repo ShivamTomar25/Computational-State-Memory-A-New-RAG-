@@ -1,0 +1,102 @@
+[
+  {
+    "document_id": "DOC-P1-001",
+    "filename": "P1_01_baseline_clinic_note.pdf",
+    "title": "Baseline Metabolic Clinic Note",
+    "document_type": "Clinic Note",
+    "document_date": "2026-01-10",
+    "upload_date": "2026-01-10",
+    "author_source": "Dr. Research Evaluator",
+    "encounter_id": "P1-ENC-001",
+    "evidence_ids": [
+      "EV-P1-001",
+      "EV-P1-002"
+    ],
+    "duplicate_family_id": null,
+    "pdf_sha256": "30540e29a54e9d46bf0c78330433951ad5a44d49350050b981e4235db4865ee0",
+    "text_sha256": "50449d595cdbab12a4c29a63e3912e952a77bf7bf655ad8076723c5ce2fb89d8"
+  },
+  {
+    "document_id": "DOC-P1-002",
+    "filename": "P1_02_abnormal_lab_report.pdf",
+    "title": "Renal Laboratory Report",
+    "document_type": "Laboratory Report",
+    "document_date": "2026-03-05",
+    "upload_date": "2026-03-08",
+    "author_source": "Sustha Synthetic Laboratory",
+    "encounter_id": "P1-ENC-002",
+    "evidence_ids": [
+      "EV-P1-003",
+      "EV-P1-004"
+    ],
+    "duplicate_family_id": null,
+    "pdf_sha256": "ff7e5ce08327438b5a73a26149a2027b4521d858c4f3e726a8aca851f5e68024",
+    "text_sha256": "bffa3212cf8dbd02408170ba7515db39a502637e31b1f288926086924ae3da84"
+  },
+  {
+    "document_id": "DOC-P1-003",
+    "filename": "P1_03_medication_summary.pdf",
+    "title": "Medication Reconciliation Summary",
+    "document_type": "Medication Summary",
+    "document_date": "2026-03-08",
+    "upload_date": "2026-03-08",
+    "author_source": "Dr. Research Evaluator",
+    "encounter_id": "P1-ENC-002",
+    "evidence_ids": [
+      "EV-P1-005"
+    ],
+    "duplicate_family_id": null,
+    "pdf_sha256": "2ce07a733ef7a30b517370638bd6d1aa089bc071dbda54a2c8f0e8ce348c8e5d",
+    "text_sha256": "0ccac0aa50ae92ffb05cd668f416269174a35c535b134e6ef78860fc159f3d5b"
+  },
+  {
+    "document_id": "DOC-P1-004",
+    "filename": "P1_04_dehydration_qualification.pdf",
+    "title": "Dehydration Qualification Note",
+    "document_type": "Clinical Note",
+    "document_date": "2026-03-04",
+    "upload_date": "2026-03-10",
+    "author_source": "Dr. Research Evaluator",
+    "encounter_id": "P1-ENC-002",
+    "evidence_ids": [
+      "EV-P1-006"
+    ],
+    "duplicate_family_id": null,
+    "pdf_sha256": "aa8a0fa2b9cab80ebf6a9feb0c406b0577b0161d474fc42c78d1700c10b1433a",
+    "text_sha256": "bfd571815cc9e1495ea04a53539135798bf0a722f1b4f4d6ec0c43a376c68e33"
+  },
+  {
+    "document_id": "DOC-P1-005",
+    "filename": "P1_05_corrected_lab_addendum.pdf",
+    "title": "Corrected Renal Laboratory Addendum",
+    "document_type": "Laboratory Addendum",
+    "document_date": "2026-03-05",
+    "upload_date": "2026-03-12",
+    "author_source": "Sustha Synthetic Laboratory",
+    "encounter_id": "P1-ENC-002",
+    "evidence_ids": [
+      "EV-P1-007",
+      "EV-P1-008"
+    ],
+    "duplicate_family_id": null,
+    "pdf_sha256": "77d3f8d3c47e2f8a435bc58bb9899bd00ce4a82785fad0d50815746125574b09",
+    "text_sha256": "c16e6e17b1b2325c490ca46b7f1641a97069b52077e59cde98186368ee7a689b"
+  },
+  {
+    "document_id": "DOC-P1-006",
+    "filename": "P1_06_followup_lab_report.pdf",
+    "title": "Post-Hydration Follow-up Laboratory Report",
+    "document_type": "Laboratory Report",
+    "document_date": "2026-03-20",
+    "upload_date": "2026-03-20",
+    "author_source": "Sustha Synthetic Laboratory",
+    "encounter_id": "P1-ENC-003",
+    "evidence_ids": [
+      "EV-P1-009",
+      "EV-P1-010"
+    ],
+    "duplicate_family_id": null,
+    "pdf_sha256": "b031587267df520bc9fc7e05b1192288863bc83d236223c358945739bfa89907",
+    "text_sha256": "ec602fd192b2d378091d3699d1df5c4358c6751d146d60ea306a39a6577aa14c"
+  }
+]

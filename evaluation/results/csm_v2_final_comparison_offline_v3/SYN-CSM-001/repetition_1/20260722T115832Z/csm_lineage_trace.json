@@ -1,0 +1,602 @@
+[
+  {
+    "canonical_source_id": "c3d6015f-74fc-43b3-bd0f-980791933814",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "0f46c796-c8e6-4354-8f62-fbd495f37766",
+    "source_type": "patient_information",
+    "state_id": "e2463a9f-822a-4f80-90a3-6f9c6fccb3c0",
+    "state_key": "outpatient",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "ccb0ce3a-a3c5-46e7-89f0-8eb60ef5a5e3",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "d8a784bd-4618-4dc8-b976-39badaff19cc",
+    "source_type": "patient_information",
+    "state_id": "2260e9a8-9724-4ff2-894f-508dc7b4fbe8",
+    "state_key": "urgent_outpatient",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "3d44a964-a34f-402a-a0d4-46e9f8fe08f2",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "393c8322-f2df-49b2-9032-cc2723f98577",
+    "source_type": "patient_information",
+    "state_id": "66b8b579-dfbe-4a36-bbcf-21f86e8a0982",
+    "state_key": "follow-up",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "82436317-3f6d-48a5-98a1-fc7112135ff0",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "599d0424-daa8-470a-99a3-87e5742bd3eb",
+    "source_type": "patient_information",
+    "state_id": "ba8c2d8f-fa4c-471b-a051-b48bc465e99e",
+    "state_key": "type 2 diabetes mellitus",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "4c1c91bf-529c-4286-84ca-8cdfbb165ef3",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "214d098f-96b3-4bf1-8fc7-8e6f2acc6d0c",
+    "source_type": "patient_information",
+    "state_id": "2947e40f-a1b0-44be-8b61-84f71377b820",
+    "state_key": "essential hypertension",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "8e514baf-cccd-4501-b2ce-ed6c9aed08c6",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "f27b99d2-42d7-4622-b616-45d41623cd5a",
+    "source_type": "patient_information",
+    "state_id": "a70c00c4-e650-475b-9d09-f1c6adf1f4a9",
+    "state_key": "metformin",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "93741d05-d8a8-40c9-b965-87774b495ce1",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "8a97add3-72cf-4bf1-8869-116dc86c371c",
+    "source_type": "patient_information",
+    "state_id": "549e58fd-0c98-42bb-b273-db3c4bb1ff08",
+    "state_key": "lisinopril",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "f1883cf3-d2d5-4728-9eca-486d26f44798",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "9447888e-5881-4f0a-a61a-5bde1c333b22",
+    "source_type": "patient_information",
+    "state_id": "37740cfb-89d2-47af-ad65-a261b1fffffd",
+    "state_key": "no known drug allergy recorded",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "7c216ab9-482a-45e1-b674-ccae87dc3241",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "b1b06bcd-1669-4c83-b970-77d5883a1dc6",
+    "source_type": "patient_information",
+    "state_id": "d4d91e1c-1973-4438-84c4-50572f388349",
+    "state_key": "serum creatinine",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "144815ec-2457-4f70-906b-db11c7129c10",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "e7cd67b1-98cc-4450-9a9c-696e1e9dfbc1",
+    "source_type": "patient_information",
+    "state_id": "88b0fc25-0f7d-45f8-b1d1-b22354581015",
+    "state_key": "estimated glomerular filtration rate",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "775bdc39-a4a1-480c-a6f2-ea6317756358",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "a48e8216-8ebe-4301-8613-5259f1c8f559",
+    "source_type": "patient_information",
+    "state_id": "d4d91e1c-1973-4438-84c4-50572f388349",
+    "state_key": "serum creatinine",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "879dce5d-3179-4280-b610-7bd2d3320872",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "7940989f-0dac-4426-88c6-8b1d5a3d342d",
+    "source_type": "patient_information",
+    "state_id": "88b0fc25-0f7d-45f8-b1d1-b22354581015",
+    "state_key": "estimated glomerular filtration rate",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "b36fe256-a9f3-4d54-8414-ff7324791817",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "aef6b6f7-fc79-4520-b703-6b286f7427c0",
+    "source_type": "patient_information",
+    "state_id": "71dcee52-d7f6-4ed0-8c53-e682f169041f",
+    "state_key": "serum creatinine - corrected",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "4ccc7534-0c71-4918-a30a-3425d55a636c",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "51c1f5d6-ce1c-4d6f-ae71-cd2c4dfab3af",
+    "source_type": "patient_information",
+    "state_id": "235ba5e8-af32-47f7-97c5-6122188306a5",
+    "state_key": "estimated glomerular filtration rate - corrected",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "100e6bd9-2555-45d8-975a-227392273059",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "f78c5824-5d7b-4a48-8941-3e86c61e92fb",
+    "source_type": "patient_information",
+    "state_id": "d4d91e1c-1973-4438-84c4-50572f388349",
+    "state_key": "serum creatinine",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "2714340b-357b-40da-8320-ca5d49b38825",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "30bbc9fb-3909-49ff-b090-50b2ee120947",
+    "source_type": "patient_information",
+    "state_id": "88b0fc25-0f7d-45f8-b1d1-b22354581015",
+    "state_key": "estimated glomerular filtration rate",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "f4c29954-0dee-482e-a023-4b0bb58eefbe",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "24e2b30a-c142-459e-8c94-84b4c89b933c",
+    "source_type": "patient_information",
+    "state_id": "f1b43fec-3296-43be-bd0d-a436bdb3d1bb",
+    "state_key": "dehydration qualification",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "54fd1427-29f4-4118-a5b1-2ba777c3a0c6",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "ac1b9e5a-5f4c-4b1e-9d3f-764929c0a28a",
+    "source_type": "patient_information",
+    "state_id": "c71739de-9907-4689-bb20-31df89f2fdd2",
+    "state_key": "laboratory correction acknowledgement",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "6783c222-88d0-4316-9e5d-ef17041965b6",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "532f0c64-34aa-4603-a3dc-56e5d378c362",
+    "source_type": "document",
+    "state_id": "cf401c83-e3c3-40ff-b7f2-2650109dea93",
+    "state_key": "baseline metabolic clinic note",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "45d84f73-ac0d-4c47-9e7d-cd89aa0eca52",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "f5844523-4ad8-4c09-adb6-06512a9fc02e",
+    "source_type": "document",
+    "state_id": "0d74f711-4f96-467f-88fe-e82672c51950",
+    "state_key": "section:ea1a2255-c0f8-489e-a0eb-32b10c1cc8fb",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "4f3333db-3165-4eda-92c3-3a26228909e8",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "de6e7894-6843-42c9-922f-3594c4d27496",
+    "source_type": "document",
+    "state_id": "5d6f6a6f-10be-4d20-a6f7-2471d99c9206",
+    "state_key": "renal laboratory report",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "8240274e-a886-4f15-b679-10cce83b9649",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "998fc6fc-a066-4d32-8e2c-10c19d5b5fe1",
+    "source_type": "document",
+    "state_id": "4fb105ce-a705-405b-8ea1-a6f13414c7e5",
+    "state_key": "section:74704973-ff4d-496f-b4da-893ea3ee9169",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "782865e0-919b-4ccf-8e67-6b54d03bb0e8",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "5423ce4d-0e39-43c2-a0e0-13651ccc5bb6",
+    "source_type": "document",
+    "state_id": "6d032e40-2eb7-4172-8730-cd80e0ee7a69",
+    "state_key": "medication reconciliation summary",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "cc74c889-a026-4efa-91da-ce3cb7ad4a8e",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "381a3e7d-cf2e-437c-892d-0749ecb73beb",
+    "source_type": "document",
+    "state_id": "1f615fa1-5093-4d77-9002-93ad52af14e7",
+    "state_key": "section:86591a93-5a03-4fb5-b6b2-f182f63fc765",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "c23d39e1-9286-46a3-a956-39ee6c42831f",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "16ec9d8d-b193-4d71-9398-90301b88e0a3",
+    "source_type": "document",
+    "state_id": "017b42b3-fa45-43d7-95b0-768e70968af3",
+    "state_key": "dehydration qualification note",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "818e76c5-3a83-4f81-bd9f-83b4c5f416d1",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "5858d71f-c5ad-401c-88a9-da300f359eb0",
+    "source_type": "document",
+    "state_id": "b9fb3c4e-9daa-44e6-b16f-29e174d69314",
+    "state_key": "section:1367df53-8671-43d5-8f65-221c4c48f478",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "501fafdf-88fe-400c-b8fe-d49b391cc246",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "d39f935e-4fa7-4457-971c-65266e981fcc",
+    "source_type": "document",
+    "state_id": "eae023b8-754f-4c2e-8e0a-2b2dbf9058be",
+    "state_key": "corrected renal laboratory addendum",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "50a2a2f2-85f0-4810-8d01-6e95c883f1ca",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "50825535-7d40-4765-8844-6517fce11be8",
+    "source_type": "document",
+    "state_id": "ff8f5267-08dd-4023-a168-6f587bc54d64",
+    "state_key": "section:e5a11973-ae52-4d29-bc64-19089bc4f098",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "01179013-122d-467c-ba84-2f1f8debc427",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "140a8546-e333-411d-8d1c-2e1e4962c9e0",
+    "source_type": "document",
+    "state_id": "0b8d5413-f483-41b6-8ee8-891f4a87f842",
+    "state_key": "post-hydration follow-up laboratory report",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "5a7448c6-829a-4d17-afa0-a12fc259a4a8",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "245f3f61-ee41-4daf-822d-36317734613a",
+    "source_type": "document",
+    "state_id": "3cafde86-2e85-46ff-94dd-f80505a45dc8",
+    "state_key": "section:992508fd-a5ec-443e-a9b5-1b673de2ccd5",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "c3d6015f-74fc-43b3-bd0f-980791933814",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "0f46c796-c8e6-4354-8f62-fbd495f37766",
+    "source_type": "patient_information",
+    "state_id": "60adefb8-3fea-4926-9222-e8592df15b73",
+    "state_key": "clinical_encounter:outpatient",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "82436317-3f6d-48a5-98a1-fc7112135ff0",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "599d0424-daa8-470a-99a3-87e5742bd3eb",
+    "source_type": "patient_information",
+    "state_id": "89e6867b-bd04-4d15-a6c5-68d823f64b3a",
+    "state_key": "clinical_condition:type 2 diabetes mellitus",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "4c1c91bf-529c-4286-84ca-8cdfbb165ef3",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "214d098f-96b3-4bf1-8fc7-8e6f2acc6d0c",
+    "source_type": "patient_information",
+    "state_id": "3f08af22-78fc-450b-96e2-ec06d8a62343",
+    "state_key": "clinical_condition:essential hypertension",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "8e514baf-cccd-4501-b2ce-ed6c9aed08c6",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "f27b99d2-42d7-4622-b616-45d41623cd5a",
+    "source_type": "patient_information",
+    "state_id": "1f8f810a-eb88-4f17-9dbe-9f1459760376",
+    "state_key": "medication:metformin",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "93741d05-d8a8-40c9-b965-87774b495ce1",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "8a97add3-72cf-4bf1-8869-116dc86c371c",
+    "source_type": "patient_information",
+    "state_id": "8a1222ea-2e7c-4041-af4b-9a91c8c6b9ed",
+    "state_key": "medication:lisinopril",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "f1883cf3-d2d5-4728-9eca-486d26f44798",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "9447888e-5881-4f0a-a61a-5bde1c333b22",
+    "source_type": "patient_information",
+    "state_id": "d26d0e21-09d7-4544-b30c-260060a78269",
+    "state_key": "allergy:no known drug allergy recorded",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "7c216ab9-482a-45e1-b674-ccae87dc3241",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "b1b06bcd-1669-4c83-b970-77d5883a1dc6",
+    "source_type": "patient_information",
+    "state_id": "76939a66-86bf-4986-9b4c-6467028521d8",
+    "state_key": "measurement:serum creatinine",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "144815ec-2457-4f70-906b-db11c7129c10",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "e7cd67b1-98cc-4450-9a9c-696e1e9dfbc1",
+    "source_type": "patient_information",
+    "state_id": "eb939db6-6a96-4f0a-909d-9a7b52d1d6bb",
+    "state_key": "measurement:estimated glomerular filtration rate",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "6783c222-88d0-4316-9e5d-ef17041965b6",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "532f0c64-34aa-4603-a3dc-56e5d378c362",
+    "source_type": "document",
+    "state_id": "8daca188-61be-41b4-be72-9dab28e01e3c",
+    "state_key": "document_evidence:baseline metabolic clinic note",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "45d84f73-ac0d-4c47-9e7d-cd89aa0eca52",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "f5844523-4ad8-4c09-adb6-06512a9fc02e",
+    "source_type": "document",
+    "state_id": "e2a48a31-d299-4563-93c7-26efeb891e01",
+    "state_key": "document_evidence:section heading: full document. page 1 baseline metabolic clinic note patient code syn-csm-001 document id doc-p1-001 document type clinic note document date 2026-01-10 upload date",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "ccb0ce3a-a3c5-46e7-89f0-8eb60ef5a5e3",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "d8a784bd-4618-4dc8-b976-39badaff19cc",
+    "source_type": "patient_information",
+    "state_id": "6f59b4ce-3925-45f1-98b5-57569ec58917",
+    "state_key": "clinical_encounter:urgent_outpatient",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "775bdc39-a4a1-480c-a6f2-ea6317756358",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "a48e8216-8ebe-4301-8613-5259f1c8f559",
+    "source_type": "patient_information",
+    "state_id": "76939a66-86bf-4986-9b4c-6467028521d8",
+    "state_key": "measurement:serum creatinine",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "879dce5d-3179-4280-b610-7bd2d3320872",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "7940989f-0dac-4426-88c6-8b1d5a3d342d",
+    "source_type": "patient_information",
+    "state_id": "eb939db6-6a96-4f0a-909d-9a7b52d1d6bb",
+    "state_key": "measurement:estimated glomerular filtration rate",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "4f3333db-3165-4eda-92c3-3a26228909e8",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "de6e7894-6843-42c9-922f-3594c4d27496",
+    "source_type": "document",
+    "state_id": "792e01e4-9ccc-4c3f-bb0b-d43e1c3c2ccd",
+    "state_key": "document_evidence:renal laboratory report",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "8240274e-a886-4f15-b679-10cce83b9649",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "998fc6fc-a066-4d32-8e2c-10c19d5b5fe1",
+    "source_type": "document",
+    "state_id": "071e4f55-461e-4245-bb0f-fe4675640ea2",
+    "state_key": "document_evidence:section heading: full document. page 1 renal laboratory report patient code syn-csm-001 document id doc-p1-002 document type laboratory report document date 2026-03-05 upload date.",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "782865e0-919b-4ccf-8e67-6b54d03bb0e8",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "5423ce4d-0e39-43c2-a0e0-13651ccc5bb6",
+    "source_type": "document",
+    "state_id": "66908247-0f8e-449c-bba4-b09750cd1f33",
+    "state_key": "document_evidence:medication reconciliation summary",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "cc74c889-a026-4efa-91da-ce3cb7ad4a8e",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "381a3e7d-cf2e-437c-892d-0749ecb73beb",
+    "source_type": "document",
+    "state_id": "0e422665-05f3-4c09-a149-a73ac45f0d2c",
+    "state_key": "document_evidence:section heading: full document. page 1 medication reconciliation summary patient code syn-csm-001 document id doc-p1-003 document type medication summary document date 2026-03-08 u",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "f4c29954-0dee-482e-a023-4b0bb58eefbe",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "24e2b30a-c142-459e-8c94-84b4c89b933c",
+    "source_type": "patient_information",
+    "state_id": "77fc0280-b9b5-4dbb-a5b5-077f4def1070",
+    "state_key": "clinical_note:dehydration qualification",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "c23d39e1-9286-46a3-a956-39ee6c42831f",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "16ec9d8d-b193-4d71-9398-90301b88e0a3",
+    "source_type": "document",
+    "state_id": "945e1569-72e8-4b93-97ca-6a260e0f59fb",
+    "state_key": "document_evidence:dehydration qualification note",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "818e76c5-3a83-4f81-bd9f-83b4c5f416d1",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "5858d71f-c5ad-401c-88a9-da300f359eb0",
+    "source_type": "document",
+    "state_id": "dbc3fe11-8646-4655-8c10-0428167d1d8f",
+    "state_key": "document_evidence:section heading: full document. page 1 dehydration qualification note patient code syn-csm-001 document id doc-p1-004 document type clinical note document date 2026-03-04 upload da",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "b36fe256-a9f3-4d54-8414-ff7324791817",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "aef6b6f7-fc79-4520-b703-6b286f7427c0",
+    "source_type": "patient_information",
+    "state_id": "6d841f85-7898-44cd-a029-390746d292f4",
+    "state_key": "measurement:serum creatinine - corrected",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "4ccc7534-0c71-4918-a30a-3425d55a636c",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "51c1f5d6-ce1c-4d6f-ae71-cd2c4dfab3af",
+    "source_type": "patient_information",
+    "state_id": "097592d2-fb7d-4c63-b005-91448161a382",
+    "state_key": "measurement:estimated glomerular filtration rate - corrected",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "54fd1427-29f4-4118-a5b1-2ba777c3a0c6",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "ac1b9e5a-5f4c-4b1e-9d3f-764929c0a28a",
+    "source_type": "patient_information",
+    "state_id": "fd32ca5a-ade7-486e-b1c4-c3d187135ce6",
+    "state_key": "clinical_note:laboratory correction acknowledgement",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "501fafdf-88fe-400c-b8fe-d49b391cc246",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "d39f935e-4fa7-4457-971c-65266e981fcc",
+    "source_type": "document",
+    "state_id": "da96b91d-91a6-4c5d-be3e-ff79877545bc",
+    "state_key": "document_evidence:corrected renal laboratory addendum",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "50a2a2f2-85f0-4810-8d01-6e95c883f1ca",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "50825535-7d40-4765-8844-6517fce11be8",
+    "source_type": "document",
+    "state_id": "0d3f8b7d-bcd6-47ce-93e5-6bd61ec9c452",
+    "state_key": "document_evidence:section heading: full document. page 1 corrected renal laboratory addendum patient code syn-csm-001 document id doc-p1-005 document type laboratory addendum document date 2026-03-0",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "3d44a964-a34f-402a-a0d4-46e9f8fe08f2",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "393c8322-f2df-49b2-9032-cc2723f98577",
+    "source_type": "patient_information",
+    "state_id": "d003695c-1bc0-473b-9234-d7976d873f85",
+    "state_key": "clinical_encounter:follow-up",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "100e6bd9-2555-45d8-975a-227392273059",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "f78c5824-5d7b-4a48-8941-3e86c61e92fb",
+    "source_type": "patient_information",
+    "state_id": "76939a66-86bf-4986-9b4c-6467028521d8",
+    "state_key": "measurement:serum creatinine",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "2714340b-357b-40da-8320-ca5d49b38825",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "30bbc9fb-3909-49ff-b090-50b2ee120947",
+    "source_type": "patient_information",
+    "state_id": "eb939db6-6a96-4f0a-909d-9a7b52d1d6bb",
+    "state_key": "measurement:estimated glomerular filtration rate",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "01179013-122d-467c-ba84-2f1f8debc427",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "140a8546-e333-411d-8d1c-2e1e4962c9e0",
+    "source_type": "document",
+    "state_id": "83b25b73-60ef-4339-9023-28b4029c33c1",
+    "state_key": "document_evidence:post-hydration follow-up laboratory report",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "5a7448c6-829a-4d17-afa0-a12fc259a4a8",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "245f3f61-ee41-4daf-822d-36317734613a",
+    "source_type": "document",
+    "state_id": "12fdea04-ec58-4455-8784-19561eee6fda",
+    "state_key": "document_evidence:section heading: full document. page 1 post-hydration follow-up laboratory report patient code syn-csm-001 document id doc-p1-006 document type laboratory report document date 2026",
+    "verification_status": "candidate"
+  }
+]

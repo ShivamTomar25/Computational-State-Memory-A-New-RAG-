@@ -1,0 +1,10 @@
+Doctor question:
+{question}
+
+Recent conversation:
+{conversation_history}
+
+Retrieved patient context:
+{context}
+
+Return a structured grounded answer. Use citation IDs only from the retrieved context.

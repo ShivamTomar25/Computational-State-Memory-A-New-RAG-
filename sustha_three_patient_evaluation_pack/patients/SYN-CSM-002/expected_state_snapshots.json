@@ -1,0 +1,129 @@
+[
+  {
+    "snapshot_id": "P2-SNAP-001",
+    "cutoff": "2026-02-01T23:59:59+05:30",
+    "states": [
+      {
+        "state_id": "P2-STATE-ALLERGY",
+        "version": 1,
+        "state_type": "antibiotic_allergy",
+        "display_value": "Amoxicillin-associated generalized hives",
+        "category": "Allergy",
+        "lifecycle_status": "Active",
+        "valid_period": [
+          "2019-07-14",
+          null
+        ],
+        "supporting_evidence_ids": [
+          "EV-P2-001",
+          "EV-P2-002"
+        ],
+        "contradicting_evidence_ids": [],
+        "qualifying_evidence_ids": [],
+        "parent_states": [],
+        "child_states": [
+          "P2-STATE-MED-SAFETY"
+        ],
+        "requires_review": false,
+        "uncertainty": "medium",
+        "explanation": "Patient history and doctor-entered record agree."
+      }
+    ]
+  },
+  {
+    "snapshot_id": "P2-SNAP-002",
+    "cutoff": "2026-02-11T23:59:59+05:30",
+    "states": [
+      {
+        "state_id": "P2-STATE-ALLERGY",
+        "version": 2,
+        "state_type": "antibiotic_allergy",
+        "display_value": "Amoxicillin allergy disputed by imported NKDA record",
+        "category": "Allergy",
+        "lifecycle_status": "Contested",
+        "valid_period": [
+          "2019-07-14",
+          null
+        ],
+        "supporting_evidence_ids": [
+          "EV-P2-001",
+          "EV-P2-002"
+        ],
+        "contradicting_evidence_ids": [
+          "EV-P2-004",
+          "EV-P2-005"
+        ],
+        "qualifying_evidence_ids": [],
+        "parent_states": [],
+        "child_states": [
+          "P2-STATE-MED-SAFETY"
+        ],
+        "requires_review": true,
+        "uncertainty": "high",
+        "explanation": "Contradictory imported sources; duplicate family must not be treated independently."
+      }
+    ]
+  },
+  {
+    "snapshot_id": "P2-SNAP-003",
+    "cutoff": "2026-02-20T23:59:59+05:30",
+    "states": [
+      {
+        "state_id": "P2-STATE-ALLERGY",
+        "version": 4,
+        "state_type": "antibiotic_allergy",
+        "display_value": "Amoxicillin-associated generalized hives; no proven anaphylaxis",
+        "category": "Allergy",
+        "lifecycle_status": "Resolved",
+        "valid_period": [
+          "2019-07-14",
+          null
+        ],
+        "supporting_evidence_ids": [
+          "EV-P2-001",
+          "EV-P2-002",
+          "EV-P2-006",
+          "EV-P2-007"
+        ],
+        "contradicting_evidence_ids": [
+          "EV-P2-004",
+          "EV-P2-005"
+        ],
+        "qualifying_evidence_ids": [],
+        "parent_states": [],
+        "child_states": [
+          "P2-STATE-MED-SAFETY"
+        ],
+        "requires_review": false,
+        "uncertainty": "low-medium",
+        "explanation": "External support and retraction resolve the conflict while preserving history."
+      },
+      {
+        "state_id": "P2-STATE-MED-SAFETY",
+        "version": 3,
+        "state_type": "antibiotic_medication_safety",
+        "display_value": "Avoid unreviewed penicillin-class prescribing; allergy reconciliation resolved",
+        "category": "Medication Safety",
+        "lifecycle_status": "Resolved",
+        "valid_period": [
+          "2026-02-20",
+          null
+        ],
+        "supporting_evidence_ids": [
+          "EV-P2-002",
+          "EV-P2-006",
+          "EV-P2-007"
+        ],
+        "contradicting_evidence_ids": [],
+        "qualifying_evidence_ids": [],
+        "parent_states": [
+          "P2-STATE-ALLERGY"
+        ],
+        "child_states": [],
+        "requires_review": true,
+        "uncertainty": "low-medium",
+        "explanation": "Derived safety state; clinical decision remains clinician-controlled."
+      }
+    ]
+  }
+]

@@ -1,0 +1,211 @@
+[
+  {
+    "snapshot_id": "P3-SNAP-001",
+    "cutoff": "2026-04-01T23:59:59+05:30",
+    "states": [
+      {
+        "state_id": "P3-STATE-RATE",
+        "version": 1,
+        "state_type": "rate_control_status",
+        "display_value": "Baseline rate-control monitoring",
+        "category": "Cardiovascular",
+        "lifecycle_status": "Active",
+        "valid_period": [
+          "2026-04-01",
+          null
+        ],
+        "supporting_evidence_ids": [
+          "EV-P3-001"
+        ],
+        "contradicting_evidence_ids": [],
+        "qualifying_evidence_ids": [],
+        "parent_states": [],
+        "child_states": [
+          "P3-STATE-RESPONSE",
+          "P3-STATE-FOLLOWUP"
+        ],
+        "requires_review": false,
+        "uncertainty": "low",
+        "explanation": "Baseline AF and resting heart rate."
+      }
+    ]
+  },
+  {
+    "snapshot_id": "P3-SNAP-002",
+    "cutoff": "2026-04-09T23:59:59+05:30",
+    "states": [
+      {
+        "state_id": "P3-STATE-RATE",
+        "version": 2,
+        "state_type": "rate_control_status",
+        "display_value": "Worsened rate control with symptoms",
+        "category": "Cardiovascular",
+        "lifecycle_status": "Active",
+        "valid_period": [
+          "2026-04-08",
+          null
+        ],
+        "supporting_evidence_ids": [
+          "EV-P3-003",
+          "EV-P3-004"
+        ],
+        "contradicting_evidence_ids": [],
+        "qualifying_evidence_ids": [],
+        "parent_states": [],
+        "child_states": [
+          "P3-STATE-RESPONSE",
+          "P3-STATE-FOLLOWUP"
+        ],
+        "requires_review": true,
+        "uncertainty": "medium",
+        "explanation": "Heart rate increased to 112 with symptoms."
+      },
+      {
+        "state_id": "P3-STATE-RESPONSE",
+        "version": 1,
+        "state_type": "treatment_response",
+        "display_value": "Treatment adjustment initiated; response not yet known",
+        "category": "Treatment",
+        "lifecycle_status": "Candidate",
+        "valid_period": [
+          "2026-04-09",
+          null
+        ],
+        "supporting_evidence_ids": [
+          "EV-P3-005"
+        ],
+        "contradicting_evidence_ids": [],
+        "qualifying_evidence_ids": [],
+        "parent_states": [
+          "P3-STATE-RATE"
+        ],
+        "child_states": [
+          "P3-STATE-FOLLOWUP"
+        ],
+        "requires_review": true,
+        "uncertainty": "high",
+        "explanation": "No post-adjustment outcome yet."
+      }
+    ]
+  },
+  {
+    "snapshot_id": "P3-SNAP-003",
+    "cutoff": "2026-04-15T23:59:59+05:30",
+    "states": [
+      {
+        "state_id": "P3-STATE-SYNCOPE",
+        "version": 2,
+        "state_type": "syncope_history",
+        "display_value": "Incorrect syncope statement retracted",
+        "category": "Symptom",
+        "lifecycle_status": "Invalidated",
+        "valid_period": [
+          "2026-04-05",
+          "2026-04-15"
+        ],
+        "supporting_evidence_ids": [
+          "EV-P3-009"
+        ],
+        "contradicting_evidence_ids": [],
+        "qualifying_evidence_ids": [],
+        "parent_states": [],
+        "child_states": [
+          "P3-STATE-FOLLOWUP"
+        ],
+        "requires_review": false,
+        "uncertainty": "low",
+        "explanation": "Retraction prevents use in current decision state."
+      }
+    ]
+  },
+  {
+    "snapshot_id": "P3-SNAP-004",
+    "cutoff": "2026-04-22T23:59:59+05:30",
+    "states": [
+      {
+        "state_id": "P3-STATE-RATE",
+        "version": 3,
+        "state_type": "rate_control_status",
+        "display_value": "Improved rate control",
+        "category": "Cardiovascular",
+        "lifecycle_status": "Resolved",
+        "valid_period": [
+          "2026-04-22",
+          null
+        ],
+        "supporting_evidence_ids": [
+          "EV-P3-007",
+          "EV-P3-008",
+          "EV-P3-005"
+        ],
+        "contradicting_evidence_ids": [
+          "EV-P3-003",
+          "EV-P3-004"
+        ],
+        "qualifying_evidence_ids": [],
+        "parent_states": [],
+        "child_states": [
+          "P3-STATE-RESPONSE",
+          "P3-STATE-FOLLOWUP"
+        ],
+        "requires_review": false,
+        "uncertainty": "low-medium",
+        "explanation": "Heart rate and symptoms improved after clinician-directed adjustment."
+      },
+      {
+        "state_id": "P3-STATE-RESPONSE",
+        "version": 2,
+        "state_type": "treatment_response",
+        "display_value": "Improving after treatment adjustment",
+        "category": "Treatment",
+        "lifecycle_status": "Resolved",
+        "valid_period": [
+          "2026-04-22",
+          null
+        ],
+        "supporting_evidence_ids": [
+          "EV-P3-005",
+          "EV-P3-007",
+          "EV-P3-008"
+        ],
+        "contradicting_evidence_ids": [],
+        "qualifying_evidence_ids": [],
+        "parent_states": [
+          "P3-STATE-RATE"
+        ],
+        "child_states": [
+          "P3-STATE-FOLLOWUP"
+        ],
+        "requires_review": false,
+        "uncertainty": "low-medium",
+        "explanation": "Derived from treatment change and follow-up evidence."
+      },
+      {
+        "state_id": "P3-STATE-FOLLOWUP",
+        "version": 3,
+        "state_type": "follow_up_priority",
+        "display_value": "Routine clinician follow-up after improvement",
+        "category": "Care Coordination",
+        "lifecycle_status": "Resolved",
+        "valid_period": [
+          "2026-04-22",
+          null
+        ],
+        "supporting_evidence_ids": [
+          "EV-P3-007",
+          "EV-P3-008"
+        ],
+        "contradicting_evidence_ids": [],
+        "qualifying_evidence_ids": [],
+        "parent_states": [
+          "P3-STATE-RATE",
+          "P3-STATE-RESPONSE"
+        ],
+        "child_states": [],
+        "requires_review": false,
+        "uncertainty": "medium",
+        "explanation": "Decision state depends on rate control, symptoms, and retraction status."
+      }
+    ]
+  }
+]

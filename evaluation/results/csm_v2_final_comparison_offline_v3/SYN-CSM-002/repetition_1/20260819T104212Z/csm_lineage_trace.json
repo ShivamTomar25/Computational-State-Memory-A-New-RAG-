@@ -1,0 +1,402 @@
+[
+  {
+    "canonical_source_id": "bf6612ab-30cb-473d-90fc-f63f72980a9c",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "9e8206ee-8026-4b3c-b8fc-af9c305f421a",
+    "source_type": "patient_information",
+    "state_id": "54308ecc-5b45-45d0-9036-748d1582f4cf",
+    "state_key": "outpatient",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "91dfb1e3-dff7-4b57-92d0-c42302361948",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "1c82875f-5201-409c-9f9c-e9724f7c78fc",
+    "source_type": "patient_information",
+    "state_id": "2b811ab9-768d-455c-9eef-5bf6ba0f3127",
+    "state_key": "review",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "8bb866c4-e823-4913-b09f-0eec883daa68",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "80caa937-3def-4c0e-b1d2-bb61e2608c49",
+    "source_type": "patient_information",
+    "state_id": "9c6ea71c-2b85-48fa-af6b-80a5547cfbe3",
+    "state_key": "recurrent allergic rhinitis",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "c0565441-cb26-4c90-ac56-6ae55e7d4dac",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "537c984a-9f53-4c38-a512-1aaad0fa627a",
+    "source_type": "patient_information",
+    "state_id": "39ee5b07-f479-4b95-a76d-c00227437e0e",
+    "state_key": "cetirizine",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "66a24697-9176-49ad-a3c7-71d68813d9e1",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "92dfabfb-4b7b-4c54-942e-8e47758c0bcd",
+    "source_type": "patient_information",
+    "state_id": "bad08bf6-cd14-4493-a389-02f2adf83ba7",
+    "state_key": "amoxicillin / penicillin-class antibiotic",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "8dccc08a-484a-438f-ac5c-ac156ef18e9c",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "89497b29-dc6f-48ce-a253-2327de872a39",
+    "source_type": "patient_information",
+    "state_id": "4a200832-237a-4c7a-bdee-358863d80347",
+    "state_key": "temperature",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "9fe1621d-2a1f-4690-96ba-cae5df236aec",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "55cb5740-453b-4357-be8c-ccc0b0990139",
+    "source_type": "patient_information",
+    "state_id": "46b85989-4953-4301-9879-f090e58ddfbc",
+    "state_key": "patient-reported antibiotic reaction",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "66e57bbe-fb68-43c7-810c-23a150eaae26",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "35e29a3d-244c-45e2-aa4d-0df7291a2e42",
+    "source_type": "patient_information",
+    "state_id": "ddf2daff-b1f3-41b2-921b-4c5585a7770b",
+    "state_key": "allergy correction resolution",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "2c986fe9-ee7f-41b2-b1fd-edbbef8edf2f",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "6d06154b-c063-40d9-8bd8-1c52bf58d0dc",
+    "source_type": "document",
+    "state_id": "2f67c926-197c-4a96-990e-70e9de39fa79",
+    "state_key": "patient intake and allergy history",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "8debd3a9-7d56-4f30-8e39-6c382f8eac5f",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "11496469-88d2-4db6-ab67-b82d32a48660",
+    "source_type": "document",
+    "state_id": "53babb95-9d13-4872-9776-929ccc79b25e",
+    "state_key": "section:28db4b51-67c3-414a-a3a3-3e924c985a4c",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "a39c5e57-70b4-4767-bbb9-3dbb713993eb",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "e254406a-70f4-4ed3-94a6-09ed6a33435e",
+    "source_type": "document",
+    "state_id": "874b4348-fc3e-4eec-87c5-af831aa20297",
+    "state_key": "medication reconciliation report",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "e25767af-00d0-4d6e-b3ce-2e327cf2b194",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "b0c374f2-5fd0-4ad6-ae24-0e0b8326b3c0",
+    "source_type": "document",
+    "state_id": "3127aaa8-ecd1-40a1-9612-37f79e4bb57c",
+    "state_key": "section:6fcea49c-4ee2-4166-93db-982c100f3232",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "9311b153-e6bf-4875-9eb2-edeec723d1b1",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "02c10d4e-3497-4e0c-aad1-ea2548d9429f",
+    "source_type": "document",
+    "state_id": "73183150-e4bf-4fe8-a658-1a5f117e28dc",
+    "state_key": "imported hospital discharge summary",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "862e42ef-ef0f-45c8-914f-bb85f145a2ae",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "558d1bd2-24e4-4468-8a81-903e4b20ebec",
+    "source_type": "document",
+    "state_id": "e4023ab6-74a0-4e19-9eaf-7a09a2f8624e",
+    "state_key": "section:fffbacf9-2862-4276-8b86-c846fb991c88",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "98402931-401e-44e9-8d6e-0fbde7f989fc",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "ed4ec51d-035d-4820-8102-7dc48b43a3e6",
+    "source_type": "document",
+    "state_id": "16f30aca-d4b5-4a7e-b1a4-9911186b8f9e",
+    "state_key": "imported hospital summary copy",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "f7ec5120-23f9-45d3-bc0c-f31f0b8b7c1e",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "4a0b2a0a-ecee-42f3-b1c4-1f81b342b65a",
+    "source_type": "document",
+    "state_id": "091f32af-43f1-4bbf-9cb6-a7af0d23ff67",
+    "state_key": "section:44febe2a-d78d-475b-80e4-90ec2d2179a9",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "df43e673-2678-44ab-86ee-2016f737e9cd",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "97a7ef47-6754-4cec-8585-97f258c856e9",
+    "source_type": "document",
+    "state_id": "48a5d121-513e-4cc9-a153-07d938ba0968",
+    "state_key": "external allergy specialist letter",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "c1b10f0c-5675-4c5f-bffc-f24e9f380099",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "30ecf6cb-e915-4566-9468-ad5b834180e2",
+    "source_type": "document",
+    "state_id": "cc0ce5b7-7bd2-42f6-90b0-8b1187b36585",
+    "state_key": "section:408bf167-2939-429a-bb9a-1e636e81663a",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "aa836cec-1a9e-4c3b-a670-d260c01136a5",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "cef39e89-6006-4b7e-9305-bda092667263",
+    "source_type": "document",
+    "state_id": "128b1bb4-95e2-48c4-a2a9-6e053172864c",
+    "state_key": "allergy reconciliation correction notice",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "3a49520b-8fee-45f8-934d-9d52db21acf5",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "1177e1a4-51e2-4990-bc38-fd888aecfabd",
+    "source_type": "document",
+    "state_id": "2d52b625-2c85-4db2-ae97-3c2d3dff5cd1",
+    "state_key": "section:932962db-18db-4e8d-8e98-19525df0629a",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "bf6612ab-30cb-473d-90fc-f63f72980a9c",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "9e8206ee-8026-4b3c-b8fc-af9c305f421a",
+    "source_type": "patient_information",
+    "state_id": "6ef23d0d-1b30-42e0-a74f-e14d2ebf4d0c",
+    "state_key": "clinical_encounter:outpatient",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "8bb866c4-e823-4913-b09f-0eec883daa68",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "80caa937-3def-4c0e-b1d2-bb61e2608c49",
+    "source_type": "patient_information",
+    "state_id": "942b5a6c-84b2-4f38-b9ff-f03936d195d2",
+    "state_key": "clinical_condition:recurrent allergic rhinitis",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "c0565441-cb26-4c90-ac56-6ae55e7d4dac",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "537c984a-9f53-4c38-a512-1aaad0fa627a",
+    "source_type": "patient_information",
+    "state_id": "36032e0b-0651-4e25-984f-c0dd8f9cb0f1",
+    "state_key": "medication:cetirizine",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "66a24697-9176-49ad-a3c7-71d68813d9e1",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "92dfabfb-4b7b-4c54-942e-8e47758c0bcd",
+    "source_type": "patient_information",
+    "state_id": "0341f124-0ef7-4ce2-bcd0-c930227d03c4",
+    "state_key": "allergy:amoxicillin / penicillin-class antibiotic",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "8dccc08a-484a-438f-ac5c-ac156ef18e9c",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "89497b29-dc6f-48ce-a253-2327de872a39",
+    "source_type": "patient_information",
+    "state_id": "02f79d21-5349-4201-a42c-23bc5f1ecf15",
+    "state_key": "measurement:temperature",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "9fe1621d-2a1f-4690-96ba-cae5df236aec",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "55cb5740-453b-4357-be8c-ccc0b0990139",
+    "source_type": "patient_information",
+    "state_id": "52f07111-cf2f-49f9-9fea-e07e28bade89",
+    "state_key": "clinical_note:patient-reported antibiotic reaction",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "2c986fe9-ee7f-41b2-b1fd-edbbef8edf2f",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "6d06154b-c063-40d9-8bd8-1c52bf58d0dc",
+    "source_type": "document",
+    "state_id": "5c447897-7406-4981-a6b0-709cfd7ae3ab",
+    "state_key": "document_evidence:patient intake and allergy history",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "8debd3a9-7d56-4f30-8e39-6c382f8eac5f",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "11496469-88d2-4db6-ab67-b82d32a48660",
+    "source_type": "document",
+    "state_id": "ea38eac6-6625-448f-8fb6-5e1ba7d7f342",
+    "state_key": "document_evidence:section heading: full document. page 1 patient intake and allergy history patient code syn-csm-002 document id doc-p2-001 document type intake note document date 2026-02-01 upload.",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "a39c5e57-70b4-4767-bbb9-3dbb713993eb",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "e254406a-70f4-4ed3-94a6-09ed6a33435e",
+    "source_type": "document",
+    "state_id": "f840ad38-86e9-434e-b9f6-914f4f0e57b0",
+    "state_key": "document_evidence:medication reconciliation report",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "e25767af-00d0-4d6e-b3ce-2e327cf2b194",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "b0c374f2-5fd0-4ad6-ae24-0e0b8326b3c0",
+    "source_type": "document",
+    "state_id": "1f5961ba-5944-44ff-a64e-611e0f0ef679",
+    "state_key": "document_evidence:section heading: full document. page 1 medication reconciliation report patient code syn-csm-002 document id doc-p2-002 document type medication summary document date 2026-02-01 up",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "9311b153-e6bf-4875-9eb2-edeec723d1b1",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "02c10d4e-3497-4e0c-aad1-ea2548d9429f",
+    "source_type": "document",
+    "state_id": "eef3db2f-c5ad-4b04-9d0a-3b045af103d5",
+    "state_key": "document_evidence:imported hospital discharge summary",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "862e42ef-ef0f-45c8-914f-bb85f145a2ae",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "558d1bd2-24e4-4468-8a81-903e4b20ebec",
+    "source_type": "document",
+    "state_id": "aa1a29cc-de49-4105-b8d4-a688712344a8",
+    "state_key": "document_evidence:section heading: full document. page 1 imported hospital discharge summary patient code syn-csm-002 document id doc-p2-003 document type hospital record document date 2026-01-15 up",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "98402931-401e-44e9-8d6e-0fbde7f989fc",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "ed4ec51d-035d-4820-8102-7dc48b43a3e6",
+    "source_type": "document",
+    "state_id": "c23905ed-93a4-486c-9e5b-5904f8b5f76b",
+    "state_key": "document_evidence:imported hospital summary copy",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "f7ec5120-23f9-45d3-bc0c-f31f0b8b7c1e",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "4a0b2a0a-ecee-42f3-b1c4-1f81b342b65a",
+    "source_type": "document",
+    "state_id": "1caf6a7c-292a-4b70-b87e-84ce9391b042",
+    "state_key": "document_evidence:section heading: full document. page 1 imported hospital summary copy patient code syn-csm-002 document id doc-p2-004 document type hospital record document date 2026-01-15 upload.",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "91dfb1e3-dff7-4b57-92d0-c42302361948",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "1c82875f-5201-409c-9f9c-e9724f7c78fc",
+    "source_type": "patient_information",
+    "state_id": "ec87a0d0-14f5-47b2-88b0-4b460a18710e",
+    "state_key": "clinical_encounter:review",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "df43e673-2678-44ab-86ee-2016f737e9cd",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "97a7ef47-6754-4cec-8585-97f258c856e9",
+    "source_type": "document",
+    "state_id": "ba3c46c9-9a67-4550-987e-ac1feb267293",
+    "state_key": "document_evidence:external allergy specialist letter",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "c1b10f0c-5675-4c5f-bffc-f24e9f380099",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "30ecf6cb-e915-4566-9468-ad5b834180e2",
+    "source_type": "document",
+    "state_id": "9ad2c7af-0d5d-4b5f-ac4b-a131aeec8a31",
+    "state_key": "document_evidence:section heading: full document. page 1 external allergy specialist letter patient code syn-csm-002 document id doc-p2-005 document type external clinician letter document date 2026",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "66e57bbe-fb68-43c7-810c-23a150eaae26",
+    "contribution_type": "supports",
+    "contribution_weight": 1.0,
+    "evidence_id": "35e29a3d-244c-45e2-aa4d-0df7291a2e42",
+    "source_type": "patient_information",
+    "state_id": "bf6197ff-ec9f-4635-a327-0e15e9b78a0a",
+    "state_key": "clinical_note:allergy correction resolution",
+    "verification_status": "verified"
+  },
+  {
+    "canonical_source_id": "aa836cec-1a9e-4c3b-a670-d260c01136a5",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "cef39e89-6006-4b7e-9305-bda092667263",
+    "source_type": "document",
+    "state_id": "144a0ce8-fcb1-45d6-b142-5989afc57175",
+    "state_key": "document_evidence:allergy reconciliation correction notice",
+    "verification_status": "candidate"
+  },
+  {
+    "canonical_source_id": "3a49520b-8fee-45f8-934d-9d52db21acf5",
+    "contribution_type": "qualifies",
+    "contribution_weight": 1.0,
+    "evidence_id": "1177e1a4-51e2-4990-bc38-fd888aecfabd",
+    "source_type": "document",
+    "state_id": "6ddd3051-80aa-40b4-8f2c-c2b1ffd69586",
+    "state_key": "document_evidence:section heading: full document. page 1 allergy reconciliation correction notice patient code syn-csm-002 document id doc-p2-006 document type correction / retraction document date.",
+    "verification_status": "candidate"
+  }
+]

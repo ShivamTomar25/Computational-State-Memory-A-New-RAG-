@@ -1,0 +1,286 @@
+{
+  "api_timings": {
+    "doctor_register_login": {
+      "count": 1,
+      "max_ms": 165.235,
+      "p50_ms": 165.235,
+      "p95_ms": 165.235
+    },
+    "health": {
+      "count": 1,
+      "max_ms": 1.858,
+      "p50_ms": 1.858,
+      "p95_ms": 1.858
+    },
+    "llm_status": {
+      "count": 1,
+      "max_ms": 2.197,
+      "p50_ms": 2.197,
+      "p95_ms": 2.197
+    },
+    "memory_registry_cached": {
+      "count": 1,
+      "max_ms": 1.51,
+      "p50_ms": 1.51,
+      "p95_ms": 1.51
+    },
+    "memory_registry_first": {
+      "count": 1,
+      "max_ms": 3.219,
+      "p50_ms": 3.219,
+      "p95_ms": 3.219
+    },
+    "patient_create": {
+      "count": 1,
+      "max_ms": 47.553,
+      "p50_ms": 47.553,
+      "p95_ms": 47.553
+    },
+    "patient_detail": {
+      "count": 1,
+      "max_ms": 3.717,
+      "p50_ms": 3.717,
+      "p95_ms": 3.717
+    },
+    "patient_list": {
+      "count": 1,
+      "max_ms": 5.039,
+      "p50_ms": 5.039,
+      "p95_ms": 5.039
+    },
+    "patient_memory_systems": {
+      "count": 1,
+      "max_ms": 42.838,
+      "p50_ms": 42.838,
+      "p95_ms": 42.838
+    },
+    "patient_workspace_summary": {
+      "count": 1,
+      "max_ms": 29.75,
+      "p50_ms": 29.75,
+      "p95_ms": 29.75
+    },
+    "performance_summary": {
+      "count": 1,
+      "max_ms": 4.783,
+      "p50_ms": 4.783,
+      "p95_ms": 4.783
+    },
+    "root": {
+      "count": 1,
+      "max_ms": 2.594,
+      "p50_ms": 2.594,
+      "p95_ms": 2.594
+    }
+  },
+  "bundle_sizes": {
+    "asset_count": 74,
+    "largest_assets": [
+      {
+        "file": "index-C125IwqW.js",
+        "size_bytes": 190407
+      },
+      {
+        "file": "UploadDocumentPage-Dsp0SD8H.js",
+        "size_bytes": 32681
+      },
+      {
+        "file": "PatientWorkspacePage-BshoxR-y.js",
+        "size_bytes": 30545
+      },
+      {
+        "file": "PatientTimelinePage-XvOQiZ_z.js",
+        "size_bytes": 29429
+      },
+      {
+        "file": "ComputationalStateMemoryPage-RAAB3Cvb.js",
+        "size_bytes": 28527
+      },
+      {
+        "file": "PatientInformationPage-DVHvg5aL.js",
+        "size_bytes": 24746
+      },
+      {
+        "file": "index-DwhRH3oP.css",
+        "size_bytes": 24593
+      },
+      {
+        "file": "ConversationHistoryPage-DGQYrCIj.js",
+        "size_bytes": 17868
+      },
+      {
+        "file": "EvaluationDashboardPage-DIBfSxDG.js",
+        "size_bytes": 16782
+      },
+      {
+        "file": "SystemWorkspacePage-GT_KNZa0.js",
+        "size_bytes": 14706
+      }
+    ],
+    "total_bytes": 619767
+  },
+  "cleanup": {
+    "database": {
+      "doctors": 1,
+      "memory_system_events": 7,
+      "memory_system_instances": 7,
+      "patients": 1
+    },
+    "storage": {
+      "deleted": 0,
+      "failed": []
+    }
+  },
+  "created_at": "2026-07-20T17:09:07Z",
+  "performance_summary": {
+    "api": {
+      "routes": {
+        "GET /": {
+          "avg_query_count": 0.0,
+          "cache_hits": 0,
+          "cache_misses": 0,
+          "count": 1,
+          "max_ms": 1.4640000000001319,
+          "p50_ms": 1.464,
+          "p95_ms": 1.464,
+          "p95_query_ms": 0.0
+        },
+        "GET /api/doctors/me": {
+          "avg_query_count": 1.0,
+          "cache_hits": 0,
+          "cache_misses": 0,
+          "count": 1,
+          "max_ms": 3.049999999999997,
+          "p50_ms": 3.05,
+          "p95_ms": 3.05,
+          "p95_query_ms": 0.593
+        },
+        "GET /api/llm/status": {
+          "avg_query_count": 0.0,
+          "cache_hits": 0,
+          "cache_misses": 0,
+          "count": 1,
+          "max_ms": 1.459000000000099,
+          "p50_ms": 1.459,
+          "p95_ms": 1.459,
+          "p95_query_ms": 0.0
+        },
+        "GET /api/memory-systems": {
+          "avg_query_count": 0.0,
+          "cache_hits": 1,
+          "cache_misses": 1,
+          "count": 2,
+          "max_ms": 2.292124999999867,
+          "p50_ms": 1.497,
+          "p95_ms": 2.213,
+          "p95_query_ms": 0.0
+        },
+        "GET /api/patients": {
+          "avg_query_count": 3.0,
+          "cache_hits": 0,
+          "cache_misses": 0,
+          "count": 2,
+          "max_ms": 6.461875000000061,
+          "p50_ms": 5.143,
+          "p95_ms": 6.33,
+          "p95_query_ms": 2.549
+        },
+        "GET /api/patients/{patient_id}": {
+          "avg_query_count": 2.0,
+          "cache_hits": 0,
+          "cache_misses": 0,
+          "count": 2,
+          "max_ms": 3.59474999999998,
+          "p50_ms": 3.161,
+          "p95_ms": 3.551,
+          "p95_query_ms": 1.029
+        },
+        "GET /api/patients/{patient_id}/memory-systems": {
+          "avg_query_count": 22.0,
+          "cache_hits": 0,
+          "cache_misses": 0,
+          "count": 1,
+          "max_ms": 41.45591699999996,
+          "p50_ms": 41.456,
+          "p95_ms": 41.456,
+          "p95_query_ms": 24.669
+        },
+        "GET /api/patients/{patient_id}/workspace-summary": {
+          "avg_query_count": 12.0,
+          "cache_hits": 0,
+          "cache_misses": 1,
+          "count": 1,
+          "max_ms": 28.521499999999868,
+          "p50_ms": 28.521,
+          "p95_ms": 28.521,
+          "p95_query_ms": 18.799
+        },
+        "GET /health/live": {
+          "avg_query_count": 0.0,
+          "cache_hits": 0,
+          "cache_misses": 0,
+          "count": 1,
+          "max_ms": 0.9620420000000518,
+          "p50_ms": 0.962,
+          "p95_ms": 0.962,
+          "p95_query_ms": 0.0
+        },
+        "POST /api/doctors/login": {
+          "avg_query_count": 1.0,
+          "cache_hits": 0,
+          "cache_misses": 0,
+          "count": 1,
+          "max_ms": 59.214499999999944,
+          "p50_ms": 59.214,
+          "p95_ms": 59.214,
+          "p95_query_ms": 0.364
+        },
+        "POST /api/doctors/register": {
+          "avg_query_count": 4.0,
+          "cache_hits": 0,
+          "cache_misses": 0,
+          "count": 1,
+          "max_ms": 99.3297500000001,
+          "p50_ms": 99.33,
+          "p95_ms": 99.33,
+          "p95_query_ms": 3.745
+        },
+        "POST /api/patients": {
+          "avg_query_count": 27.0,
+          "cache_hits": 0,
+          "cache_misses": 0,
+          "count": 1,
+          "max_ms": 34.031417000000005,
+          "p50_ms": 34.031,
+          "p95_ms": 34.031,
+          "p95_query_ms": 18.403
+        }
+      },
+      "sample_count": 15
+    },
+    "cache": {
+      "entries": 2,
+      "evictions": 0,
+      "hits": 1,
+      "max_entries": 5000,
+      "misses": 2,
+      "provider": "memory"
+    },
+    "database": {
+      "average_query_ms": 0.45,
+      "query_count": 232,
+      "slow_query_count": 0,
+      "total_query_ms": 104.34
+    },
+    "jobs": {
+      "message": "Dedicated background job metrics will be populated when long-running jobs are moved to a shared job runner.",
+      "status": "not_configured"
+    },
+    "llm": {
+      "message": "LLM request duration, token counts, and provider/model data are persisted in llm_calls.",
+      "status": "available_from_llm_calls_table"
+    },
+    "monitoring_enabled": true,
+    "server_timing_enabled": true
+  }
+}

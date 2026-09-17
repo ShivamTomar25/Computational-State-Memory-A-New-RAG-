@@ -1,0 +1,19 @@
+Worsening Symptoms and Vital Signs Report
+Synthetic evaluation record - not for clinical use.
+
+patient_code: SYN-CSM-003
+document_id: DOC-P3-002
+document_type: Clinical Measurement Report
+document_date: 2026-04-08
+upload_date: 2026-04-08
+author: Dr. Research Evaluator
+encounter_id: P3-ENC-002
+evidence_ids: EV-P3-003, EV-P3-004
+
+Symptoms
+EVIDENCE ID: EV-P3-003
+The patient reports increased palpitations and exertional breathlessness compared with baseline.
+
+Measurements
+EVIDENCE ID: EV-P3-004
+Resting heart rate is 112 beats/min and blood pressure is 146/88 mmHg.

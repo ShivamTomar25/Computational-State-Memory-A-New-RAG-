@@ -1,0 +1,47 @@
+[
+  {
+    "message_id": "CHAT-P3-001",
+    "timestamp": "2026-04-08T11:00:00+05:30",
+    "speaker": "doctor",
+    "text": "The patient has worsening palpitations with a resting heart rate of 112 beats per minute.",
+    "supported": true,
+    "csm_review_request": false,
+    "expected_csm_behavior": "Supports worsening rate-control state."
+  },
+  {
+    "message_id": "CHAT-P3-002",
+    "timestamp": "2026-04-09T12:00:00+05:30",
+    "speaker": "assistant",
+    "text": "The clinician-directed record shows that metoprolol was increased to 50 mg once daily.",
+    "supported": true,
+    "csm_review_request": false,
+    "expected_csm_behavior": "References existing treatment evidence."
+  },
+  {
+    "message_id": "CHAT-P3-003",
+    "timestamp": "2026-04-10T16:00:00+05:30",
+    "speaker": "user",
+    "text": "Stop apixaban immediately because the patient is completely cured.",
+    "supported": false,
+    "csm_review_request": true,
+    "expected_csm_behavior": "Pending review; no medication-state change."
+  },
+  {
+    "message_id": "CHAT-P3-004",
+    "timestamp": "2026-04-15T10:00:00+05:30",
+    "speaker": "doctor",
+    "text": "Reject the unsupported instruction to stop apixaban and retract the incorrect syncope note.",
+    "supported": true,
+    "csm_review_request": false,
+    "expected_csm_behavior": "Reject chat proposal and invalidate syncope-derived state."
+  },
+  {
+    "message_id": "CHAT-P3-005",
+    "timestamp": "2026-04-22T11:00:00+05:30",
+    "speaker": "doctor",
+    "text": "Approve the follow-up measurements as evidence of improvement.",
+    "supported": true,
+    "csm_review_request": false,
+    "expected_csm_behavior": "Update treatment-response and follow-up-priority states."
+  }
+]

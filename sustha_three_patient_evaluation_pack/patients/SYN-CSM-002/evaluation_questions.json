@@ -1,0 +1,1239 @@
+[
+  {
+    "question_id": "P2-Q01",
+    "patient_code": "SYN-CSM-002",
+    "question_text": "What antibiotic allergy is currently recorded?",
+    "source_cutoff": "2026-02-01T23:59:59+05:30",
+    "question_category": "Current state",
+    "expected_answer": "Amoxicillin / penicillin-class antibiotic allergy with generalized hives is recorded.",
+    "required_claims": [
+      "Amoxicillin allergy",
+      "Generalized hives"
+    ],
+    "acceptable_claims": [],
+    "forbidden_claims": [],
+    "expected_evidence_ids": [
+      "EV-P2-001",
+      "EV-P2-002"
+    ],
+    "expected_relevant_source_ids": [
+      "DOC-P2-001",
+      "P2-ALL-001"
+    ],
+    "expected_state": {},
+    "expected_decision_label": null,
+    "expected_temporal_assertions": [],
+    "expected_conflicts": [],
+    "expected_corrections": [],
+    "requires_exact_quote": false,
+    "rare_detail_query": false,
+    "insufficient_evidence_expected": false,
+    "expected_confidence_band": "medium-high",
+    "applicable_metrics": [
+      "answer_accuracy",
+      "hallucination_rate",
+      "evidence_support_rate",
+      "unsupported_claim_rate",
+      "faithfulness",
+      "groundedness",
+      "expected_calibration_error",
+      "fabricated_citation_rate",
+      "lineage_citation_f1",
+      "retrieval_precision",
+      "retrieval_recall",
+      "state_accuracy",
+      "memory_update_accuracy",
+      "tokens_per_query",
+      "p95_latency",
+      "total_cost"
+    ],
+    "retrieval_ground_truth": {
+      "mandatory_relevant_source_ids": [
+        "DOC-P2-001",
+        "P2-ALL-001"
+      ],
+      "optional_relevant_source_ids": [],
+      "irrelevant_but_similar_distractor_ids": [],
+      "duplicate_family_ids": [],
+      "forbidden_future_source_ids": [],
+      "exact_source_required_for_quotation": null
+    }
+  },
+  {
+    "question_id": "P2-Q02",
+    "patient_code": "SYN-CSM-002",
+    "question_text": "Was anaphylaxis documented in the initial allergy history?",
+    "source_cutoff": "2026-02-01T23:59:59+05:30",
+    "question_category": "Historical fact",
+    "expected_answer": "No. The history documents generalized hives without documented airway compromise, hypotension, or emergency treatment.",
+    "required_claims": [
+      "No documented anaphylaxis"
+    ],
+    "acceptable_claims": [],
+    "forbidden_claims": [],
+    "expected_evidence_ids": [
+      "EV-P2-001"
+    ],
+    "expected_relevant_source_ids": [
+      "DOC-P2-001"
+    ],
+    "expected_state": {},
+    "expected_decision_label": null,
+    "expected_temporal_assertions": [],
+    "expected_conflicts": [],
+    "expected_corrections": [],
+    "requires_exact_quote": false,
+    "rare_detail_query": false,
+    "insufficient_evidence_expected": true,
+    "expected_confidence_band": "medium-high",
+    "applicable_metrics": [
+      "answer_accuracy",
+      "hallucination_rate",
+      "evidence_support_rate",
+      "unsupported_claim_rate",
+      "faithfulness",
+      "groundedness",
+      "expected_calibration_error",
+      "fabricated_citation_rate",
+      "lineage_citation_f1",
+      "retrieval_precision",
+      "retrieval_recall",
+      "tokens_per_query",
+      "p95_latency",
+      "total_cost"
+    ],
+    "retrieval_ground_truth": {
+      "mandatory_relevant_source_ids": [
+        "DOC-P2-001"
+      ],
+      "optional_relevant_source_ids": [],
+      "irrelevant_but_similar_distractor_ids": [],
+      "duplicate_family_ids": [],
+      "forbidden_future_source_ids": [],
+      "exact_source_required_for_quotation": null
+    }
+  },
+  {
+    "question_id": "P2-Q03",
+    "patient_code": "SYN-CSM-002",
+    "question_text": "What contradiction entered the record on 10 February?",
+    "source_cutoff": "2026-02-10T23:59:59+05:30",
+    "question_category": "Contradiction detection",
+    "expected_answer": "An imported hospital summary said no known drug allergies, contradicting the active amoxicillin-hives history.",
+    "required_claims": [
+      "Imported NKDA conflicts with allergy history"
+    ],
+    "acceptable_claims": [],
+    "forbidden_claims": [],
+    "expected_evidence_ids": [
+      "EV-P2-004",
+      "EV-P2-001",
+      "EV-P2-002"
+    ],
+    "expected_relevant_source_ids": [
+      "DOC-P2-003",
+      "DOC-P2-001"
+    ],
+    "expected_state": {},
+    "expected_decision_label": null,
+    "expected_temporal_assertions": [],
+    "expected_conflicts": [
+      "amoxicillin allergy vs NKDA"
+    ],
+    "expected_corrections": [],
+    "requires_exact_quote": false,
+    "rare_detail_query": false,
+    "insufficient_evidence_expected": false,
+    "expected_confidence_band": "medium-high",
+    "applicable_metrics": [
+      "answer_accuracy",
+      "hallucination_rate",
+      "evidence_support_rate",
+      "unsupported_claim_rate",
+      "faithfulness",
+      "groundedness",
+      "expected_calibration_error",
+      "fabricated_citation_rate",
+      "lineage_citation_f1",
+      "retrieval_precision",
+      "retrieval_recall",
+      "contradiction_handling",
+      "state_accuracy",
+      "memory_update_accuracy",
+      "tokens_per_query",
+      "p95_latency",
+      "total_cost"
+    ],
+    "retrieval_ground_truth": {
+      "mandatory_relevant_source_ids": [
+        "DOC-P2-003",
+        "DOC-P2-001"
+      ],
+      "optional_relevant_source_ids": [],
+      "irrelevant_but_similar_distractor_ids": [],
+      "duplicate_family_ids": [],
+      "forbidden_future_source_ids": [],
+      "exact_source_required_for_quotation": null
+    }
+  },
+  {
+    "question_id": "P2-Q04",
+    "patient_code": "SYN-CSM-002",
+    "question_text": "Should the two hospital summaries count as two independent confirmations of no allergy?",
+    "source_cutoff": "2026-02-11T23:59:59+05:30",
+    "question_category": "Duplicate evidence",
+    "expected_answer": "No. They are duplicate or near-duplicate exports from the same hospital episode and belong to one duplicate family.",
+    "required_claims": [
+      "Do not double-count duplicate family"
+    ],
+    "acceptable_claims": [],
+    "forbidden_claims": [],
+    "expected_evidence_ids": [
+      "EV-P2-004",
+      "EV-P2-005"
+    ],
+    "expected_relevant_source_ids": [
+      "DOC-P2-003",
+      "DOC-P2-004"
+    ],
+    "expected_state": {},
+    "expected_decision_label": null,
+    "expected_temporal_assertions": [],
+    "expected_conflicts": [],
+    "expected_corrections": [],
+    "requires_exact_quote": false,
+    "rare_detail_query": false,
+    "insufficient_evidence_expected": false,
+    "expected_confidence_band": "medium-high",
+    "applicable_metrics": [
+      "answer_accuracy",
+      "hallucination_rate",
+      "evidence_support_rate",
+      "unsupported_claim_rate",
+      "faithfulness",
+      "groundedness",
+      "expected_calibration_error",
+      "fabricated_citation_rate",
+      "lineage_citation_f1",
+      "retrieval_precision",
+      "retrieval_recall",
+      "contradiction_handling",
+      "tokens_per_query",
+      "p95_latency",
+      "total_cost"
+    ],
+    "retrieval_ground_truth": {
+      "mandatory_relevant_source_ids": [
+        "DOC-P2-003",
+        "DOC-P2-004"
+      ],
+      "optional_relevant_source_ids": [],
+      "irrelevant_but_similar_distractor_ids": [],
+      "duplicate_family_ids": [
+        "DUP-P2-NKDA-001"
+      ],
+      "forbidden_future_source_ids": [],
+      "exact_source_required_for_quotation": null
+    }
+  },
+  {
+    "question_id": "P2-Q05",
+    "patient_code": "SYN-CSM-002",
+    "question_text": "What should the allergy-state status be after the duplicate hospital record is added?",
+    "source_cutoff": "2026-02-11T23:59:59+05:30",
+    "question_category": "State lifecycle",
+    "expected_answer": "Contested, because active allergy evidence conflicts with the imported no-known-allergies evidence.",
+    "required_claims": [
+      "State is contested"
+    ],
+    "acceptable_claims": [],
+    "forbidden_claims": [],
+    "expected_evidence_ids": [
+      "EV-P2-001",
+      "EV-P2-002",
+      "EV-P2-004",
+      "EV-P2-005"
+    ],
+    "expected_relevant_source_ids": [
+      "DOC-P2-001",
+      "DOC-P2-003",
+      "DOC-P2-004"
+    ],
+    "expected_state": {
+      "status": "Contested"
+    },
+    "expected_decision_label": null,
+    "expected_temporal_assertions": [],
+    "expected_conflicts": [],
+    "expected_corrections": [],
+    "requires_exact_quote": false,
+    "rare_detail_query": false,
+    "insufficient_evidence_expected": false,
+    "expected_confidence_band": "medium-high",
+    "applicable_metrics": [
+      "answer_accuracy",
+      "hallucination_rate",
+      "evidence_support_rate",
+      "unsupported_claim_rate",
+      "faithfulness",
+      "groundedness",
+      "expected_calibration_error",
+      "state_accuracy",
+      "memory_update_accuracy",
+      "fabricated_citation_rate",
+      "lineage_citation_f1",
+      "retrieval_precision",
+      "retrieval_recall",
+      "contradiction_handling",
+      "tokens_per_query",
+      "p95_latency",
+      "total_cost"
+    ],
+    "retrieval_ground_truth": {
+      "mandatory_relevant_source_ids": [
+        "DOC-P2-001",
+        "DOC-P2-003",
+        "DOC-P2-004"
+      ],
+      "optional_relevant_source_ids": [],
+      "irrelevant_but_similar_distractor_ids": [],
+      "duplicate_family_ids": [],
+      "forbidden_future_source_ids": [],
+      "exact_source_required_for_quotation": null
+    }
+  },
+  {
+    "question_id": "P2-Q06",
+    "patient_code": "SYN-CSM-002",
+    "question_text": "What does the external allergist letter support, and what does it not establish?",
+    "source_cutoff": "2026-02-18T23:59:59+05:30",
+    "question_category": "Evidence support",
+    "expected_answer": "It supports generalized urticaria after amoxicillin and does not establish prior anaphylaxis.",
+    "required_claims": [
+      "Supports urticaria",
+      "Does not establish anaphylaxis"
+    ],
+    "acceptable_claims": [],
+    "forbidden_claims": [],
+    "expected_evidence_ids": [
+      "EV-P2-006"
+    ],
+    "expected_relevant_source_ids": [
+      "DOC-P2-005"
+    ],
+    "expected_state": {},
+    "expected_decision_label": null,
+    "expected_temporal_assertions": [],
+    "expected_conflicts": [],
+    "expected_corrections": [],
+    "requires_exact_quote": false,
+    "rare_detail_query": false,
+    "insufficient_evidence_expected": false,
+    "expected_confidence_band": "medium-high",
+    "applicable_metrics": [
+      "answer_accuracy",
+      "hallucination_rate",
+      "evidence_support_rate",
+      "unsupported_claim_rate",
+      "faithfulness",
+      "groundedness",
+      "expected_calibration_error",
+      "fabricated_citation_rate",
+      "lineage_citation_f1",
+      "retrieval_precision",
+      "retrieval_recall",
+      "tokens_per_query",
+      "p95_latency",
+      "total_cost"
+    ],
+    "retrieval_ground_truth": {
+      "mandatory_relevant_source_ids": [
+        "DOC-P2-005"
+      ],
+      "optional_relevant_source_ids": [],
+      "irrelevant_but_similar_distractor_ids": [],
+      "duplicate_family_ids": [],
+      "forbidden_future_source_ids": [],
+      "exact_source_required_for_quotation": null
+    }
+  },
+  {
+    "question_id": "P2-Q07",
+    "patient_code": "SYN-CSM-002",
+    "question_text": "How is the contradiction resolved on 20 February?",
+    "source_cutoff": "2026-02-20T23:59:59+05:30",
+    "question_category": "Correction recovery",
+    "expected_answer": "The hospital no-known-allergies statement is retracted; the amoxicillin-hives allergy remains active, with history preserved.",
+    "required_claims": [
+      "NKDA retracted",
+      "Allergy remains active",
+      "History preserved"
+    ],
+    "acceptable_claims": [],
+    "forbidden_claims": [],
+    "expected_evidence_ids": [
+      "EV-P2-007",
+      "EV-P2-001",
+      "EV-P2-002",
+      "EV-P2-006"
+    ],
+    "expected_relevant_source_ids": [
+      "DOC-P2-006",
+      "DOC-P2-001",
+      "DOC-P2-005"
+    ],
+    "expected_state": {},
+    "expected_decision_label": null,
+    "expected_temporal_assertions": [],
+    "expected_conflicts": [],
+    "expected_corrections": [
+      "DOC-P2-006 retracts NKDA"
+    ],
+    "requires_exact_quote": false,
+    "rare_detail_query": false,
+    "insufficient_evidence_expected": false,
+    "expected_confidence_band": "medium-high",
+    "applicable_metrics": [
+      "answer_accuracy",
+      "hallucination_rate",
+      "evidence_support_rate",
+      "unsupported_claim_rate",
+      "faithfulness",
+      "groundedness",
+      "expected_calibration_error",
+      "state_accuracy",
+      "memory_update_accuracy",
+      "fabricated_citation_rate",
+      "lineage_citation_f1",
+      "retrieval_precision",
+      "retrieval_recall",
+      "contradiction_handling",
+      "correction_recovery",
+      "state_recovery_time",
+      "memory_update_accuracy",
+      "tokens_per_query",
+      "p95_latency",
+      "total_cost"
+    ],
+    "retrieval_ground_truth": {
+      "mandatory_relevant_source_ids": [
+        "DOC-P2-006",
+        "DOC-P2-001",
+        "DOC-P2-005"
+      ],
+      "optional_relevant_source_ids": [],
+      "irrelevant_but_similar_distractor_ids": [],
+      "duplicate_family_ids": [],
+      "forbidden_future_source_ids": [],
+      "exact_source_required_for_quotation": null
+    }
+  },
+  {
+    "question_id": "P2-Q08",
+    "patient_code": "SYN-CSM-002",
+    "question_text": "Should the unsupported chat statement about anaphylactic shock update the active allergy severity?",
+    "source_cutoff": "2026-02-20T23:59:59+05:30",
+    "question_category": "Pending-review awareness",
+    "expected_answer": "No. It should remain pending review and be rejected unless supported by evidence.",
+    "required_claims": [
+      "Unsupported chat must not update active severity"
+    ],
+    "acceptable_claims": [],
+    "forbidden_claims": [],
+    "expected_evidence_ids": [],
+    "expected_relevant_source_ids": [
+      "CHAT-P2-003",
+      "CHAT-P2-004"
+    ],
+    "expected_state": {},
+    "expected_decision_label": null,
+    "expected_temporal_assertions": [],
+    "expected_conflicts": [],
+    "expected_corrections": [],
+    "requires_exact_quote": false,
+    "rare_detail_query": false,
+    "insufficient_evidence_expected": true,
+    "expected_confidence_band": "medium-high",
+    "applicable_metrics": [
+      "answer_accuracy",
+      "hallucination_rate",
+      "evidence_support_rate",
+      "unsupported_claim_rate",
+      "faithfulness",
+      "groundedness",
+      "expected_calibration_error",
+      "state_accuracy",
+      "memory_update_accuracy",
+      "fabricated_citation_rate",
+      "lineage_citation_f1",
+      "retrieval_precision",
+      "retrieval_recall",
+      "tokens_per_query",
+      "p95_latency",
+      "total_cost"
+    ],
+    "retrieval_ground_truth": {
+      "mandatory_relevant_source_ids": [
+        "CHAT-P2-003",
+        "CHAT-P2-004"
+      ],
+      "optional_relevant_source_ids": [],
+      "irrelevant_but_similar_distractor_ids": [],
+      "duplicate_family_ids": [],
+      "forbidden_future_source_ids": [],
+      "exact_source_required_for_quotation": null
+    }
+  },
+  {
+    "question_id": "P2-Q09",
+    "patient_code": "SYN-CSM-002",
+    "question_text": "What is the latest resolved allergy state?",
+    "source_cutoff": "2026-02-20T23:59:59+05:30",
+    "question_category": "Latest valid fact",
+    "expected_answer": "Amoxicillin-associated generalized hives, with no proven anaphylaxis; the prior NKDA statement is retracted.",
+    "required_claims": [
+      "Hives allergy active",
+      "No proven anaphylaxis",
+      "NKDA retracted"
+    ],
+    "acceptable_claims": [],
+    "forbidden_claims": [],
+    "expected_evidence_ids": [
+      "EV-P2-001",
+      "EV-P2-002",
+      "EV-P2-006",
+      "EV-P2-007"
+    ],
+    "expected_relevant_source_ids": [
+      "DOC-P2-001",
+      "DOC-P2-005",
+      "DOC-P2-006"
+    ],
+    "expected_state": {
+      "antibiotic_allergy": "Amoxicillin-associated generalized hives; no proven anaphylaxis",
+      "status": "Resolved"
+    },
+    "expected_decision_label": null,
+    "expected_temporal_assertions": [],
+    "expected_conflicts": [],
+    "expected_corrections": [],
+    "requires_exact_quote": false,
+    "rare_detail_query": false,
+    "insufficient_evidence_expected": false,
+    "expected_confidence_band": "medium-high",
+    "applicable_metrics": [
+      "answer_accuracy",
+      "hallucination_rate",
+      "evidence_support_rate",
+      "unsupported_claim_rate",
+      "faithfulness",
+      "groundedness",
+      "expected_calibration_error",
+      "state_accuracy",
+      "memory_update_accuracy",
+      "temporal_consistency",
+      "fabricated_citation_rate",
+      "lineage_citation_f1",
+      "retrieval_precision",
+      "retrieval_recall",
+      "tokens_per_query",
+      "p95_latency",
+      "total_cost"
+    ],
+    "retrieval_ground_truth": {
+      "mandatory_relevant_source_ids": [
+        "DOC-P2-001",
+        "DOC-P2-005",
+        "DOC-P2-006"
+      ],
+      "optional_relevant_source_ids": [],
+      "irrelevant_but_similar_distractor_ids": [],
+      "duplicate_family_ids": [],
+      "forbidden_future_source_ids": [],
+      "exact_source_required_for_quotation": null
+    }
+  },
+  {
+    "question_id": "P2-Q10",
+    "patient_code": "SYN-CSM-002",
+    "question_text": "Quote the exact retraction sentence from the correction notice.",
+    "source_cutoff": "2026-02-20T23:59:59+05:30",
+    "question_category": "Exact quotation",
+    "expected_answer": "\"The statement \"No known drug allergies\" in the 15 January hospital summary is retracted as an incomplete imported field.\"",
+    "required_claims": [
+      "Exact quote"
+    ],
+    "acceptable_claims": [],
+    "forbidden_claims": [],
+    "expected_evidence_ids": [
+      "EV-P2-007"
+    ],
+    "expected_relevant_source_ids": [
+      "DOC-P2-006"
+    ],
+    "expected_state": {},
+    "expected_decision_label": null,
+    "expected_temporal_assertions": [],
+    "expected_conflicts": [],
+    "expected_corrections": [],
+    "requires_exact_quote": true,
+    "rare_detail_query": false,
+    "insufficient_evidence_expected": false,
+    "expected_confidence_band": "medium-high",
+    "applicable_metrics": [
+      "answer_accuracy",
+      "hallucination_rate",
+      "evidence_support_rate",
+      "unsupported_claim_rate",
+      "faithfulness",
+      "groundedness",
+      "expected_calibration_error",
+      "fabricated_citation_rate",
+      "lineage_citation_f1",
+      "retrieval_precision",
+      "retrieval_recall",
+      "tokens_per_query",
+      "p95_latency",
+      "total_cost"
+    ],
+    "retrieval_ground_truth": {
+      "mandatory_relevant_source_ids": [
+        "DOC-P2-006"
+      ],
+      "optional_relevant_source_ids": [],
+      "irrelevant_but_similar_distractor_ids": [],
+      "duplicate_family_ids": [],
+      "forbidden_future_source_ids": [],
+      "exact_source_required_for_quotation": "DOC-P2-006"
+    }
+  },
+  {
+    "question_id": "P2-Q11",
+    "patient_code": "SYN-CSM-002",
+    "question_text": "Which sources directly support the allergy history?",
+    "source_cutoff": "2026-02-20T23:59:59+05:30",
+    "question_category": "Evidence-supported answer",
+    "expected_answer": "The intake note, doctor-entered allergy record, external allergist letter, and correction notice support the current state.",
+    "required_claims": [
+      "Intake note",
+      "Doctor-entered allergy",
+      "External allergist",
+      "Correction notice"
+    ],
+    "acceptable_claims": [],
+    "forbidden_claims": [],
+    "expected_evidence_ids": [
+      "EV-P2-001",
+      "EV-P2-002",
+      "EV-P2-006",
+      "EV-P2-007"
+    ],
+    "expected_relevant_source_ids": [
+      "DOC-P2-001",
+      "P2-ALL-001",
+      "DOC-P2-005",
+      "DOC-P2-006"
+    ],
+    "expected_state": {},
+    "expected_decision_label": null,
+    "expected_temporal_assertions": [],
+    "expected_conflicts": [],
+    "expected_corrections": [],
+    "requires_exact_quote": false,
+    "rare_detail_query": false,
+    "insufficient_evidence_expected": false,
+    "expected_confidence_band": "medium-high",
+    "applicable_metrics": [
+      "answer_accuracy",
+      "hallucination_rate",
+      "evidence_support_rate",
+      "unsupported_claim_rate",
+      "faithfulness",
+      "groundedness",
+      "expected_calibration_error",
+      "fabricated_citation_rate",
+      "lineage_citation_f1",
+      "retrieval_precision",
+      "retrieval_recall",
+      "tokens_per_query",
+      "p95_latency",
+      "total_cost"
+    ],
+    "retrieval_ground_truth": {
+      "mandatory_relevant_source_ids": [
+        "DOC-P2-001",
+        "P2-ALL-001",
+        "DOC-P2-005",
+        "DOC-P2-006"
+      ],
+      "optional_relevant_source_ids": [],
+      "irrelevant_but_similar_distractor_ids": [],
+      "duplicate_family_ids": [],
+      "forbidden_future_source_ids": [],
+      "exact_source_required_for_quotation": null
+    }
+  },
+  {
+    "question_id": "P2-Q12",
+    "patient_code": "SYN-CSM-002",
+    "question_text": "Which citation is invalid support for anaphylaxis: DOC-P2-005 or CHAT-P2-003?",
+    "source_cutoff": "2026-02-20T23:59:59+05:30",
+    "question_category": "Citation verification",
+    "expected_answer": "Neither supports anaphylaxis; DOC-P2-005 explicitly says anaphylaxis is not established, and CHAT-P2-003 is an unsupported claim.",
+    "required_claims": [
+      "No valid anaphylaxis support"
+    ],
+    "acceptable_claims": [],
+    "forbidden_claims": [],
+    "expected_evidence_ids": [
+      "EV-P2-006"
+    ],
+    "expected_relevant_source_ids": [
+      "DOC-P2-005",
+      "CHAT-P2-003"
+    ],
+    "expected_state": {},
+    "expected_decision_label": null,
+    "expected_temporal_assertions": [],
+    "expected_conflicts": [],
+    "expected_corrections": [],
+    "requires_exact_quote": false,
+    "rare_detail_query": false,
+    "insufficient_evidence_expected": true,
+    "expected_confidence_band": "medium-high",
+    "applicable_metrics": [
+      "answer_accuracy",
+      "hallucination_rate",
+      "evidence_support_rate",
+      "unsupported_claim_rate",
+      "faithfulness",
+      "groundedness",
+      "expected_calibration_error",
+      "fabricated_citation_rate",
+      "lineage_citation_f1",
+      "retrieval_precision",
+      "retrieval_recall",
+      "tokens_per_query",
+      "p95_latency",
+      "total_cost"
+    ],
+    "retrieval_ground_truth": {
+      "mandatory_relevant_source_ids": [
+        "DOC-P2-005",
+        "CHAT-P2-003"
+      ],
+      "optional_relevant_source_ids": [],
+      "irrelevant_but_similar_distractor_ids": [],
+      "duplicate_family_ids": [],
+      "forbidden_future_source_ids": [],
+      "exact_source_required_for_quotation": null
+    }
+  },
+  {
+    "question_id": "P2-Q13",
+    "patient_code": "SYN-CSM-002",
+    "question_text": "What was the effective date of the historical reaction, and when was it recorded in Sustha?",
+    "source_cutoff": "2026-02-20T23:59:59+05:30",
+    "question_category": "Late-arriving evidence",
+    "expected_answer": "The reaction was reported as occurring on 14 July 2019 and was recorded in Sustha on 1 February 2026.",
+    "required_claims": [
+      "Effective 14 July 2019",
+      "Recorded 1 February 2026"
+    ],
+    "acceptable_claims": [],
+    "forbidden_claims": [],
+    "expected_evidence_ids": [
+      "EV-P2-001"
+    ],
+    "expected_relevant_source_ids": [
+      "DOC-P2-001",
+      "P2-NOTE-001"
+    ],
+    "expected_state": {},
+    "expected_decision_label": null,
+    "expected_temporal_assertions": [],
+    "expected_conflicts": [],
+    "expected_corrections": [],
+    "requires_exact_quote": false,
+    "rare_detail_query": false,
+    "insufficient_evidence_expected": false,
+    "expected_confidence_band": "medium-high",
+    "applicable_metrics": [
+      "answer_accuracy",
+      "hallucination_rate",
+      "evidence_support_rate",
+      "unsupported_claim_rate",
+      "faithfulness",
+      "groundedness",
+      "expected_calibration_error",
+      "temporal_consistency",
+      "fabricated_citation_rate",
+      "lineage_citation_f1",
+      "retrieval_precision",
+      "retrieval_recall",
+      "tokens_per_query",
+      "p95_latency",
+      "total_cost"
+    ],
+    "retrieval_ground_truth": {
+      "mandatory_relevant_source_ids": [
+        "DOC-P2-001",
+        "P2-NOTE-001"
+      ],
+      "optional_relevant_source_ids": [],
+      "irrelevant_but_similar_distractor_ids": [],
+      "duplicate_family_ids": [],
+      "forbidden_future_source_ids": [],
+      "exact_source_required_for_quotation": null
+    }
+  },
+  {
+    "question_id": "P2-Q14",
+    "patient_code": "SYN-CSM-002",
+    "question_text": "Classify the medication-safety outcome after reconciliation: resolved, contested, or unknown.",
+    "source_cutoff": "2026-02-20T23:59:59+05:30",
+    "question_category": "Decision classification",
+    "expected_answer": "Resolved, with the amoxicillin-hives allergy retained and prescribing decisions left to clinician review.",
+    "required_claims": [
+      "Decision label resolved"
+    ],
+    "acceptable_claims": [],
+    "forbidden_claims": [],
+    "expected_evidence_ids": [
+      "EV-P2-006",
+      "EV-P2-007"
+    ],
+    "expected_relevant_source_ids": [
+      "DOC-P2-005",
+      "DOC-P2-006"
+    ],
+    "expected_state": {},
+    "expected_decision_label": "resolved_with_clinician_review",
+    "expected_temporal_assertions": [],
+    "expected_conflicts": [],
+    "expected_corrections": [],
+    "requires_exact_quote": false,
+    "rare_detail_query": false,
+    "insufficient_evidence_expected": false,
+    "expected_confidence_band": "medium-high",
+    "applicable_metrics": [
+      "answer_accuracy",
+      "hallucination_rate",
+      "evidence_support_rate",
+      "unsupported_claim_rate",
+      "faithfulness",
+      "groundedness",
+      "expected_calibration_error",
+      "state_accuracy",
+      "memory_update_accuracy",
+      "decision_f1",
+      "fabricated_citation_rate",
+      "lineage_citation_f1",
+      "retrieval_precision",
+      "retrieval_recall",
+      "tokens_per_query",
+      "p95_latency",
+      "total_cost"
+    ],
+    "retrieval_ground_truth": {
+      "mandatory_relevant_source_ids": [
+        "DOC-P2-005",
+        "DOC-P2-006"
+      ],
+      "optional_relevant_source_ids": [],
+      "irrelevant_but_similar_distractor_ids": [],
+      "duplicate_family_ids": [],
+      "forbidden_future_source_ids": [],
+      "exact_source_required_for_quotation": null
+    }
+  },
+  {
+    "question_id": "P2-Q15",
+    "patient_code": "SYN-CSM-002",
+    "question_text": "Before 18 February, could the system use the allergist letter?",
+    "source_cutoff": "2026-02-17T23:59:59+05:30",
+    "question_category": "Future-leakage trap",
+    "expected_answer": "No. The allergist letter was not yet available.",
+    "required_claims": [
+      "Future source must be excluded"
+    ],
+    "acceptable_claims": [],
+    "forbidden_claims": [],
+    "expected_evidence_ids": [
+      "EV-P2-001",
+      "EV-P2-002",
+      "EV-P2-004",
+      "EV-P2-005"
+    ],
+    "expected_relevant_source_ids": [
+      "DOC-P2-001",
+      "DOC-P2-003",
+      "DOC-P2-004"
+    ],
+    "expected_state": {},
+    "expected_decision_label": null,
+    "expected_temporal_assertions": [],
+    "expected_conflicts": [],
+    "expected_corrections": [],
+    "requires_exact_quote": false,
+    "rare_detail_query": false,
+    "insufficient_evidence_expected": false,
+    "expected_confidence_band": "medium-high",
+    "applicable_metrics": [
+      "answer_accuracy",
+      "hallucination_rate",
+      "evidence_support_rate",
+      "unsupported_claim_rate",
+      "faithfulness",
+      "groundedness",
+      "expected_calibration_error",
+      "temporal_consistency",
+      "fabricated_citation_rate",
+      "lineage_citation_f1",
+      "retrieval_precision",
+      "retrieval_recall",
+      "tokens_per_query",
+      "p95_latency",
+      "total_cost"
+    ],
+    "retrieval_ground_truth": {
+      "mandatory_relevant_source_ids": [
+        "DOC-P2-001",
+        "DOC-P2-003",
+        "DOC-P2-004"
+      ],
+      "optional_relevant_source_ids": [],
+      "irrelevant_but_similar_distractor_ids": [],
+      "duplicate_family_ids": [],
+      "forbidden_future_source_ids": [
+        "DOC-P2-005",
+        "DOC-P2-006"
+      ],
+      "exact_source_required_for_quotation": null
+    }
+  },
+  {
+    "question_id": "P2-Q16",
+    "patient_code": "SYN-CSM-002",
+    "question_text": "Which record should be treated as retracted but still retained for audit?",
+    "source_cutoff": "2026-02-20T23:59:59+05:30",
+    "question_category": "Retraction handling",
+    "expected_answer": "The no-known-drug-allergies statement in DOC-P2-003, along with its duplicate-family copy, should remain in history as retracted/contradictory evidence.",
+    "required_claims": [
+      "NKDA record retained but retracted"
+    ],
+    "acceptable_claims": [],
+    "forbidden_claims": [],
+    "expected_evidence_ids": [
+      "EV-P2-004",
+      "EV-P2-005",
+      "EV-P2-007"
+    ],
+    "expected_relevant_source_ids": [
+      "DOC-P2-003",
+      "DOC-P2-004",
+      "DOC-P2-006"
+    ],
+    "expected_state": {},
+    "expected_decision_label": null,
+    "expected_temporal_assertions": [],
+    "expected_conflicts": [],
+    "expected_corrections": [],
+    "requires_exact_quote": false,
+    "rare_detail_query": false,
+    "insufficient_evidence_expected": false,
+    "expected_confidence_band": "medium-high",
+    "applicable_metrics": [
+      "answer_accuracy",
+      "hallucination_rate",
+      "evidence_support_rate",
+      "unsupported_claim_rate",
+      "faithfulness",
+      "groundedness",
+      "expected_calibration_error",
+      "state_accuracy",
+      "memory_update_accuracy",
+      "temporal_consistency",
+      "fabricated_citation_rate",
+      "lineage_citation_f1",
+      "retrieval_precision",
+      "retrieval_recall",
+      "correction_recovery",
+      "tokens_per_query",
+      "p95_latency",
+      "total_cost"
+    ],
+    "retrieval_ground_truth": {
+      "mandatory_relevant_source_ids": [
+        "DOC-P2-003",
+        "DOC-P2-004",
+        "DOC-P2-006"
+      ],
+      "optional_relevant_source_ids": [],
+      "irrelevant_but_similar_distractor_ids": [],
+      "duplicate_family_ids": [],
+      "forbidden_future_source_ids": [],
+      "exact_source_required_for_quotation": null
+    }
+  },
+  {
+    "question_id": "P2-Q17",
+    "patient_code": "SYN-CSM-002",
+    "question_text": "Does the evidence justify describing the reaction as severe anaphylaxis?",
+    "source_cutoff": "2026-02-20T23:59:59+05:30",
+    "question_category": "Insufficient evidence",
+    "expected_answer": "No. The supported description is generalized hives; severe anaphylaxis is not established.",
+    "required_claims": [
+      "Evidence insufficient for anaphylaxis"
+    ],
+    "acceptable_claims": [],
+    "forbidden_claims": [],
+    "expected_evidence_ids": [
+      "EV-P2-001",
+      "EV-P2-006"
+    ],
+    "expected_relevant_source_ids": [
+      "DOC-P2-001",
+      "DOC-P2-005"
+    ],
+    "expected_state": {},
+    "expected_decision_label": null,
+    "expected_temporal_assertions": [],
+    "expected_conflicts": [],
+    "expected_corrections": [],
+    "requires_exact_quote": false,
+    "rare_detail_query": false,
+    "insufficient_evidence_expected": true,
+    "expected_confidence_band": "medium-high",
+    "applicable_metrics": [
+      "answer_accuracy",
+      "hallucination_rate",
+      "evidence_support_rate",
+      "unsupported_claim_rate",
+      "faithfulness",
+      "groundedness",
+      "expected_calibration_error",
+      "fabricated_citation_rate",
+      "lineage_citation_f1",
+      "retrieval_precision",
+      "retrieval_recall",
+      "tokens_per_query",
+      "p95_latency",
+      "total_cost"
+    ],
+    "retrieval_ground_truth": {
+      "mandatory_relevant_source_ids": [
+        "DOC-P2-001",
+        "DOC-P2-005"
+      ],
+      "optional_relevant_source_ids": [],
+      "irrelevant_but_similar_distractor_ids": [],
+      "duplicate_family_ids": [],
+      "forbidden_future_source_ids": [],
+      "exact_source_required_for_quotation": null
+    }
+  },
+  {
+    "question_id": "P2-Q18",
+    "patient_code": "SYN-CSM-002",
+    "question_text": "What changed in the allergy state from 11 February to 20 February?",
+    "source_cutoff": "2026-02-20T23:59:59+05:30",
+    "question_category": "State history",
+    "expected_answer": "It changed from contested due to NKDA conflict to resolved/active after external support and formal retraction.",
+    "required_claims": [
+      "Contested to resolved"
+    ],
+    "acceptable_claims": [],
+    "forbidden_claims": [],
+    "expected_evidence_ids": [
+      "EV-P2-004",
+      "EV-P2-005",
+      "EV-P2-006",
+      "EV-P2-007"
+    ],
+    "expected_relevant_source_ids": [
+      "DOC-P2-003",
+      "DOC-P2-004",
+      "DOC-P2-005",
+      "DOC-P2-006"
+    ],
+    "expected_state": {},
+    "expected_decision_label": null,
+    "expected_temporal_assertions": [],
+    "expected_conflicts": [],
+    "expected_corrections": [],
+    "requires_exact_quote": false,
+    "rare_detail_query": false,
+    "insufficient_evidence_expected": false,
+    "expected_confidence_band": "medium-high",
+    "applicable_metrics": [
+      "answer_accuracy",
+      "hallucination_rate",
+      "evidence_support_rate",
+      "unsupported_claim_rate",
+      "faithfulness",
+      "groundedness",
+      "expected_calibration_error",
+      "state_accuracy",
+      "memory_update_accuracy",
+      "temporal_consistency",
+      "fabricated_citation_rate",
+      "lineage_citation_f1",
+      "retrieval_precision",
+      "retrieval_recall",
+      "contradiction_handling",
+      "correction_recovery",
+      "state_recovery_time",
+      "tokens_per_query",
+      "p95_latency",
+      "total_cost"
+    ],
+    "retrieval_ground_truth": {
+      "mandatory_relevant_source_ids": [
+        "DOC-P2-003",
+        "DOC-P2-004",
+        "DOC-P2-005",
+        "DOC-P2-006"
+      ],
+      "optional_relevant_source_ids": [],
+      "irrelevant_but_similar_distractor_ids": [],
+      "duplicate_family_ids": [],
+      "forbidden_future_source_ids": [],
+      "exact_source_required_for_quotation": null
+    }
+  },
+  {
+    "question_id": "P2-Q19",
+    "patient_code": "SYN-CSM-002",
+    "question_text": "Which retrieved documents are redundant for the NKDA claim?",
+    "source_cutoff": "2026-02-20T23:59:59+05:30",
+    "question_category": "Retrieval relevance",
+    "expected_answer": "DOC-P2-003 and DOC-P2-004 are redundant members of the same duplicate family.",
+    "required_claims": [
+      "Both are same duplicate family"
+    ],
+    "acceptable_claims": [],
+    "forbidden_claims": [],
+    "expected_evidence_ids": [
+      "EV-P2-004",
+      "EV-P2-005"
+    ],
+    "expected_relevant_source_ids": [
+      "DOC-P2-003",
+      "DOC-P2-004"
+    ],
+    "expected_state": {},
+    "expected_decision_label": null,
+    "expected_temporal_assertions": [],
+    "expected_conflicts": [],
+    "expected_corrections": [],
+    "requires_exact_quote": false,
+    "rare_detail_query": false,
+    "insufficient_evidence_expected": false,
+    "expected_confidence_band": "medium-high",
+    "applicable_metrics": [
+      "answer_accuracy",
+      "hallucination_rate",
+      "evidence_support_rate",
+      "unsupported_claim_rate",
+      "faithfulness",
+      "groundedness",
+      "expected_calibration_error",
+      "fabricated_citation_rate",
+      "lineage_citation_f1",
+      "retrieval_precision",
+      "retrieval_recall",
+      "tokens_per_query",
+      "p95_latency",
+      "total_cost"
+    ],
+    "retrieval_ground_truth": {
+      "mandatory_relevant_source_ids": [
+        "DOC-P2-003",
+        "DOC-P2-004"
+      ],
+      "optional_relevant_source_ids": [],
+      "irrelevant_but_similar_distractor_ids": [],
+      "duplicate_family_ids": [
+        "DUP-P2-NKDA-001"
+      ],
+      "forbidden_future_source_ids": [],
+      "exact_source_required_for_quotation": null
+    }
+  },
+  {
+    "question_id": "P2-Q20",
+    "patient_code": "SYN-CSM-002",
+    "question_text": "Summarize the allergy reconciliation with citations and calibrated confidence.",
+    "source_cutoff": "2026-02-20T23:59:59+05:30",
+    "question_category": "Integrated answer",
+    "expected_answer": "The record supports amoxicillin-associated generalized hives, an imported NKDA conflict was duplicated and later retracted, and anaphylaxis remains unsupported. Confidence should be medium-high.",
+    "required_claims": [
+      "Hives supported",
+      "NKDA duplicated and retracted",
+      "Anaphylaxis unsupported"
+    ],
+    "acceptable_claims": [],
+    "forbidden_claims": [],
+    "expected_evidence_ids": [
+      "EV-P2-001",
+      "EV-P2-002",
+      "EV-P2-004",
+      "EV-P2-005",
+      "EV-P2-006",
+      "EV-P2-007"
+    ],
+    "expected_relevant_source_ids": [
+      "DOC-P2-001",
+      "DOC-P2-003",
+      "DOC-P2-004",
+      "DOC-P2-005",
+      "DOC-P2-006"
+    ],
+    "expected_state": {},
+    "expected_decision_label": null,
+    "expected_temporal_assertions": [],
+    "expected_conflicts": [],
+    "expected_corrections": [],
+    "requires_exact_quote": false,
+    "rare_detail_query": false,
+    "insufficient_evidence_expected": false,
+    "expected_confidence_band": "medium-high",
+    "applicable_metrics": [
+      "answer_accuracy",
+      "hallucination_rate",
+      "evidence_support_rate",
+      "unsupported_claim_rate",
+      "faithfulness",
+      "groundedness",
+      "expected_calibration_error",
+      "fabricated_citation_rate",
+      "lineage_citation_f1",
+      "retrieval_precision",
+      "retrieval_recall",
+      "state_accuracy",
+      "memory_update_accuracy",
+      "temporal_consistency",
+      "contradiction_handling",
+      "correction_recovery",
+      "expected_calibration_error",
+      "tokens_per_query",
+      "p95_latency",
+      "total_cost"
+    ],
+    "retrieval_ground_truth": {
+      "mandatory_relevant_source_ids": [
+        "DOC-P2-001",
+        "DOC-P2-003",
+        "DOC-P2-004",
+        "DOC-P2-005",
+        "DOC-P2-006"
+      ],
+      "optional_relevant_source_ids": [],
+      "irrelevant_but_similar_distractor_ids": [],
+      "duplicate_family_ids": [],
+      "forbidden_future_source_ids": [],
+      "exact_source_required_for_quotation": null
+    }
+  }
+]

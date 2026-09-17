@@ -1,0 +1,39 @@
+{
+  "abandoned_or_superseded_experiment": {
+    "experiment_id": "659a2a8e-5909-4044-bf39-b4cb8a3ca38d",
+    "output_count": 140,
+    "reason": "final evaluation uses only b9570d90-7be3-4dbf-9063-535811b2e970",
+    "run_count": 7,
+    "status": "contains_completed_outputs_not_used_in_final_matrix",
+    "turn_count": 140,
+    "used_in_final_matrix": false
+  },
+  "completed_derived_experiment_id": "659a2a8e-5909-4044-bf39-b4cb8a3ca38d",
+  "evaluation_mode": "offline_observation_level_recomputation",
+  "final_turn_source": "completed_derived_experiment_only",
+  "groq_provider_invocations_during_recomputation": 0,
+  "llm_call_count_after_load": 140,
+  "llm_call_count_before_load": 140,
+  "llm_calls_after": 140,
+  "llm_calls_before": 140,
+  "no_llm_calls_performed": true,
+  "patient": "SYN-CSM-003",
+  "phase_aware_csm_lifecycle_validation": {
+    "current_phase": "post_generation_offline_evaluation",
+    "post_generation_expected": {
+      "csm_completed_turns": 20,
+      "csm_outputs": 20,
+      "csm_status": "completed"
+    },
+    "pre_generation_expected": {
+      "csm_completed_turns": 0,
+      "csm_status": "pending"
+    }
+  },
+  "provider_invocations_during_recomputation": 0,
+  "repetition": 1,
+  "source_experiment_id": "659a2a8e-5909-4044-bf39-b4cb8a3ca38d",
+  "turn_mixing": false,
+  "used_existing_aggregate_metric_rows": false,
+  "zero_groq_calls": true
+}

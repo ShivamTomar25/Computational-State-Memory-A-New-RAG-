@@ -1,0 +1,41 @@
+{
+  "comparable": true,
+  "completed_at": "2026-08-21T00:30:02.010157+05:30",
+  "created_at": "2026-08-20T18:00:34.385631+05:30",
+  "dataset_id": "df6e1e82-bd4c-45c5-8428-2c3e91fe1620",
+  "document_count": 19,
+  "document_text_count": 19,
+  "experiment_id": "179bb8b4-2640-4619-89cb-3cd509e7c8e7",
+  "export_scope": {
+    "patients": "all",
+    "questions": "all",
+    "repetitions": "all",
+    "systems": [
+      "csm_v4"
+    ]
+  },
+  "failure_reason": null,
+  "generated_at": "2026-08-20T19:00:02.230458+00:00",
+  "import_result": null,
+  "measured_metric_rows": 48,
+  "metric_row_count": 63,
+  "pending_metric_rows": 0,
+  "progress": {
+    "completed_system_runs": 3,
+    "completed_turns": 60,
+    "expected_system_runs": 3,
+    "expected_turns": 60,
+    "experiment_id": "179bb8b4-2640-4619-89cb-3cd509e7c8e7",
+    "failed_system_runs": 0,
+    "measured_metric_results": 63,
+    "pending_metric_results": 0,
+    "status": "completed"
+  },
+  "started_at": "2026-08-20T18:00:34.406049+05:30",
+  "status": "completed",
+  "system_run_count": 3,
+  "systems": [
+    "csm_v4"
+  ],
+  "turn_count": 60
+}

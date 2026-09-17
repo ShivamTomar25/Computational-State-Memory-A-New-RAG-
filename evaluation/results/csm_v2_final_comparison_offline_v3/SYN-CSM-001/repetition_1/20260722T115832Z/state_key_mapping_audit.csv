@@ -1,0 +1,22 @@
+calculation_reason,expected_state_concept,mapped_state_id,mapped_state_key,mapping_status,match_score
+expected_state_concept_to_csm_v2_state_key_mapping,"active_conditions ['Type 2 diabetes mellitus', 'Essential hypertension']",ba8c2d8f-fa4c-471b-a051-b48bc465e99e,type 2 diabetes mellitus,N/A - expected_state_snapshot_missing,0.03614457831325301
+expected_state_concept_to_csm_v2_state_key_mapping,active_conditions:Type 2 diabetes mellitus,ba8c2d8f-fa4c-471b-a051-b48bc465e99e,type 2 diabetes mellitus,N/A - expected_state_snapshot_missing,0.0375
+expected_state_concept_to_csm_v2_state_key_mapping,active_conditions:Essential hypertension,e2463a9f-822a-4f80-90a3-6f9c6fccb3c0,outpatient,N/A - expected_state_snapshot_missing,0.028985507246376812
+expected_state_concept_to_csm_v2_state_key_mapping,renal_function_trend Possible worsening renal function,2260e9a8-9724-4ff2-894f-508dc7b4fbe8,urgent_outpatient,N/A - expected_state_snapshot_missing,0.013333333333333334
+expected_state_concept_to_csm_v2_state_key_mapping,renal_function_trend:Possible worsening renal function,2260e9a8-9724-4ff2-894f-508dc7b4fbe8,urgent_outpatient,N/A - expected_state_snapshot_missing,0.013513513513513514
+expected_state_concept_to_csm_v2_state_key_mapping,status Contested or qualified,,,N/A - expected_state_snapshot_missing,0.0
+expected_state_concept_to_csm_v2_state_key_mapping,status:Contested or qualified,,,N/A - expected_state_snapshot_missing,0.0
+expected_state_concept_to_csm_v2_state_key_mapping,status Contested,,,N/A - expected_state_snapshot_missing,0.0
+expected_state_concept_to_csm_v2_state_key_mapping,renal_function_trend Transient or qualified decline; corrected values remain abnormal,c71739de-9907-4689-bb20-31df89f2fdd2,laboratory correction acknowledgement,N/A - expected_state_snapshot_missing,0.03488372093023256
+expected_state_concept_to_csm_v2_state_key_mapping,renal_function_trend:Transient or qualified decline; corrected values remain abnormal,c71739de-9907-4689-bb20-31df89f2fdd2,laboratory correction acknowledgement,N/A - expected_state_snapshot_missing,0.03529411764705882
+expected_state_concept_to_csm_v2_state_key_mapping,status:Contested,,,N/A - expected_state_snapshot_missing,0.0
+expected_state_concept_to_csm_v2_state_key_mapping,status Resolved,,,N/A - expected_state_snapshot_missing,0.0
+expected_state_concept_to_csm_v2_state_key_mapping,renal_function_trend Improved toward baseline after transient decline,3cafde86-2e85-46ff-94dd-f80505a45dc8,section:992508fd-a5ec-443e-a9b5-1b673de2ccd5,N/A - expected_state_snapshot_missing,0.018518518518518517
+expected_state_concept_to_csm_v2_state_key_mapping,renal_function_trend:Improved toward baseline after transient decline,66b8b579-dfbe-4a36-bbcf-21f86e8a0982,follow-up,N/A - expected_state_snapshot_missing,0.013513513513513514
+expected_state_concept_to_csm_v2_state_key_mapping,status:Resolved,,,N/A - expected_state_snapshot_missing,0.0
+expected_state_concept_to_csm_v2_state_key_mapping,child renal_medication_review,1f615fa1-5093-4d77-9002-93ad52af14e7,section:86591a93-5a03-4fb5-b6b2-f182f63fc765,N/A - expected_state_snapshot_missing,0.027522935779816515
+expected_state_concept_to_csm_v2_state_key_mapping,parent renal_function_trend,2260e9a8-9724-4ff2-894f-508dc7b4fbe8,urgent_outpatient,N/A - expected_state_snapshot_missing,0.013513513513513514
+expected_state_concept_to_csm_v2_state_key_mapping,parent:renal_function_trend,,,N/A - expected_state_snapshot_missing,0.0
+expected_state_concept_to_csm_v2_state_key_mapping,child:renal_medication_review,1f615fa1-5093-4d77-9002-93ad52af14e7,section:86591a93-5a03-4fb5-b6b2-f182f63fc765,N/A - expected_state_snapshot_missing,0.01834862385321101
+expected_state_concept_to_csm_v2_state_key_mapping,status Pending Review or rejected,2260e9a8-9724-4ff2-894f-508dc7b4fbe8,urgent_outpatient,N/A - expected_state_snapshot_missing,0.013513513513513514
+expected_state_concept_to_csm_v2_state_key_mapping,status:Pending Review or rejected,2260e9a8-9724-4ff2-894f-508dc7b4fbe8,urgent_outpatient,N/A - expected_state_snapshot_missing,0.0136986301369863

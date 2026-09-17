@@ -1,0 +1,98 @@
+{
+  "status": "passed",
+  "generated_at": "2026-08-20T12:30:02.093210+00:00",
+  "provider_calls": 0,
+  "groq_calls": 0,
+  "patients": [
+    "SYN-CSM-001",
+    "SYN-CSM-002",
+    "SYN-CSM-003"
+  ],
+  "questions": 60,
+  "implementation_versions": {
+    "csm_v2": "csm_v2",
+    "csm_v3": "csm_v3",
+    "csm_v4": "csm_v4"
+  },
+  "configuration": {
+    "implementation_version": "csm_v4",
+    "state_schema_version": "csm_state_schema_v4",
+    "state_engine": "evidence_derived_executable_state_v4",
+    "query_router": "deterministic_decision_aware_router_v4",
+    "context_contract": "compact_state_and_evidence_bundle_v4",
+    "top_k_states": 6,
+    "top_k_evidence": 8,
+    "context_token_budget": 2600,
+    "route_token_budgets": {
+      "simple_state": 1600,
+      "ordinary": 2000,
+      "temporal_or_correction": 2400,
+      "summary": 2600
+    },
+    "activation_threshold": 0.14,
+    "candidate_recall_limit": 24,
+    "support_evidence_per_state": 2,
+    "correction_evidence_per_state": 3,
+    "max_dependency_depth": 2,
+    "max_dependency_fanout": 8
+  },
+  "gates": {
+    "no_future_leakage": {
+      "passed": true,
+      "measure": "future_leak_count",
+      "value": 0
+    },
+    "correction_bundle_works": {
+      "passed": true,
+      "measure": "correction_questions",
+      "value": 8
+    },
+    "current_state_excludes_superseded": {
+      "passed": true,
+      "measure": "current_route_questions",
+      "value": 31
+    },
+    "temporal_retrieves_history_or_v2_coverage": {
+      "passed": true,
+      "measure": "temporal_questions",
+      "value": 21
+    },
+    "exact_source_fallback_works": {
+      "passed": true,
+      "measure": "exact_source_questions",
+      "value": 9
+    },
+    "rare_detail_fallback_works": {
+      "passed": true,
+      "measure": "rare_detail_questions",
+      "value": 0
+    },
+    "state_evidence_lineage_deterministic": {
+      "passed": true,
+      "measure": "state_without_evidence/null_canonical",
+      "value": "0/0"
+    },
+    "adaptive_context_budget_works": {
+      "passed": true,
+      "measure": "max_token_count",
+      "value": 2400
+    },
+    "retrieval_coverage_not_worse_than_csm_v2": {
+      "passed": true,
+      "measure": "macro_recall_v4_vs_v2",
+      "value": {
+        "v4": 0.32336309523809526,
+        "v2": 0.16966660654160653,
+        "delta": 0.15369648869648872
+      }
+    },
+    "csm_v2_v3_unchanged_static_check": {
+      "passed": true,
+      "measure": "versions",
+      "value": {
+        "csm_v2": "csm_v2",
+        "csm_v3": "csm_v3"
+      }
+    }
+  }
+}

@@ -1,0 +1,4 @@
+applicable,details,metric_name,reason_not_applicable,repetition,system,value
+True,"{""case_id"": ""7759a683-adb7-4e2a-932e-185cdeabc93b"", ""repetition_number"": 1, ""status"": ""measured"", ""system_type"": ""csm_v4""}",correction_recovery,,1,csm_v4,0.0
+True,"{""case_id"": ""a37b16e4-aece-444f-9b81-69f1108f17c2"", ""repetition_number"": 1, ""status"": ""measured"", ""system_type"": ""csm_v4""}",correction_recovery,,1,csm_v4,0.0
+False,"{""case_id"": ""8e262a8f-3296-42f8-8ce0-cd6637098f9c"", ""repetition_number"": 1, ""status"": ""not_applicable"", ""system_type"": ""csm_v4""}",correction_recovery,no_correction_cases,1,csm_v4,

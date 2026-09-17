@@ -1,0 +1,390 @@
+{
+  "dataset_version": "sustha-csm-three-patient-pilot-v1.0",
+  "files": [
+    {
+      "path": "README.md",
+      "size_bytes": 2047,
+      "sha256": "950ecafd0b7c3b8b098c619a2117fa3e5787e0e95529a79743580c32d928c065"
+    },
+    {
+      "path": "benchmark/cases.json",
+      "size_bytes": 2312,
+      "sha256": "75915a4c3a7984f2c9143b0e66587c1baf65eb17e74c27bd19337a10bc9c4856"
+    },
+    {
+      "path": "benchmark/common_multi_turn_script.json",
+      "size_bytes": 4965,
+      "sha256": "f3f05fa7701f318eee3e6b10b30782bbf4c5a0e9d1e795741b56b9fb1c2cb2a5"
+    },
+    {
+      "path": "benchmark/common_single_turn_questions.json",
+      "size_bytes": 13159,
+      "sha256": "2171cc1f1c4a3e6e4252fd7abe134fb939c052bf497cc36459a300b6474f1d12"
+    },
+    {
+      "path": "benchmark/dataset.json",
+      "size_bytes": 999,
+      "sha256": "2e8929a0004f41cc9b6606df161b4ebe011ceafa6bf6c1b29e28d4bd796aee9e"
+    },
+    {
+      "path": "benchmark/events.json",
+      "size_bytes": 9120,
+      "sha256": "87208672c6220b14d69f4a155d6aeb7c08a4efcf73460d9c816e57afbbc4f9a4"
+    },
+    {
+      "path": "benchmark/expected_relevant_sources.json",
+      "size_bytes": 19561,
+      "sha256": "ff7ebd1db6830bc728a2fe9719f6f02350cdb55da6319cb70889f4a6876c15e4"
+    },
+    {
+      "path": "benchmark/expected_state_snapshots.json",
+      "size_bytes": 16804,
+      "sha256": "7a14efee8136a2edce1f9e716c29fe6a850bc35011a4bc63c2908e3430a390e7"
+    },
+    {
+      "path": "benchmark/ground_truth.json",
+      "size_bytes": 122264,
+      "sha256": "f36e8c57713f8490a55ec6cc2c46f2b404915e4ec400b6ab0feaadb9b92bb3df"
+    },
+    {
+      "path": "benchmark/questions.json",
+      "size_bytes": 114765,
+      "sha256": "d1264b1bd6473add662bc83164ec7f37f6773ab423c420fc879164a007cbdf5d"
+    },
+    {
+      "path": "doctor/registration.json",
+      "size_bytes": 282,
+      "sha256": "020c289f60113fcb73f5868ac99ad7872618c50389e17035396e7a24be484911"
+    },
+    {
+      "path": "paper/dataset_description.md",
+      "size_bytes": 2787,
+      "sha256": "b89deef61430b34812609d6ff65e3d4478450fdfffc3c4cd0afa6166546e7f75"
+    },
+    {
+      "path": "paper/expected_result_tables.csv",
+      "size_bytes": 1233,
+      "sha256": "d3a5061f1376f374fef41e3978e5112ee872843d82f75546f04ae290c4e19f75"
+    },
+    {
+      "path": "paper/metric_applicability.csv",
+      "size_bytes": 19879,
+      "sha256": "62dd727c0758d8911f4ba0c6098e2b300af1f56268993ce3555e408d7b2f3ee5"
+    },
+    {
+      "path": "paper/patient_case_summary.csv",
+      "size_bytes": 425,
+      "sha256": "647c240f98180f99ff09cc5b22148672bc8ba98994b3f2aae4685a989924ec54"
+    },
+    {
+      "path": "paper/question_taxonomy.csv",
+      "size_bytes": 22742,
+      "sha256": "3322e9a9df31e934d239d45bd5eac4dbb06df5344da85610843bf4df13c6192a"
+    },
+    {
+      "path": "patients/SYN-CSM-001/document_metadata.json",
+      "size_bytes": 3594,
+      "sha256": "7976c6ab9908ff3d77552b154f6ffae4f0cd079b94770389d0c1f64f5f0db306"
+    },
+    {
+      "path": "patients/SYN-CSM-001/documents/P1_01_baseline_clinic_note.pdf",
+      "size_bytes": 2930,
+      "sha256": "30540e29a54e9d46bf0c78330433951ad5a44d49350050b981e4235db4865ee0"
+    },
+    {
+      "path": "patients/SYN-CSM-001/documents/P1_01_baseline_clinic_note.txt",
+      "size_bytes": 986,
+      "sha256": "50449d595cdbab12a4c29a63e3912e952a77bf7bf655ad8076723c5ce2fb89d8"
+    },
+    {
+      "path": "patients/SYN-CSM-001/documents/P1_02_abnormal_lab_report.pdf",
+      "size_bytes": 2772,
+      "sha256": "ff7e5ce08327438b5a73a26149a2027b4521d858c4f3e726a8aca851f5e68024"
+    },
+    {
+      "path": "patients/SYN-CSM-001/documents/P1_02_abnormal_lab_report.txt",
+      "size_bytes": 772,
+      "sha256": "bffa3212cf8dbd02408170ba7515db39a502637e31b1f288926086924ae3da84"
+    },
+    {
+      "path": "patients/SYN-CSM-001/documents/P1_03_medication_summary.pdf",
+      "size_bytes": 2658,
+      "sha256": "2ce07a733ef7a30b517370638bd6d1aa089bc071dbda54a2c8f0e8ce348c8e5d"
+    },
+    {
+      "path": "patients/SYN-CSM-001/documents/P1_03_medication_summary.txt",
+      "size_bytes": 647,
+      "sha256": "0ccac0aa50ae92ffb05cd668f416269174a35c535b134e6ef78860fc159f3d5b"
+    },
+    {
+      "path": "patients/SYN-CSM-001/documents/P1_04_dehydration_qualification.pdf",
+      "size_bytes": 2663,
+      "sha256": "aa8a0fa2b9cab80ebf6a9feb0c406b0577b0161d474fc42c78d1700c10b1433a"
+    },
+    {
+      "path": "patients/SYN-CSM-001/documents/P1_04_dehydration_qualification.txt",
+      "size_bytes": 639,
+      "sha256": "bfd571815cc9e1495ea04a53539135798bf0a722f1b4f4d6ec0c43a376c68e33"
+    },
+    {
+      "path": "patients/SYN-CSM-001/documents/P1_05_corrected_lab_addendum.pdf",
+      "size_bytes": 2735,
+      "sha256": "77d3f8d3c47e2f8a435bc58bb9899bd00ce4a82785fad0d50815746125574b09"
+    },
+    {
+      "path": "patients/SYN-CSM-001/documents/P1_05_corrected_lab_addendum.txt",
+      "size_bytes": 755,
+      "sha256": "c16e6e17b1b2325c490ca46b7f1641a97069b52077e59cde98186368ee7a689b"
+    },
+    {
+      "path": "patients/SYN-CSM-001/documents/P1_06_followup_lab_report.pdf",
+      "size_bytes": 2650,
+      "sha256": "b031587267df520bc9fc7e05b1192288863bc83d236223c358945739bfa89907"
+    },
+    {
+      "path": "patients/SYN-CSM-001/documents/P1_06_followup_lab_report.txt",
+      "size_bytes": 592,
+      "sha256": "ec602fd192b2d378091d3699d1df5c4358c6751d146d60ea306a39a6577aa14c"
+    },
+    {
+      "path": "patients/SYN-CSM-001/evaluation_questions.json",
+      "size_bytes": 39386,
+      "sha256": "a0e22e8046850e2f9714c2ee8d7a3c91a654c0911a14f1cacdfbb9005e614eb7"
+    },
+    {
+      "path": "patients/SYN-CSM-001/expected_state_snapshots.json",
+      "size_bytes": 6801,
+      "sha256": "fd4c75eede7c6956c595695320c3901a1ff82aec0eb61417c0a62fb05dc29d61"
+    },
+    {
+      "path": "patients/SYN-CSM-001/ground_truth.json",
+      "size_bytes": 49292,
+      "sha256": "eb605f9f0a83fcc967f93d0c0730b8a9d943406a8a7102fc5e838d602df9e55e"
+    },
+    {
+      "path": "patients/SYN-CSM-001/patient.json",
+      "size_bytes": 638,
+      "sha256": "f9856bc4259be6a9c75073ae94105ab44b7dcca3f821ac87aa0898bdb4684514"
+    },
+    {
+      "path": "patients/SYN-CSM-001/source_conversations.json",
+      "size_bytes": 1979,
+      "sha256": "f4c385c8b0c36e5f2a9afa326fc6c9a36220552f5066970122b9c367e0db07f8"
+    },
+    {
+      "path": "patients/SYN-CSM-001/structured_information.json",
+      "size_bytes": 7576,
+      "sha256": "e885f1de8f98fbd6da16a72383909710036bb0676e5b2c994b3799f445917447"
+    },
+    {
+      "path": "patients/SYN-CSM-001/timeline.json",
+      "size_bytes": 2873,
+      "sha256": "3a90ff88a469785a2a37c8b49c82d8d7a19534b6b5d09f9ba3e4ca73d9f0fb5d"
+    },
+    {
+      "path": "patients/SYN-CSM-002/document_metadata.json",
+      "size_bytes": 3636,
+      "sha256": "ff078782cdc28395acc4acdd0c4b011f97753467b15199739e817547e94942fb"
+    },
+    {
+      "path": "patients/SYN-CSM-002/documents/P2_01_patient_intake_note.pdf",
+      "size_bytes": 2669,
+      "sha256": "eb04742951081fe3aed85254ed7a5da878d56c179de72eb6eab30f6ce4bf7943"
+    },
+    {
+      "path": "patients/SYN-CSM-002/documents/P2_01_patient_intake_note.txt",
+      "size_bytes": 668,
+      "sha256": "ac329ab3269e2b2fd7a011d78dbca1e9492cda8e64987c5bc416639118b9ffb4"
+    },
+    {
+      "path": "patients/SYN-CSM-002/documents/P2_02_medication_reconciliation.pdf",
+      "size_bytes": 2597,
+      "sha256": "cf7e563c5af2dbe9645d4a1dee60387b6027b1f85e1c04e090516bbeb971f52f"
+    },
+    {
+      "path": "patients/SYN-CSM-002/documents/P2_02_medication_reconciliation.txt",
+      "size_bytes": 558,
+      "sha256": "65a9d3ea79465e1e37d05572d475ffe82e4d301ccf7b25592a55d3c70a7367c5"
+    },
+    {
+      "path": "patients/SYN-CSM-002/documents/P2_03_imported_hospital_summary.pdf",
+      "size_bytes": 2557,
+      "sha256": "f8e7a1fbc6a95a0759a5a69d6d47dae4328c51bdb3ef8b9ad04d0104400f1857"
+    },
+    {
+      "path": "patients/SYN-CSM-002/documents/P2_03_imported_hospital_summary.txt",
+      "size_bytes": 505,
+      "sha256": "655f6128d71e9fd4a4d7642f37814422533a84c9274fcd8a9c627d99caa85bbc"
+    },
+    {
+      "path": "patients/SYN-CSM-002/documents/P2_04_duplicate_hospital_summary.pdf",
+      "size_bytes": 2628,
+      "sha256": "dd718a9a3c37c5a0c1b1d5f7de115e5436fb9df917a9814b2c8e23c264e1516a"
+    },
+    {
+      "path": "patients/SYN-CSM-002/documents/P2_04_duplicate_hospital_summary.txt",
+      "size_bytes": 566,
+      "sha256": "82ac2f8610322ad643ba09c155b7676b9b0767e3eda6ae546ad560007793c21e"
+    },
+    {
+      "path": "patients/SYN-CSM-002/documents/P2_05_external_allergist_letter.pdf",
+      "size_bytes": 2668,
+      "sha256": "164f3e793a87a941c73a6936b88fbd223586253bbb1e4092006232a96c333f35"
+    },
+    {
+      "path": "patients/SYN-CSM-002/documents/P2_05_external_allergist_letter.txt",
+      "size_bytes": 656,
+      "sha256": "898c21975eb9b1c4dabd0e9438c40c2052d173c50bdf2784ef1dfab1b22b0ae0"
+    },
+    {
+      "path": "patients/SYN-CSM-002/documents/P2_06_allergy_correction_notice.pdf",
+      "size_bytes": 2692,
+      "sha256": "aec0fe2f1abf593e6a6e76e0b1974c906a4e3059a26164fb31c00785cb264898"
+    },
+    {
+      "path": "patients/SYN-CSM-002/documents/P2_06_allergy_correction_notice.txt",
+      "size_bytes": 671,
+      "sha256": "c926122f69d56d4d711ec6eff248ea339db4861d46138bda054aa3e77b6275b6"
+    },
+    {
+      "path": "patients/SYN-CSM-002/evaluation_questions.json",
+      "size_bytes": 37978,
+      "sha256": "2e7f9b9b125bf810d48efd7756c7d7796ee0694680ccdbbed4a935fdf21562c9"
+    },
+    {
+      "path": "patients/SYN-CSM-002/expected_state_snapshots.json",
+      "size_bytes": 3690,
+      "sha256": "a9c62756d8c7ca9c41b54d1e379131c884d42e8b82309e5b060ea25ec5d9d677"
+    },
+    {
+      "path": "patients/SYN-CSM-002/ground_truth.json",
+      "size_bytes": 44475,
+      "sha256": "ed5b2be2438730aac337835952364244431bcfeb5a05aeb59e866abd177412b7"
+    },
+    {
+      "path": "patients/SYN-CSM-002/patient.json",
+      "size_bytes": 661,
+      "sha256": "5fbe308b4525dd113605f3704e33212f59a3b587e784242481fe29e9ca0a22a4"
+    },
+    {
+      "path": "patients/SYN-CSM-002/source_conversations.json",
+      "size_bytes": 1806,
+      "sha256": "8c3035ccb0f8b5e6c23860d074788298b6fd378d855fb3a829a2c8f3db0fb738"
+    },
+    {
+      "path": "patients/SYN-CSM-002/structured_information.json",
+      "size_bytes": 3333,
+      "sha256": "0436744fa15c26f4a08174ff3267b52f1983bfa84e6b78439149af499ff01e02"
+    },
+    {
+      "path": "patients/SYN-CSM-002/timeline.json",
+      "size_bytes": 2361,
+      "sha256": "28ff7ed56eebf5af88756dc03df6daac9656367927dfbb983dc9743917478837"
+    },
+    {
+      "path": "patients/SYN-CSM-003/document_metadata.json",
+      "size_bytes": 3594,
+      "sha256": "53f0cd1a99fbabc29ff90c3f0db02fd18377c498fdca1f934ec4cc65d5529d71"
+    },
+    {
+      "path": "patients/SYN-CSM-003/documents/P3_01_baseline_cardiology_note.pdf",
+      "size_bytes": 2744,
+      "sha256": "3d412475637f6b7ef944dcbc336a2d420b4be1f831570841e82c097565115b68"
+    },
+    {
+      "path": "patients/SYN-CSM-003/documents/P3_01_baseline_cardiology_note.txt",
+      "size_bytes": 756,
+      "sha256": "8769bfc916f8cdeef37078503badde0f4b97d80937d01201d9c3716bf04d7797"
+    },
+    {
+      "path": "patients/SYN-CSM-003/documents/P3_02_worsening_vitals_report.pdf",
+      "size_bytes": 2595,
+      "sha256": "6de1913193d1b9d0f3ea92172374aa7ac40f58f3e0ee20877cebf0ff51205cd9"
+    },
+    {
+      "path": "patients/SYN-CSM-003/documents/P3_02_worsening_vitals_report.txt",
+      "size_bytes": 567,
+      "sha256": "9cf08bc93c0c3e23f2ce07b70a447c3cceb666bd66c3f786402eb02f07917d63"
+    },
+    {
+      "path": "patients/SYN-CSM-003/documents/P3_03_treatment_plan.pdf",
+      "size_bytes": 2626,
+      "sha256": "e47121abce8ab78335ef57468c0bbaf6a0b522d23419855f95c81bb78a362620"
+    },
+    {
+      "path": "patients/SYN-CSM-003/documents/P3_03_treatment_plan.txt",
+      "size_bytes": 605,
+      "sha256": "649b34ef0927a9940b85912bd2c19af6f2accf601a1111cb007887905f3e97f5"
+    },
+    {
+      "path": "patients/SYN-CSM-003/documents/P3_04_delayed_encounter_note.pdf",
+      "size_bytes": 2661,
+      "sha256": "6d4cf1050e237867db00edd5cd10156e73dc8bc3f69a1af7c3c06824acb9ca66"
+    },
+    {
+      "path": "patients/SYN-CSM-003/documents/P3_04_delayed_encounter_note.txt",
+      "size_bytes": 622,
+      "sha256": "3ce660df7bfdf738172db72cc91044a3bfb5a5fd6b84bbbf4fe0da170f265cfd"
+    },
+    {
+      "path": "patients/SYN-CSM-003/documents/P3_05_followup_response_report.pdf",
+      "size_bytes": 2659,
+      "sha256": "f5c7046f6d4ac1f1b4b6d785e0e3b3f206f8ad3481d18d029cc4a8aa0c77e106"
+    },
+    {
+      "path": "patients/SYN-CSM-003/documents/P3_05_followup_response_report.txt",
+      "size_bytes": 625,
+      "sha256": "1dd15d2ddffc9b77b64fef2264b142dc13d66738e73fb950a6f73f3f9e9cdd43"
+    },
+    {
+      "path": "patients/SYN-CSM-003/documents/P3_06_syncope_retraction_notice.pdf",
+      "size_bytes": 2633,
+      "sha256": "09e30ae03f509140b3f58f2c5abfed18f815f7a238d0d6e1696d6e3424935199"
+    },
+    {
+      "path": "patients/SYN-CSM-003/documents/P3_06_syncope_retraction_notice.txt",
+      "size_bytes": 604,
+      "sha256": "c24d30d169020b4c45d73718d89fce5cdc40ddbe1c40ce8ead295dc1fddcd302"
+    },
+    {
+      "path": "patients/SYN-CSM-003/evaluation_questions.json",
+      "size_bytes": 37405,
+      "sha256": "cac93ff75b4f6e66428ac0f1e550ab7d769d188553e2dc810cbb1d27d0fca9ca"
+    },
+    {
+      "path": "patients/SYN-CSM-003/expected_state_snapshots.json",
+      "size_bytes": 5932,
+      "sha256": "93afc73cd4d1c5dd56db3043d0d795ff0ecd8486ccd5fefa694e030cb64fe8b2"
+    },
+    {
+      "path": "patients/SYN-CSM-003/ground_truth.json",
+      "size_bytes": 46292,
+      "sha256": "4e86681fae482c877ecc7fa3f4665e6b2dbde961bb5fc18f5f895b95c87c30de"
+    },
+    {
+      "path": "patients/SYN-CSM-003/patient.json",
+      "size_bytes": 690,
+      "sha256": "cc07b2b3c29b313e40ef2319fe8c0c541440b98ef266f34e31ea09c282332c13"
+    },
+    {
+      "path": "patients/SYN-CSM-003/source_conversations.json",
+      "size_bytes": 1716,
+      "sha256": "c2f25a6746129602a00e4af90a7fd94792caa83c59c7304b1901909c512e2c47"
+    },
+    {
+      "path": "patients/SYN-CSM-003/structured_information.json",
+      "size_bytes": 6202,
+      "sha256": "a814dda26a4429b57b83a49d58b0bc2ea4dd90f659eddcc46179889b1d7e141c"
+    },
+    {
+      "path": "patients/SYN-CSM-003/timeline.json",
+      "size_bytes": 3155,
+      "sha256": "9b24c137915b6dd8676da7d7f9f402b9ee26c9685c2f461c44f684b2e204d8d7"
+    },
+    {
+      "path": "validation_report.json",
+      "size_bytes": 551,
+      "sha256": "86215e4954ce2cf7ee330d8906f3a19e22dcc613f6b5eeece96c0f0ad6acb7db"
+    }
+  ]
+}

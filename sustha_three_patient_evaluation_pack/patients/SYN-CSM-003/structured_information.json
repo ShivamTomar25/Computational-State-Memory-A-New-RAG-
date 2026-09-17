@@ -1,0 +1,190 @@
+{
+  "encounters": [
+    {
+      "id": "P3-ENC-001",
+      "record_type": "encounter",
+      "encounter_type": "Cardiology outpatient",
+      "title": "Baseline atrial fibrillation review",
+      "description": "Baseline symptoms, medicines, and functional status.",
+      "effective_date": "2026-04-01T09:00:00+05:30",
+      "added_date": "2026-04-01T09:05:00+05:30",
+      "status": "Completed",
+      "source": "Doctor Observation"
+    },
+    {
+      "id": "P3-ENC-002",
+      "record_type": "encounter",
+      "encounter_type": "Urgent review",
+      "title": "Worsening palpitations and exertional dyspnea",
+      "description": "Elevated heart rate and symptom review.",
+      "effective_date": "2026-04-08T10:00:00+05:30",
+      "added_date": "2026-04-08T10:05:00+05:30",
+      "status": "Completed",
+      "source": "Doctor Observation"
+    },
+    {
+      "id": "P3-ENC-003",
+      "record_type": "encounter",
+      "encounter_type": "Follow-up",
+      "title": "Treatment-response review",
+      "description": "Symptoms and pulse improved after clinician-directed adjustment.",
+      "effective_date": "2026-04-22T10:00:00+05:30",
+      "added_date": "2026-04-22T10:05:00+05:30",
+      "status": "Completed",
+      "source": "Doctor Observation"
+    }
+  ],
+  "conditions": [
+    {
+      "id": "P3-COND-001",
+      "record_type": "condition",
+      "condition_name": "Atrial fibrillation",
+      "clinical_status": "Active",
+      "verification_status": "Confirmed",
+      "onset_date": "2023-08-01",
+      "added_date": "2026-04-01",
+      "notes": "Rate-control monitoring.",
+      "source": "Doctor Observation"
+    }
+  ],
+  "medications": [
+    {
+      "id": "P3-MED-001",
+      "record_type": "medication",
+      "medication_name": "Metoprolol succinate",
+      "dose": "25 mg",
+      "frequency": "Once daily",
+      "route": "Oral",
+      "start_date": "2025-06-01",
+      "end_date": "2026-04-09",
+      "status": "Superseded",
+      "reason": "Rate control",
+      "source": "Doctor Observation"
+    },
+    {
+      "id": "P3-MED-002",
+      "record_type": "medication",
+      "medication_name": "Metoprolol succinate",
+      "dose": "50 mg",
+      "frequency": "Once daily",
+      "route": "Oral",
+      "start_date": "2026-04-09",
+      "end_date": null,
+      "status": "Active",
+      "reason": "Clinician-directed rate-control adjustment",
+      "source": "Doctor Observation"
+    },
+    {
+      "id": "P3-MED-003",
+      "record_type": "medication",
+      "medication_name": "Apixaban",
+      "dose": "5 mg",
+      "frequency": "Twice daily",
+      "route": "Oral",
+      "start_date": "2024-01-01",
+      "end_date": null,
+      "status": "Active",
+      "reason": "Anticoagulation for atrial fibrillation",
+      "source": "Doctor Observation"
+    }
+  ],
+  "allergies": [
+    {
+      "id": "P3-ALL-001",
+      "record_type": "allergy",
+      "allergen": "No known drug allergy recorded",
+      "reaction": "None documented",
+      "severity": "Not applicable",
+      "verification_status": "Confirmed",
+      "recorded_date": "2026-04-01",
+      "status": "Active",
+      "source": "Doctor Observation"
+    }
+  ],
+  "measurements": [
+    {
+      "id": "P3-MEAS-001",
+      "record_type": "measurement",
+      "measurement_type": "Resting heart rate",
+      "value": 82,
+      "unit": "beats/min",
+      "effective_date": "2026-04-01T09:00:00+05:30",
+      "added_date": "2026-04-01T09:05:00+05:30",
+      "reference_range": "Context dependent",
+      "interpretation": "Baseline rate",
+      "status": "Final",
+      "source": "Doctor Observation"
+    },
+    {
+      "id": "P3-MEAS-002",
+      "record_type": "measurement",
+      "measurement_type": "Resting heart rate",
+      "value": 112,
+      "unit": "beats/min",
+      "effective_date": "2026-04-08T10:00:00+05:30",
+      "added_date": "2026-04-08T10:05:00+05:30",
+      "reference_range": "Context dependent",
+      "interpretation": "Elevated compared with baseline",
+      "status": "Final",
+      "source": "Doctor Observation"
+    },
+    {
+      "id": "P3-MEAS-003",
+      "record_type": "measurement",
+      "measurement_type": "Blood pressure",
+      "value": "146/88",
+      "unit": "mmHg",
+      "effective_date": "2026-04-08T10:00:00+05:30",
+      "added_date": "2026-04-08T10:05:00+05:30",
+      "reference_range": "Context dependent",
+      "interpretation": "Elevated systolic value",
+      "status": "Final",
+      "source": "Doctor Observation"
+    },
+    {
+      "id": "P3-MEAS-004",
+      "record_type": "measurement",
+      "measurement_type": "Resting heart rate",
+      "value": 78,
+      "unit": "beats/min",
+      "effective_date": "2026-04-22T10:00:00+05:30",
+      "added_date": "2026-04-22T10:05:00+05:30",
+      "reference_range": "Context dependent",
+      "interpretation": "Improved from 112",
+      "status": "Final",
+      "source": "Doctor Observation"
+    }
+  ],
+  "clinical_notes": [
+    {
+      "id": "P3-NOTE-001",
+      "record_type": "clinical_note",
+      "title": "Delayed functional-status note",
+      "full_note_text": "On 2 April, the patient reported becoming breathless after climbing 14 stairs. This note was entered on 12 April and is not a new symptom on 12 April.",
+      "effective_date": "2026-04-02T18:00:00+05:30",
+      "added_date": "2026-04-12T14:00:00+05:30",
+      "status": "Final",
+      "source": "Patient Report"
+    },
+    {
+      "id": "P3-NOTE-002",
+      "record_type": "clinical_note",
+      "title": "Erroneous syncope note",
+      "full_note_text": "Patient had a syncopal episode on 5 April. This note was later identified as belonging to another synthetic patient.",
+      "effective_date": "2026-04-05T12:00:00+05:30",
+      "added_date": "2026-04-10T09:00:00+05:30",
+      "status": "Retracted",
+      "source": "System Generated"
+    },
+    {
+      "id": "P3-NOTE-003",
+      "record_type": "clinical_note",
+      "title": "Retraction acknowledgement",
+      "full_note_text": "The 5 April syncope statement is retracted and must not be used as active patient evidence.",
+      "effective_date": "2026-04-15T09:00:00+05:30",
+      "added_date": "2026-04-15T09:00:00+05:30",
+      "status": "Final",
+      "source": "Doctor Observation"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+System,fabricated_citation_rate,lineage_citation_f1,retrieval_precision,retrieval_recall
+long_context,N/A,N/A,N/A,N/A
+rolling_summary,N/A,N/A,N/A,N/A
+dense_rag,N/A,N/A,N/A,N/A
+hybrid_rag,N/A,N/A,N/A,N/A
+graph_rag,N/A,N/A,N/A,N/A
+hippo_rag,N/A,N/A,N/A,N/A
+csm,N/A,N/A,N/A,N/A
+csm_v3,0.4706 +/- 0.01128,0.288 +/- 0.04655,0.3792 +/- 0.04446,0.6307 +/- 0.1869

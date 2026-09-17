@@ -1,0 +1,3743 @@
+{
+  "questions": [
+    {
+      "question_id": "P1-Q01",
+      "patient_code": "SYN-CSM-001",
+      "question_text": "What active chronic conditions are recorded for this patient?",
+      "source_cutoff": "2026-01-10T23:59:59+05:30",
+      "question_category": "Current state",
+      "expected_answer": "Type 2 diabetes mellitus and essential hypertension are active confirmed conditions.",
+      "required_claims": [
+        "Type 2 diabetes mellitus is active",
+        "Essential hypertension is active"
+      ],
+      "acceptable_claims": [],
+      "forbidden_claims": [],
+      "expected_evidence_ids": [
+        "EV-P1-001"
+      ],
+      "expected_relevant_source_ids": [
+        "DOC-P1-001",
+        "P1-COND-001",
+        "P1-COND-002"
+      ],
+      "expected_state": {
+        "active_conditions": [
+          "Type 2 diabetes mellitus",
+          "Essential hypertension"
+        ]
+      },
+      "expected_decision_label": null,
+      "expected_temporal_assertions": [],
+      "expected_conflicts": [],
+      "expected_corrections": [],
+      "requires_exact_quote": false,
+      "rare_detail_query": false,
+      "insufficient_evidence_expected": false,
+      "expected_confidence_band": "medium-high",
+      "applicable_metrics": [
+        "answer_accuracy",
+        "hallucination_rate",
+        "evidence_support_rate",
+        "unsupported_claim_rate",
+        "faithfulness",
+        "groundedness",
+        "expected_calibration_error",
+        "fabricated_citation_rate",
+        "lineage_citation_f1",
+        "retrieval_precision",
+        "retrieval_recall",
+        "tokens_per_query",
+        "p95_latency",
+        "total_cost"
+      ],
+      "retrieval_ground_truth": {
+        "mandatory_relevant_source_ids": [
+          "DOC-P1-001",
+          "P1-COND-001",
+          "P1-COND-002"
+        ],
+        "optional_relevant_source_ids": [],
+        "irrelevant_but_similar_distractor_ids": [],
+        "duplicate_family_ids": [],
+        "forbidden_future_source_ids": [],
+        "exact_source_required_for_quotation": null
+      }
+    },
+    {
+      "question_id": "P1-Q02",
+      "patient_code": "SYN-CSM-001",
+      "question_text": "What was the baseline creatinine and eGFR on 10 January 2026?",
+      "source_cutoff": "2026-01-10T23:59:59+05:30",
+      "question_category": "Historical fact",
+      "expected_answer": "Creatinine was 1.0 mg/dL and eGFR was 86 mL/min/1.73m2.",
+      "required_claims": [
+        "Creatinine 1.0 mg/dL",
+        "eGFR 86 mL/min/1.73m2"
+      ],
+      "acceptable_claims": [],
+      "forbidden_claims": [],
+      "expected_evidence_ids": [
+        "EV-P1-002"
+      ],
+      "expected_relevant_source_ids": [
+        "DOC-P1-001",
+        "P1-MEAS-001",
+        "P1-MEAS-002"
+      ],
+      "expected_state": {},
+      "expected_decision_label": null,
+      "expected_temporal_assertions": [],
+      "expected_conflicts": [],
+      "expected_corrections": [],
+      "requires_exact_quote": false,
+      "rare_detail_query": false,
+      "insufficient_evidence_expected": false,
+      "expected_confidence_band": "medium-high",
+      "applicable_metrics": [
+        "answer_accuracy",
+        "hallucination_rate",
+        "evidence_support_rate",
+        "unsupported_claim_rate",
+        "faithfulness",
+        "groundedness",
+        "expected_calibration_error",
+        "fabricated_citation_rate",
+        "lineage_citation_f1",
+        "retrieval_precision",
+        "retrieval_recall",
+        "tokens_per_query",
+        "p95_latency",
+        "total_cost"
+      ],
+      "retrieval_ground_truth": {
+        "mandatory_relevant_source_ids": [
+          "DOC-P1-001",
+          "P1-MEAS-001",
+          "P1-MEAS-002"
+        ],
+        "optional_relevant_source_ids": [],
+        "irrelevant_but_similar_distractor_ids": [],
+        "duplicate_family_ids": [],
+        "forbidden_future_source_ids": [],
+        "exact_source_required_for_quotation": null
+      }
+    },
+    {
+      "question_id": "P1-Q03",
+      "patient_code": "SYN-CSM-001",
+      "question_text": "Using only evidence available by 8 March, did renal function appear to worsen?",
+      "source_cutoff": "2026-03-08T23:59:59+05:30",
+      "question_category": "Future-leakage trap",
+      "expected_answer": "Yes. The initial 5 March report suggested worsening compared with baseline, but the conclusion should be described as provisional.",
+      "required_claims": [
+        "Initial report suggested worsening",
+        "Conclusion was provisional"
+      ],
+      "acceptable_claims": [],
+      "forbidden_claims": [
+        "The corrected creatinine was 1.5 mg/dL",
+        "Follow-up creatinine was 1.2 mg/dL"
+      ],
+      "expected_evidence_ids": [
+        "EV-P1-003",
+        "EV-P1-004",
+        "EV-P1-002"
+      ],
+      "expected_relevant_source_ids": [
+        "DOC-P1-002",
+        "DOC-P1-001"
+      ],
+      "expected_state": {
+        "renal_function_trend": "Possible worsening renal function"
+      },
+      "expected_decision_label": null,
+      "expected_temporal_assertions": [],
+      "expected_conflicts": [],
+      "expected_corrections": [],
+      "requires_exact_quote": false,
+      "rare_detail_query": false,
+      "insufficient_evidence_expected": false,
+      "expected_confidence_band": "medium-high",
+      "applicable_metrics": [
+        "answer_accuracy",
+        "hallucination_rate",
+        "evidence_support_rate",
+        "unsupported_claim_rate",
+        "faithfulness",
+        "groundedness",
+        "expected_calibration_error",
+        "temporal_consistency",
+        "state_accuracy",
+        "memory_update_accuracy",
+        "fabricated_citation_rate",
+        "lineage_citation_f1",
+        "retrieval_precision",
+        "retrieval_recall",
+        "tokens_per_query",
+        "p95_latency",
+        "total_cost"
+      ],
+      "retrieval_ground_truth": {
+        "mandatory_relevant_source_ids": [
+          "DOC-P1-002",
+          "DOC-P1-001"
+        ],
+        "optional_relevant_source_ids": [],
+        "irrelevant_but_similar_distractor_ids": [],
+        "duplicate_family_ids": [],
+        "forbidden_future_source_ids": [
+          "DOC-P1-004",
+          "DOC-P1-005",
+          "DOC-P1-006"
+        ],
+        "exact_source_required_for_quotation": null
+      }
+    },
+    {
+      "question_id": "P1-Q04",
+      "patient_code": "SYN-CSM-001",
+      "question_text": "Which event occurred in the patient before the 5 March renal specimen but was recorded later?",
+      "source_cutoff": "2026-03-10T23:59:59+05:30",
+      "question_category": "Late-arriving evidence",
+      "expected_answer": "The dehydration episode occurred on 4 March and was recorded on 10 March.",
+      "required_claims": [
+        "Dehydration occurred 4 March",
+        "It was recorded 10 March"
+      ],
+      "acceptable_claims": [],
+      "forbidden_claims": [],
+      "expected_evidence_ids": [
+        "EV-P1-006"
+      ],
+      "expected_relevant_source_ids": [
+        "DOC-P1-004",
+        "P1-NOTE-001"
+      ],
+      "expected_state": {},
+      "expected_decision_label": null,
+      "expected_temporal_assertions": [
+        "valid time precedes ingestion time"
+      ],
+      "expected_conflicts": [],
+      "expected_corrections": [],
+      "requires_exact_quote": false,
+      "rare_detail_query": false,
+      "insufficient_evidence_expected": false,
+      "expected_confidence_band": "medium-high",
+      "applicable_metrics": [
+        "answer_accuracy",
+        "hallucination_rate",
+        "evidence_support_rate",
+        "unsupported_claim_rate",
+        "faithfulness",
+        "groundedness",
+        "expected_calibration_error",
+        "temporal_consistency",
+        "fabricated_citation_rate",
+        "lineage_citation_f1",
+        "retrieval_precision",
+        "retrieval_recall",
+        "tokens_per_query",
+        "p95_latency",
+        "total_cost"
+      ],
+      "retrieval_ground_truth": {
+        "mandatory_relevant_source_ids": [
+          "DOC-P1-004",
+          "P1-NOTE-001"
+        ],
+        "optional_relevant_source_ids": [],
+        "irrelevant_but_similar_distractor_ids": [],
+        "duplicate_family_ids": [],
+        "forbidden_future_source_ids": [],
+        "exact_source_required_for_quotation": null
+      }
+    },
+    {
+      "question_id": "P1-Q05",
+      "patient_code": "SYN-CSM-001",
+      "question_text": "How should the dehydration note change interpretation of the abnormal renal result?",
+      "source_cutoff": "2026-03-10T23:59:59+05:30",
+      "question_category": "Qualification",
+      "expected_answer": "It should qualify the result as potentially transient and increase uncertainty; it should not erase the abnormal measurement.",
+      "required_claims": [
+        "Dehydration may have influenced result",
+        "Evidence should not be erased"
+      ],
+      "acceptable_claims": [],
+      "forbidden_claims": [],
+      "expected_evidence_ids": [
+        "EV-P1-006",
+        "EV-P1-003",
+        "EV-P1-004"
+      ],
+      "expected_relevant_source_ids": [
+        "DOC-P1-004",
+        "DOC-P1-002"
+      ],
+      "expected_state": {
+        "status": "Contested or qualified"
+      },
+      "expected_decision_label": null,
+      "expected_temporal_assertions": [],
+      "expected_conflicts": [],
+      "expected_corrections": [],
+      "requires_exact_quote": false,
+      "rare_detail_query": false,
+      "insufficient_evidence_expected": false,
+      "expected_confidence_band": "medium-high",
+      "applicable_metrics": [
+        "answer_accuracy",
+        "hallucination_rate",
+        "evidence_support_rate",
+        "unsupported_claim_rate",
+        "faithfulness",
+        "groundedness",
+        "expected_calibration_error",
+        "state_accuracy",
+        "memory_update_accuracy",
+        "temporal_consistency",
+        "fabricated_citation_rate",
+        "lineage_citation_f1",
+        "retrieval_precision",
+        "retrieval_recall",
+        "tokens_per_query",
+        "p95_latency",
+        "total_cost"
+      ],
+      "retrieval_ground_truth": {
+        "mandatory_relevant_source_ids": [
+          "DOC-P1-004",
+          "DOC-P1-002"
+        ],
+        "optional_relevant_source_ids": [],
+        "irrelevant_but_similar_distractor_ids": [],
+        "duplicate_family_ids": [],
+        "forbidden_future_source_ids": [],
+        "exact_source_required_for_quotation": null
+      }
+    },
+    {
+      "question_id": "P1-Q06",
+      "patient_code": "SYN-CSM-001",
+      "question_text": "What values in the original 5 March report were superseded, and by what corrected values?",
+      "source_cutoff": "2026-03-12T23:59:59+05:30",
+      "question_category": "Correction recovery",
+      "expected_answer": "Creatinine 1.8 was superseded by 1.5 mg/dL; eGFR 42 was superseded by 53 mL/min/1.73m2.",
+      "required_claims": [
+        "1.8 superseded by 1.5",
+        "42 superseded by 53"
+      ],
+      "acceptable_claims": [],
+      "forbidden_claims": [],
+      "expected_evidence_ids": [
+        "EV-P1-003",
+        "EV-P1-004",
+        "EV-P1-007",
+        "EV-P1-008"
+      ],
+      "expected_relevant_source_ids": [
+        "DOC-P1-002",
+        "DOC-P1-005"
+      ],
+      "expected_state": {},
+      "expected_decision_label": null,
+      "expected_temporal_assertions": [],
+      "expected_conflicts": [],
+      "expected_corrections": [
+        "DOC-P1-005 supersedes DOC-P1-002 values"
+      ],
+      "requires_exact_quote": false,
+      "rare_detail_query": false,
+      "insufficient_evidence_expected": false,
+      "expected_confidence_band": "medium-high",
+      "applicable_metrics": [
+        "answer_accuracy",
+        "hallucination_rate",
+        "evidence_support_rate",
+        "unsupported_claim_rate",
+        "faithfulness",
+        "groundedness",
+        "expected_calibration_error",
+        "temporal_consistency",
+        "fabricated_citation_rate",
+        "lineage_citation_f1",
+        "retrieval_precision",
+        "retrieval_recall",
+        "correction_recovery",
+        "state_recovery_time",
+        "memory_update_accuracy",
+        "tokens_per_query",
+        "p95_latency",
+        "total_cost"
+      ],
+      "retrieval_ground_truth": {
+        "mandatory_relevant_source_ids": [
+          "DOC-P1-002",
+          "DOC-P1-005"
+        ],
+        "optional_relevant_source_ids": [],
+        "irrelevant_but_similar_distractor_ids": [],
+        "duplicate_family_ids": [],
+        "forbidden_future_source_ids": [],
+        "exact_source_required_for_quotation": null
+      }
+    },
+    {
+      "question_id": "P1-Q07",
+      "patient_code": "SYN-CSM-001",
+      "question_text": "What is the latest valid renal assessment after the corrected report but before follow-up testing?",
+      "source_cutoff": "2026-03-12T23:59:59+05:30",
+      "question_category": "Latest valid fact",
+      "expected_answer": "A corrected but still abnormal renal result, qualified by dehydration; the trend remains contested pending follow-up.",
+      "required_claims": [
+        "Corrected values remain abnormal",
+        "Dehydration qualifies interpretation",
+        "State remains contested"
+      ],
+      "acceptable_claims": [],
+      "forbidden_claims": [],
+      "expected_evidence_ids": [
+        "EV-P1-006",
+        "EV-P1-007",
+        "EV-P1-008"
+      ],
+      "expected_relevant_source_ids": [
+        "DOC-P1-004",
+        "DOC-P1-005"
+      ],
+      "expected_state": {
+        "renal_function_trend": "Transient or qualified decline; corrected values remain abnormal",
+        "status": "Contested"
+      },
+      "expected_decision_label": null,
+      "expected_temporal_assertions": [],
+      "expected_conflicts": [],
+      "expected_corrections": [],
+      "requires_exact_quote": false,
+      "rare_detail_query": false,
+      "insufficient_evidence_expected": false,
+      "expected_confidence_band": "medium-high",
+      "applicable_metrics": [
+        "answer_accuracy",
+        "hallucination_rate",
+        "evidence_support_rate",
+        "unsupported_claim_rate",
+        "faithfulness",
+        "groundedness",
+        "expected_calibration_error",
+        "state_accuracy",
+        "memory_update_accuracy",
+        "temporal_consistency",
+        "fabricated_citation_rate",
+        "lineage_citation_f1",
+        "retrieval_precision",
+        "retrieval_recall",
+        "tokens_per_query",
+        "p95_latency",
+        "total_cost"
+      ],
+      "retrieval_ground_truth": {
+        "mandatory_relevant_source_ids": [
+          "DOC-P1-004",
+          "DOC-P1-005"
+        ],
+        "optional_relevant_source_ids": [],
+        "irrelevant_but_similar_distractor_ids": [],
+        "duplicate_family_ids": [],
+        "forbidden_future_source_ids": [],
+        "exact_source_required_for_quotation": null
+      }
+    },
+    {
+      "question_id": "P1-Q08",
+      "patient_code": "SYN-CSM-001",
+      "question_text": "What does the 20 March follow-up show about the renal trend?",
+      "source_cutoff": "2026-03-20T23:59:59+05:30",
+      "question_category": "Trend reasoning",
+      "expected_answer": "Creatinine improved to 1.2 mg/dL and eGFR to 70, indicating recovery toward baseline after a transient decline.",
+      "required_claims": [
+        "Creatinine improved to 1.2",
+        "eGFR improved to 70",
+        "Trend improved toward baseline"
+      ],
+      "acceptable_claims": [],
+      "forbidden_claims": [],
+      "expected_evidence_ids": [
+        "EV-P1-009",
+        "EV-P1-010",
+        "EV-P1-002"
+      ],
+      "expected_relevant_source_ids": [
+        "DOC-P1-006",
+        "DOC-P1-001"
+      ],
+      "expected_state": {
+        "renal_function_trend": "Improved toward baseline after transient decline",
+        "status": "Resolved"
+      },
+      "expected_decision_label": null,
+      "expected_temporal_assertions": [],
+      "expected_conflicts": [],
+      "expected_corrections": [],
+      "requires_exact_quote": false,
+      "rare_detail_query": false,
+      "insufficient_evidence_expected": false,
+      "expected_confidence_band": "medium-high",
+      "applicable_metrics": [
+        "answer_accuracy",
+        "hallucination_rate",
+        "evidence_support_rate",
+        "unsupported_claim_rate",
+        "faithfulness",
+        "groundedness",
+        "expected_calibration_error",
+        "state_accuracy",
+        "memory_update_accuracy",
+        "temporal_consistency",
+        "fabricated_citation_rate",
+        "lineage_citation_f1",
+        "retrieval_precision",
+        "retrieval_recall",
+        "correction_recovery",
+        "memory_update_accuracy",
+        "tokens_per_query",
+        "p95_latency",
+        "total_cost"
+      ],
+      "retrieval_ground_truth": {
+        "mandatory_relevant_source_ids": [
+          "DOC-P1-006",
+          "DOC-P1-001"
+        ],
+        "optional_relevant_source_ids": [],
+        "irrelevant_but_similar_distractor_ids": [],
+        "duplicate_family_ids": [],
+        "forbidden_future_source_ids": [],
+        "exact_source_required_for_quotation": null
+      }
+    },
+    {
+      "question_id": "P1-Q09",
+      "patient_code": "SYN-CSM-001",
+      "question_text": "Which state should be recomputed when the renal-function state changes?",
+      "source_cutoff": "2026-03-20T23:59:59+05:30",
+      "question_category": "State dependency",
+      "expected_answer": "The renal medication-review or medication-safety state should be recomputed because it depends on renal function and active medicines.",
+      "required_claims": [
+        "Medication-risk state depends on renal state"
+      ],
+      "acceptable_claims": [],
+      "forbidden_claims": [],
+      "expected_evidence_ids": [
+        "EV-P1-005",
+        "EV-P1-009",
+        "EV-P1-010"
+      ],
+      "expected_relevant_source_ids": [
+        "DOC-P1-003",
+        "DOC-P1-006"
+      ],
+      "expected_state": {
+        "parent": "renal_function_trend",
+        "child": "renal_medication_review"
+      },
+      "expected_decision_label": null,
+      "expected_temporal_assertions": [],
+      "expected_conflicts": [],
+      "expected_corrections": [],
+      "requires_exact_quote": false,
+      "rare_detail_query": false,
+      "insufficient_evidence_expected": false,
+      "expected_confidence_band": "medium-high",
+      "applicable_metrics": [
+        "answer_accuracy",
+        "hallucination_rate",
+        "evidence_support_rate",
+        "unsupported_claim_rate",
+        "faithfulness",
+        "groundedness",
+        "expected_calibration_error",
+        "state_accuracy",
+        "memory_update_accuracy",
+        "fabricated_citation_rate",
+        "lineage_citation_f1",
+        "retrieval_precision",
+        "retrieval_recall",
+        "tokens_per_query",
+        "p95_latency",
+        "total_cost"
+      ],
+      "retrieval_ground_truth": {
+        "mandatory_relevant_source_ids": [
+          "DOC-P1-003",
+          "DOC-P1-006"
+        ],
+        "optional_relevant_source_ids": [],
+        "irrelevant_but_similar_distractor_ids": [],
+        "duplicate_family_ids": [],
+        "forbidden_future_source_ids": [],
+        "exact_source_required_for_quotation": null
+      }
+    },
+    {
+      "question_id": "P1-Q10",
+      "patient_code": "SYN-CSM-001",
+      "question_text": "Should the chat claim that the patient definitely has severe chronic kidney disease become an active state?",
+      "source_cutoff": "2026-03-20T23:59:59+05:30",
+      "question_category": "Pending-review awareness",
+      "expected_answer": "No. It is unsupported and should remain pending review or be rejected; it must not directly update permanent state.",
+      "required_claims": [
+        "Unsupported chat claim must not become active"
+      ],
+      "acceptable_claims": [],
+      "forbidden_claims": [],
+      "expected_evidence_ids": [],
+      "expected_relevant_source_ids": [
+        "CHAT-P1-003",
+        "CHAT-P1-004"
+      ],
+      "expected_state": {
+        "status": "Pending Review or rejected"
+      },
+      "expected_decision_label": null,
+      "expected_temporal_assertions": [],
+      "expected_conflicts": [],
+      "expected_corrections": [],
+      "requires_exact_quote": false,
+      "rare_detail_query": false,
+      "insufficient_evidence_expected": true,
+      "expected_confidence_band": "medium-high",
+      "applicable_metrics": [
+        "answer_accuracy",
+        "hallucination_rate",
+        "evidence_support_rate",
+        "unsupported_claim_rate",
+        "faithfulness",
+        "groundedness",
+        "expected_calibration_error",
+        "state_accuracy",
+        "memory_update_accuracy",
+        "fabricated_citation_rate",
+        "lineage_citation_f1",
+        "retrieval_precision",
+        "retrieval_recall",
+        "tokens_per_query",
+        "p95_latency",
+        "total_cost"
+      ],
+      "retrieval_ground_truth": {
+        "mandatory_relevant_source_ids": [
+          "CHAT-P1-003",
+          "CHAT-P1-004"
+        ],
+        "optional_relevant_source_ids": [],
+        "irrelevant_but_similar_distractor_ids": [],
+        "duplicate_family_ids": [],
+        "forbidden_future_source_ids": [],
+        "exact_source_required_for_quotation": null
+      }
+    },
+    {
+      "question_id": "P1-Q11",
+      "patient_code": "SYN-CSM-001",
+      "question_text": "Quote the exact corrected creatinine statement from the addendum.",
+      "source_cutoff": "2026-03-12T23:59:59+05:30",
+      "question_category": "Exact quotation",
+      "expected_answer": "\"Corrected serum creatinine for the 5 March specimen: 1.5 mg/dL.\"",
+      "required_claims": [
+        "Exact quoted sentence"
+      ],
+      "acceptable_claims": [],
+      "forbidden_claims": [],
+      "expected_evidence_ids": [
+        "EV-P1-007"
+      ],
+      "expected_relevant_source_ids": [
+        "DOC-P1-005"
+      ],
+      "expected_state": {},
+      "expected_decision_label": null,
+      "expected_temporal_assertions": [],
+      "expected_conflicts": [],
+      "expected_corrections": [],
+      "requires_exact_quote": true,
+      "rare_detail_query": false,
+      "insufficient_evidence_expected": false,
+      "expected_confidence_band": "medium-high",
+      "applicable_metrics": [
+        "answer_accuracy",
+        "hallucination_rate",
+        "evidence_support_rate",
+        "unsupported_claim_rate",
+        "faithfulness",
+        "groundedness",
+        "expected_calibration_error",
+        "fabricated_citation_rate",
+        "lineage_citation_f1",
+        "retrieval_precision",
+        "retrieval_recall",
+        "tokens_per_query",
+        "p95_latency",
+        "total_cost"
+      ],
+      "retrieval_ground_truth": {
+        "mandatory_relevant_source_ids": [
+          "DOC-P1-005"
+        ],
+        "optional_relevant_source_ids": [],
+        "irrelevant_but_similar_distractor_ids": [],
+        "duplicate_family_ids": [],
+        "forbidden_future_source_ids": [],
+        "exact_source_required_for_quotation": "DOC-P1-005"
+      }
+    },
+    {
+      "question_id": "P1-Q12",
+      "patient_code": "SYN-CSM-001",
+      "question_text": "Which evidence supports the conclusion that renal function improved?",
+      "source_cutoff": "2026-03-20T23:59:59+05:30",
+      "question_category": "Evidence-supported answer",
+      "expected_answer": "The corrected 5 March values and the 20 March follow-up values support improvement; the dehydration note qualifies the earlier abnormality.",
+      "required_claims": [
+        "Corrected 5 March values",
+        "20 March follow-up values",
+        "Dehydration qualification"
+      ],
+      "acceptable_claims": [],
+      "forbidden_claims": [],
+      "expected_evidence_ids": [
+        "EV-P1-006",
+        "EV-P1-007",
+        "EV-P1-008",
+        "EV-P1-009",
+        "EV-P1-010"
+      ],
+      "expected_relevant_source_ids": [
+        "DOC-P1-004",
+        "DOC-P1-005",
+        "DOC-P1-006"
+      ],
+      "expected_state": {},
+      "expected_decision_label": null,
+      "expected_temporal_assertions": [],
+      "expected_conflicts": [],
+      "expected_corrections": [],
+      "requires_exact_quote": false,
+      "rare_detail_query": false,
+      "insufficient_evidence_expected": false,
+      "expected_confidence_band": "medium-high",
+      "applicable_metrics": [
+        "answer_accuracy",
+        "hallucination_rate",
+        "evidence_support_rate",
+        "unsupported_claim_rate",
+        "faithfulness",
+        "groundedness",
+        "expected_calibration_error",
+        "fabricated_citation_rate",
+        "lineage_citation_f1",
+        "retrieval_precision",
+        "retrieval_recall",
+        "tokens_per_query",
+        "p95_latency",
+        "total_cost"
+      ],
+      "retrieval_ground_truth": {
+        "mandatory_relevant_source_ids": [
+          "DOC-P1-004",
+          "DOC-P1-005",
+          "DOC-P1-006"
+        ],
+        "optional_relevant_source_ids": [],
+        "irrelevant_but_similar_distractor_ids": [],
+        "duplicate_family_ids": [],
+        "forbidden_future_source_ids": [],
+        "exact_source_required_for_quotation": null
+      }
+    },
+    {
+      "question_id": "P1-Q13",
+      "patient_code": "SYN-CSM-001",
+      "question_text": "Did the application receive the 5 March abnormal laboratory values on the same day they were valid?",
+      "source_cutoff": "2026-03-20T23:59:59+05:30",
+      "question_category": "Temporal ordering",
+      "expected_answer": "No. They were valid on 5 March but added on 8 March.",
+      "required_claims": [
+        "Valid date 5 March",
+        "Added date 8 March"
+      ],
+      "acceptable_claims": [],
+      "forbidden_claims": [],
+      "expected_evidence_ids": [
+        "EV-P1-003",
+        "EV-P1-004"
+      ],
+      "expected_relevant_source_ids": [
+        "DOC-P1-002",
+        "P1-MEAS-003",
+        "P1-MEAS-004"
+      ],
+      "expected_state": {},
+      "expected_decision_label": null,
+      "expected_temporal_assertions": [],
+      "expected_conflicts": [],
+      "expected_corrections": [],
+      "requires_exact_quote": false,
+      "rare_detail_query": false,
+      "insufficient_evidence_expected": false,
+      "expected_confidence_band": "medium-high",
+      "applicable_metrics": [
+        "answer_accuracy",
+        "hallucination_rate",
+        "evidence_support_rate",
+        "unsupported_claim_rate",
+        "faithfulness",
+        "groundedness",
+        "expected_calibration_error",
+        "temporal_consistency",
+        "fabricated_citation_rate",
+        "lineage_citation_f1",
+        "retrieval_precision",
+        "retrieval_recall",
+        "tokens_per_query",
+        "p95_latency",
+        "total_cost"
+      ],
+      "retrieval_ground_truth": {
+        "mandatory_relevant_source_ids": [
+          "DOC-P1-002",
+          "P1-MEAS-003",
+          "P1-MEAS-004"
+        ],
+        "optional_relevant_source_ids": [],
+        "irrelevant_but_similar_distractor_ids": [],
+        "duplicate_family_ids": [],
+        "forbidden_future_source_ids": [],
+        "exact_source_required_for_quotation": null
+      }
+    },
+    {
+      "question_id": "P1-Q14",
+      "patient_code": "SYN-CSM-001",
+      "question_text": "Classify the renal follow-up priority after 20 March as urgent escalation, clinician review, or no follow-up.",
+      "source_cutoff": "2026-03-20T23:59:59+05:30",
+      "question_category": "Decision classification",
+      "expected_answer": "Clinician review. The synthetic record shows improvement, but medication and renal status remain matters for clinician assessment; no autonomous treatment recommendation is justified.",
+      "required_claims": [
+        "Decision label clinician_review"
+      ],
+      "acceptable_claims": [],
+      "forbidden_claims": [],
+      "expected_evidence_ids": [
+        "EV-P1-009",
+        "EV-P1-010",
+        "EV-P1-005"
+      ],
+      "expected_relevant_source_ids": [
+        "DOC-P1-006",
+        "DOC-P1-003"
+      ],
+      "expected_state": {},
+      "expected_decision_label": "clinician_review",
+      "expected_temporal_assertions": [],
+      "expected_conflicts": [],
+      "expected_corrections": [],
+      "requires_exact_quote": false,
+      "rare_detail_query": false,
+      "insufficient_evidence_expected": false,
+      "expected_confidence_band": "medium-high",
+      "applicable_metrics": [
+        "answer_accuracy",
+        "hallucination_rate",
+        "evidence_support_rate",
+        "unsupported_claim_rate",
+        "faithfulness",
+        "groundedness",
+        "expected_calibration_error",
+        "decision_f1",
+        "state_accuracy",
+        "memory_update_accuracy",
+        "fabricated_citation_rate",
+        "lineage_citation_f1",
+        "retrieval_precision",
+        "retrieval_recall",
+        "tokens_per_query",
+        "p95_latency",
+        "total_cost"
+      ],
+      "retrieval_ground_truth": {
+        "mandatory_relevant_source_ids": [
+          "DOC-P1-006",
+          "DOC-P1-003"
+        ],
+        "optional_relevant_source_ids": [],
+        "irrelevant_but_similar_distractor_ids": [],
+        "duplicate_family_ids": [],
+        "forbidden_future_source_ids": [],
+        "exact_source_required_for_quotation": null
+      }
+    },
+    {
+      "question_id": "P1-Q15",
+      "patient_code": "SYN-CSM-001",
+      "question_text": "Is there sufficient evidence that the renal abnormality was permanent?",
+      "source_cutoff": "2026-03-20T23:59:59+05:30",
+      "question_category": "Insufficient evidence",
+      "expected_answer": "No. The record supports a transient, qualified decline followed by improvement, not a proven permanent decline.",
+      "required_claims": [
+        "No proof of permanence",
+        "Evidence supports transient decline"
+      ],
+      "acceptable_claims": [],
+      "forbidden_claims": [],
+      "expected_evidence_ids": [
+        "EV-P1-006",
+        "EV-P1-007",
+        "EV-P1-008",
+        "EV-P1-009",
+        "EV-P1-010"
+      ],
+      "expected_relevant_source_ids": [
+        "DOC-P1-004",
+        "DOC-P1-005",
+        "DOC-P1-006"
+      ],
+      "expected_state": {},
+      "expected_decision_label": null,
+      "expected_temporal_assertions": [],
+      "expected_conflicts": [],
+      "expected_corrections": [],
+      "requires_exact_quote": false,
+      "rare_detail_query": false,
+      "insufficient_evidence_expected": true,
+      "expected_confidence_band": "medium-high",
+      "applicable_metrics": [
+        "answer_accuracy",
+        "hallucination_rate",
+        "evidence_support_rate",
+        "unsupported_claim_rate",
+        "faithfulness",
+        "groundedness",
+        "expected_calibration_error",
+        "state_accuracy",
+        "memory_update_accuracy",
+        "fabricated_citation_rate",
+        "lineage_citation_f1",
+        "retrieval_precision",
+        "retrieval_recall",
+        "tokens_per_query",
+        "p95_latency",
+        "total_cost"
+      ],
+      "retrieval_ground_truth": {
+        "mandatory_relevant_source_ids": [
+          "DOC-P1-004",
+          "DOC-P1-005",
+          "DOC-P1-006"
+        ],
+        "optional_relevant_source_ids": [],
+        "irrelevant_but_similar_distractor_ids": [],
+        "duplicate_family_ids": [],
+        "forbidden_future_source_ids": [],
+        "exact_source_required_for_quotation": null
+      }
+    },
+    {
+      "question_id": "P1-Q16",
+      "patient_code": "SYN-CSM-001",
+      "question_text": "Which citation would be fabricated for the corrected creatinine: DOC-P1-005 or DOC-P1-003?",
+      "source_cutoff": "2026-03-20T23:59:59+05:30",
+      "question_category": "Citation verification",
+      "expected_answer": "DOC-P1-003 would be fabricated or unsupported for the corrected creatinine; DOC-P1-005 is the correct source.",
+      "required_claims": [
+        "DOC-P1-005 correct",
+        "DOC-P1-003 unsupported"
+      ],
+      "acceptable_claims": [],
+      "forbidden_claims": [],
+      "expected_evidence_ids": [
+        "EV-P1-007"
+      ],
+      "expected_relevant_source_ids": [
+        "DOC-P1-005"
+      ],
+      "expected_state": {},
+      "expected_decision_label": null,
+      "expected_temporal_assertions": [],
+      "expected_conflicts": [],
+      "expected_corrections": [],
+      "requires_exact_quote": false,
+      "rare_detail_query": false,
+      "insufficient_evidence_expected": false,
+      "expected_confidence_band": "medium-high",
+      "applicable_metrics": [
+        "answer_accuracy",
+        "hallucination_rate",
+        "evidence_support_rate",
+        "unsupported_claim_rate",
+        "faithfulness",
+        "groundedness",
+        "expected_calibration_error",
+        "fabricated_citation_rate",
+        "lineage_citation_f1",
+        "retrieval_precision",
+        "retrieval_recall",
+        "tokens_per_query",
+        "p95_latency",
+        "total_cost"
+      ],
+      "retrieval_ground_truth": {
+        "mandatory_relevant_source_ids": [
+          "DOC-P1-005"
+        ],
+        "optional_relevant_source_ids": [],
+        "irrelevant_but_similar_distractor_ids": [
+          "DOC-P1-003"
+        ],
+        "duplicate_family_ids": [],
+        "forbidden_future_source_ids": [],
+        "exact_source_required_for_quotation": null
+      }
+    },
+    {
+      "question_id": "P1-Q17",
+      "patient_code": "SYN-CSM-001",
+      "question_text": "List the renal-state versions in order from baseline through recovery.",
+      "source_cutoff": "2026-03-20T23:59:59+05:30",
+      "question_category": "State history",
+      "expected_answer": "Stable baseline; possible worsening; qualified/contested decline; corrected contested state; improved/resolved toward baseline.",
+      "required_claims": [
+        "State history preserves prior versions"
+      ],
+      "acceptable_claims": [],
+      "forbidden_claims": [],
+      "expected_evidence_ids": [
+        "EV-P1-002",
+        "EV-P1-003",
+        "EV-P1-004",
+        "EV-P1-006",
+        "EV-P1-007",
+        "EV-P1-008",
+        "EV-P1-009",
+        "EV-P1-010"
+      ],
+      "expected_relevant_source_ids": [
+        "DOC-P1-001",
+        "DOC-P1-002",
+        "DOC-P1-004",
+        "DOC-P1-005",
+        "DOC-P1-006"
+      ],
+      "expected_state": {},
+      "expected_decision_label": null,
+      "expected_temporal_assertions": [],
+      "expected_conflicts": [],
+      "expected_corrections": [],
+      "requires_exact_quote": false,
+      "rare_detail_query": false,
+      "insufficient_evidence_expected": false,
+      "expected_confidence_band": "medium-high",
+      "applicable_metrics": [
+        "answer_accuracy",
+        "hallucination_rate",
+        "evidence_support_rate",
+        "unsupported_claim_rate",
+        "faithfulness",
+        "groundedness",
+        "expected_calibration_error",
+        "state_accuracy",
+        "memory_update_accuracy",
+        "temporal_consistency",
+        "fabricated_citation_rate",
+        "lineage_citation_f1",
+        "retrieval_precision",
+        "retrieval_recall",
+        "correction_recovery",
+        "state_recovery_time",
+        "tokens_per_query",
+        "p95_latency",
+        "total_cost"
+      ],
+      "retrieval_ground_truth": {
+        "mandatory_relevant_source_ids": [
+          "DOC-P1-001",
+          "DOC-P1-002",
+          "DOC-P1-004",
+          "DOC-P1-005",
+          "DOC-P1-006"
+        ],
+        "optional_relevant_source_ids": [],
+        "irrelevant_but_similar_distractor_ids": [],
+        "duplicate_family_ids": [],
+        "forbidden_future_source_ids": [],
+        "exact_source_required_for_quotation": null
+      }
+    },
+    {
+      "question_id": "P1-Q18",
+      "patient_code": "SYN-CSM-001",
+      "question_text": "Before 12 March, what corrected creatinine value should the system report?",
+      "source_cutoff": "2026-03-11T23:59:59+05:30",
+      "question_category": "Future-leakage trap",
+      "expected_answer": "No corrected value was available before 12 March. The system should report the initial 1.8 mg/dL as the available value, with the dehydration qualification if using evidence through 10 March.",
+      "required_claims": [
+        "Corrected value unavailable before cutoff"
+      ],
+      "acceptable_claims": [],
+      "forbidden_claims": [
+        "Corrected creatinine 1.5 mg/dL"
+      ],
+      "expected_evidence_ids": [
+        "EV-P1-003",
+        "EV-P1-006"
+      ],
+      "expected_relevant_source_ids": [
+        "DOC-P1-002",
+        "DOC-P1-004"
+      ],
+      "expected_state": {},
+      "expected_decision_label": null,
+      "expected_temporal_assertions": [],
+      "expected_conflicts": [],
+      "expected_corrections": [],
+      "requires_exact_quote": false,
+      "rare_detail_query": false,
+      "insufficient_evidence_expected": false,
+      "expected_confidence_band": "medium-high",
+      "applicable_metrics": [
+        "answer_accuracy",
+        "hallucination_rate",
+        "evidence_support_rate",
+        "unsupported_claim_rate",
+        "faithfulness",
+        "groundedness",
+        "expected_calibration_error",
+        "temporal_consistency",
+        "fabricated_citation_rate",
+        "lineage_citation_f1",
+        "retrieval_precision",
+        "retrieval_recall",
+        "tokens_per_query",
+        "p95_latency",
+        "total_cost"
+      ],
+      "retrieval_ground_truth": {
+        "mandatory_relevant_source_ids": [
+          "DOC-P1-002",
+          "DOC-P1-004"
+        ],
+        "optional_relevant_source_ids": [],
+        "irrelevant_but_similar_distractor_ids": [],
+        "duplicate_family_ids": [],
+        "forbidden_future_source_ids": [
+          "DOC-P1-005",
+          "DOC-P1-006"
+        ],
+        "exact_source_required_for_quotation": null
+      }
+    },
+    {
+      "question_id": "P1-Q19",
+      "patient_code": "SYN-CSM-001",
+      "question_text": "Which source is the strongest evidence for the latest eGFR?",
+      "source_cutoff": "2026-03-20T23:59:59+05:30",
+      "question_category": "Retrieval relevance",
+      "expected_answer": "The 20 March follow-up laboratory report, DOC-P1-006, reporting eGFR 70.",
+      "required_claims": [
+        "DOC-P1-006 is latest source"
+      ],
+      "acceptable_claims": [],
+      "forbidden_claims": [],
+      "expected_evidence_ids": [
+        "EV-P1-010"
+      ],
+      "expected_relevant_source_ids": [
+        "DOC-P1-006"
+      ],
+      "expected_state": {},
+      "expected_decision_label": null,
+      "expected_temporal_assertions": [],
+      "expected_conflicts": [],
+      "expected_corrections": [],
+      "requires_exact_quote": false,
+      "rare_detail_query": false,
+      "insufficient_evidence_expected": false,
+      "expected_confidence_band": "medium-high",
+      "applicable_metrics": [
+        "answer_accuracy",
+        "hallucination_rate",
+        "evidence_support_rate",
+        "unsupported_claim_rate",
+        "faithfulness",
+        "groundedness",
+        "expected_calibration_error",
+        "fabricated_citation_rate",
+        "lineage_citation_f1",
+        "retrieval_precision",
+        "retrieval_recall",
+        "tokens_per_query",
+        "p95_latency",
+        "total_cost"
+      ],
+      "retrieval_ground_truth": {
+        "mandatory_relevant_source_ids": [
+          "DOC-P1-006"
+        ],
+        "optional_relevant_source_ids": [],
+        "irrelevant_but_similar_distractor_ids": [
+          "DOC-P1-002",
+          "DOC-P1-005"
+        ],
+        "duplicate_family_ids": [],
+        "forbidden_future_source_ids": [],
+        "exact_source_required_for_quotation": null
+      }
+    },
+    {
+      "question_id": "P1-Q20",
+      "patient_code": "SYN-CSM-001",
+      "question_text": "Summarize the renal course with citations and a confidence level.",
+      "source_cutoff": "2026-03-20T23:59:59+05:30",
+      "question_category": "Integrated answer",
+      "expected_answer": "Baseline renal function was preserved, an initial March report suggested decline, dehydration and a laboratory correction revised that interpretation, and follow-up showed improvement toward baseline. Confidence should be medium-high, not absolute.",
+      "required_claims": [
+        "Baseline preserved",
+        "Initial decline",
+        "Dehydration qualification",
+        "Correction",
+        "Follow-up improvement"
+      ],
+      "acceptable_claims": [],
+      "forbidden_claims": [],
+      "expected_evidence_ids": [
+        "EV-P1-002",
+        "EV-P1-003",
+        "EV-P1-004",
+        "EV-P1-006",
+        "EV-P1-007",
+        "EV-P1-008",
+        "EV-P1-009",
+        "EV-P1-010"
+      ],
+      "expected_relevant_source_ids": [
+        "DOC-P1-001",
+        "DOC-P1-002",
+        "DOC-P1-004",
+        "DOC-P1-005",
+        "DOC-P1-006"
+      ],
+      "expected_state": {},
+      "expected_decision_label": null,
+      "expected_temporal_assertions": [],
+      "expected_conflicts": [],
+      "expected_corrections": [],
+      "requires_exact_quote": false,
+      "rare_detail_query": false,
+      "insufficient_evidence_expected": false,
+      "expected_confidence_band": "medium-high",
+      "applicable_metrics": [
+        "answer_accuracy",
+        "hallucination_rate",
+        "evidence_support_rate",
+        "unsupported_claim_rate",
+        "faithfulness",
+        "groundedness",
+        "expected_calibration_error",
+        "fabricated_citation_rate",
+        "lineage_citation_f1",
+        "retrieval_precision",
+        "retrieval_recall",
+        "state_accuracy",
+        "memory_update_accuracy",
+        "temporal_consistency",
+        "correction_recovery",
+        "expected_calibration_error",
+        "tokens_per_query",
+        "p95_latency",
+        "total_cost"
+      ],
+      "retrieval_ground_truth": {
+        "mandatory_relevant_source_ids": [
+          "DOC-P1-001",
+          "DOC-P1-002",
+          "DOC-P1-004",
+          "DOC-P1-005",
+          "DOC-P1-006"
+        ],
+        "optional_relevant_source_ids": [],
+        "irrelevant_but_similar_distractor_ids": [],
+        "duplicate_family_ids": [],
+        "forbidden_future_source_ids": [],
+        "exact_source_required_for_quotation": null
+      }
+    },
+    {
+      "question_id": "P2-Q01",
+      "patient_code": "SYN-CSM-002",
+      "question_text": "What antibiotic allergy is currently recorded?",
+      "source_cutoff": "2026-02-01T23:59:59+05:30",
+      "question_category": "Current state",
+      "expected_answer": "Amoxicillin / penicillin-class antibiotic allergy with generalized hives is recorded.",
+      "required_claims": [
+        "Amoxicillin allergy",
+        "Generalized hives"
+      ],
+      "acceptable_claims": [],
+      "forbidden_claims": [],
+      "expected_evidence_ids": [
+        "EV-P2-001",
+        "EV-P2-002"
+      ],
+      "expected_relevant_source_ids": [
+        "DOC-P2-001",
+        "P2-ALL-001"
+      ],
+      "expected_state": {},
+      "expected_decision_label": null,
+      "expected_temporal_assertions": [],
+      "expected_conflicts": [],
+      "expected_corrections": [],
+      "requires_exact_quote": false,
+      "rare_detail_query": false,
+      "insufficient_evidence_expected": false,
+      "expected_confidence_band": "medium-high",
+      "applicable_metrics": [
+        "answer_accuracy",
+        "hallucination_rate",
+        "evidence_support_rate",
+        "unsupported_claim_rate",
+        "faithfulness",
+        "groundedness",
+        "expected_calibration_error",
+        "fabricated_citation_rate",
+        "lineage_citation_f1",
+        "retrieval_precision",
+        "retrieval_recall",
+        "state_accuracy",
+        "memory_update_accuracy",
+        "tokens_per_query",
+        "p95_latency",
+        "total_cost"
+      ],
+      "retrieval_ground_truth": {
+        "mandatory_relevant_source_ids": [
+          "DOC-P2-001",
+          "P2-ALL-001"
+        ],
+        "optional_relevant_source_ids": [],
+        "irrelevant_but_similar_distractor_ids": [],
+        "duplicate_family_ids": [],
+        "forbidden_future_source_ids": [],
+        "exact_source_required_for_quotation": null
+      }
+    },
+    {
+      "question_id": "P2-Q02",
+      "patient_code": "SYN-CSM-002",
+      "question_text": "Was anaphylaxis documented in the initial allergy history?",
+      "source_cutoff": "2026-02-01T23:59:59+05:30",
+      "question_category": "Historical fact",
+      "expected_answer": "No. The history documents generalized hives without documented airway compromise, hypotension, or emergency treatment.",
+      "required_claims": [
+        "No documented anaphylaxis"
+      ],
+      "acceptable_claims": [],
+      "forbidden_claims": [],
+      "expected_evidence_ids": [
+        "EV-P2-001"
+      ],
+      "expected_relevant_source_ids": [
+        "DOC-P2-001"
+      ],
+      "expected_state": {},
+      "expected_decision_label": null,
+      "expected_temporal_assertions": [],
+      "expected_conflicts": [],
+      "expected_corrections": [],
+      "requires_exact_quote": false,
+      "rare_detail_query": false,
+      "insufficient_evidence_expected": true,
+      "expected_confidence_band": "medium-high",
+      "applicable_metrics": [
+        "answer_accuracy",
+        "hallucination_rate",
+        "evidence_support_rate",
+        "unsupported_claim_rate",
+        "faithfulness",
+        "groundedness",
+        "expected_calibration_error",
+        "fabricated_citation_rate",
+        "lineage_citation_f1",
+        "retrieval_precision",
+        "retrieval_recall",
+        "tokens_per_query",
+        "p95_latency",
+        "total_cost"
+      ],
+      "retrieval_ground_truth": {
+        "mandatory_relevant_source_ids": [
+          "DOC-P2-001"
+        ],
+        "optional_relevant_source_ids": [],
+        "irrelevant_but_similar_distractor_ids": [],
+        "duplicate_family_ids": [],
+        "forbidden_future_source_ids": [],
+        "exact_source_required_for_quotation": null
+      }
+    },
+    {
+      "question_id": "P2-Q03",
+      "patient_code": "SYN-CSM-002",
+      "question_text": "What contradiction entered the record on 10 February?",
+      "source_cutoff": "2026-02-10T23:59:59+05:30",
+      "question_category": "Contradiction detection",
+      "expected_answer": "An imported hospital summary said no known drug allergies, contradicting the active amoxicillin-hives history.",
+      "required_claims": [
+        "Imported NKDA conflicts with allergy history"
+      ],
+      "acceptable_claims": [],
+      "forbidden_claims": [],
+      "expected_evidence_ids": [
+        "EV-P2-004",
+        "EV-P2-001",
+        "EV-P2-002"
+      ],
+      "expected_relevant_source_ids": [
+        "DOC-P2-003",
+        "DOC-P2-001"
+      ],
+      "expected_state": {},
+      "expected_decision_label": null,
+      "expected_temporal_assertions": [],
+      "expected_conflicts": [
+        "amoxicillin allergy vs NKDA"
+      ],
+      "expected_corrections": [],
+      "requires_exact_quote": false,
+      "rare_detail_query": false,
+      "insufficient_evidence_expected": false,
+      "expected_confidence_band": "medium-high",
+      "applicable_metrics": [
+        "answer_accuracy",
+        "hallucination_rate",
+        "evidence_support_rate",
+        "unsupported_claim_rate",
+        "faithfulness",
+        "groundedness",
+        "expected_calibration_error",
+        "fabricated_citation_rate",
+        "lineage_citation_f1",
+        "retrieval_precision",
+        "retrieval_recall",
+        "contradiction_handling",
+        "state_accuracy",
+        "memory_update_accuracy",
+        "tokens_per_query",
+        "p95_latency",
+        "total_cost"
+      ],
+      "retrieval_ground_truth": {
+        "mandatory_relevant_source_ids": [
+          "DOC-P2-003",
+          "DOC-P2-001"
+        ],
+        "optional_relevant_source_ids": [],
+        "irrelevant_but_similar_distractor_ids": [],
+        "duplicate_family_ids": [],
+        "forbidden_future_source_ids": [],
+        "exact_source_required_for_quotation": null
+      }
+    },
+    {
+      "question_id": "P2-Q04",
+      "patient_code": "SYN-CSM-002",
+      "question_text": "Should the two hospital summaries count as two independent confirmations of no allergy?",
+      "source_cutoff": "2026-02-11T23:59:59+05:30",
+      "question_category": "Duplicate evidence",
+      "expected_answer": "No. They are duplicate or near-duplicate exports from the same hospital episode and belong to one duplicate family.",
+      "required_claims": [
+        "Do not double-count duplicate family"
+      ],
+      "acceptable_claims": [],
+      "forbidden_claims": [],
+      "expected_evidence_ids": [
+        "EV-P2-004",
+        "EV-P2-005"
+      ],
+      "expected_relevant_source_ids": [
+        "DOC-P2-003",
+        "DOC-P2-004"
+      ],
+      "expected_state": {},
+      "expected_decision_label": null,
+      "expected_temporal_assertions": [],
+      "expected_conflicts": [],
+      "expected_corrections": [],
+      "requires_exact_quote": false,
+      "rare_detail_query": false,
+      "insufficient_evidence_expected": false,
+      "expected_confidence_band": "medium-high",
+      "applicable_metrics": [
+        "answer_accuracy",
+        "hallucination_rate",
+        "evidence_support_rate",
+        "unsupported_claim_rate",
+        "faithfulness",
+        "groundedness",
+        "expected_calibration_error",
+        "fabricated_citation_rate",
+        "lineage_citation_f1",
+        "retrieval_precision",
+        "retrieval_recall",
+        "contradiction_handling",
+        "tokens_per_query",
+        "p95_latency",
+        "total_cost"
+      ],
+      "retrieval_ground_truth": {
+        "mandatory_relevant_source_ids": [
+          "DOC-P2-003",
+          "DOC-P2-004"
+        ],
+        "optional_relevant_source_ids": [],
+        "irrelevant_but_similar_distractor_ids": [],
+        "duplicate_family_ids": [
+          "DUP-P2-NKDA-001"
+        ],
+        "forbidden_future_source_ids": [],
+        "exact_source_required_for_quotation": null
+      }
+    },
+    {
+      "question_id": "P2-Q05",
+      "patient_code": "SYN-CSM-002",
+      "question_text": "What should the allergy-state status be after the duplicate hospital record is added?",
+      "source_cutoff": "2026-02-11T23:59:59+05:30",
+      "question_category": "State lifecycle",
+      "expected_answer": "Contested, because active allergy evidence conflicts with the imported no-known-allergies evidence.",
+      "required_claims": [
+        "State is contested"
+      ],
+      "acceptable_claims": [],
+      "forbidden_claims": [],
+      "expected_evidence_ids": [
+        "EV-P2-001",
+        "EV-P2-002",
+        "EV-P2-004",
+        "EV-P2-005"
+      ],
+      "expected_relevant_source_ids": [
+        "DOC-P2-001",
+        "DOC-P2-003",
+        "DOC-P2-004"
+      ],
+      "expected_state": {
+        "status": "Contested"
+      },
+      "expected_decision_label": null,
+      "expected_temporal_assertions": [],
+      "expected_conflicts": [],
+      "expected_corrections": [],
+      "requires_exact_quote": false,
+      "rare_detail_query": false,
+      "insufficient_evidence_expected": false,
+      "expected_confidence_band": "medium-high",
+      "applicable_metrics": [
+        "answer_accuracy",
+        "hallucination_rate",
+        "evidence_support_rate",
+        "unsupported_claim_rate",
+        "faithfulness",
+        "groundedness",
+        "expected_calibration_error",
+        "state_accuracy",
+        "memory_update_accuracy",
+        "fabricated_citation_rate",
+        "lineage_citation_f1",
+        "retrieval_precision",
+        "retrieval_recall",
+        "contradiction_handling",
+        "tokens_per_query",
+        "p95_latency",
+        "total_cost"
+      ],
+      "retrieval_ground_truth": {
+        "mandatory_relevant_source_ids": [
+          "DOC-P2-001",
+          "DOC-P2-003",
+          "DOC-P2-004"
+        ],
+        "optional_relevant_source_ids": [],
+        "irrelevant_but_similar_distractor_ids": [],
+        "duplicate_family_ids": [],
+        "forbidden_future_source_ids": [],
+        "exact_source_required_for_quotation": null
+      }
+    },
+    {
+      "question_id": "P2-Q06",
+      "patient_code": "SYN-CSM-002",
+      "question_text": "What does the external allergist letter support, and what does it not establish?",
+      "source_cutoff": "2026-02-18T23:59:59+05:30",
+      "question_category": "Evidence support",
+      "expected_answer": "It supports generalized urticaria after amoxicillin and does not establish prior anaphylaxis.",
+      "required_claims": [
+        "Supports urticaria",
+        "Does not establish anaphylaxis"
+      ],
+      "acceptable_claims": [],
+      "forbidden_claims": [],
+      "expected_evidence_ids": [
+        "EV-P2-006"
+      ],
+      "expected_relevant_source_ids": [
+        "DOC-P2-005"
+      ],
+      "expected_state": {},
+      "expected_decision_label": null,
+      "expected_temporal_assertions": [],
+      "expected_conflicts": [],
+      "expected_corrections": [],
+      "requires_exact_quote": false,
+      "rare_detail_query": false,
+      "insufficient_evidence_expected": false,
+      "expected_confidence_band": "medium-high",
+      "applicable_metrics": [
+        "answer_accuracy",
+        "hallucination_rate",
+        "evidence_support_rate",
+        "unsupported_claim_rate",
+        "faithfulness",
+        "groundedness",
+        "expected_calibration_error",
+        "fabricated_citation_rate",
+        "lineage_citation_f1",
+        "retrieval_precision",
+        "retrieval_recall",
+        "tokens_per_query",
+        "p95_latency",
+        "total_cost"
+      ],
+      "retrieval_ground_truth": {
+        "mandatory_relevant_source_ids": [
+          "DOC-P2-005"
+        ],
+        "optional_relevant_source_ids": [],
+        "irrelevant_but_similar_distractor_ids": [],
+        "duplicate_family_ids": [],
+        "forbidden_future_source_ids": [],
+        "exact_source_required_for_quotation": null
+      }
+    },
+    {
+      "question_id": "P2-Q07",
+      "patient_code": "SYN-CSM-002",
+      "question_text": "How is the contradiction resolved on 20 February?",
+      "source_cutoff": "2026-02-20T23:59:59+05:30",
+      "question_category": "Correction recovery",
+      "expected_answer": "The hospital no-known-allergies statement is retracted; the amoxicillin-hives allergy remains active, with history preserved.",
+      "required_claims": [
+        "NKDA retracted",
+        "Allergy remains active",
+        "History preserved"
+      ],
+      "acceptable_claims": [],
+      "forbidden_claims": [],
+      "expected_evidence_ids": [
+        "EV-P2-007",
+        "EV-P2-001",
+        "EV-P2-002",
+        "EV-P2-006"
+      ],
+      "expected_relevant_source_ids": [
+        "DOC-P2-006",
+        "DOC-P2-001",
+        "DOC-P2-005"
+      ],
+      "expected_state": {},
+      "expected_decision_label": null,
+      "expected_temporal_assertions": [],
+      "expected_conflicts": [],
+      "expected_corrections": [
+        "DOC-P2-006 retracts NKDA"
+      ],
+      "requires_exact_quote": false,
+      "rare_detail_query": false,
+      "insufficient_evidence_expected": false,
+      "expected_confidence_band": "medium-high",
+      "applicable_metrics": [
+        "answer_accuracy",
+        "hallucination_rate",
+        "evidence_support_rate",
+        "unsupported_claim_rate",
+        "faithfulness",
+        "groundedness",
+        "expected_calibration_error",
+        "state_accuracy",
+        "memory_update_accuracy",
+        "fabricated_citation_rate",
+        "lineage_citation_f1",
+        "retrieval_precision",
+        "retrieval_recall",
+        "contradiction_handling",
+        "correction_recovery",
+        "state_recovery_time",
+        "memory_update_accuracy",
+        "tokens_per_query",
+        "p95_latency",
+        "total_cost"
+      ],
+      "retrieval_ground_truth": {
+        "mandatory_relevant_source_ids": [
+          "DOC-P2-006",
+          "DOC-P2-001",
+          "DOC-P2-005"
+        ],
+        "optional_relevant_source_ids": [],
+        "irrelevant_but_similar_distractor_ids": [],
+        "duplicate_family_ids": [],
+        "forbidden_future_source_ids": [],
+        "exact_source_required_for_quotation": null
+      }
+    },
+    {
+      "question_id": "P2-Q08",
+      "patient_code": "SYN-CSM-002",
+      "question_text": "Should the unsupported chat statement about anaphylactic shock update the active allergy severity?",
+      "source_cutoff": "2026-02-20T23:59:59+05:30",
+      "question_category": "Pending-review awareness",
+      "expected_answer": "No. It should remain pending review and be rejected unless supported by evidence.",
+      "required_claims": [
+        "Unsupported chat must not update active severity"
+      ],
+      "acceptable_claims": [],
+      "forbidden_claims": [],
+      "expected_evidence_ids": [],
+      "expected_relevant_source_ids": [
+        "CHAT-P2-003",
+        "CHAT-P2-004"
+      ],
+      "expected_state": {},
+      "expected_decision_label": null,
+      "expected_temporal_assertions": [],
+      "expected_conflicts": [],
+      "expected_corrections": [],
+      "requires_exact_quote": false,
+      "rare_detail_query": false,
+      "insufficient_evidence_expected": true,
+      "expected_confidence_band": "medium-high",
+      "applicable_metrics": [
+        "answer_accuracy",
+        "hallucination_rate",
+        "evidence_support_rate",
+        "unsupported_claim_rate",
+        "faithfulness",
+        "groundedness",
+        "expected_calibration_error",
+        "state_accuracy",
+        "memory_update_accuracy",
+        "fabricated_citation_rate",
+        "lineage_citation_f1",
+        "retrieval_precision",
+        "retrieval_recall",
+        "tokens_per_query",
+        "p95_latency",
+        "total_cost"
+      ],
+      "retrieval_ground_truth": {
+        "mandatory_relevant_source_ids": [
+          "CHAT-P2-003",
+          "CHAT-P2-004"
+        ],
+        "optional_relevant_source_ids": [],
+        "irrelevant_but_similar_distractor_ids": [],
+        "duplicate_family_ids": [],
+        "forbidden_future_source_ids": [],
+        "exact_source_required_for_quotation": null
+      }
+    },
+    {
+      "question_id": "P2-Q09",
+      "patient_code": "SYN-CSM-002",
+      "question_text": "What is the latest resolved allergy state?",
+      "source_cutoff": "2026-02-20T23:59:59+05:30",
+      "question_category": "Latest valid fact",
+      "expected_answer": "Amoxicillin-associated generalized hives, with no proven anaphylaxis; the prior NKDA statement is retracted.",
+      "required_claims": [
+        "Hives allergy active",
+        "No proven anaphylaxis",
+        "NKDA retracted"
+      ],
+      "acceptable_claims": [],
+      "forbidden_claims": [],
+      "expected_evidence_ids": [
+        "EV-P2-001",
+        "EV-P2-002",
+        "EV-P2-006",
+        "EV-P2-007"
+      ],
+      "expected_relevant_source_ids": [
+        "DOC-P2-001",
+        "DOC-P2-005",
+        "DOC-P2-006"
+      ],
+      "expected_state": {
+        "antibiotic_allergy": "Amoxicillin-associated generalized hives; no proven anaphylaxis",
+        "status": "Resolved"
+      },
+      "expected_decision_label": null,
+      "expected_temporal_assertions": [],
+      "expected_conflicts": [],
+      "expected_corrections": [],
+      "requires_exact_quote": false,
+      "rare_detail_query": false,
+      "insufficient_evidence_expected": false,
+      "expected_confidence_band": "medium-high",
+      "applicable_metrics": [
+        "answer_accuracy",
+        "hallucination_rate",
+        "evidence_support_rate",
+        "unsupported_claim_rate",
+        "faithfulness",
+        "groundedness",
+        "expected_calibration_error",
+        "state_accuracy",
+        "memory_update_accuracy",
+        "temporal_consistency",
+        "fabricated_citation_rate",
+        "lineage_citation_f1",
+        "retrieval_precision",
+        "retrieval_recall",
+        "tokens_per_query",
+        "p95_latency",
+        "total_cost"
+      ],
+      "retrieval_ground_truth": {
+        "mandatory_relevant_source_ids": [
+          "DOC-P2-001",
+          "DOC-P2-005",
+          "DOC-P2-006"
+        ],
+        "optional_relevant_source_ids": [],
+        "irrelevant_but_similar_distractor_ids": [],
+        "duplicate_family_ids": [],
+        "forbidden_future_source_ids": [],
+        "exact_source_required_for_quotation": null
+      }
+    },
+    {
+      "question_id": "P2-Q10",
+      "patient_code": "SYN-CSM-002",
+      "question_text": "Quote the exact retraction sentence from the correction notice.",
+      "source_cutoff": "2026-02-20T23:59:59+05:30",
+      "question_category": "Exact quotation",
+      "expected_answer": "\"The statement \"No known drug allergies\" in the 15 January hospital summary is retracted as an incomplete imported field.\"",
+      "required_claims": [
+        "Exact quote"
+      ],
+      "acceptable_claims": [],
+      "forbidden_claims": [],
+      "expected_evidence_ids": [
+        "EV-P2-007"
+      ],
+      "expected_relevant_source_ids": [
+        "DOC-P2-006"
+      ],
+      "expected_state": {},
+      "expected_decision_label": null,
+      "expected_temporal_assertions": [],
+      "expected_conflicts": [],
+      "expected_corrections": [],
+      "requires_exact_quote": true,
+      "rare_detail_query": false,
+      "insufficient_evidence_expected": false,
+      "expected_confidence_band": "medium-high",
+      "applicable_metrics": [
+        "answer_accuracy",
+        "hallucination_rate",
+        "evidence_support_rate",
+        "unsupported_claim_rate",
+        "faithfulness",
+        "groundedness",
+        "expected_calibration_error",
+        "fabricated_citation_rate",
+        "lineage_citation_f1",
+        "retrieval_precision",
+        "retrieval_recall",
+        "tokens_per_query",
+        "p95_latency",
+        "total_cost"
+      ],
+      "retrieval_ground_truth": {
+        "mandatory_relevant_source_ids": [
+          "DOC-P2-006"
+        ],
+        "optional_relevant_source_ids": [],
+        "irrelevant_but_similar_distractor_ids": [],
+        "duplicate_family_ids": [],
+        "forbidden_future_source_ids": [],
+        "exact_source_required_for_quotation": "DOC-P2-006"
+      }
+    },
+    {
+      "question_id": "P2-Q11",
+      "patient_code": "SYN-CSM-002",
+      "question_text": "Which sources directly support the allergy history?",
+      "source_cutoff": "2026-02-20T23:59:59+05:30",
+      "question_category": "Evidence-supported answer",
+      "expected_answer": "The intake note, doctor-entered allergy record, external allergist letter, and correction notice support the current state.",
+      "required_claims": [
+        "Intake note",
+        "Doctor-entered allergy",
+        "External allergist",
+        "Correction notice"
+      ],
+      "acceptable_claims": [],
+      "forbidden_claims": [],
+      "expected_evidence_ids": [
+        "EV-P2-001",
+        "EV-P2-002",
+        "EV-P2-006",
+        "EV-P2-007"
+      ],
+      "expected_relevant_source_ids": [
+        "DOC-P2-001",
+        "P2-ALL-001",
+        "DOC-P2-005",
+        "DOC-P2-006"
+      ],
+      "expected_state": {},
+      "expected_decision_label": null,
+      "expected_temporal_assertions": [],
+      "expected_conflicts": [],
+      "expected_corrections": [],
+      "requires_exact_quote": false,
+      "rare_detail_query": false,
+      "insufficient_evidence_expected": false,
+      "expected_confidence_band": "medium-high",
+      "applicable_metrics": [
+        "answer_accuracy",
+        "hallucination_rate",
+        "evidence_support_rate",
+        "unsupported_claim_rate",
+        "faithfulness",
+        "groundedness",
+        "expected_calibration_error",
+        "fabricated_citation_rate",
+        "lineage_citation_f1",
+        "retrieval_precision",
+        "retrieval_recall",
+        "tokens_per_query",
+        "p95_latency",
+        "total_cost"
+      ],
+      "retrieval_ground_truth": {
+        "mandatory_relevant_source_ids": [
+          "DOC-P2-001",
+          "P2-ALL-001",
+          "DOC-P2-005",
+          "DOC-P2-006"
+        ],
+        "optional_relevant_source_ids": [],
+        "irrelevant_but_similar_distractor_ids": [],
+        "duplicate_family_ids": [],
+        "forbidden_future_source_ids": [],
+        "exact_source_required_for_quotation": null
+      }
+    },
+    {
+      "question_id": "P2-Q12",
+      "patient_code": "SYN-CSM-002",
+      "question_text": "Which citation is invalid support for anaphylaxis: DOC-P2-005 or CHAT-P2-003?",
+      "source_cutoff": "2026-02-20T23:59:59+05:30",
+      "question_category": "Citation verification",
+      "expected_answer": "Neither supports anaphylaxis; DOC-P2-005 explicitly says anaphylaxis is not established, and CHAT-P2-003 is an unsupported claim.",
+      "required_claims": [
+        "No valid anaphylaxis support"
+      ],
+      "acceptable_claims": [],
+      "forbidden_claims": [],
+      "expected_evidence_ids": [
+        "EV-P2-006"
+      ],
+      "expected_relevant_source_ids": [
+        "DOC-P2-005",
+        "CHAT-P2-003"
+      ],
+      "expected_state": {},
+      "expected_decision_label": null,
+      "expected_temporal_assertions": [],
+      "expected_conflicts": [],
+      "expected_corrections": [],
+      "requires_exact_quote": false,
+      "rare_detail_query": false,
+      "insufficient_evidence_expected": true,
+      "expected_confidence_band": "medium-high",
+      "applicable_metrics": [
+        "answer_accuracy",
+        "hallucination_rate",
+        "evidence_support_rate",
+        "unsupported_claim_rate",
+        "faithfulness",
+        "groundedness",
+        "expected_calibration_error",
+        "fabricated_citation_rate",
+        "lineage_citation_f1",
+        "retrieval_precision",
+        "retrieval_recall",
+        "tokens_per_query",
+        "p95_latency",
+        "total_cost"
+      ],
+      "retrieval_ground_truth": {
+        "mandatory_relevant_source_ids": [
+          "DOC-P2-005",
+          "CHAT-P2-003"
+        ],
+        "optional_relevant_source_ids": [],
+        "irrelevant_but_similar_distractor_ids": [],
+        "duplicate_family_ids": [],
+        "forbidden_future_source_ids": [],
+        "exact_source_required_for_quotation": null
+      }
+    },
+    {
+      "question_id": "P2-Q13",
+      "patient_code": "SYN-CSM-002",
+      "question_text": "What was the effective date of the historical reaction, and when was it recorded in Sustha?",
+      "source_cutoff": "2026-02-20T23:59:59+05:30",
+      "question_category": "Late-arriving evidence",
+      "expected_answer": "The reaction was reported as occurring on 14 July 2019 and was recorded in Sustha on 1 February 2026.",
+      "required_claims": [
+        "Effective 14 July 2019",
+        "Recorded 1 February 2026"
+      ],
+      "acceptable_claims": [],
+      "forbidden_claims": [],
+      "expected_evidence_ids": [
+        "EV-P2-001"
+      ],
+      "expected_relevant_source_ids": [
+        "DOC-P2-001",
+        "P2-NOTE-001"
+      ],
+      "expected_state": {},
+      "expected_decision_label": null,
+      "expected_temporal_assertions": [],
+      "expected_conflicts": [],
+      "expected_corrections": [],
+      "requires_exact_quote": false,
+      "rare_detail_query": false,
+      "insufficient_evidence_expected": false,
+      "expected_confidence_band": "medium-high",
+      "applicable_metrics": [
+        "answer_accuracy",
+        "hallucination_rate",
+        "evidence_support_rate",
+        "unsupported_claim_rate",
+        "faithfulness",
+        "groundedness",
+        "expected_calibration_error",
+        "temporal_consistency",
+        "fabricated_citation_rate",
+        "lineage_citation_f1",
+        "retrieval_precision",
+        "retrieval_recall",
+        "tokens_per_query",
+        "p95_latency",
+        "total_cost"
+      ],
+      "retrieval_ground_truth": {
+        "mandatory_relevant_source_ids": [
+          "DOC-P2-001",
+          "P2-NOTE-001"
+        ],
+        "optional_relevant_source_ids": [],
+        "irrelevant_but_similar_distractor_ids": [],
+        "duplicate_family_ids": [],
+        "forbidden_future_source_ids": [],
+        "exact_source_required_for_quotation": null
+      }
+    },
+    {
+      "question_id": "P2-Q14",
+      "patient_code": "SYN-CSM-002",
+      "question_text": "Classify the medication-safety outcome after reconciliation: resolved, contested, or unknown.",
+      "source_cutoff": "2026-02-20T23:59:59+05:30",
+      "question_category": "Decision classification",
+      "expected_answer": "Resolved, with the amoxicillin-hives allergy retained and prescribing decisions left to clinician review.",
+      "required_claims": [
+        "Decision label resolved"
+      ],
+      "acceptable_claims": [],
+      "forbidden_claims": [],
+      "expected_evidence_ids": [
+        "EV-P2-006",
+        "EV-P2-007"
+      ],
+      "expected_relevant_source_ids": [
+        "DOC-P2-005",
+        "DOC-P2-006"
+      ],
+      "expected_state": {},
+      "expected_decision_label": "resolved_with_clinician_review",
+      "expected_temporal_assertions": [],
+      "expected_conflicts": [],
+      "expected_corrections": [],
+      "requires_exact_quote": false,
+      "rare_detail_query": false,
+      "insufficient_evidence_expected": false,
+      "expected_confidence_band": "medium-high",
+      "applicable_metrics": [
+        "answer_accuracy",
+        "hallucination_rate",
+        "evidence_support_rate",
+        "unsupported_claim_rate",
+        "faithfulness",
+        "groundedness",
+        "expected_calibration_error",
+        "state_accuracy",
+        "memory_update_accuracy",
+        "decision_f1",
+        "fabricated_citation_rate",
+        "lineage_citation_f1",
+        "retrieval_precision",
+        "retrieval_recall",
+        "tokens_per_query",
+        "p95_latency",
+        "total_cost"
+      ],
+      "retrieval_ground_truth": {
+        "mandatory_relevant_source_ids": [
+          "DOC-P2-005",
+          "DOC-P2-006"
+        ],
+        "optional_relevant_source_ids": [],
+        "irrelevant_but_similar_distractor_ids": [],
+        "duplicate_family_ids": [],
+        "forbidden_future_source_ids": [],
+        "exact_source_required_for_quotation": null
+      }
+    },
+    {
+      "question_id": "P2-Q15",
+      "patient_code": "SYN-CSM-002",
+      "question_text": "Before 18 February, could the system use the allergist letter?",
+      "source_cutoff": "2026-02-17T23:59:59+05:30",
+      "question_category": "Future-leakage trap",
+      "expected_answer": "No. The allergist letter was not yet available.",
+      "required_claims": [
+        "Future source must be excluded"
+      ],
+      "acceptable_claims": [],
+      "forbidden_claims": [],
+      "expected_evidence_ids": [
+        "EV-P2-001",
+        "EV-P2-002",
+        "EV-P2-004",
+        "EV-P2-005"
+      ],
+      "expected_relevant_source_ids": [
+        "DOC-P2-001",
+        "DOC-P2-003",
+        "DOC-P2-004"
+      ],
+      "expected_state": {},
+      "expected_decision_label": null,
+      "expected_temporal_assertions": [],
+      "expected_conflicts": [],
+      "expected_corrections": [],
+      "requires_exact_quote": false,
+      "rare_detail_query": false,
+      "insufficient_evidence_expected": false,
+      "expected_confidence_band": "medium-high",
+      "applicable_metrics": [
+        "answer_accuracy",
+        "hallucination_rate",
+        "evidence_support_rate",
+        "unsupported_claim_rate",
+        "faithfulness",
+        "groundedness",
+        "expected_calibration_error",
+        "temporal_consistency",
+        "fabricated_citation_rate",
+        "lineage_citation_f1",
+        "retrieval_precision",
+        "retrieval_recall",
+        "tokens_per_query",
+        "p95_latency",
+        "total_cost"
+      ],
+      "retrieval_ground_truth": {
+        "mandatory_relevant_source_ids": [
+          "DOC-P2-001",
+          "DOC-P2-003",
+          "DOC-P2-004"
+        ],
+        "optional_relevant_source_ids": [],
+        "irrelevant_but_similar_distractor_ids": [],
+        "duplicate_family_ids": [],
+        "forbidden_future_source_ids": [
+          "DOC-P2-005",
+          "DOC-P2-006"
+        ],
+        "exact_source_required_for_quotation": null
+      }
+    },
+    {
+      "question_id": "P2-Q16",
+      "patient_code": "SYN-CSM-002",
+      "question_text": "Which record should be treated as retracted but still retained for audit?",
+      "source_cutoff": "2026-02-20T23:59:59+05:30",
+      "question_category": "Retraction handling",
+      "expected_answer": "The no-known-drug-allergies statement in DOC-P2-003, along with its duplicate-family copy, should remain in history as retracted/contradictory evidence.",
+      "required_claims": [
+        "NKDA record retained but retracted"
+      ],
+      "acceptable_claims": [],
+      "forbidden_claims": [],
+      "expected_evidence_ids": [
+        "EV-P2-004",
+        "EV-P2-005",
+        "EV-P2-007"
+      ],
+      "expected_relevant_source_ids": [
+        "DOC-P2-003",
+        "DOC-P2-004",
+        "DOC-P2-006"
+      ],
+      "expected_state": {},
+      "expected_decision_label": null,
+      "expected_temporal_assertions": [],
+      "expected_conflicts": [],
+      "expected_corrections": [],
+      "requires_exact_quote": false,
+      "rare_detail_query": false,
+      "insufficient_evidence_expected": false,
+      "expected_confidence_band": "medium-high",
+      "applicable_metrics": [
+        "answer_accuracy",
+        "hallucination_rate",
+        "evidence_support_rate",
+        "unsupported_claim_rate",
+        "faithfulness",
+        "groundedness",
+        "expected_calibration_error",
+        "state_accuracy",
+        "memory_update_accuracy",
+        "temporal_consistency",
+        "fabricated_citation_rate",
+        "lineage_citation_f1",
+        "retrieval_precision",
+        "retrieval_recall",
+        "correction_recovery",
+        "tokens_per_query",
+        "p95_latency",
+        "total_cost"
+      ],
+      "retrieval_ground_truth": {
+        "mandatory_relevant_source_ids": [
+          "DOC-P2-003",
+          "DOC-P2-004",
+          "DOC-P2-006"
+        ],
+        "optional_relevant_source_ids": [],
+        "irrelevant_but_similar_distractor_ids": [],
+        "duplicate_family_ids": [],
+        "forbidden_future_source_ids": [],
+        "exact_source_required_for_quotation": null
+      }
+    },
+    {
+      "question_id": "P2-Q17",
+      "patient_code": "SYN-CSM-002",
+      "question_text": "Does the evidence justify describing the reaction as severe anaphylaxis?",
+      "source_cutoff": "2026-02-20T23:59:59+05:30",
+      "question_category": "Insufficient evidence",
+      "expected_answer": "No. The supported description is generalized hives; severe anaphylaxis is not established.",
+      "required_claims": [
+        "Evidence insufficient for anaphylaxis"
+      ],
+      "acceptable_claims": [],
+      "forbidden_claims": [],
+      "expected_evidence_ids": [
+        "EV-P2-001",
+        "EV-P2-006"
+      ],
+      "expected_relevant_source_ids": [
+        "DOC-P2-001",
+        "DOC-P2-005"
+      ],
+      "expected_state": {},
+      "expected_decision_label": null,
+      "expected_temporal_assertions": [],
+      "expected_conflicts": [],
+      "expected_corrections": [],
+      "requires_exact_quote": false,
+      "rare_detail_query": false,
+      "insufficient_evidence_expected": true,
+      "expected_confidence_band": "medium-high",
+      "applicable_metrics": [
+        "answer_accuracy",
+        "hallucination_rate",
+        "evidence_support_rate",
+        "unsupported_claim_rate",
+        "faithfulness",
+        "groundedness",
+        "expected_calibration_error",
+        "fabricated_citation_rate",
+        "lineage_citation_f1",
+        "retrieval_precision",
+        "retrieval_recall",
+        "tokens_per_query",
+        "p95_latency",
+        "total_cost"
+      ],
+      "retrieval_ground_truth": {
+        "mandatory_relevant_source_ids": [
+          "DOC-P2-001",
+          "DOC-P2-005"
+        ],
+        "optional_relevant_source_ids": [],
+        "irrelevant_but_similar_distractor_ids": [],
+        "duplicate_family_ids": [],
+        "forbidden_future_source_ids": [],
+        "exact_source_required_for_quotation": null
+      }
+    },
+    {
+      "question_id": "P2-Q18",
+      "patient_code": "SYN-CSM-002",
+      "question_text": "What changed in the allergy state from 11 February to 20 February?",
+      "source_cutoff": "2026-02-20T23:59:59+05:30",
+      "question_category": "State history",
+      "expected_answer": "It changed from contested due to NKDA conflict to resolved/active after external support and formal retraction.",
+      "required_claims": [
+        "Contested to resolved"
+      ],
+      "acceptable_claims": [],
+      "forbidden_claims": [],
+      "expected_evidence_ids": [
+        "EV-P2-004",
+        "EV-P2-005",
+        "EV-P2-006",
+        "EV-P2-007"
+      ],
+      "expected_relevant_source_ids": [
+        "DOC-P2-003",
+        "DOC-P2-004",
+        "DOC-P2-005",
+        "DOC-P2-006"
+      ],
+      "expected_state": {},
+      "expected_decision_label": null,
+      "expected_temporal_assertions": [],
+      "expected_conflicts": [],
+      "expected_corrections": [],
+      "requires_exact_quote": false,
+      "rare_detail_query": false,
+      "insufficient_evidence_expected": false,
+      "expected_confidence_band": "medium-high",
+      "applicable_metrics": [
+        "answer_accuracy",
+        "hallucination_rate",
+        "evidence_support_rate",
+        "unsupported_claim_rate",
+        "faithfulness",
+        "groundedness",
+        "expected_calibration_error",
+        "state_accuracy",
+        "memory_update_accuracy",
+        "temporal_consistency",
+        "fabricated_citation_rate",
+        "lineage_citation_f1",
+        "retrieval_precision",
+        "retrieval_recall",
+        "contradiction_handling",
+        "correction_recovery",
+        "state_recovery_time",
+        "tokens_per_query",
+        "p95_latency",
+        "total_cost"
+      ],
+      "retrieval_ground_truth": {
+        "mandatory_relevant_source_ids": [
+          "DOC-P2-003",
+          "DOC-P2-004",
+          "DOC-P2-005",
+          "DOC-P2-006"
+        ],
+        "optional_relevant_source_ids": [],
+        "irrelevant_but_similar_distractor_ids": [],
+        "duplicate_family_ids": [],
+        "forbidden_future_source_ids": [],
+        "exact_source_required_for_quotation": null
+      }
+    },
+    {
+      "question_id": "P2-Q19",
+      "patient_code": "SYN-CSM-002",
+      "question_text": "Which retrieved documents are redundant for the NKDA claim?",
+      "source_cutoff": "2026-02-20T23:59:59+05:30",
+      "question_category": "Retrieval relevance",
+      "expected_answer": "DOC-P2-003 and DOC-P2-004 are redundant members of the same duplicate family.",
+      "required_claims": [
+        "Both are same duplicate family"
+      ],
+      "acceptable_claims": [],
+      "forbidden_claims": [],
+      "expected_evidence_ids": [
+        "EV-P2-004",
+        "EV-P2-005"
+      ],
+      "expected_relevant_source_ids": [
+        "DOC-P2-003",
+        "DOC-P2-004"
+      ],
+      "expected_state": {},
+      "expected_decision_label": null,
+      "expected_temporal_assertions": [],
+      "expected_conflicts": [],
+      "expected_corrections": [],
+      "requires_exact_quote": false,
+      "rare_detail_query": false,
+      "insufficient_evidence_expected": false,
+      "expected_confidence_band": "medium-high",
+      "applicable_metrics": [
+        "answer_accuracy",
+        "hallucination_rate",
+        "evidence_support_rate",
+        "unsupported_claim_rate",
+        "faithfulness",
+        "groundedness",
+        "expected_calibration_error",
+        "fabricated_citation_rate",
+        "lineage_citation_f1",
+        "retrieval_precision",
+        "retrieval_recall",
+        "tokens_per_query",
+        "p95_latency",
+        "total_cost"
+      ],
+      "retrieval_ground_truth": {
+        "mandatory_relevant_source_ids": [
+          "DOC-P2-003",
+          "DOC-P2-004"
+        ],
+        "optional_relevant_source_ids": [],
+        "irrelevant_but_similar_distractor_ids": [],
+        "duplicate_family_ids": [
+          "DUP-P2-NKDA-001"
+        ],
+        "forbidden_future_source_ids": [],
+        "exact_source_required_for_quotation": null
+      }
+    },
+    {
+      "question_id": "P2-Q20",
+      "patient_code": "SYN-CSM-002",
+      "question_text": "Summarize the allergy reconciliation with citations and calibrated confidence.",
+      "source_cutoff": "2026-02-20T23:59:59+05:30",
+      "question_category": "Integrated answer",
+      "expected_answer": "The record supports amoxicillin-associated generalized hives, an imported NKDA conflict was duplicated and later retracted, and anaphylaxis remains unsupported. Confidence should be medium-high.",
+      "required_claims": [
+        "Hives supported",
+        "NKDA duplicated and retracted",
+        "Anaphylaxis unsupported"
+      ],
+      "acceptable_claims": [],
+      "forbidden_claims": [],
+      "expected_evidence_ids": [
+        "EV-P2-001",
+        "EV-P2-002",
+        "EV-P2-004",
+        "EV-P2-005",
+        "EV-P2-006",
+        "EV-P2-007"
+      ],
+      "expected_relevant_source_ids": [
+        "DOC-P2-001",
+        "DOC-P2-003",
+        "DOC-P2-004",
+        "DOC-P2-005",
+        "DOC-P2-006"
+      ],
+      "expected_state": {},
+      "expected_decision_label": null,
+      "expected_temporal_assertions": [],
+      "expected_conflicts": [],
+      "expected_corrections": [],
+      "requires_exact_quote": false,
+      "rare_detail_query": false,
+      "insufficient_evidence_expected": false,
+      "expected_confidence_band": "medium-high",
+      "applicable_metrics": [
+        "answer_accuracy",
+        "hallucination_rate",
+        "evidence_support_rate",
+        "unsupported_claim_rate",
+        "faithfulness",
+        "groundedness",
+        "expected_calibration_error",
+        "fabricated_citation_rate",
+        "lineage_citation_f1",
+        "retrieval_precision",
+        "retrieval_recall",
+        "state_accuracy",
+        "memory_update_accuracy",
+        "temporal_consistency",
+        "contradiction_handling",
+        "correction_recovery",
+        "expected_calibration_error",
+        "tokens_per_query",
+        "p95_latency",
+        "total_cost"
+      ],
+      "retrieval_ground_truth": {
+        "mandatory_relevant_source_ids": [
+          "DOC-P2-001",
+          "DOC-P2-003",
+          "DOC-P2-004",
+          "DOC-P2-005",
+          "DOC-P2-006"
+        ],
+        "optional_relevant_source_ids": [],
+        "irrelevant_but_similar_distractor_ids": [],
+        "duplicate_family_ids": [],
+        "forbidden_future_source_ids": [],
+        "exact_source_required_for_quotation": null
+      }
+    },
+    {
+      "question_id": "P3-Q01",
+      "patient_code": "SYN-CSM-003",
+      "question_text": "What cardiovascular condition and medicines are active at baseline?",
+      "source_cutoff": "2026-04-01T23:59:59+05:30",
+      "question_category": "Current state",
+      "expected_answer": "Atrial fibrillation is active; metoprolol succinate 25 mg once daily and apixaban 5 mg twice daily are active.",
+      "required_claims": [
+        "AF active",
+        "Metoprolol 25 active",
+        "Apixaban 5 mg twice daily active"
+      ],
+      "acceptable_claims": [],
+      "forbidden_claims": [],
+      "expected_evidence_ids": [
+        "EV-P3-001"
+      ],
+      "expected_relevant_source_ids": [
+        "DOC-P3-001",
+        "P3-COND-001",
+        "P3-MED-001",
+        "P3-MED-003"
+      ],
+      "expected_state": {},
+      "expected_decision_label": null,
+      "expected_temporal_assertions": [],
+      "expected_conflicts": [],
+      "expected_corrections": [],
+      "requires_exact_quote": false,
+      "rare_detail_query": false,
+      "insufficient_evidence_expected": false,
+      "expected_confidence_band": "medium-high",
+      "applicable_metrics": [
+        "answer_accuracy",
+        "hallucination_rate",
+        "evidence_support_rate",
+        "unsupported_claim_rate",
+        "faithfulness",
+        "groundedness",
+        "expected_calibration_error",
+        "fabricated_citation_rate",
+        "lineage_citation_f1",
+        "retrieval_precision",
+        "retrieval_recall",
+        "state_accuracy",
+        "memory_update_accuracy",
+        "tokens_per_query",
+        "p95_latency",
+        "total_cost"
+      ],
+      "retrieval_ground_truth": {
+        "mandatory_relevant_source_ids": [
+          "DOC-P3-001",
+          "P3-COND-001",
+          "P3-MED-001",
+          "P3-MED-003"
+        ],
+        "optional_relevant_source_ids": [],
+        "irrelevant_but_similar_distractor_ids": [],
+        "duplicate_family_ids": [],
+        "forbidden_future_source_ids": [],
+        "exact_source_required_for_quotation": null
+      }
+    },
+    {
+      "question_id": "P3-Q02",
+      "patient_code": "SYN-CSM-003",
+      "question_text": "What was the baseline resting heart rate?",
+      "source_cutoff": "2026-04-01T23:59:59+05:30",
+      "question_category": "Historical fact",
+      "expected_answer": "82 beats per minute.",
+      "required_claims": [
+        "Heart rate 82"
+      ],
+      "acceptable_claims": [],
+      "forbidden_claims": [],
+      "expected_evidence_ids": [
+        "EV-P3-001"
+      ],
+      "expected_relevant_source_ids": [
+        "DOC-P3-001",
+        "P3-MEAS-001"
+      ],
+      "expected_state": {},
+      "expected_decision_label": null,
+      "expected_temporal_assertions": [],
+      "expected_conflicts": [],
+      "expected_corrections": [],
+      "requires_exact_quote": false,
+      "rare_detail_query": false,
+      "insufficient_evidence_expected": false,
+      "expected_confidence_band": "medium-high",
+      "applicable_metrics": [
+        "answer_accuracy",
+        "hallucination_rate",
+        "evidence_support_rate",
+        "unsupported_claim_rate",
+        "faithfulness",
+        "groundedness",
+        "expected_calibration_error",
+        "fabricated_citation_rate",
+        "lineage_citation_f1",
+        "retrieval_precision",
+        "retrieval_recall",
+        "tokens_per_query",
+        "p95_latency",
+        "total_cost"
+      ],
+      "retrieval_ground_truth": {
+        "mandatory_relevant_source_ids": [
+          "DOC-P3-001",
+          "P3-MEAS-001"
+        ],
+        "optional_relevant_source_ids": [],
+        "irrelevant_but_similar_distractor_ids": [],
+        "duplicate_family_ids": [],
+        "forbidden_future_source_ids": [],
+        "exact_source_required_for_quotation": null
+      }
+    },
+    {
+      "question_id": "P3-Q03",
+      "patient_code": "SYN-CSM-003",
+      "question_text": "What changed on 8 April compared with baseline?",
+      "source_cutoff": "2026-04-08T23:59:59+05:30",
+      "question_category": "Trend reasoning",
+      "expected_answer": "Resting heart rate increased from 82 to 112 beats/min, with increased palpitations and exertional breathlessness.",
+      "required_claims": [
+        "Heart rate increased 82 to 112",
+        "Symptoms worsened"
+      ],
+      "acceptable_claims": [],
+      "forbidden_claims": [],
+      "expected_evidence_ids": [
+        "EV-P3-003",
+        "EV-P3-004",
+        "EV-P3-001"
+      ],
+      "expected_relevant_source_ids": [
+        "DOC-P3-002",
+        "DOC-P3-001"
+      ],
+      "expected_state": {},
+      "expected_decision_label": null,
+      "expected_temporal_assertions": [],
+      "expected_conflicts": [],
+      "expected_corrections": [],
+      "requires_exact_quote": false,
+      "rare_detail_query": false,
+      "insufficient_evidence_expected": false,
+      "expected_confidence_band": "medium-high",
+      "applicable_metrics": [
+        "answer_accuracy",
+        "hallucination_rate",
+        "evidence_support_rate",
+        "unsupported_claim_rate",
+        "faithfulness",
+        "groundedness",
+        "expected_calibration_error",
+        "state_accuracy",
+        "memory_update_accuracy",
+        "temporal_consistency",
+        "fabricated_citation_rate",
+        "lineage_citation_f1",
+        "retrieval_precision",
+        "retrieval_recall",
+        "tokens_per_query",
+        "p95_latency",
+        "total_cost"
+      ],
+      "retrieval_ground_truth": {
+        "mandatory_relevant_source_ids": [
+          "DOC-P3-002",
+          "DOC-P3-001"
+        ],
+        "optional_relevant_source_ids": [],
+        "irrelevant_but_similar_distractor_ids": [],
+        "duplicate_family_ids": [],
+        "forbidden_future_source_ids": [],
+        "exact_source_required_for_quotation": null
+      }
+    },
+    {
+      "question_id": "P3-Q04",
+      "patient_code": "SYN-CSM-003",
+      "question_text": "What clinician-directed treatment change was recorded on 9 April?",
+      "source_cutoff": "2026-04-09T23:59:59+05:30",
+      "question_category": "Medication reconciliation",
+      "expected_answer": "Metoprolol succinate was changed from 25 mg once daily to 50 mg once daily; apixaban remained active.",
+      "required_claims": [
+        "Metoprolol 25 to 50",
+        "Apixaban remained active"
+      ],
+      "acceptable_claims": [],
+      "forbidden_claims": [],
+      "expected_evidence_ids": [
+        "EV-P3-005",
+        "EV-P3-001"
+      ],
+      "expected_relevant_source_ids": [
+        "DOC-P3-003",
+        "DOC-P3-001"
+      ],
+      "expected_state": {},
+      "expected_decision_label": null,
+      "expected_temporal_assertions": [],
+      "expected_conflicts": [],
+      "expected_corrections": [],
+      "requires_exact_quote": false,
+      "rare_detail_query": false,
+      "insufficient_evidence_expected": false,
+      "expected_confidence_band": "medium-high",
+      "applicable_metrics": [
+        "answer_accuracy",
+        "hallucination_rate",
+        "evidence_support_rate",
+        "unsupported_claim_rate",
+        "faithfulness",
+        "groundedness",
+        "expected_calibration_error",
+        "fabricated_citation_rate",
+        "lineage_citation_f1",
+        "retrieval_precision",
+        "retrieval_recall",
+        "state_accuracy",
+        "memory_update_accuracy",
+        "tokens_per_query",
+        "p95_latency",
+        "total_cost"
+      ],
+      "retrieval_ground_truth": {
+        "mandatory_relevant_source_ids": [
+          "DOC-P3-003",
+          "DOC-P3-001"
+        ],
+        "optional_relevant_source_ids": [],
+        "irrelevant_but_similar_distractor_ids": [],
+        "duplicate_family_ids": [],
+        "forbidden_future_source_ids": [],
+        "exact_source_required_for_quotation": null
+      }
+    },
+    {
+      "question_id": "P3-Q05",
+      "patient_code": "SYN-CSM-003",
+      "question_text": "Before follow-up data existed, what should the treatment-response state be?",
+      "source_cutoff": "2026-04-09T23:59:59+05:30",
+      "question_category": "State lifecycle",
+      "expected_answer": "Candidate or pending outcome: treatment was adjusted, but response was not yet known.",
+      "required_claims": [
+        "Response not yet known",
+        "State candidate"
+      ],
+      "acceptable_claims": [],
+      "forbidden_claims": [],
+      "expected_evidence_ids": [
+        "EV-P3-005"
+      ],
+      "expected_relevant_source_ids": [
+        "DOC-P3-003"
+      ],
+      "expected_state": {
+        "treatment_response": "Treatment adjustment initiated; response not yet known",
+        "status": "Candidate"
+      },
+      "expected_decision_label": null,
+      "expected_temporal_assertions": [],
+      "expected_conflicts": [],
+      "expected_corrections": [],
+      "requires_exact_quote": false,
+      "rare_detail_query": false,
+      "insufficient_evidence_expected": false,
+      "expected_confidence_band": "medium-high",
+      "applicable_metrics": [
+        "answer_accuracy",
+        "hallucination_rate",
+        "evidence_support_rate",
+        "unsupported_claim_rate",
+        "faithfulness",
+        "groundedness",
+        "expected_calibration_error",
+        "state_accuracy",
+        "memory_update_accuracy",
+        "fabricated_citation_rate",
+        "lineage_citation_f1",
+        "retrieval_precision",
+        "retrieval_recall",
+        "tokens_per_query",
+        "p95_latency",
+        "total_cost"
+      ],
+      "retrieval_ground_truth": {
+        "mandatory_relevant_source_ids": [
+          "DOC-P3-003"
+        ],
+        "optional_relevant_source_ids": [],
+        "irrelevant_but_similar_distractor_ids": [],
+        "duplicate_family_ids": [],
+        "forbidden_future_source_ids": [],
+        "exact_source_required_for_quotation": null
+      }
+    },
+    {
+      "question_id": "P3-Q06",
+      "patient_code": "SYN-CSM-003",
+      "question_text": "Which note arrived on 12 April but describes an event on 2 April?",
+      "source_cutoff": "2026-04-12T23:59:59+05:30",
+      "question_category": "Late-arriving evidence",
+      "expected_answer": "The delayed functional-status note describing breathlessness after climbing 14 stairs.",
+      "required_claims": [
+        "Valid 2 April",
+        "Added 12 April",
+        "Breathless after 14 stairs"
+      ],
+      "acceptable_claims": [],
+      "forbidden_claims": [],
+      "expected_evidence_ids": [
+        "EV-P3-006"
+      ],
+      "expected_relevant_source_ids": [
+        "DOC-P3-004",
+        "P3-NOTE-001"
+      ],
+      "expected_state": {},
+      "expected_decision_label": null,
+      "expected_temporal_assertions": [],
+      "expected_conflicts": [],
+      "expected_corrections": [],
+      "requires_exact_quote": false,
+      "rare_detail_query": false,
+      "insufficient_evidence_expected": false,
+      "expected_confidence_band": "medium-high",
+      "applicable_metrics": [
+        "answer_accuracy",
+        "hallucination_rate",
+        "evidence_support_rate",
+        "unsupported_claim_rate",
+        "faithfulness",
+        "groundedness",
+        "expected_calibration_error",
+        "temporal_consistency",
+        "fabricated_citation_rate",
+        "lineage_citation_f1",
+        "retrieval_precision",
+        "retrieval_recall",
+        "tokens_per_query",
+        "p95_latency",
+        "total_cost"
+      ],
+      "retrieval_ground_truth": {
+        "mandatory_relevant_source_ids": [
+          "DOC-P3-004",
+          "P3-NOTE-001"
+        ],
+        "optional_relevant_source_ids": [],
+        "irrelevant_but_similar_distractor_ids": [],
+        "duplicate_family_ids": [],
+        "forbidden_future_source_ids": [],
+        "exact_source_required_for_quotation": null
+      }
+    },
+    {
+      "question_id": "P3-Q07",
+      "patient_code": "SYN-CSM-003",
+      "question_text": "What rare detail is available only from raw evidence?",
+      "source_cutoff": "2026-04-22T23:59:59+05:30",
+      "question_category": "Rare-detail retrieval",
+      "expected_answer": "The patient reported being able to climb exactly 14 stairs before stopping to rest.",
+      "required_claims": [
+        "Exactly 14 stairs"
+      ],
+      "acceptable_claims": [],
+      "forbidden_claims": [],
+      "expected_evidence_ids": [
+        "EV-P3-002",
+        "EV-P3-006"
+      ],
+      "expected_relevant_source_ids": [
+        "DOC-P3-001",
+        "DOC-P3-004"
+      ],
+      "expected_state": {},
+      "expected_decision_label": null,
+      "expected_temporal_assertions": [],
+      "expected_conflicts": [],
+      "expected_corrections": [],
+      "requires_exact_quote": false,
+      "rare_detail_query": true,
+      "insufficient_evidence_expected": false,
+      "expected_confidence_band": "medium-high",
+      "applicable_metrics": [
+        "answer_accuracy",
+        "hallucination_rate",
+        "evidence_support_rate",
+        "unsupported_claim_rate",
+        "faithfulness",
+        "groundedness",
+        "expected_calibration_error",
+        "fabricated_citation_rate",
+        "lineage_citation_f1",
+        "retrieval_precision",
+        "retrieval_recall",
+        "tokens_per_query",
+        "p95_latency",
+        "total_cost"
+      ],
+      "retrieval_ground_truth": {
+        "mandatory_relevant_source_ids": [
+          "DOC-P3-001",
+          "DOC-P3-004"
+        ],
+        "optional_relevant_source_ids": [],
+        "irrelevant_but_similar_distractor_ids": [],
+        "duplicate_family_ids": [],
+        "forbidden_future_source_ids": [],
+        "exact_source_required_for_quotation": "DOC-P3-001"
+      }
+    },
+    {
+      "question_id": "P3-Q08",
+      "patient_code": "SYN-CSM-003",
+      "question_text": "Should the retracted syncope statement influence the current follow-up priority?",
+      "source_cutoff": "2026-04-15T23:59:59+05:30",
+      "question_category": "Retraction handling",
+      "expected_answer": "No. It must remain in audit history but not support an active symptom or decision state.",
+      "required_claims": [
+        "Retracted syncope must not influence current state"
+      ],
+      "acceptable_claims": [],
+      "forbidden_claims": [],
+      "expected_evidence_ids": [
+        "EV-P3-009"
+      ],
+      "expected_relevant_source_ids": [
+        "DOC-P3-006",
+        "P3-NOTE-002"
+      ],
+      "expected_state": {},
+      "expected_decision_label": null,
+      "expected_temporal_assertions": [],
+      "expected_conflicts": [],
+      "expected_corrections": [],
+      "requires_exact_quote": false,
+      "rare_detail_query": false,
+      "insufficient_evidence_expected": false,
+      "expected_confidence_band": "medium-high",
+      "applicable_metrics": [
+        "answer_accuracy",
+        "hallucination_rate",
+        "evidence_support_rate",
+        "unsupported_claim_rate",
+        "faithfulness",
+        "groundedness",
+        "expected_calibration_error",
+        "state_accuracy",
+        "memory_update_accuracy",
+        "temporal_consistency",
+        "fabricated_citation_rate",
+        "lineage_citation_f1",
+        "retrieval_precision",
+        "retrieval_recall",
+        "correction_recovery",
+        "memory_update_accuracy",
+        "tokens_per_query",
+        "p95_latency",
+        "total_cost"
+      ],
+      "retrieval_ground_truth": {
+        "mandatory_relevant_source_ids": [
+          "DOC-P3-006",
+          "P3-NOTE-002"
+        ],
+        "optional_relevant_source_ids": [],
+        "irrelevant_but_similar_distractor_ids": [],
+        "duplicate_family_ids": [],
+        "forbidden_future_source_ids": [],
+        "exact_source_required_for_quotation": null
+      }
+    },
+    {
+      "question_id": "P3-Q09",
+      "patient_code": "SYN-CSM-003",
+      "question_text": "What does the 22 April follow-up show?",
+      "source_cutoff": "2026-04-22T23:59:59+05:30",
+      "question_category": "Latest valid fact",
+      "expected_answer": "Resting heart rate improved to 78 beats/min, and palpitations and exertional breathlessness improved.",
+      "required_claims": [
+        "Heart rate 78",
+        "Symptoms improved"
+      ],
+      "acceptable_claims": [],
+      "forbidden_claims": [],
+      "expected_evidence_ids": [
+        "EV-P3-007",
+        "EV-P3-008"
+      ],
+      "expected_relevant_source_ids": [
+        "DOC-P3-005"
+      ],
+      "expected_state": {},
+      "expected_decision_label": null,
+      "expected_temporal_assertions": [],
+      "expected_conflicts": [],
+      "expected_corrections": [],
+      "requires_exact_quote": false,
+      "rare_detail_query": false,
+      "insufficient_evidence_expected": false,
+      "expected_confidence_band": "medium-high",
+      "applicable_metrics": [
+        "answer_accuracy",
+        "hallucination_rate",
+        "evidence_support_rate",
+        "unsupported_claim_rate",
+        "faithfulness",
+        "groundedness",
+        "expected_calibration_error",
+        "state_accuracy",
+        "memory_update_accuracy",
+        "temporal_consistency",
+        "fabricated_citation_rate",
+        "lineage_citation_f1",
+        "retrieval_precision",
+        "retrieval_recall",
+        "tokens_per_query",
+        "p95_latency",
+        "total_cost"
+      ],
+      "retrieval_ground_truth": {
+        "mandatory_relevant_source_ids": [
+          "DOC-P3-005"
+        ],
+        "optional_relevant_source_ids": [],
+        "irrelevant_but_similar_distractor_ids": [],
+        "duplicate_family_ids": [],
+        "forbidden_future_source_ids": [],
+        "exact_source_required_for_quotation": null
+      }
+    },
+    {
+      "question_id": "P3-Q10",
+      "patient_code": "SYN-CSM-003",
+      "question_text": "How should the treatment-response state change after 22 April?",
+      "source_cutoff": "2026-04-22T23:59:59+05:30",
+      "question_category": "Memory update",
+      "expected_answer": "It should change from response unknown/candidate to improving/resolved, linked to the treatment change and follow-up evidence.",
+      "required_claims": [
+        "Candidate to resolved improving"
+      ],
+      "acceptable_claims": [],
+      "forbidden_claims": [],
+      "expected_evidence_ids": [
+        "EV-P3-005",
+        "EV-P3-007",
+        "EV-P3-008"
+      ],
+      "expected_relevant_source_ids": [
+        "DOC-P3-003",
+        "DOC-P3-005"
+      ],
+      "expected_state": {
+        "treatment_response": "Improving after treatment adjustment",
+        "status": "Resolved"
+      },
+      "expected_decision_label": null,
+      "expected_temporal_assertions": [],
+      "expected_conflicts": [],
+      "expected_corrections": [],
+      "requires_exact_quote": false,
+      "rare_detail_query": false,
+      "insufficient_evidence_expected": false,
+      "expected_confidence_band": "medium-high",
+      "applicable_metrics": [
+        "answer_accuracy",
+        "hallucination_rate",
+        "evidence_support_rate",
+        "unsupported_claim_rate",
+        "faithfulness",
+        "groundedness",
+        "expected_calibration_error",
+        "state_accuracy",
+        "memory_update_accuracy",
+        "fabricated_citation_rate",
+        "lineage_citation_f1",
+        "retrieval_precision",
+        "retrieval_recall",
+        "memory_update_accuracy",
+        "state_recovery_time",
+        "tokens_per_query",
+        "p95_latency",
+        "total_cost"
+      ],
+      "retrieval_ground_truth": {
+        "mandatory_relevant_source_ids": [
+          "DOC-P3-003",
+          "DOC-P3-005"
+        ],
+        "optional_relevant_source_ids": [],
+        "irrelevant_but_similar_distractor_ids": [],
+        "duplicate_family_ids": [],
+        "forbidden_future_source_ids": [],
+        "exact_source_required_for_quotation": null
+      }
+    },
+    {
+      "question_id": "P3-Q11",
+      "patient_code": "SYN-CSM-003",
+      "question_text": "Which states depend on the rate-control state?",
+      "source_cutoff": "2026-04-22T23:59:59+05:30",
+      "question_category": "State dependency",
+      "expected_answer": "Treatment response and follow-up priority depend on rate-control status.",
+      "required_claims": [
+        "Treatment response child",
+        "Follow-up priority child"
+      ],
+      "acceptable_claims": [],
+      "forbidden_claims": [],
+      "expected_evidence_ids": [
+        "EV-P3-003",
+        "EV-P3-004",
+        "EV-P3-005",
+        "EV-P3-007",
+        "EV-P3-008"
+      ],
+      "expected_relevant_source_ids": [
+        "DOC-P3-002",
+        "DOC-P3-003",
+        "DOC-P3-005"
+      ],
+      "expected_state": {
+        "parent": "rate_control_status",
+        "children": [
+          "treatment_response",
+          "follow_up_priority"
+        ]
+      },
+      "expected_decision_label": null,
+      "expected_temporal_assertions": [],
+      "expected_conflicts": [],
+      "expected_corrections": [],
+      "requires_exact_quote": false,
+      "rare_detail_query": false,
+      "insufficient_evidence_expected": false,
+      "expected_confidence_band": "medium-high",
+      "applicable_metrics": [
+        "answer_accuracy",
+        "hallucination_rate",
+        "evidence_support_rate",
+        "unsupported_claim_rate",
+        "faithfulness",
+        "groundedness",
+        "expected_calibration_error",
+        "state_accuracy",
+        "memory_update_accuracy",
+        "fabricated_citation_rate",
+        "lineage_citation_f1",
+        "retrieval_precision",
+        "retrieval_recall",
+        "tokens_per_query",
+        "p95_latency",
+        "total_cost"
+      ],
+      "retrieval_ground_truth": {
+        "mandatory_relevant_source_ids": [
+          "DOC-P3-002",
+          "DOC-P3-003",
+          "DOC-P3-005"
+        ],
+        "optional_relevant_source_ids": [],
+        "irrelevant_but_similar_distractor_ids": [],
+        "duplicate_family_ids": [],
+        "forbidden_future_source_ids": [],
+        "exact_source_required_for_quotation": null
+      }
+    },
+    {
+      "question_id": "P3-Q12",
+      "patient_code": "SYN-CSM-003",
+      "question_text": "Should the chat instruction to stop apixaban update the active medication state?",
+      "source_cutoff": "2026-04-22T23:59:59+05:30",
+      "question_category": "Pending-review awareness",
+      "expected_answer": "No. It is unsupported and should remain pending review or be rejected.",
+      "required_claims": [
+        "No active medication change from chat"
+      ],
+      "acceptable_claims": [],
+      "forbidden_claims": [],
+      "expected_evidence_ids": [],
+      "expected_relevant_source_ids": [
+        "CHAT-P3-003",
+        "CHAT-P3-004"
+      ],
+      "expected_state": {},
+      "expected_decision_label": null,
+      "expected_temporal_assertions": [],
+      "expected_conflicts": [],
+      "expected_corrections": [],
+      "requires_exact_quote": false,
+      "rare_detail_query": false,
+      "insufficient_evidence_expected": true,
+      "expected_confidence_band": "medium-high",
+      "applicable_metrics": [
+        "answer_accuracy",
+        "hallucination_rate",
+        "evidence_support_rate",
+        "unsupported_claim_rate",
+        "faithfulness",
+        "groundedness",
+        "expected_calibration_error",
+        "state_accuracy",
+        "memory_update_accuracy",
+        "fabricated_citation_rate",
+        "lineage_citation_f1",
+        "retrieval_precision",
+        "retrieval_recall",
+        "tokens_per_query",
+        "p95_latency",
+        "total_cost"
+      ],
+      "retrieval_ground_truth": {
+        "mandatory_relevant_source_ids": [
+          "CHAT-P3-003",
+          "CHAT-P3-004"
+        ],
+        "optional_relevant_source_ids": [],
+        "irrelevant_but_similar_distractor_ids": [],
+        "duplicate_family_ids": [],
+        "forbidden_future_source_ids": [],
+        "exact_source_required_for_quotation": null
+      }
+    },
+    {
+      "question_id": "P3-Q13",
+      "patient_code": "SYN-CSM-003",
+      "question_text": "Quote the exact rare functional detail from the baseline note.",
+      "source_cutoff": "2026-04-22T23:59:59+05:30",
+      "question_category": "Exact quotation",
+      "expected_answer": "\"At baseline, the patient stated that he could climb exactly 14 stairs before stopping to rest.\"",
+      "required_claims": [
+        "Exact quote"
+      ],
+      "acceptable_claims": [],
+      "forbidden_claims": [],
+      "expected_evidence_ids": [
+        "EV-P3-002"
+      ],
+      "expected_relevant_source_ids": [
+        "DOC-P3-001"
+      ],
+      "expected_state": {},
+      "expected_decision_label": null,
+      "expected_temporal_assertions": [],
+      "expected_conflicts": [],
+      "expected_corrections": [],
+      "requires_exact_quote": true,
+      "rare_detail_query": true,
+      "insufficient_evidence_expected": false,
+      "expected_confidence_band": "medium-high",
+      "applicable_metrics": [
+        "answer_accuracy",
+        "hallucination_rate",
+        "evidence_support_rate",
+        "unsupported_claim_rate",
+        "faithfulness",
+        "groundedness",
+        "expected_calibration_error",
+        "fabricated_citation_rate",
+        "lineage_citation_f1",
+        "retrieval_precision",
+        "retrieval_recall",
+        "tokens_per_query",
+        "p95_latency",
+        "total_cost"
+      ],
+      "retrieval_ground_truth": {
+        "mandatory_relevant_source_ids": [
+          "DOC-P3-001"
+        ],
+        "optional_relevant_source_ids": [],
+        "irrelevant_but_similar_distractor_ids": [],
+        "duplicate_family_ids": [],
+        "forbidden_future_source_ids": [],
+        "exact_source_required_for_quotation": "DOC-P3-001"
+      }
+    },
+    {
+      "question_id": "P3-Q14",
+      "patient_code": "SYN-CSM-003",
+      "question_text": "Classify the follow-up priority after 22 April: urgent, routine clinician follow-up, or no follow-up.",
+      "source_cutoff": "2026-04-22T23:59:59+05:30",
+      "question_category": "Decision classification",
+      "expected_answer": "Routine clinician follow-up after improvement.",
+      "required_claims": [
+        "Decision label routine_clinician_followup"
+      ],
+      "acceptable_claims": [],
+      "forbidden_claims": [],
+      "expected_evidence_ids": [
+        "EV-P3-007",
+        "EV-P3-008",
+        "EV-P3-009"
+      ],
+      "expected_relevant_source_ids": [
+        "DOC-P3-005",
+        "DOC-P3-006"
+      ],
+      "expected_state": {},
+      "expected_decision_label": "routine_clinician_followup",
+      "expected_temporal_assertions": [],
+      "expected_conflicts": [],
+      "expected_corrections": [],
+      "requires_exact_quote": false,
+      "rare_detail_query": false,
+      "insufficient_evidence_expected": false,
+      "expected_confidence_band": "medium-high",
+      "applicable_metrics": [
+        "answer_accuracy",
+        "hallucination_rate",
+        "evidence_support_rate",
+        "unsupported_claim_rate",
+        "faithfulness",
+        "groundedness",
+        "expected_calibration_error",
+        "state_accuracy",
+        "memory_update_accuracy",
+        "decision_f1",
+        "fabricated_citation_rate",
+        "lineage_citation_f1",
+        "retrieval_precision",
+        "retrieval_recall",
+        "tokens_per_query",
+        "p95_latency",
+        "total_cost"
+      ],
+      "retrieval_ground_truth": {
+        "mandatory_relevant_source_ids": [
+          "DOC-P3-005",
+          "DOC-P3-006"
+        ],
+        "optional_relevant_source_ids": [],
+        "irrelevant_but_similar_distractor_ids": [],
+        "duplicate_family_ids": [],
+        "forbidden_future_source_ids": [],
+        "exact_source_required_for_quotation": null
+      }
+    },
+    {
+      "question_id": "P3-Q15",
+      "patient_code": "SYN-CSM-003",
+      "question_text": "Before 22 April, could the system claim that treatment had improved symptoms?",
+      "source_cutoff": "2026-04-21T23:59:59+05:30",
+      "question_category": "Future-leakage trap",
+      "expected_answer": "No. Follow-up improvement evidence was not yet available.",
+      "required_claims": [
+        "No improvement claim before follow-up"
+      ],
+      "acceptable_claims": [],
+      "forbidden_claims": [],
+      "expected_evidence_ids": [
+        "EV-P3-003",
+        "EV-P3-004",
+        "EV-P3-005"
+      ],
+      "expected_relevant_source_ids": [
+        "DOC-P3-002",
+        "DOC-P3-003"
+      ],
+      "expected_state": {},
+      "expected_decision_label": null,
+      "expected_temporal_assertions": [],
+      "expected_conflicts": [],
+      "expected_corrections": [],
+      "requires_exact_quote": false,
+      "rare_detail_query": false,
+      "insufficient_evidence_expected": false,
+      "expected_confidence_band": "medium-high",
+      "applicable_metrics": [
+        "answer_accuracy",
+        "hallucination_rate",
+        "evidence_support_rate",
+        "unsupported_claim_rate",
+        "faithfulness",
+        "groundedness",
+        "expected_calibration_error",
+        "temporal_consistency",
+        "fabricated_citation_rate",
+        "lineage_citation_f1",
+        "retrieval_precision",
+        "retrieval_recall",
+        "tokens_per_query",
+        "p95_latency",
+        "total_cost"
+      ],
+      "retrieval_ground_truth": {
+        "mandatory_relevant_source_ids": [
+          "DOC-P3-002",
+          "DOC-P3-003"
+        ],
+        "optional_relevant_source_ids": [],
+        "irrelevant_but_similar_distractor_ids": [],
+        "duplicate_family_ids": [],
+        "forbidden_future_source_ids": [
+          "DOC-P3-005"
+        ],
+        "exact_source_required_for_quotation": null
+      }
+    },
+    {
+      "question_id": "P3-Q16",
+      "patient_code": "SYN-CSM-003",
+      "question_text": "What evidence should support an answer about improved treatment response?",
+      "source_cutoff": "2026-04-22T23:59:59+05:30",
+      "question_category": "Evidence-supported answer",
+      "expected_answer": "The treatment plan plus the follow-up heart rate and symptom improvement evidence.",
+      "required_claims": [
+        "Treatment plan",
+        "Heart rate 78",
+        "Symptoms improved"
+      ],
+      "acceptable_claims": [],
+      "forbidden_claims": [],
+      "expected_evidence_ids": [
+        "EV-P3-005",
+        "EV-P3-007",
+        "EV-P3-008"
+      ],
+      "expected_relevant_source_ids": [
+        "DOC-P3-003",
+        "DOC-P3-005"
+      ],
+      "expected_state": {},
+      "expected_decision_label": null,
+      "expected_temporal_assertions": [],
+      "expected_conflicts": [],
+      "expected_corrections": [],
+      "requires_exact_quote": false,
+      "rare_detail_query": false,
+      "insufficient_evidence_expected": false,
+      "expected_confidence_band": "medium-high",
+      "applicable_metrics": [
+        "answer_accuracy",
+        "hallucination_rate",
+        "evidence_support_rate",
+        "unsupported_claim_rate",
+        "faithfulness",
+        "groundedness",
+        "expected_calibration_error",
+        "fabricated_citation_rate",
+        "lineage_citation_f1",
+        "retrieval_precision",
+        "retrieval_recall",
+        "tokens_per_query",
+        "p95_latency",
+        "total_cost"
+      ],
+      "retrieval_ground_truth": {
+        "mandatory_relevant_source_ids": [
+          "DOC-P3-003",
+          "DOC-P3-005"
+        ],
+        "optional_relevant_source_ids": [],
+        "irrelevant_but_similar_distractor_ids": [],
+        "duplicate_family_ids": [],
+        "forbidden_future_source_ids": [],
+        "exact_source_required_for_quotation": null
+      }
+    },
+    {
+      "question_id": "P3-Q17",
+      "patient_code": "SYN-CSM-003",
+      "question_text": "Which source must not be used to claim true syncope?",
+      "source_cutoff": "2026-04-22T23:59:59+05:30",
+      "question_category": "Citation verification",
+      "expected_answer": "The retracted erroneous syncope note must not be used as valid support.",
+      "required_claims": [
+        "Retracted note invalid support"
+      ],
+      "acceptable_claims": [],
+      "forbidden_claims": [],
+      "expected_evidence_ids": [
+        "EV-P3-009"
+      ],
+      "expected_relevant_source_ids": [
+        "DOC-P3-006",
+        "P3-NOTE-002"
+      ],
+      "expected_state": {},
+      "expected_decision_label": null,
+      "expected_temporal_assertions": [],
+      "expected_conflicts": [],
+      "expected_corrections": [],
+      "requires_exact_quote": false,
+      "rare_detail_query": false,
+      "insufficient_evidence_expected": false,
+      "expected_confidence_band": "medium-high",
+      "applicable_metrics": [
+        "answer_accuracy",
+        "hallucination_rate",
+        "evidence_support_rate",
+        "unsupported_claim_rate",
+        "faithfulness",
+        "groundedness",
+        "expected_calibration_error",
+        "fabricated_citation_rate",
+        "lineage_citation_f1",
+        "retrieval_precision",
+        "retrieval_recall",
+        "tokens_per_query",
+        "p95_latency",
+        "total_cost"
+      ],
+      "retrieval_ground_truth": {
+        "mandatory_relevant_source_ids": [
+          "DOC-P3-006",
+          "P3-NOTE-002"
+        ],
+        "optional_relevant_source_ids": [],
+        "irrelevant_but_similar_distractor_ids": [
+          "P3-NOTE-002"
+        ],
+        "duplicate_family_ids": [],
+        "forbidden_future_source_ids": [],
+        "exact_source_required_for_quotation": null
+      }
+    },
+    {
+      "question_id": "P3-Q18",
+      "patient_code": "SYN-CSM-003",
+      "question_text": "Is there enough evidence to say the patient is completely cured of atrial fibrillation?",
+      "source_cutoff": "2026-04-22T23:59:59+05:30",
+      "question_category": "Insufficient evidence",
+      "expected_answer": "No. The evidence supports improved rate control and symptoms, not cure of atrial fibrillation.",
+      "required_claims": [
+        "Improved not cured"
+      ],
+      "acceptable_claims": [],
+      "forbidden_claims": [],
+      "expected_evidence_ids": [
+        "EV-P3-007",
+        "EV-P3-008",
+        "EV-P3-001"
+      ],
+      "expected_relevant_source_ids": [
+        "DOC-P3-005",
+        "DOC-P3-001"
+      ],
+      "expected_state": {},
+      "expected_decision_label": null,
+      "expected_temporal_assertions": [],
+      "expected_conflicts": [],
+      "expected_corrections": [],
+      "requires_exact_quote": false,
+      "rare_detail_query": false,
+      "insufficient_evidence_expected": true,
+      "expected_confidence_band": "medium-high",
+      "applicable_metrics": [
+        "answer_accuracy",
+        "hallucination_rate",
+        "evidence_support_rate",
+        "unsupported_claim_rate",
+        "faithfulness",
+        "groundedness",
+        "expected_calibration_error",
+        "fabricated_citation_rate",
+        "lineage_citation_f1",
+        "retrieval_precision",
+        "retrieval_recall",
+        "tokens_per_query",
+        "p95_latency",
+        "total_cost"
+      ],
+      "retrieval_ground_truth": {
+        "mandatory_relevant_source_ids": [
+          "DOC-P3-005",
+          "DOC-P3-001"
+        ],
+        "optional_relevant_source_ids": [],
+        "irrelevant_but_similar_distractor_ids": [],
+        "duplicate_family_ids": [],
+        "forbidden_future_source_ids": [],
+        "exact_source_required_for_quotation": null
+      }
+    },
+    {
+      "question_id": "P3-Q19",
+      "patient_code": "SYN-CSM-003",
+      "question_text": "Place these events in valid-time order: delayed breathlessness note, worsening vital signs, treatment adjustment, follow-up improvement.",
+      "source_cutoff": "2026-04-22T23:59:59+05:30",
+      "question_category": "Temporal ordering",
+      "expected_answer": "2 April breathlessness; 8 April worsening vital signs; 9 April treatment adjustment; 22 April improvement.",
+      "required_claims": [
+        "Correct temporal order"
+      ],
+      "acceptable_claims": [],
+      "forbidden_claims": [],
+      "expected_evidence_ids": [
+        "EV-P3-006",
+        "EV-P3-003",
+        "EV-P3-004",
+        "EV-P3-005",
+        "EV-P3-007",
+        "EV-P3-008"
+      ],
+      "expected_relevant_source_ids": [
+        "DOC-P3-004",
+        "DOC-P3-002",
+        "DOC-P3-003",
+        "DOC-P3-005"
+      ],
+      "expected_state": {},
+      "expected_decision_label": null,
+      "expected_temporal_assertions": [],
+      "expected_conflicts": [],
+      "expected_corrections": [],
+      "requires_exact_quote": false,
+      "rare_detail_query": false,
+      "insufficient_evidence_expected": false,
+      "expected_confidence_band": "medium-high",
+      "applicable_metrics": [
+        "answer_accuracy",
+        "hallucination_rate",
+        "evidence_support_rate",
+        "unsupported_claim_rate",
+        "faithfulness",
+        "groundedness",
+        "expected_calibration_error",
+        "temporal_consistency",
+        "fabricated_citation_rate",
+        "lineage_citation_f1",
+        "retrieval_precision",
+        "retrieval_recall",
+        "tokens_per_query",
+        "p95_latency",
+        "total_cost"
+      ],
+      "retrieval_ground_truth": {
+        "mandatory_relevant_source_ids": [
+          "DOC-P3-004",
+          "DOC-P3-002",
+          "DOC-P3-003",
+          "DOC-P3-005"
+        ],
+        "optional_relevant_source_ids": [],
+        "irrelevant_but_similar_distractor_ids": [],
+        "duplicate_family_ids": [],
+        "forbidden_future_source_ids": [],
+        "exact_source_required_for_quotation": null
+      }
+    },
+    {
+      "question_id": "P3-Q20",
+      "patient_code": "SYN-CSM-003",
+      "question_text": "Summarize the cardiovascular course with citations and calibrated confidence.",
+      "source_cutoff": "2026-04-22T23:59:59+05:30",
+      "question_category": "Integrated answer",
+      "expected_answer": "Baseline rate control worsened with symptoms, a clinician adjusted metoprolol, a delayed note was inserted at its valid time, a false syncope note was retracted, and follow-up showed improvement. Confidence should be medium-high.",
+      "required_claims": [
+        "Baseline",
+        "Worsening",
+        "Treatment adjustment",
+        "Delayed note",
+        "Retraction",
+        "Improvement"
+      ],
+      "acceptable_claims": [],
+      "forbidden_claims": [],
+      "expected_evidence_ids": [
+        "EV-P3-001",
+        "EV-P3-003",
+        "EV-P3-004",
+        "EV-P3-005",
+        "EV-P3-006",
+        "EV-P3-007",
+        "EV-P3-008",
+        "EV-P3-009"
+      ],
+      "expected_relevant_source_ids": [
+        "DOC-P3-001",
+        "DOC-P3-002",
+        "DOC-P3-003",
+        "DOC-P3-004",
+        "DOC-P3-005",
+        "DOC-P3-006"
+      ],
+      "expected_state": {},
+      "expected_decision_label": null,
+      "expected_temporal_assertions": [],
+      "expected_conflicts": [],
+      "expected_corrections": [],
+      "requires_exact_quote": false,
+      "rare_detail_query": false,
+      "insufficient_evidence_expected": false,
+      "expected_confidence_band": "medium-high",
+      "applicable_metrics": [
+        "answer_accuracy",
+        "hallucination_rate",
+        "evidence_support_rate",
+        "unsupported_claim_rate",
+        "faithfulness",
+        "groundedness",
+        "expected_calibration_error",
+        "fabricated_citation_rate",
+        "lineage_citation_f1",
+        "retrieval_precision",
+        "retrieval_recall",
+        "state_accuracy",
+        "memory_update_accuracy",
+        "temporal_consistency",
+        "correction_recovery",
+        "expected_calibration_error",
+        "tokens_per_query",
+        "p95_latency",
+        "total_cost"
+      ],
+      "retrieval_ground_truth": {
+        "mandatory_relevant_source_ids": [
+          "DOC-P3-001",
+          "DOC-P3-002",
+          "DOC-P3-003",
+          "DOC-P3-004",
+          "DOC-P3-005",
+          "DOC-P3-006"
+        ],
+        "optional_relevant_source_ids": [],
+        "irrelevant_but_similar_distractor_ids": [],
+        "duplicate_family_ids": [],
+        "forbidden_future_source_ids": [],
+        "exact_source_required_for_quotation": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+table,system,state_accuracy,temporal_consistency,decision_f1,answer_accuracy,hallucination_rate,evidence_support_rate,unsupported_claim_rate,fabricated_citation_rate,faithfulness,groundedness,expected_calibration_error,lineage_citation_f1,contradiction_handling,correction_recovery,retrieval_precision,retrieval_recall,tokens_per_query,p95_latency,total_cost,memory_update_accuracy,state_recovery_time
+main_system_comparison,long_context,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD
+main_system_comparison,rolling_summary,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD
+main_system_comparison,dense_rag,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD
+main_system_comparison,hybrid_rag,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD
+main_system_comparison,graph_rag,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD
+main_system_comparison,hippo_rag,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD
+main_system_comparison,csm,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD
